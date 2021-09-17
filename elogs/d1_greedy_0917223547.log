@@ -1,0 +1,18 @@
+2021-09-17 22:35:47,510 - INFO - Namespace(a='2', beta_paras='3,6,6,3', budget_list='1,2,3,4', did='d1', grain_alpha='5', grain_p='5', method='greedy', percent_R='0.25', percent_S='0.25', seed='32', version='v09172235')
+2021-09-17 22:35:47,526 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-17 22:35:48,572 - INFO - Finish generate valuations and costs using using a=2
+2021-09-17 22:35:49,337 - INFO - ==================== (0.0, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 22:35:49,337 - INFO - ==================== (0.0, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 22:35:49,338 - INFO - ==================== (0.0, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 22:35:49,338 - INFO - ==================== (0.0, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 22:35:49,338 - INFO - ==================== (0.0, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 22:35:49,338 - INFO - ==================== (0.0, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 22:35:49,338 - INFO - ==================== (0.2, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 22:35:49,338 - INFO - ==================== (0.2, 0.04000000000000001) is invalid scheme since with empty set:  tilderR
+2021-09-17 22:35:49,338 - INFO - ==================== (0.2, 0.08000000000000002) is invalid scheme since with empty set:  tilderR
+2021-09-17 22:35:49,338 - INFO - ==================== (0.2, 0.12000000000000002) complete computation
+2021-09-17 22:35:49,338 - INFO - max_history_budget=2, max_history_result=({168}, 631, set())
+2021-09-17 22:35:49,339 - INFO - load: budget=1; scheme=(0.2,0.12000000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=50.47999999999999
+2021-09-17 22:35:49,339 - INFO - ({168}, 631)

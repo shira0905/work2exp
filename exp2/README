@@ -1,0 +1,1 @@
+python emain0815.py -d d2 --do_greedy -bl 2 -gl 10 -pr 0.5 -ps 0.5 -alpha 0.5 --beta_paras 3,6,6,3

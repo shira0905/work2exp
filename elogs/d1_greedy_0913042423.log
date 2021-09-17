@@ -1,0 +1,360 @@
+2021-09-13 04:24:23,121 - INFO - Namespace(beta_paras='3,6,6,3', budget_list='3', did='d1', grain_list_p='10', grain_list_pq='10+10', grain_list_q='10', method='greedy', percent_R='0.25', percent_S='0.25', seed='32', version='v09130424')
+2021-09-13 04:24:23,137 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-13 04:24:23,137 - INFO - Finish random valuations using v_beta_paras for R and costs using c_beta_paras for S
+2021-09-13 04:24:24,159 - INFO - length of pq_list = 64 under grain_tuple = 10+10
+2021-09-13 04:24:24,159 - INFO - budget_last = 0
+2021-09-13 04:24:24,167 - INFO - compute: budget=1; scheme=(0.0,0.30000000000000004); result=({109}, 455) 
+2021-09-13 04:24:24,167 - INFO - budget_last = 1
+2021-09-13 04:24:24,173 - INFO - compute: budget=2; scheme=(0.0,0.30000000000000004); result=({172, 109}, 876) 
+2021-09-13 04:24:24,173 - INFO - budget_last = 2
+2021-09-13 04:24:24,179 - INFO - compute: budget=3; scheme=(0.0,0.30000000000000004); result=({17, 172, 109}, 1279) 
+2021-09-13 04:24:24,179 - INFO -  max history budget=3
+2021-09-13 04:24:24,179 - INFO - load: budget=1; scheme=(0.0,0.4); result=({17, 172, 109}, 455) 
+2021-09-13 04:24:24,179 - INFO - load: budget=2; scheme=(0.0,0.4); result=({17, 172, 109}, 876) 
+2021-09-13 04:24:24,180 - INFO - load: budget=3; scheme=(0.0,0.4); result=({17, 172, 109}, 1279) 
+2021-09-13 04:24:24,180 - INFO - budget_last = 0
+2021-09-13 04:24:24,203 - INFO - compute: budget=1; scheme=(0.0,0.5); result=({49}, 751) 
+2021-09-13 04:24:24,203 - INFO - budget_last = 1
+2021-09-13 04:24:24,226 - INFO - compute: budget=2; scheme=(0.0,0.5); result=({49, 205}, 1267) 
+2021-09-13 04:24:24,226 - INFO - budget_last = 2
+2021-09-13 04:24:24,249 - INFO - compute: budget=3; scheme=(0.0,0.5); result=({49, 109, 205}, 1352) 
+2021-09-13 04:24:24,249 - INFO - budget_last = 0
+2021-09-13 04:24:24,289 - INFO - compute: budget=1; scheme=(0.0,0.6000000000000001); result=({49}, 751) 
+2021-09-13 04:24:24,289 - INFO - budget_last = 1
+2021-09-13 04:24:24,325 - INFO - compute: budget=2; scheme=(0.0,0.6000000000000001); result=({49, 169}, 1295) 
+2021-09-13 04:24:24,325 - INFO - budget_last = 2
+2021-09-13 04:24:24,360 - INFO - compute: budget=3; scheme=(0.0,0.6000000000000001); result=({49, 169, 167}, 1895) 
+2021-09-13 04:24:24,360 - INFO - budget_last = 0
+2021-09-13 04:24:24,427 - INFO - compute: budget=1; scheme=(0.0,0.7000000000000001); result=({49}, 751) 
+2021-09-13 04:24:24,427 - INFO - budget_last = 1
+2021-09-13 04:24:24,493 - INFO - compute: budget=2; scheme=(0.0,0.7000000000000001); result=({49, 125}, 1398) 
+2021-09-13 04:24:24,493 - INFO - budget_last = 2
+2021-09-13 04:24:24,557 - INFO - compute: budget=3; scheme=(0.0,0.7000000000000001); result=({49, 169, 125}, 1942) 
+2021-09-13 04:24:24,557 - INFO - budget_last = 0
+2021-09-13 04:24:24,657 - INFO - compute: budget=1; scheme=(0.0,0.8); result=({150}, 914) 
+2021-09-13 04:24:24,657 - INFO - budget_last = 1
+2021-09-13 04:24:24,752 - INFO - compute: budget=2; scheme=(0.0,0.8); result=({1, 150}, 1668) 
+2021-09-13 04:24:24,752 - INFO - budget_last = 2
+2021-09-13 04:24:24,842 - INFO - compute: budget=3; scheme=(0.0,0.8); result=({1, 150, 49}, 2236) 
+2021-09-13 04:24:24,842 - INFO - budget_last = 0
+2021-09-13 04:24:24,950 - INFO - compute: budget=1; scheme=(0.0,0.9); result=({150}, 914) 
+2021-09-13 04:24:24,951 - INFO - budget_last = 1
+2021-09-13 04:24:25,055 - INFO - compute: budget=2; scheme=(0.0,0.9); result=({46, 150}, 1568) 
+2021-09-13 04:24:25,055 - INFO - budget_last = 2
+2021-09-13 04:24:25,157 - INFO - compute: budget=3; scheme=(0.0,0.9); result=({46, 1, 150}, 2246) 
+2021-09-13 04:24:25,157 - INFO - budget_last = 0
+2021-09-13 04:24:25,262 - INFO - compute: budget=1; scheme=(0.0,1.0); result=({150}, 914) 
+2021-09-13 04:24:25,262 - INFO - budget_last = 1
+2021-09-13 04:24:25,366 - INFO - compute: budget=2; scheme=(0.0,1.0); result=({46, 150}, 1568) 
+2021-09-13 04:24:25,366 - INFO - budget_last = 2
+2021-09-13 04:24:25,469 - INFO - compute: budget=3; scheme=(0.0,1.0); result=({46, 1, 150}, 2246) 
+2021-09-13 04:24:25,470 - INFO - budget_last = 0
+2021-09-13 04:24:25,477 - INFO - compute: budget=1; scheme=(0.1,0.30000000000000004); result=({109}, 441) 
+2021-09-13 04:24:25,477 - INFO - budget_last = 1
+2021-09-13 04:24:25,484 - INFO - compute: budget=2; scheme=(0.1,0.30000000000000004); result=({172, 109}, 831) 
+2021-09-13 04:24:25,484 - INFO - budget_last = 2
+2021-09-13 04:24:25,489 - INFO - compute: budget=3; scheme=(0.1,0.30000000000000004); result=({17, 172, 109}, 1207) 
+2021-09-13 04:24:25,489 - INFO -  max history budget=3
+2021-09-13 04:24:25,489 - INFO - load: budget=1; scheme=(0.1,0.4); result=({17, 172, 109}, 441) 
+2021-09-13 04:24:25,489 - INFO - load: budget=2; scheme=(0.1,0.4); result=({17, 172, 109}, 831) 
+2021-09-13 04:24:25,489 - INFO - load: budget=3; scheme=(0.1,0.4); result=({17, 172, 109}, 1207) 
+2021-09-13 04:24:25,489 - INFO - budget_last = 0
+2021-09-13 04:24:25,512 - INFO - compute: budget=1; scheme=(0.1,0.5); result=({49}, 702) 
+2021-09-13 04:24:25,513 - INFO - budget_last = 1
+2021-09-13 04:24:25,534 - INFO - compute: budget=2; scheme=(0.1,0.5); result=({49, 205}, 1200) 
+2021-09-13 04:24:25,534 - INFO - budget_last = 2
+2021-09-13 04:24:25,555 - INFO - compute: budget=3; scheme=(0.1,0.5); result=({49, 109, 205}, 1283) 
+2021-09-13 04:24:25,555 - INFO - budget_last = 0
+2021-09-13 04:24:25,591 - INFO - compute: budget=1; scheme=(0.1,0.6000000000000001); result=({49}, 702) 
+2021-09-13 04:24:25,591 - INFO - budget_last = 1
+2021-09-13 04:24:25,625 - INFO - compute: budget=2; scheme=(0.1,0.6000000000000001); result=({49, 169}, 1219) 
+2021-09-13 04:24:25,625 - INFO - budget_last = 2
+2021-09-13 04:24:25,662 - INFO - compute: budget=3; scheme=(0.1,0.6000000000000001); result=({49, 169, 167}, 1778) 
+2021-09-13 04:24:25,662 - INFO - budget_last = 0
+2021-09-13 04:24:25,724 - INFO - compute: budget=1; scheme=(0.1,0.7000000000000001); result=({49}, 702) 
+2021-09-13 04:24:25,724 - INFO - budget_last = 1
+2021-09-13 04:24:25,785 - INFO - compute: budget=2; scheme=(0.1,0.7000000000000001); result=({49, 125}, 1320) 
+2021-09-13 04:24:25,785 - INFO - budget_last = 2
+2021-09-13 04:24:25,844 - INFO - compute: budget=3; scheme=(0.1,0.7000000000000001); result=({49, 169, 125}, 1837) 
+2021-09-13 04:24:25,844 - INFO - budget_last = 0
+2021-09-13 04:24:25,930 - INFO - compute: budget=1; scheme=(0.1,0.8); result=({150}, 857) 
+2021-09-13 04:24:25,930 - INFO - budget_last = 1
+2021-09-13 04:24:26,016 - INFO - compute: budget=2; scheme=(0.1,0.8); result=({1, 150}, 1562) 
+2021-09-13 04:24:26,016 - INFO - budget_last = 2
+2021-09-13 04:24:26,100 - INFO - compute: budget=3; scheme=(0.1,0.8); result=({1, 150, 49}, 2094) 
+2021-09-13 04:24:26,100 - INFO - budget_last = 0
+2021-09-13 04:24:26,199 - INFO - compute: budget=1; scheme=(0.1,0.9); result=({150}, 857) 
+2021-09-13 04:24:26,199 - INFO - budget_last = 1
+2021-09-13 04:24:26,295 - INFO - compute: budget=2; scheme=(0.1,0.9); result=({46, 150}, 1476) 
+2021-09-13 04:24:26,295 - INFO - budget_last = 2
+2021-09-13 04:24:26,391 - INFO - compute: budget=3; scheme=(0.1,0.9); result=({46, 1, 150}, 2111) 
+2021-09-13 04:24:26,392 - INFO - budget_last = 0
+2021-09-13 04:24:26,492 - INFO - compute: budget=1; scheme=(0.1,1.0); result=({150}, 857) 
+2021-09-13 04:24:26,492 - INFO - budget_last = 1
+2021-09-13 04:24:26,591 - INFO - compute: budget=2; scheme=(0.1,1.0); result=({46, 150}, 1476) 
+2021-09-13 04:24:26,591 - INFO - budget_last = 2
+2021-09-13 04:24:26,688 - INFO - compute: budget=3; scheme=(0.1,1.0); result=({46, 1, 150}, 2111) 
+2021-09-13 04:24:26,689 - INFO - budget_last = 0
+2021-09-13 04:24:26,695 - INFO - compute: budget=1; scheme=(0.2,0.30000000000000004); result=({109}, 393) 
+2021-09-13 04:24:26,695 - INFO - budget_last = 1
+2021-09-13 04:24:26,700 - INFO - compute: budget=2; scheme=(0.2,0.30000000000000004); result=({172, 109}, 742) 
+2021-09-13 04:24:26,700 - INFO - budget_last = 2
+2021-09-13 04:24:26,705 - INFO - compute: budget=3; scheme=(0.2,0.30000000000000004); result=({17, 172, 109}, 1069) 
+2021-09-13 04:24:26,705 - INFO -  max history budget=3
+2021-09-13 04:24:26,705 - INFO - load: budget=1; scheme=(0.2,0.4); result=({17, 172, 109}, 393) 
+2021-09-13 04:24:26,705 - INFO - load: budget=2; scheme=(0.2,0.4); result=({17, 172, 109}, 742) 
+2021-09-13 04:24:26,705 - INFO - load: budget=3; scheme=(0.2,0.4); result=({17, 172, 109}, 1069) 
+2021-09-13 04:24:26,705 - INFO - budget_last = 0
+2021-09-13 04:24:26,725 - INFO - compute: budget=1; scheme=(0.2,0.5); result=({49}, 599) 
+2021-09-13 04:24:26,725 - INFO - budget_last = 1
+2021-09-13 04:24:26,743 - INFO - compute: budget=2; scheme=(0.2,0.5); result=({49, 205}, 1043) 
+2021-09-13 04:24:26,743 - INFO - budget_last = 2
+2021-09-13 04:24:26,760 - INFO - compute: budget=3; scheme=(0.2,0.5); result=({49, 109, 205}, 1116) 
+2021-09-13 04:24:26,761 - INFO - budget_last = 0
+2021-09-13 04:24:26,791 - INFO - compute: budget=1; scheme=(0.2,0.6000000000000001); result=({49}, 599) 
+2021-09-13 04:24:26,792 - INFO - budget_last = 1
+2021-09-13 04:24:26,821 - INFO - compute: budget=2; scheme=(0.2,0.6000000000000001); result=({49, 169}, 1050) 
+2021-09-13 04:24:26,821 - INFO - budget_last = 2
+2021-09-13 04:24:26,850 - INFO - compute: budget=3; scheme=(0.2,0.6000000000000001); result=({49, 169, 167}, 1549) 
+2021-09-13 04:24:26,850 - INFO - budget_last = 0
+2021-09-13 04:24:26,905 - INFO - compute: budget=1; scheme=(0.2,0.7000000000000001); result=({49}, 599) 
+2021-09-13 04:24:26,905 - INFO - budget_last = 1
+2021-09-13 04:24:26,959 - INFO - compute: budget=2; scheme=(0.2,0.7000000000000001); result=({49, 125}, 1145) 
+2021-09-13 04:24:26,959 - INFO - budget_last = 2
+2021-09-13 04:24:27,014 - INFO - compute: budget=3; scheme=(0.2,0.7000000000000001); result=({49, 169, 125}, 1596) 
+2021-09-13 04:24:27,014 - INFO - budget_last = 0
+2021-09-13 04:24:27,089 - INFO - compute: budget=1; scheme=(0.2,0.8); result=({150}, 762) 
+2021-09-13 04:24:27,090 - INFO - budget_last = 1
+2021-09-13 04:24:27,164 - INFO - compute: budget=2; scheme=(0.2,0.8); result=({49, 150}, 1361) 
+2021-09-13 04:24:27,164 - INFO - budget_last = 2
+2021-09-13 04:24:27,238 - INFO - compute: budget=3; scheme=(0.2,0.8); result=({49, 150, 1}, 1815) 
+2021-09-13 04:24:27,239 - INFO - budget_last = 0
+2021-09-13 04:24:27,322 - INFO - compute: budget=1; scheme=(0.2,0.9); result=({150}, 762) 
+2021-09-13 04:24:27,323 - INFO - budget_last = 1
+2021-09-13 04:24:27,406 - INFO - compute: budget=2; scheme=(0.2,0.9); result=({46, 150}, 1295) 
+2021-09-13 04:24:27,406 - INFO - budget_last = 2
+2021-09-13 04:24:27,489 - INFO - compute: budget=3; scheme=(0.2,0.9); result=({46, 49, 150}, 1821) 
+2021-09-13 04:24:27,489 - INFO - budget_last = 0
+2021-09-13 04:24:27,575 - INFO - compute: budget=1; scheme=(0.2,1.0); result=({150}, 762) 
+2021-09-13 04:24:27,575 - INFO - budget_last = 1
+2021-09-13 04:24:27,660 - INFO - compute: budget=2; scheme=(0.2,1.0); result=({46, 150}, 1295) 
+2021-09-13 04:24:27,660 - INFO - budget_last = 2
+2021-09-13 04:24:27,745 - INFO - compute: budget=3; scheme=(0.2,1.0); result=({46, 49, 150}, 1821) 
+2021-09-13 04:24:27,746 - INFO - budget_last = 0
+2021-09-13 04:24:27,750 - INFO - compute: budget=1; scheme=(0.30000000000000004,0.30000000000000004); result=({109}, 259) 
+2021-09-13 04:24:27,750 - INFO - budget_last = 1
+2021-09-13 04:24:27,753 - INFO - compute: budget=2; scheme=(0.30000000000000004,0.30000000000000004); result=({17, 109}, 477) 
+2021-09-13 04:24:27,753 - INFO - budget_last = 2
+2021-09-13 04:24:27,756 - INFO - compute: budget=3; scheme=(0.30000000000000004,0.30000000000000004); result=({17, 172, 109}, 693) 
+2021-09-13 04:24:27,756 - INFO -  max history budget=3
+2021-09-13 04:24:27,756 - INFO - load: budget=1; scheme=(0.30000000000000004,0.4); result=({17, 172, 109}, 259) 
+2021-09-13 04:24:27,757 - INFO - load: budget=2; scheme=(0.30000000000000004,0.4); result=({17, 172, 109}, 477) 
+2021-09-13 04:24:27,757 - INFO - load: budget=3; scheme=(0.30000000000000004,0.4); result=({17, 172, 109}, 693) 
+2021-09-13 04:24:27,757 - INFO - budget_last = 0
+2021-09-13 04:24:27,769 - INFO - compute: budget=1; scheme=(0.30000000000000004,0.5); result=({49}, 421) 
+2021-09-13 04:24:27,769 - INFO - budget_last = 1
+2021-09-13 04:24:27,780 - INFO - compute: budget=2; scheme=(0.30000000000000004,0.5); result=({49, 205}, 716) 
+2021-09-13 04:24:27,780 - INFO - budget_last = 2
+2021-09-13 04:24:27,791 - INFO - compute: budget=3; scheme=(0.30000000000000004,0.5); result=({49, 109, 205}, 765) 
+2021-09-13 04:24:27,792 - INFO - budget_last = 0
+2021-09-13 04:24:27,812 - INFO - compute: budget=1; scheme=(0.30000000000000004,0.6000000000000001); result=({49}, 421) 
+2021-09-13 04:24:27,812 - INFO - budget_last = 1
+2021-09-13 04:24:27,831 - INFO - compute: budget=2; scheme=(0.30000000000000004,0.6000000000000001); result=({49, 169}, 729) 
+2021-09-13 04:24:27,831 - INFO - budget_last = 2
+2021-09-13 04:24:27,850 - INFO - compute: budget=3; scheme=(0.30000000000000004,0.6000000000000001); result=({49, 169, 167}, 1026) 
+2021-09-13 04:24:27,850 - INFO - budget_last = 0
+2021-09-13 04:24:27,884 - INFO - compute: budget=1; scheme=(0.30000000000000004,0.7000000000000001); result=({49}, 421) 
+2021-09-13 04:24:27,884 - INFO - budget_last = 1
+2021-09-13 04:24:27,916 - INFO - compute: budget=2; scheme=(0.30000000000000004,0.7000000000000001); result=({49, 169}, 729) 
+2021-09-13 04:24:27,917 - INFO - budget_last = 2
+2021-09-13 04:24:27,949 - INFO - compute: budget=3; scheme=(0.30000000000000004,0.7000000000000001); result=({49, 169, 125}, 1038) 
+2021-09-13 04:24:27,949 - INFO - budget_last = 0
+2021-09-13 04:24:27,997 - INFO - compute: budget=1; scheme=(0.30000000000000004,0.8); result=({150}, 440) 
+2021-09-13 04:24:27,997 - INFO - budget_last = 1
+2021-09-13 04:24:28,044 - INFO - compute: budget=2; scheme=(0.30000000000000004,0.8); result=({49, 150}, 861) 
+2021-09-13 04:24:28,044 - INFO - budget_last = 2
+2021-09-13 04:24:28,090 - INFO - compute: budget=3; scheme=(0.30000000000000004,0.8); result=({49, 150, 1}, 1154) 
+2021-09-13 04:24:28,090 - INFO - budget_last = 0
+2021-09-13 04:24:28,143 - INFO - compute: budget=1; scheme=(0.30000000000000004,0.9); result=({150}, 440) 
+2021-09-13 04:24:28,143 - INFO - budget_last = 1
+2021-09-13 04:24:28,196 - INFO - compute: budget=2; scheme=(0.30000000000000004,0.9); result=({46, 150}, 796) 
+2021-09-13 04:24:28,196 - INFO - budget_last = 2
+2021-09-13 04:24:28,249 - INFO - compute: budget=3; scheme=(0.30000000000000004,0.9); result=({46, 49, 150}, 1163) 
+2021-09-13 04:24:28,249 - INFO - budget_last = 0
+2021-09-13 04:24:28,303 - INFO - compute: budget=1; scheme=(0.30000000000000004,1.0); result=({150}, 440) 
+2021-09-13 04:24:28,304 - INFO - budget_last = 1
+2021-09-13 04:24:28,357 - INFO - compute: budget=2; scheme=(0.30000000000000004,1.0); result=({46, 150}, 796) 
+2021-09-13 04:24:28,357 - INFO - budget_last = 2
+2021-09-13 04:24:28,410 - INFO - compute: budget=3; scheme=(0.30000000000000004,1.0); result=({46, 49, 150}, 1163) 
+2021-09-13 04:24:28,410 - INFO - budget_last = 0
+2021-09-13 04:24:28,412 - INFO - compute: budget=1; scheme=(0.4,0.30000000000000004); result=({109}, 187) 
+2021-09-13 04:24:28,413 - INFO - budget_last = 1
+2021-09-13 04:24:28,415 - INFO - compute: budget=2; scheme=(0.4,0.30000000000000004); result=({17, 109}, 332) 
+2021-09-13 04:24:28,415 - INFO - budget_last = 2
+2021-09-13 04:24:28,417 - INFO - compute: budget=3; scheme=(0.4,0.30000000000000004); result=({17, 172, 109}, 470) 
+2021-09-13 04:24:28,417 - INFO -  max history budget=3
+2021-09-13 04:24:28,417 - INFO - load: budget=1; scheme=(0.4,0.4); result=({17, 172, 109}, 187) 
+2021-09-13 04:24:28,417 - INFO - load: budget=2; scheme=(0.4,0.4); result=({17, 172, 109}, 332) 
+2021-09-13 04:24:28,417 - INFO - load: budget=3; scheme=(0.4,0.4); result=({17, 172, 109}, 470) 
+2021-09-13 04:24:28,417 - INFO - budget_last = 0
+2021-09-13 04:24:28,424 - INFO - compute: budget=1; scheme=(0.4,0.5); result=({49}, 292) 
+2021-09-13 04:24:28,425 - INFO - budget_last = 1
+2021-09-13 04:24:28,432 - INFO - compute: budget=2; scheme=(0.4,0.5); result=({49, 205}, 505) 
+2021-09-13 04:24:28,432 - INFO - budget_last = 2
+2021-09-13 04:24:28,439 - INFO - compute: budget=3; scheme=(0.4,0.5); result=({49, 109, 205}, 541) 
+2021-09-13 04:24:28,439 - INFO - budget_last = 0
+2021-09-13 04:24:28,451 - INFO - compute: budget=1; scheme=(0.4,0.6000000000000001); result=({49}, 292) 
+2021-09-13 04:24:28,452 - INFO - budget_last = 1
+2021-09-13 04:24:28,463 - INFO - compute: budget=2; scheme=(0.4,0.6000000000000001); result=({49, 169}, 500) 
+2021-09-13 04:24:28,464 - INFO - budget_last = 2
+2021-09-13 04:24:28,475 - INFO - compute: budget=3; scheme=(0.4,0.6000000000000001); result=({49, 169, 205}, 695) 
+2021-09-13 04:24:28,475 - INFO - budget_last = 0
+2021-09-13 04:24:28,497 - INFO - compute: budget=1; scheme=(0.4,0.7000000000000001); result=({49}, 292) 
+2021-09-13 04:24:28,497 - INFO - budget_last = 1
+2021-09-13 04:24:28,519 - INFO - compute: budget=2; scheme=(0.4,0.7000000000000001); result=({49, 169}, 500) 
+2021-09-13 04:24:28,519 - INFO - budget_last = 2
+2021-09-13 04:24:28,540 - INFO - compute: budget=3; scheme=(0.4,0.7000000000000001); result=({49, 169, 205}, 695) 
+2021-09-13 04:24:28,540 - INFO - budget_last = 0
+2021-09-13 04:24:28,570 - INFO - compute: budget=1; scheme=(0.4,0.8); result=({49}, 292) 
+2021-09-13 04:24:28,570 - INFO - budget_last = 1
+2021-09-13 04:24:28,600 - INFO - compute: budget=2; scheme=(0.4,0.8); result=({49, 1}, 499) 
+2021-09-13 04:24:28,600 - INFO - budget_last = 2
+2021-09-13 04:24:28,629 - INFO - compute: budget=3; scheme=(0.4,0.8); result=({49, 150, 1}, 775) 
+2021-09-13 04:24:28,629 - INFO - budget_last = 0
+2021-09-13 04:24:28,664 - INFO - compute: budget=1; scheme=(0.4,0.9); result=({49}, 292) 
+2021-09-13 04:24:28,664 - INFO - budget_last = 1
+2021-09-13 04:24:28,697 - INFO - compute: budget=2; scheme=(0.4,0.9); result=({49, 1}, 499) 
+2021-09-13 04:24:28,697 - INFO - budget_last = 2
+2021-09-13 04:24:28,730 - INFO - compute: budget=3; scheme=(0.4,0.9); result=({46, 49, 1}, 738) 
+2021-09-13 04:24:28,731 - INFO - budget_last = 0
+2021-09-13 04:24:28,765 - INFO - compute: budget=1; scheme=(0.4,1.0); result=({49}, 292) 
+2021-09-13 04:24:28,765 - INFO - budget_last = 1
+2021-09-13 04:24:28,800 - INFO - compute: budget=2; scheme=(0.4,1.0); result=({49, 1}, 499) 
+2021-09-13 04:24:28,800 - INFO - budget_last = 2
+2021-09-13 04:24:28,833 - INFO - compute: budget=3; scheme=(0.4,1.0); result=({46, 49, 1}, 738) 
+2021-09-13 04:24:28,833 - INFO - budget_last = 0
+2021-09-13 04:24:28,834 - INFO - compute: budget=1; scheme=(0.5,0.30000000000000004); result=({109}, 73) 
+2021-09-13 04:24:28,835 - INFO - budget_last = 1
+2021-09-13 04:24:28,835 - INFO - compute: budget=2; scheme=(0.5,0.30000000000000004); result=({17, 109}, 125) 
+2021-09-13 04:24:28,836 - INFO - budget_last = 2
+2021-09-13 04:24:28,836 - INFO - compute: budget=3; scheme=(0.5,0.30000000000000004); result=({17, 172, 109}, 173) 
+2021-09-13 04:24:28,837 - INFO -  max history budget=3
+2021-09-13 04:24:28,837 - INFO - load: budget=1; scheme=(0.5,0.4); result=({17, 172, 109}, 73) 
+2021-09-13 04:24:28,837 - INFO - load: budget=2; scheme=(0.5,0.4); result=({17, 172, 109}, 125) 
+2021-09-13 04:24:28,837 - INFO - load: budget=3; scheme=(0.5,0.4); result=({17, 172, 109}, 173) 
+2021-09-13 04:24:28,837 - INFO - budget_last = 0
+2021-09-13 04:24:28,840 - INFO - compute: budget=1; scheme=(0.5,0.5); result=({49}, 107) 
+2021-09-13 04:24:28,840 - INFO - budget_last = 1
+2021-09-13 04:24:28,843 - INFO - compute: budget=2; scheme=(0.5,0.5); result=({49, 205}, 189) 
+2021-09-13 04:24:28,843 - INFO - budget_last = 2
+2021-09-13 04:24:28,847 - INFO - compute: budget=3; scheme=(0.5,0.5); result=({49, 109, 205}, 203) 
+2021-09-13 04:24:28,847 - INFO - budget_last = 0
+2021-09-13 04:24:28,852 - INFO - compute: budget=1; scheme=(0.5,0.6000000000000001); result=({49}, 107) 
+2021-09-13 04:24:28,853 - INFO - budget_last = 1
+2021-09-13 04:24:28,857 - INFO - compute: budget=2; scheme=(0.5,0.6000000000000001); result=({49, 205}, 189) 
+2021-09-13 04:24:28,858 - INFO - budget_last = 2
+2021-09-13 04:24:28,862 - INFO - compute: budget=3; scheme=(0.5,0.6000000000000001); result=({49, 169, 205}, 246) 
+2021-09-13 04:24:28,863 - INFO - budget_last = 0
+2021-09-13 04:24:28,871 - INFO - compute: budget=1; scheme=(0.5,0.7000000000000001); result=({49}, 107) 
+2021-09-13 04:24:28,872 - INFO - budget_last = 1
+2021-09-13 04:24:28,880 - INFO - compute: budget=2; scheme=(0.5,0.7000000000000001); result=({49, 205}, 189) 
+2021-09-13 04:24:28,880 - INFO - budget_last = 2
+2021-09-13 04:24:28,889 - INFO - compute: budget=3; scheme=(0.5,0.7000000000000001); result=({49, 169, 205}, 246) 
+2021-09-13 04:24:28,889 - INFO - budget_last = 0
+2021-09-13 04:24:28,901 - INFO - compute: budget=1; scheme=(0.5,0.8); result=({49}, 107) 
+2021-09-13 04:24:28,901 - INFO - budget_last = 1
+2021-09-13 04:24:28,913 - INFO - compute: budget=2; scheme=(0.5,0.8); result=({49, 1}, 180) 
+2021-09-13 04:24:28,913 - INFO - budget_last = 2
+2021-09-13 04:24:28,926 - INFO - compute: budget=3; scheme=(0.5,0.8); result=({49, 150, 1}, 274) 
+2021-09-13 04:24:28,932 - INFO - budget_last = 0
+2021-09-13 04:24:28,946 - INFO - compute: budget=1; scheme=(0.5,0.9); result=({49}, 107) 
+2021-09-13 04:24:28,946 - INFO - budget_last = 1
+2021-09-13 04:24:28,961 - INFO - compute: budget=2; scheme=(0.5,0.9); result=({49, 1}, 180) 
+2021-09-13 04:24:28,961 - INFO - budget_last = 2
+2021-09-13 04:24:28,974 - INFO - compute: budget=3; scheme=(0.5,0.9); result=({49, 150, 1}, 274) 
+2021-09-13 04:24:28,974 - INFO - budget_last = 0
+2021-09-13 04:24:28,988 - INFO - compute: budget=1; scheme=(0.5,1.0); result=({49}, 107) 
+2021-09-13 04:24:28,989 - INFO - budget_last = 1
+2021-09-13 04:24:29,003 - INFO - compute: budget=2; scheme=(0.5,1.0); result=({49, 1}, 180) 
+2021-09-13 04:24:29,003 - INFO - budget_last = 2
+2021-09-13 04:24:29,017 - INFO - compute: budget=3; scheme=(0.5,1.0); result=({49, 150, 1}, 274) 
+2021-09-13 04:24:29,017 - INFO - budget_last = 0
+2021-09-13 04:24:29,017 - INFO - compute: budget=1; scheme=(0.6000000000000001,0.30000000000000004); result=({109}, 11) 
+2021-09-13 04:24:29,017 - INFO - budget_last = 1
+2021-09-13 04:24:29,017 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.30000000000000004); result=({17, 109}, 20) 
+2021-09-13 04:24:29,017 - INFO - budget_last = 2
+2021-09-13 04:24:29,017 - INFO - compute: budget=3; scheme=(0.6000000000000001,0.30000000000000004); result=({17, 172, 109}, 23) 
+2021-09-13 04:24:29,018 - INFO -  max history budget=3
+2021-09-13 04:24:29,018 - INFO - load: budget=1; scheme=(0.6000000000000001,0.4); result=({17, 172, 109}, 11) 
+2021-09-13 04:24:29,018 - INFO - load: budget=2; scheme=(0.6000000000000001,0.4); result=({17, 172, 109}, 20) 
+2021-09-13 04:24:29,018 - INFO - load: budget=3; scheme=(0.6000000000000001,0.4); result=({17, 172, 109}, 23) 
+2021-09-13 04:24:29,018 - INFO - budget_last = 0
+2021-09-13 04:24:29,018 - INFO - compute: budget=1; scheme=(0.6000000000000001,0.5); result=({49}, 22) 
+2021-09-13 04:24:29,018 - INFO - budget_last = 1
+2021-09-13 04:24:29,019 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.5); result=({49, 205}, 35) 
+2021-09-13 04:24:29,019 - INFO - budget_last = 2
+2021-09-13 04:24:29,020 - INFO - compute: budget=3; scheme=(0.6000000000000001,0.5); result=({49, 109, 205}, 37) 
+2021-09-13 04:24:29,020 - INFO - budget_last = 0
+2021-09-13 04:24:29,021 - INFO - compute: budget=1; scheme=(0.6000000000000001,0.6000000000000001); result=({49}, 22) 
+2021-09-13 04:24:29,021 - INFO - budget_last = 1
+2021-09-13 04:24:29,021 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.6000000000000001); result=({49, 169}, 37) 
+2021-09-13 04:24:29,022 - INFO - budget_last = 2
+2021-09-13 04:24:29,022 - INFO - compute: budget=3; scheme=(0.6000000000000001,0.6000000000000001); result=({49, 169, 31}, 42) 
+2021-09-13 04:24:29,022 - INFO - budget_last = 0
+2021-09-13 04:24:29,024 - INFO - compute: budget=1; scheme=(0.6000000000000001,0.7000000000000001); result=({49}, 22) 
+2021-09-13 04:24:29,024 - INFO - budget_last = 1
+2021-09-13 04:24:29,025 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.7000000000000001); result=({49, 169}, 37) 
+2021-09-13 04:24:29,025 - INFO - budget_last = 2
+2021-09-13 04:24:29,027 - INFO - compute: budget=3; scheme=(0.6000000000000001,0.7000000000000001); result=({49, 169, 205}, 49) 
+2021-09-13 04:24:29,027 - INFO - budget_last = 0
+2021-09-13 04:24:29,029 - INFO - compute: budget=1; scheme=(0.6000000000000001,0.8); result=({49}, 22) 
+2021-09-13 04:24:29,029 - INFO - budget_last = 1
+2021-09-13 04:24:29,031 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.8); result=({49, 1}, 36) 
+2021-09-13 04:24:29,031 - INFO - budget_last = 2
+2021-09-13 04:24:29,032 - INFO - compute: budget=3; scheme=(0.6000000000000001,0.8); result=({49, 169, 1}, 51) 
+2021-09-13 04:24:29,033 - INFO - budget_last = 0
+2021-09-13 04:24:29,035 - INFO - compute: budget=1; scheme=(0.6000000000000001,0.9); result=({49}, 22) 
+2021-09-13 04:24:29,035 - INFO - budget_last = 1
+2021-09-13 04:24:29,037 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.9); result=({49, 1}, 36) 
+2021-09-13 04:24:29,037 - INFO - budget_last = 2
+2021-09-13 04:24:29,039 - INFO - compute: budget=3; scheme=(0.6000000000000001,0.9); result=({46, 49, 1}, 53) 
+2021-09-13 04:24:29,039 - INFO - budget_last = 0
+2021-09-13 04:24:29,041 - INFO - compute: budget=1; scheme=(0.6000000000000001,1.0); result=({49}, 22) 
+2021-09-13 04:24:29,041 - INFO - budget_last = 1
+2021-09-13 04:24:29,044 - INFO - compute: budget=2; scheme=(0.6000000000000001,1.0); result=({49, 1}, 36) 
+2021-09-13 04:24:29,044 - INFO - budget_last = 2
+2021-09-13 04:24:29,046 - INFO - compute: budget=3; scheme=(0.6000000000000001,1.0); result=({46, 49, 1}, 53) 
+2021-09-13 04:24:29,046 - INFO -  max history budget=3
+2021-09-13 04:24:29,046 - INFO - load: budget=1; scheme=(0.7000000000000001,0.30000000000000004); result=({17, 172, 109}, 11) 
+2021-09-13 04:24:29,046 - INFO - load: budget=2; scheme=(0.7000000000000001,0.30000000000000004); result=({17, 172, 109}, 20) 
+2021-09-13 04:24:29,046 - INFO - load: budget=3; scheme=(0.7000000000000001,0.30000000000000004); result=({17, 172, 109}, 23) 
+2021-09-13 04:24:29,046 - INFO -  max history budget=3
+2021-09-13 04:24:29,046 - INFO - load: budget=1; scheme=(0.7000000000000001,0.4); result=({17, 172, 109}, 11) 
+2021-09-13 04:24:29,047 - INFO - load: budget=2; scheme=(0.7000000000000001,0.4); result=({17, 172, 109}, 20) 
+2021-09-13 04:24:29,047 - INFO - load: budget=3; scheme=(0.7000000000000001,0.4); result=({17, 172, 109}, 23) 
+2021-09-13 04:24:29,047 - INFO -  max history budget=3
+2021-09-13 04:24:29,047 - INFO - load: budget=1; scheme=(0.7000000000000001,0.5); result=({49, 109, 205}, 22) 
+2021-09-13 04:24:29,047 - INFO - load: budget=2; scheme=(0.7000000000000001,0.5); result=({49, 109, 205}, 35) 
+2021-09-13 04:24:29,047 - INFO - load: budget=3; scheme=(0.7000000000000001,0.5); result=({49, 109, 205}, 37) 
+2021-09-13 04:24:29,047 - INFO -  max history budget=3
+2021-09-13 04:24:29,047 - INFO - load: budget=1; scheme=(0.7000000000000001,0.6000000000000001); result=({49, 169, 31}, 22) 
+2021-09-13 04:24:29,047 - INFO - load: budget=2; scheme=(0.7000000000000001,0.6000000000000001); result=({49, 169, 31}, 37) 
+2021-09-13 04:24:29,047 - INFO - load: budget=3; scheme=(0.7000000000000001,0.6000000000000001); result=({49, 169, 31}, 42) 
+2021-09-13 04:24:29,047 - INFO -  max history budget=3
+2021-09-13 04:24:29,048 - INFO - load: budget=1; scheme=(0.7000000000000001,0.7000000000000001); result=({49, 169, 205}, 22) 
+2021-09-13 04:24:29,048 - INFO - load: budget=2; scheme=(0.7000000000000001,0.7000000000000001); result=({49, 169, 205}, 37) 
+2021-09-13 04:24:29,048 - INFO - load: budget=3; scheme=(0.7000000000000001,0.7000000000000001); result=({49, 169, 205}, 49) 
+2021-09-13 04:24:29,048 - INFO -  max history budget=3
+2021-09-13 04:24:29,048 - INFO - load: budget=1; scheme=(0.7000000000000001,0.8); result=({49, 169, 1}, 22) 
+2021-09-13 04:24:29,048 - INFO - load: budget=2; scheme=(0.7000000000000001,0.8); result=({49, 169, 1}, 36) 
+2021-09-13 04:24:29,048 - INFO - load: budget=3; scheme=(0.7000000000000001,0.8); result=({49, 169, 1}, 51) 
+2021-09-13 04:24:29,048 - INFO -  max history budget=3
+2021-09-13 04:24:29,048 - INFO - load: budget=1; scheme=(0.7000000000000001,0.9); result=({46, 49, 1}, 22) 
+2021-09-13 04:24:29,048 - INFO - load: budget=2; scheme=(0.7000000000000001,0.9); result=({46, 49, 1}, 36) 
+2021-09-13 04:24:29,048 - INFO - load: budget=3; scheme=(0.7000000000000001,0.9); result=({46, 49, 1}, 53) 
+2021-09-13 04:24:29,049 - INFO -  max history budget=3
+2021-09-13 04:24:29,049 - INFO - load: budget=1; scheme=(0.7000000000000001,1.0); result=({46, 49, 1}, 22) 
+2021-09-13 04:24:29,049 - INFO - load: budget=2; scheme=(0.7000000000000001,1.0); result=({46, 49, 1}, 36) 
+2021-09-13 04:24:29,049 - INFO - load: budget=3; scheme=(0.7000000000000001,1.0); result=({46, 49, 1}, 53) 
