@@ -1,0 +1,41 @@
+2021-09-19 02:53:01,706 - INFO - Namespace(a='2', beta_paras='3,6,6,3', budget_list='2', did='d1', grain_alpha='5', grain_p='5', method='brute', percent_R='0.25', percent_S='0.25', rev=False, seed='32', sw=True, version='v09190253')
+2021-09-19 02:53:01,722 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-19 02:53:02,498 - INFO - Finish generate valuations and costs using using a=2
+2021-09-19 02:53:02,797 - INFO - compute: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0.0); rev=0.0
+2021-09-19 02:53:02,797 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0.0); rev=0.0
+2021-09-19 02:53:02,797 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0.0); rev=0.0
+2021-09-19 02:53:02,798 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0.0); rev=0.0
+2021-09-19 02:53:02,798 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0.0); rev=0.0
+2021-09-19 02:53:02,798 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0.0); rev=0.0
+2021-09-19 02:53:02,798 - INFO - load: budget=2; scheme=(0.2,0.0); tilderR=(55) tilderS=(0); result=(set(), 0.0); rev=0.0
+2021-09-19 02:53:02,798 - INFO - load: budget=2; scheme=(0.2,0.04000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0.0); rev=0.0
+2021-09-19 02:53:02,799 - INFO - load: budget=2; scheme=(0.2,0.08000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0.0); rev=0.0
+2021-09-19 02:53:02,802 - INFO - compute: budget=2; scheme=(0.2,0.12000000000000002); tilderR=(55) tilderS=(1); result=({168}, 305.5412213039487); rev=24.443297704315892
+2021-09-19 02:53:02,807 - INFO - compute: budget=2; scheme=(0.2,0.16000000000000003); tilderR=(55) tilderS=(2); result=({168, 125}, 541.5358126721763); rev=21.661432506887042
+2021-09-19 02:53:02,820 - INFO - compute: budget=2; scheme=(0.2,0.2); tilderR=(55) tilderS=(3); result=((125, 46), 700.02854912764); rev=0.0
+2021-09-19 02:53:02,822 - INFO - compute: budget=2; scheme=(0.4,0.0); tilderR=(49) tilderS=(0); result=(set(), 0.0); rev=0.0
+2021-09-19 02:53:02,823 - INFO - load: budget=2; scheme=(0.4,0.08000000000000002); tilderR=(49) tilderS=(0); result=(set(), 0.0); rev=0.0
+2021-09-19 02:53:02,826 - INFO - compute: budget=2; scheme=(0.4,0.16000000000000003); tilderR=(49) tilderS=(2); result=({168, 125}, 470.65639118457307); rev=112.95753388429753
+2021-09-19 02:53:02,863 - INFO - compute: budget=2; scheme=(0.4,0.24000000000000005); tilderR=(49) tilderS=(5); result=((46, 149), 620.2797887970613); rev=99.24476620752979
+2021-09-19 02:53:02,994 - INFO - compute: budget=2; scheme=(0.4,0.32000000000000006); tilderR=(49) tilderS=(10); result=((46, 49), 657.9187419651055); rev=52.633499357208414
+2021-09-19 02:53:03,521 - INFO - compute: budget=2; scheme=(0.4,0.4); tilderR=(49) tilderS=(19); result=((1, 150), 790.9553902662993); rev=0.0
+2021-09-19 02:53:03,523 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.0); tilderR=(21) tilderS=(0); result=(set(), 0.0); rev=0.0
+2021-09-19 02:53:03,524 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.12000000000000002); tilderR=(21) tilderS=(1); result=({168}, 64.6018365472911); rev=31.008881542699733
+2021-09-19 02:53:03,541 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.24000000000000005); tilderR=(21) tilderS=(5); result=((46, 149), 215.96966942148757); rev=77.74908099173554
+2021-09-19 02:53:03,665 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.3600000000000001); tilderR=(21) tilderS=(14); result=((1, 46), 267.93446280991736); rev=64.30427107438017
+2021-09-19 02:53:04,324 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.4800000000000001); tilderR=(21) tilderS=(32); result=((1, 150), 338.1176400367309); rev=40.57411680440771
+2021-09-19 02:53:05,657 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.6000000000000001); tilderR=(21) tilderS=(46); result=((1, 150), 338.1176400367309); rev=0.0
+2021-09-19 02:53:05,658 - INFO - compute: budget=2; scheme=(0.8,0.0); tilderR=(3) tilderS=(0); result=(set(), 0.0); rev=0.0
+2021-09-19 02:53:05,658 - INFO - compute: budget=2; scheme=(0.8,0.16000000000000003); tilderR=(3) tilderS=(2); result=({168, 125}, 9.86457300275482); rev=6.313326721763085
+2021-09-19 02:53:05,668 - INFO - compute: budget=2; scheme=(0.8,0.32000000000000006); tilderR=(3) tilderS=(10); result=((46, 62), 27.55434343434343); rev=13.226084848484845
+2021-09-19 02:53:05,791 - INFO - compute: budget=2; scheme=(0.8,0.4800000000000001); tilderR=(3) tilderS=(32); result=((150, 65), 41.408080808080804); rev=13.250585858585856
+2021-09-19 02:53:06,035 - INFO - compute: budget=2; scheme=(0.8,0.6400000000000001); tilderR=(3) tilderS=(48); result=((150, 109), 45.79540863177226); rev=7.327265381083558
+2021-09-19 02:53:06,307 - INFO - compute: budget=2; scheme=(0.8,0.8); tilderR=(3) tilderS=(54); result=((150, 109), 45.79540863177226); rev=0.0
+2021-09-19 02:53:06,308 - INFO - compute: budget=2; scheme=(1.0,0.0); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:53:06,309 - INFO - compute: budget=2; scheme=(1.0,0.2); tilderR=(0) tilderS=(3); result=((168, 125), 0); rev=0.0
+2021-09-19 02:53:06,310 - INFO - compute: budget=2; scheme=(1.0,0.4); tilderR=(0) tilderS=(19); result=((169, 156), 0); rev=0.0
+2021-09-19 02:53:06,312 - INFO - compute: budget=2; scheme=(1.0,0.6000000000000001); tilderR=(0) tilderS=(46); result=((214, 125), 0); rev=0.0
+2021-09-19 02:53:06,339 - INFO - compute: budget=2; scheme=(1.0,0.8); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:53:06,340 - INFO - load: budget=2; scheme=(1.0,1.0); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0

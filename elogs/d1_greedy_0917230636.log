@@ -1,0 +1,76 @@
+2021-09-17 23:06:36,165 - INFO - Namespace(a='2', beta_paras='3,6,6,3', budget_list='2', did='d1', grain_alpha='5', grain_p='5', method='greedy', percent_R='0.25', percent_S='0.25', seed='32', version='v09172306')
+2021-09-17 23:06:36,180 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-17 23:06:36,744 - INFO - Finish generate valuations and costs using using a=2
+2021-09-17 23:06:37,221 - INFO - ==================== (0.0, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 23:06:37,221 - INFO - ==================== (0.0, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 23:06:37,222 - INFO - ==================== (0.0, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 23:06:37,222 - INFO - ==================== (0.0, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 23:06:37,222 - INFO - ==================== (0.0, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 23:06:37,222 - INFO - ==================== (0.0, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 23:06:37,222 - INFO - ==================== (0.2, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 23:06:37,222 - INFO - ==================== (0.2, 0.04000000000000001) is invalid scheme since with empty set:  tilderR
+2021-09-17 23:06:37,222 - INFO - ==================== (0.2, 0.08000000000000002) is invalid scheme since with empty set:  tilderR
+2021-09-17 23:06:37,222 - INFO - ==================== (0.2, 0.12000000000000002) complete computation
+2021-09-17 23:06:37,222 - INFO - max_history_budget=2, max_history_result=({168}, 631, set())
+2021-09-17 23:06:37,223 - INFO - load: budget=1; scheme=(0.2,0.12000000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=50.47999999999999
+2021-09-17 23:06:37,223 - INFO - ==================== (0.2, 0.16000000000000003) complete computation
+2021-09-17 23:06:37,223 - INFO - max_history_budget=2, max_history_result=({168, 125}, 1093, set())
+2021-09-17 23:06:37,223 - INFO - load: budget=1; scheme=(0.2,0.16000000000000003); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=43.71999999999998
+2021-09-17 23:06:37,223 - INFO - ==================== (0.2, 0.2) complete computation
+2021-09-17 23:06:37,223 - INFO - max_history_budget=2, max_history_result=({168, 125, 46}, 1770, set())
+2021-09-17 23:06:37,223 - INFO - load: budget=1; scheme=(0.2,0.2); tilderR=(55) tilderS=(3); result=({125, 46}, 1375); rev=0.0
+2021-09-17 23:06:37,223 - INFO - ==================== (0.4, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 23:06:37,223 - INFO - ==================== (0.4, 0.08000000000000002) is invalid scheme since with empty set:  tilderR
+2021-09-17 23:06:37,224 - INFO - ==================== (0.4, 0.16000000000000003) complete computation
+2021-09-17 23:06:37,224 - INFO - max_history_budget=2, max_history_result=({168, 125}, 898, set())
+2021-09-17 23:06:37,224 - INFO - load: budget=1; scheme=(0.4,0.16000000000000003); tilderR=(49) tilderS=(2); result=({168, 125}, 898); rev=215.51999999999998
+2021-09-17 23:06:37,224 - INFO - ==================== (0.4, 0.24000000000000005) complete computation
+2021-09-17 23:06:37,224 - INFO - max_history_budget=2, max_history_result=({168, 125, 46, 149}, 1742, {0: set(), 130: set(), 2: set(), 133: set(), 6: set(), 5: set(), 136: set(), 9: set(), 138: set(), 12: set(), 14: set(), 142: set(), 145: set(), 19: set(), 20: set(), 153: set(), 25: set(), 30: set(), 37: set(), 40: set(), 41: set(), 42: set(), 176: set(), 178: set(), 51: set(), 181: set(), 54: set(), 184: set(), 58: set(), 187: set(), 60: set(), 188: set(), 192: set(), 193: set(), 73: set(), 76: set(), 77: set(), 79: set(), 84: set(), 85: set(), 94: set(), 110: set(), 112: set(), 114: set(), 119: set(), 120: set(), 124: set(), 126: set(), 127: set()})
+2021-09-17 23:06:37,224 - INFO - load: budget=1; scheme=(0.4,0.24000000000000005); tilderR=(49) tilderS=(5); result=({125, 46}, 1147); rev=183.51999999999998
+2021-09-17 23:06:37,225 - INFO - ==================== (0.4, 0.32000000000000006) complete computation
+2021-09-17 23:06:37,225 - INFO - max_history_budget=2, max_history_result=({49, 125, 46, 149}, 2038, {0: set(), 130: set(), 2: set(), 133: set(), 6: set(), 5: set(), 136: set(), 9: set(), 138: set(), 12: set(), 14: set(), 142: set(), 145: set(), 19: set(), 20: set(), 153: set(), 25: set(), 30: set(), 37: set(), 40: set(), 41: set(), 42: set(), 176: set(), 178: set(), 51: set(), 181: set(), 54: set(), 184: set(), 58: set(), 187: set(), 60: set(), 188: set(), 192: set(), 193: set(), 73: set(), 76: set(), 77: set(), 79: set(), 84: set(), 85: set(), 94: set(), 110: set(), 112: set(), 114: set(), 119: set(), 120: set(), 124: set(), 126: set(), 127: set()})
+2021-09-17 23:06:37,225 - INFO - load: budget=1; scheme=(0.4,0.32000000000000006); tilderR=(49) tilderS=(10); result=({49, 46}, 1202); rev=96.15999999999995
+2021-09-17 23:06:37,225 - INFO - ==================== (0.4, 0.4) complete computation
+2021-09-17 23:06:37,225 - INFO - max_history_budget=2, max_history_result=({1, 150, 46, 49}, 2352, {0: set(), 130: set(), 2: set(), 133: set(), 6: set(), 5: set(), 136: set(), 9: set(), 138: set(), 12: set(), 14: set(), 142: set(), 145: set(), 19: set(), 20: set(), 153: set(), 25: set(), 30: set(), 37: set(), 40: set(), 41: set(), 42: set(), 176: set(), 178: set(), 51: set(), 181: set(), 54: set(), 184: set(), 58: set(), 187: set(), 60: set(), 188: set(), 192: set(), 193: set(), 73: set(), 76: set(), 77: set(), 79: set(), 84: set(), 85: set(), 94: set(), 110: set(), 112: set(), 114: set(), 119: set(), 120: set(), 124: set(), 126: set(), 127: set()})
+2021-09-17 23:06:37,226 - INFO - load: budget=1; scheme=(0.4,0.4); tilderR=(49) tilderS=(19); result=({150, 46}, 1333); rev=0.0
+2021-09-17 23:06:37,226 - INFO - ==================== (0.6000000000000001, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 23:06:37,226 - INFO - ==================== (0.6000000000000001, 0.12000000000000002) complete computation
+2021-09-17 23:06:37,226 - INFO - max_history_budget=2, max_history_result=({168}, 101, set())
+2021-09-17 23:06:37,226 - INFO - load: budget=1; scheme=(0.6000000000000001,0.12000000000000002); tilderR=(21) tilderS=(1); result=({168}, 101); rev=48.48000000000001
+2021-09-17 23:06:37,227 - INFO - ==================== (0.6000000000000001, 0.24000000000000005) complete computation
+2021-09-17 23:06:37,227 - INFO - max_history_budget=2, max_history_result=({149, 125, 46, 23}, 523, {130: set(), 2: set(), 9: set(), 138: set(), 19: set(), 20: set(), 153: set(), 40: set(), 51: set(), 54: set(), 184: set(), 60: set(), 192: set(), 193: set(), 84: set(), 94: set(), 114: set(), 120: set(), 124: set(), 126: set(), 127: set()})
+2021-09-17 23:06:37,227 - INFO - load: budget=1; scheme=(0.6000000000000001,0.24000000000000005); tilderR=(21) tilderS=(5); result=({125, 46}, 322); rev=115.92000000000002
+2021-09-17 23:06:37,227 - INFO - ==================== (0.6000000000000001, 0.3600000000000001) complete computation
+2021-09-17 23:06:37,228 - INFO - max_history_budget=2, max_history_result=({1, 125, 46, 49}, 675, {130: set(), 2: set(), 9: set(), 138: set(), 19: set(), 20: set(), 153: set(), 40: set(), 51: set(), 54: set(), 184: set(), 60: set(), 192: set(), 193: set(), 84: set(), 94: set(), 114: set(), 120: set(), 124: set(), 126: set(), 127: set()})
+2021-09-17 23:06:37,228 - INFO - load: budget=1; scheme=(0.6000000000000001,0.3600000000000001); tilderR=(21) tilderS=(14); result=({1, 49}, 384); rev=92.16
+2021-09-17 23:06:37,228 - INFO - ==================== (0.6000000000000001, 0.4800000000000001) complete computation
+2021-09-17 23:06:37,228 - INFO - max_history_budget=2, max_history_result=({1, 173, 150, 49}, 691, {130: set(), 2: set(), 9: set(), 138: set(), 19: set(), 20: set(), 153: set(), 40: set(), 51: set(), 54: set(), 184: set(), 60: set(), 192: set(), 193: set(), 84: set(), 94: set(), 114: set(), 120: set(), 124: set(), 126: set(), 127: set()})
+2021-09-17 23:06:37,229 - INFO - load: budget=1; scheme=(0.6000000000000001,0.4800000000000001); tilderR=(21) tilderS=(32); result=({1, 150}, 498); rev=59.76
+2021-09-17 23:06:37,229 - INFO - ==================== (0.6000000000000001, 0.6000000000000001) complete computation
+2021-09-17 23:06:37,229 - INFO - max_history_budget=2, max_history_result=({1, 173, 150, 49}, 691, {130: set(), 2: set(), 9: set(), 138: set(), 19: set(), 20: set(), 153: set(), 40: set(), 51: set(), 54: set(), 184: set(), 60: set(), 192: set(), 193: set(), 84: set(), 94: set(), 114: set(), 120: set(), 124: set(), 126: set(), 127: set()})
+2021-09-17 23:06:37,229 - INFO - load: budget=1; scheme=(0.6000000000000001,0.6000000000000001); tilderR=(21) tilderS=(46); result=({1, 150}, 498); rev=0.0
+2021-09-17 23:06:37,230 - INFO - ==================== (0.8, 0.0) is invalid scheme since with empty set:  tilderR
+2021-09-17 23:06:37,230 - INFO - ==================== (0.8, 0.16000000000000003) complete computation
+2021-09-17 23:06:37,230 - INFO - max_history_budget=2, max_history_result=({168, 125}, 12, set())
+2021-09-17 23:06:37,231 - INFO - load: budget=1; scheme=(0.8,0.16000000000000003); tilderR=(3) tilderS=(2); result=({168, 125}, 12); rev=7.68
+2021-09-17 23:06:37,231 - INFO - ==================== (0.8, 0.32000000000000006) complete computation
+2021-09-17 23:06:37,231 - INFO - max_history_budget=2, max_history_result=({46, 149, 62, 47}, 49, {114: set(), 51: set(), 124: set()})
+2021-09-17 23:06:37,232 - INFO - load: budget=1; scheme=(0.8,0.32000000000000006); tilderR=(3) tilderS=(10); result=({46, 47}, 31); rev=14.879999999999999
+2021-09-17 23:06:37,232 - INFO - ==================== (0.8, 0.4800000000000001) complete computation
+2021-09-17 23:06:37,232 - INFO - max_history_budget=2, max_history_result=({65, 173, 150, 167}, 56, {114: set(), 51: set(), 124: set()})
+2021-09-17 23:06:37,233 - INFO - load: budget=1; scheme=(0.8,0.4800000000000001); tilderR=(3) tilderS=(32); result=({173, 150}, 35); rev=11.199999999999998
+2021-09-17 23:06:37,233 - INFO - ==================== (0.8, 0.6400000000000001) complete computation
+2021-09-17 23:06:37,233 - INFO - max_history_budget=2, max_history_result=({173, 109, 150, 167}, 62, {114: set(), 51: set(), 124: set()})
+2021-09-17 23:06:37,234 - INFO - load: budget=1; scheme=(0.8,0.6400000000000001); tilderR=(3) tilderS=(48); result=({109, 150}, 55); rev=8.799999999999995
+2021-09-17 23:06:37,234 - INFO - ==================== (0.8, 0.8) complete computation
+2021-09-17 23:06:37,235 - INFO - max_history_budget=2, max_history_result=({173, 109, 150, 167}, 62, {114: set(), 51: set(), 124: set()})
+2021-09-17 23:06:37,236 - INFO - load: budget=1; scheme=(0.8,0.8); tilderR=(3) tilderS=(54); result=({109, 150}, 55); rev=0.0
+2021-09-17 23:06:37,236 - INFO - ==================== (1.0, 0.0) is invalid scheme since with empty set: tilderS tilderR
+2021-09-17 23:06:37,236 - INFO - ==================== (1.0, 0.2) is invalid scheme since with empty set: tilderS 
+2021-09-17 23:06:37,236 - INFO - ==================== (1.0, 0.4) is invalid scheme since with empty set: tilderS 
+2021-09-17 23:06:37,236 - INFO - ==================== (1.0, 0.6000000000000001) is invalid scheme since with empty set: tilderS 
+2021-09-17 23:06:37,236 - INFO - ==================== (1.0, 0.8) is invalid scheme since with empty set: tilderS 
+2021-09-17 23:06:37,236 - INFO - ==================== (1.0, 1.0) is invalid scheme since with empty set: tilderS 
+2021-09-17 23:06:37,238 - INFO - cnt_invalid=19, cnt_valid=17

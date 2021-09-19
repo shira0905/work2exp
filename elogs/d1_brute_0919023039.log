@@ -1,0 +1,1328 @@
+2021-09-19 02:30:39,182 - INFO - Namespace(a='2', beta_paras='3,6,6,3', budget_list='1,2,3', did='d1', grain_alpha='20', grain_p='20', method='brute', percent_R='0.25', percent_S='0.25', rev=True, seed='32', sw=False, version='v09190230')
+2021-09-19 02:30:39,198 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-19 02:30:39,850 - INFO - Finish generate valuations and costs using using a=2
+2021-09-19 02:30:40,126 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,126 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,127 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,127 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,127 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,128 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,128 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,128 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,128 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,128 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,128 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,129 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,129 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,129 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,129 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,129 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,129 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,129 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,130 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,130 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,130 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,130 - INFO - load: budget=1; scheme=(0.05,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,130 - INFO - load: budget=1; scheme=(0.05,0.0025000000000000005); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,130 - INFO - load: budget=1; scheme=(0.05,0.005000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,130 - INFO - load: budget=1; scheme=(0.05,0.0075000000000000015); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,130 - INFO - load: budget=1; scheme=(0.05,0.010000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,131 - INFO - load: budget=1; scheme=(0.05,0.0125); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,131 - INFO - load: budget=1; scheme=(0.05,0.015000000000000003); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,131 - INFO - load: budget=1; scheme=(0.05,0.0175); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,131 - INFO - load: budget=1; scheme=(0.05,0.020000000000000004); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,131 - INFO - load: budget=1; scheme=(0.05,0.022500000000000003); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,131 - INFO - load: budget=1; scheme=(0.05,0.025); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,131 - INFO - load: budget=1; scheme=(0.05,0.027500000000000004); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,132 - INFO - load: budget=1; scheme=(0.05,0.030000000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,132 - INFO - load: budget=1; scheme=(0.05,0.0325); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,132 - INFO - load: budget=1; scheme=(0.05,0.035); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,132 - INFO - load: budget=1; scheme=(0.05,0.037500000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,132 - INFO - load: budget=1; scheme=(0.05,0.04000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,132 - INFO - load: budget=1; scheme=(0.05,0.04250000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,132 - INFO - load: budget=1; scheme=(0.05,0.045000000000000005); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,132 - INFO - load: budget=1; scheme=(0.05,0.04750000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,133 - INFO - load: budget=1; scheme=(0.05,0.05); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,133 - INFO - load: budget=1; scheme=(0.1,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,133 - INFO - load: budget=1; scheme=(0.1,0.005000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,133 - INFO - load: budget=1; scheme=(0.1,0.010000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,133 - INFO - load: budget=1; scheme=(0.1,0.015000000000000003); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,133 - INFO - load: budget=1; scheme=(0.1,0.020000000000000004); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,133 - INFO - load: budget=1; scheme=(0.1,0.025); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,133 - INFO - load: budget=1; scheme=(0.1,0.030000000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,134 - INFO - load: budget=1; scheme=(0.1,0.035); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,134 - INFO - load: budget=1; scheme=(0.1,0.04000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,134 - INFO - load: budget=1; scheme=(0.1,0.045000000000000005); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,134 - INFO - load: budget=1; scheme=(0.1,0.05); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,134 - INFO - load: budget=1; scheme=(0.1,0.05500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,134 - INFO - load: budget=1; scheme=(0.1,0.06000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,135 - INFO - load: budget=1; scheme=(0.1,0.065); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,135 - INFO - load: budget=1; scheme=(0.1,0.07); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,135 - INFO - load: budget=1; scheme=(0.1,0.07500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,135 - INFO - load: budget=1; scheme=(0.1,0.08000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,136 - INFO - load: budget=1; scheme=(0.1,0.08500000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,136 - INFO - load: budget=1; scheme=(0.1,0.09000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,136 - INFO - load: budget=1; scheme=(0.1,0.09500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,136 - INFO - load: budget=1; scheme=(0.1,0.1); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,137 - INFO - load: budget=1; scheme=(0.15000000000000002,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,137 - INFO - load: budget=1; scheme=(0.15000000000000002,0.0075000000000000015); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,137 - INFO - load: budget=1; scheme=(0.15000000000000002,0.015000000000000003); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,137 - INFO - load: budget=1; scheme=(0.15000000000000002,0.022500000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,138 - INFO - load: budget=1; scheme=(0.15000000000000002,0.030000000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,138 - INFO - load: budget=1; scheme=(0.15000000000000002,0.037500000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,138 - INFO - load: budget=1; scheme=(0.15000000000000002,0.04500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,138 - INFO - load: budget=1; scheme=(0.15000000000000002,0.05250000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,138 - INFO - load: budget=1; scheme=(0.15000000000000002,0.06000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,138 - INFO - load: budget=1; scheme=(0.15000000000000002,0.06750000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,138 - INFO - load: budget=1; scheme=(0.15000000000000002,0.07500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,139 - INFO - load: budget=1; scheme=(0.15000000000000002,0.08250000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,139 - INFO - load: budget=1; scheme=(0.15000000000000002,0.09000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,139 - INFO - load: budget=1; scheme=(0.15000000000000002,0.09750000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,140 - INFO - load: budget=1; scheme=(0.15000000000000002,0.10500000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=28.395
+2021-09-19 02:30:40,140 - INFO - load: budget=1; scheme=(0.15000000000000002,0.11250000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=23.662500000000005
+2021-09-19 02:30:40,140 - INFO - load: budget=1; scheme=(0.15000000000000002,0.12000000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=18.93
+2021-09-19 02:30:40,141 - INFO - load: budget=1; scheme=(0.15000000000000002,0.12750000000000003); tilderR=(55) tilderS=(2); result=((125,), 671); rev=15.097499999999995
+2021-09-19 02:30:40,143 - INFO - load: budget=1; scheme=(0.15000000000000002,0.13500000000000004); tilderR=(55) tilderS=(2); result=((125,), 671); rev=10.06499999999999
+2021-09-19 02:30:40,143 - INFO - load: budget=1; scheme=(0.15000000000000002,0.14250000000000004); tilderR=(55) tilderS=(2); result=((125,), 671); rev=5.0324999999999855
+2021-09-19 02:30:40,144 - INFO - load: budget=1; scheme=(0.15000000000000002,0.15000000000000002); tilderR=(55) tilderS=(2); result=((125,), 671); rev=0.0
+2021-09-19 02:30:40,144 - INFO - load: budget=1; scheme=(0.2,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,144 - INFO - load: budget=1; scheme=(0.2,0.010000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,145 - INFO - load: budget=1; scheme=(0.2,0.020000000000000004); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,145 - INFO - load: budget=1; scheme=(0.2,0.030000000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,145 - INFO - load: budget=1; scheme=(0.2,0.04000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,145 - INFO - load: budget=1; scheme=(0.2,0.05); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,145 - INFO - load: budget=1; scheme=(0.2,0.06000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,145 - INFO - load: budget=1; scheme=(0.2,0.07); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,146 - INFO - load: budget=1; scheme=(0.2,0.08000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,146 - INFO - load: budget=1; scheme=(0.2,0.09000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,146 - INFO - load: budget=1; scheme=(0.2,0.1); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,147 - INFO - load: budget=1; scheme=(0.2,0.11000000000000001); tilderR=(55) tilderS=(1); result=({168}, 631); rev=56.79
+2021-09-19 02:30:40,147 - INFO - load: budget=1; scheme=(0.2,0.12000000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=50.47999999999999
+2021-09-19 02:30:40,148 - INFO - load: budget=1; scheme=(0.2,0.13); tilderR=(55) tilderS=(2); result=((125,), 671); rev=46.970000000000006
+2021-09-19 02:30:40,149 - INFO - load: budget=1; scheme=(0.2,0.14); tilderR=(55) tilderS=(2); result=((125,), 671); rev=40.26
+2021-09-19 02:30:40,149 - INFO - load: budget=1; scheme=(0.2,0.15000000000000002); tilderR=(55) tilderS=(2); result=((125,), 671); rev=33.54999999999999
+2021-09-19 02:30:40,150 - INFO - load: budget=1; scheme=(0.2,0.16000000000000003); tilderR=(55) tilderS=(2); result=((125,), 671); rev=26.839999999999986
+2021-09-19 02:30:40,150 - INFO - load: budget=1; scheme=(0.2,0.17000000000000004); tilderR=(55) tilderS=(2); result=((125,), 671); rev=20.12999999999998
+2021-09-19 02:30:40,151 - INFO - load: budget=1; scheme=(0.2,0.18000000000000002); tilderR=(55) tilderS=(3); result=((46,), 787); rev=15.739999999999991
+2021-09-19 02:30:40,152 - INFO - load: budget=1; scheme=(0.2,0.19000000000000003); tilderR=(55) tilderS=(3); result=((46,), 787); rev=7.869999999999985
+2021-09-19 02:30:40,152 - INFO - load: budget=1; scheme=(0.2,0.2); tilderR=(55) tilderS=(3); result=((46,), 787); rev=0.0
+2021-09-19 02:30:40,153 - INFO - load: budget=1; scheme=(0.25,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,153 - INFO - load: budget=1; scheme=(0.25,0.0125); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,153 - INFO - load: budget=1; scheme=(0.25,0.025); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,153 - INFO - load: budget=1; scheme=(0.25,0.037500000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,154 - INFO - load: budget=1; scheme=(0.25,0.05); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,154 - INFO - load: budget=1; scheme=(0.25,0.0625); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,154 - INFO - load: budget=1; scheme=(0.25,0.07500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,154 - INFO - load: budget=1; scheme=(0.25,0.08750000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,154 - INFO - load: budget=1; scheme=(0.25,0.1); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,155 - INFO - load: budget=1; scheme=(0.25,0.1125); tilderR=(55) tilderS=(1); result=({168}, 631); rev=86.7625
+2021-09-19 02:30:40,156 - INFO - load: budget=1; scheme=(0.25,0.125); tilderR=(55) tilderS=(2); result=((125,), 671); rev=83.875
+2021-09-19 02:30:40,157 - INFO - load: budget=1; scheme=(0.25,0.1375); tilderR=(55) tilderS=(2); result=((125,), 671); rev=75.4875
+2021-09-19 02:30:40,157 - INFO - load: budget=1; scheme=(0.25,0.15000000000000002); tilderR=(55) tilderS=(2); result=((125,), 671); rev=67.09999999999998
+2021-09-19 02:30:40,158 - INFO - load: budget=1; scheme=(0.25,0.1625); tilderR=(55) tilderS=(2); result=((125,), 671); rev=58.7125
+2021-09-19 02:30:40,158 - INFO - load: budget=1; scheme=(0.25,0.17500000000000002); tilderR=(55) tilderS=(2); result=((125,), 671); rev=50.32499999999999
+2021-09-19 02:30:40,159 - INFO - load: budget=1; scheme=(0.25,0.1875); tilderR=(55) tilderS=(3); result=((46,), 787); rev=49.1875
+2021-09-19 02:30:40,159 - INFO - load: budget=1; scheme=(0.25,0.2); tilderR=(55) tilderS=(3); result=((46,), 787); rev=39.349999999999994
+2021-09-19 02:30:40,160 - INFO - load: budget=1; scheme=(0.25,0.21250000000000002); tilderR=(55) tilderS=(3); result=((46,), 787); rev=29.51249999999998
+2021-09-19 02:30:40,161 - INFO - load: budget=1; scheme=(0.25,0.225); tilderR=(55) tilderS=(3); result=((46,), 787); rev=19.674999999999997
+2021-09-19 02:30:40,171 - INFO - load: budget=1; scheme=(0.25,0.23750000000000002); tilderR=(55) tilderS=(4); result=((46,), 787); rev=9.837499999999986
+2021-09-19 02:30:40,177 - INFO - load: budget=1; scheme=(0.25,0.25); tilderR=(55) tilderS=(5); result=((46,), 787); rev=0.0
+2021-09-19 02:30:40,178 - INFO - load: budget=1; scheme=(0.30000000000000004,0.0); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,178 - INFO - load: budget=1; scheme=(0.30000000000000004,0.015000000000000003); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,179 - INFO - load: budget=1; scheme=(0.30000000000000004,0.030000000000000006); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,179 - INFO - load: budget=1; scheme=(0.30000000000000004,0.04500000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,180 - INFO - load: budget=1; scheme=(0.30000000000000004,0.06000000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,181 - INFO - load: budget=1; scheme=(0.30000000000000004,0.07500000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,181 - INFO - load: budget=1; scheme=(0.30000000000000004,0.09000000000000002); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,182 - INFO - load: budget=1; scheme=(0.30000000000000004,0.10500000000000002); tilderR=(54) tilderS=(1); result=({168}, 608); rev=118.56
+2021-09-19 02:30:40,183 - INFO - load: budget=1; scheme=(0.30000000000000004,0.12000000000000002); tilderR=(54) tilderS=(1); result=({168}, 608); rev=109.44000000000001
+2021-09-19 02:30:40,185 - INFO - load: budget=1; scheme=(0.30000000000000004,0.13500000000000004); tilderR=(54) tilderS=(2); result=((125,), 648); rev=106.92
+2021-09-19 02:30:40,187 - INFO - load: budget=1; scheme=(0.30000000000000004,0.15000000000000002); tilderR=(54) tilderS=(2); result=((125,), 648); rev=97.20000000000002
+2021-09-19 02:30:40,189 - INFO - load: budget=1; scheme=(0.30000000000000004,0.16500000000000004); tilderR=(54) tilderS=(2); result=((125,), 648); rev=87.48
+2021-09-19 02:30:40,190 - INFO - load: budget=1; scheme=(0.30000000000000004,0.18000000000000005); tilderR=(54) tilderS=(3); result=((46,), 765); rev=91.8
+2021-09-19 02:30:40,191 - INFO - load: budget=1; scheme=(0.30000000000000004,0.19500000000000003); tilderR=(54) tilderS=(3); result=((46,), 765); rev=80.325
+2021-09-19 02:30:40,191 - INFO - load: budget=1; scheme=(0.30000000000000004,0.21000000000000005); tilderR=(54) tilderS=(3); result=((46,), 765); rev=68.85
+2021-09-19 02:30:40,192 - INFO - load: budget=1; scheme=(0.30000000000000004,0.22500000000000003); tilderR=(54) tilderS=(3); result=((46,), 765); rev=57.37500000000001
+2021-09-19 02:30:40,192 - INFO - load: budget=1; scheme=(0.30000000000000004,0.24000000000000005); tilderR=(54) tilderS=(5); result=((46,), 765); rev=45.9
+2021-09-19 02:30:40,193 - INFO - load: budget=1; scheme=(0.30000000000000004,0.25500000000000006); tilderR=(54) tilderS=(5); result=((46,), 765); rev=34.42499999999999
+2021-09-19 02:30:40,195 - INFO - load: budget=1; scheme=(0.30000000000000004,0.2700000000000001); tilderR=(54) tilderS=(6); result=((46,), 765); rev=22.949999999999978
+2021-09-19 02:30:40,198 - INFO - load: budget=1; scheme=(0.30000000000000004,0.2850000000000001); tilderR=(54) tilderS=(6); result=((46,), 765); rev=11.474999999999968
+2021-09-19 02:30:40,198 - INFO - load: budget=1; scheme=(0.30000000000000004,0.30000000000000004); tilderR=(54) tilderS=(8); result=((46,), 765); rev=0.0
+2021-09-19 02:30:40,199 - INFO - load: budget=1; scheme=(0.35000000000000003,0.0); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,199 - INFO - load: budget=1; scheme=(0.35000000000000003,0.0175); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,200 - INFO - load: budget=1; scheme=(0.35000000000000003,0.035); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,200 - INFO - load: budget=1; scheme=(0.35000000000000003,0.05250000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,201 - INFO - load: budget=1; scheme=(0.35000000000000003,0.07); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,201 - INFO - load: budget=1; scheme=(0.35000000000000003,0.08750000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,202 - INFO - load: budget=1; scheme=(0.35000000000000003,0.10500000000000002); tilderR=(54) tilderS=(1); result=({168}, 608); rev=148.96
+2021-09-19 02:30:40,202 - INFO - load: budget=1; scheme=(0.35000000000000003,0.12250000000000003); tilderR=(54) tilderS=(1); result=({168}, 608); rev=138.32
+2021-09-19 02:30:40,204 - INFO - load: budget=1; scheme=(0.35000000000000003,0.14); tilderR=(54) tilderS=(2); result=((125,), 648); rev=136.08
+2021-09-19 02:30:40,206 - INFO - load: budget=1; scheme=(0.35000000000000003,0.15750000000000003); tilderR=(54) tilderS=(2); result=((125,), 648); rev=124.74000000000001
+2021-09-19 02:30:40,209 - INFO - load: budget=1; scheme=(0.35000000000000003,0.17500000000000002); tilderR=(54) tilderS=(2); result=((125,), 648); rev=113.4
+2021-09-19 02:30:40,209 - INFO - load: budget=1; scheme=(0.35000000000000003,0.19250000000000003); tilderR=(54) tilderS=(3); result=((46,), 765); rev=120.4875
+2021-09-19 02:30:40,210 - INFO - load: budget=1; scheme=(0.35000000000000003,0.21000000000000005); tilderR=(54) tilderS=(3); result=((46,), 765); rev=107.1
+2021-09-19 02:30:40,210 - INFO - load: budget=1; scheme=(0.35000000000000003,0.22750000000000004); tilderR=(54) tilderS=(3); result=((46,), 765); rev=93.71249999999999
+2021-09-19 02:30:40,211 - INFO - load: budget=1; scheme=(0.35000000000000003,0.24500000000000005); tilderR=(54) tilderS=(5); result=((46,), 765); rev=80.32499999999999
+2021-09-19 02:30:40,213 - INFO - load: budget=1; scheme=(0.35000000000000003,0.2625); tilderR=(54) tilderS=(6); result=((46,), 765); rev=66.93750000000001
+2021-09-19 02:30:40,215 - INFO - load: budget=1; scheme=(0.35000000000000003,0.28); tilderR=(54) tilderS=(6); result=((46,), 765); rev=53.550000000000004
+2021-09-19 02:30:40,216 - INFO - load: budget=1; scheme=(0.35000000000000003,0.29750000000000004); tilderR=(54) tilderS=(8); result=((46,), 765); rev=40.162499999999994
+2021-09-19 02:30:40,222 - INFO - load: budget=1; scheme=(0.35000000000000003,0.31500000000000006); tilderR=(54) tilderS=(9); result=((46,), 765); rev=26.77499999999998
+2021-09-19 02:30:40,228 - INFO - load: budget=1; scheme=(0.35000000000000003,0.3325000000000001); tilderR=(54) tilderS=(12); result=((46,), 765); rev=13.387499999999969
+2021-09-19 02:30:40,233 - INFO - load: budget=1; scheme=(0.35000000000000003,0.35000000000000003); tilderR=(54) tilderS=(14); result=((46,), 765); rev=0.0
+2021-09-19 02:30:40,234 - INFO - load: budget=1; scheme=(0.4,0.0); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,235 - INFO - load: budget=1; scheme=(0.4,0.020000000000000004); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,235 - INFO - load: budget=1; scheme=(0.4,0.04000000000000001); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,236 - INFO - load: budget=1; scheme=(0.4,0.06000000000000001); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,237 - INFO - load: budget=1; scheme=(0.4,0.08000000000000002); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,238 - INFO - load: budget=1; scheme=(0.4,0.1); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,240 - INFO - load: budget=1; scheme=(0.4,0.12000000000000002); tilderR=(49) tilderS=(1); result=({168}, 506); rev=141.68
+2021-09-19 02:30:40,240 - INFO - load: budget=1; scheme=(0.4,0.14); tilderR=(49) tilderS=(2); result=((125,), 560); rev=145.6
+2021-09-19 02:30:40,241 - INFO - load: budget=1; scheme=(0.4,0.16000000000000003); tilderR=(49) tilderS=(2); result=((125,), 560); rev=134.4
+2021-09-19 02:30:40,243 - INFO - load: budget=1; scheme=(0.4,0.18000000000000002); tilderR=(49) tilderS=(3); result=((46,), 656); rev=144.32
+2021-09-19 02:30:40,245 - INFO - load: budget=1; scheme=(0.4,0.2); tilderR=(49) tilderS=(3); result=((46,), 656); rev=131.20000000000002
+2021-09-19 02:30:40,247 - INFO - load: budget=1; scheme=(0.4,0.22000000000000003); tilderR=(49) tilderS=(3); result=((46,), 656); rev=118.08
+2021-09-19 02:30:40,248 - INFO - load: budget=1; scheme=(0.4,0.24000000000000005); tilderR=(49) tilderS=(5); result=((46,), 656); rev=104.95999999999998
+2021-09-19 02:30:40,250 - INFO - load: budget=1; scheme=(0.4,0.26); tilderR=(49) tilderS=(6); result=((46,), 656); rev=91.84
+2021-09-19 02:30:40,252 - INFO - load: budget=1; scheme=(0.4,0.28); tilderR=(49) tilderS=(6); result=((46,), 656); rev=78.72
+2021-09-19 02:30:40,259 - INFO - load: budget=1; scheme=(0.4,0.30000000000000004); tilderR=(49) tilderS=(8); result=((46,), 656); rev=65.59999999999998
+2021-09-19 02:30:40,260 - INFO - load: budget=1; scheme=(0.4,0.32000000000000006); tilderR=(49) tilderS=(10); result=((46,), 656); rev=52.479999999999976
+2021-09-19 02:30:40,266 - INFO - load: budget=1; scheme=(0.4,0.3400000000000001); tilderR=(49) tilderS=(12); result=((46,), 656); rev=39.359999999999964
+2021-09-19 02:30:40,268 - INFO - load: budget=1; scheme=(0.4,0.36000000000000004); tilderR=(49) tilderS=(14); result=((46,), 656); rev=26.239999999999988
+2021-09-19 02:30:40,276 - INFO - load: budget=1; scheme=(0.4,0.38000000000000006); tilderR=(49) tilderS=(18); result=((150,), 787); rev=15.73999999999997
+2021-09-19 02:30:40,277 - INFO - load: budget=1; scheme=(0.4,0.4); tilderR=(49) tilderS=(19); result=((150,), 787); rev=0.0
+2021-09-19 02:30:40,283 - INFO - load: budget=1; scheme=(0.45,0.0); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,289 - INFO - load: budget=1; scheme=(0.45,0.022500000000000003); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,296 - INFO - load: budget=1; scheme=(0.45,0.045000000000000005); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,301 - INFO - load: budget=1; scheme=(0.45,0.06750000000000002); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,307 - INFO - load: budget=1; scheme=(0.45,0.09000000000000001); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,314 - INFO - load: budget=1; scheme=(0.45,0.1125); tilderR=(43) tilderS=(1); result=({168}, 384); rev=129.60000000000002
+2021-09-19 02:30:40,320 - INFO - load: budget=1; scheme=(0.45,0.13500000000000004); tilderR=(43) tilderS=(2); result=((125,), 440); rev=138.59999999999997
+2021-09-19 02:30:40,326 - INFO - load: budget=1; scheme=(0.45,0.15750000000000003); tilderR=(43) tilderS=(2); result=((125,), 440); rev=128.7
+2021-09-19 02:30:40,332 - INFO - load: budget=1; scheme=(0.45,0.18000000000000002); tilderR=(43) tilderS=(3); result=((46,), 560); rev=151.20000000000002
+2021-09-19 02:30:40,340 - INFO - load: budget=1; scheme=(0.45,0.2025); tilderR=(43) tilderS=(3); result=((46,), 560); rev=138.6
+2021-09-19 02:30:40,346 - INFO - load: budget=1; scheme=(0.45,0.225); tilderR=(43) tilderS=(3); result=((46,), 560); rev=126.0
+2021-09-19 02:30:40,352 - INFO - load: budget=1; scheme=(0.45,0.24750000000000003); tilderR=(43) tilderS=(5); result=((46,), 560); rev=113.39999999999999
+2021-09-19 02:30:40,359 - INFO - load: budget=1; scheme=(0.45,0.2700000000000001); tilderR=(43) tilderS=(6); result=((46,), 560); rev=100.79999999999997
+2021-09-19 02:30:40,365 - INFO - load: budget=1; scheme=(0.45,0.29250000000000004); tilderR=(43) tilderS=(7); result=((46,), 560); rev=88.19999999999999
+2021-09-19 02:30:40,372 - INFO - load: budget=1; scheme=(0.45,0.31500000000000006); tilderR=(43) tilderS=(9); result=((46,), 560); rev=75.59999999999998
+2021-09-19 02:30:40,378 - INFO - load: budget=1; scheme=(0.45,0.3375); tilderR=(43) tilderS=(12); result=((46,), 560); rev=62.99999999999999
+2021-09-19 02:30:40,385 - INFO - load: budget=1; scheme=(0.45,0.36000000000000004); tilderR=(43) tilderS=(14); result=((46,), 560); rev=50.399999999999984
+2021-09-19 02:30:40,392 - INFO - load: budget=1; scheme=(0.45,0.38250000000000006); tilderR=(43) tilderS=(18); result=((150,), 650); rev=43.874999999999964
+2021-09-19 02:30:40,398 - INFO - load: budget=1; scheme=(0.45,0.405); tilderR=(43) tilderS=(21); result=((150,), 650); rev=29.24999999999999
+2021-09-19 02:30:40,405 - INFO - load: budget=1; scheme=(0.45,0.42750000000000005); tilderR=(43) tilderS=(25); result=((150,), 650); rev=14.624999999999977
+2021-09-19 02:30:40,411 - INFO - load: budget=1; scheme=(0.45,0.45); tilderR=(43) tilderS=(27); result=((150,), 650); rev=0.0
+2021-09-19 02:30:40,412 - INFO - load: budget=1; scheme=(0.5,0.0); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,413 - INFO - load: budget=1; scheme=(0.5,0.025); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,414 - INFO - load: budget=1; scheme=(0.5,0.05); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,415 - INFO - load: budget=1; scheme=(0.5,0.07500000000000001); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,416 - INFO - load: budget=1; scheme=(0.5,0.1); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,418 - INFO - load: budget=1; scheme=(0.5,0.125); tilderR=(35) tilderS=(2); result=((125,), 313); rev=117.375
+2021-09-19 02:30:40,420 - INFO - load: budget=1; scheme=(0.5,0.15000000000000002); tilderR=(35) tilderS=(2); result=((125,), 313); rev=109.55
+2021-09-19 02:30:40,423 - INFO - load: budget=1; scheme=(0.5,0.17500000000000002); tilderR=(35) tilderS=(2); result=((125,), 313); rev=101.72499999999998
+2021-09-19 02:30:40,424 - INFO - load: budget=1; scheme=(0.5,0.2); tilderR=(35) tilderS=(3); result=((46,), 404); rev=121.19999999999999
+2021-09-19 02:30:40,425 - INFO - load: budget=1; scheme=(0.5,0.225); tilderR=(35) tilderS=(3); result=((46,), 404); rev=111.10000000000001
+2021-09-19 02:30:40,427 - INFO - load: budget=1; scheme=(0.5,0.25); tilderR=(35) tilderS=(5); result=((46,), 404); rev=101.0
+2021-09-19 02:30:40,433 - INFO - load: budget=1; scheme=(0.5,0.275); tilderR=(35) tilderS=(6); result=((46,), 404); rev=90.89999999999999
+2021-09-19 02:30:40,434 - INFO - load: budget=1; scheme=(0.5,0.30000000000000004); tilderR=(35) tilderS=(8); result=((46,), 404); rev=80.79999999999998
+2021-09-19 02:30:40,441 - INFO - load: budget=1; scheme=(0.5,0.325); tilderR=(35) tilderS=(10); result=((46,), 404); rev=70.69999999999999
+2021-09-19 02:30:40,444 - INFO - load: budget=1; scheme=(0.5,0.35000000000000003); tilderR=(35) tilderS=(14); result=((1,), 425); rev=63.749999999999986
+2021-09-19 02:30:40,450 - INFO - load: budget=1; scheme=(0.5,0.375); tilderR=(35) tilderS=(16); result=((150,), 476); rev=59.5
+2021-09-19 02:30:40,451 - INFO - load: budget=1; scheme=(0.5,0.4); tilderR=(35) tilderS=(19); result=((150,), 476); rev=47.59999999999999
+2021-09-19 02:30:40,458 - INFO - load: budget=1; scheme=(0.5,0.42500000000000004); tilderR=(35) tilderS=(24); result=((150,), 476); rev=35.69999999999998
+2021-09-19 02:30:40,460 - INFO - load: budget=1; scheme=(0.5,0.45); tilderR=(35) tilderS=(27); result=((150,), 476); rev=23.799999999999994
+2021-09-19 02:30:40,467 - INFO - load: budget=1; scheme=(0.5,0.47500000000000003); tilderR=(35) tilderS=(29); result=((150,), 476); rev=11.899999999999984
+2021-09-19 02:30:40,468 - INFO - load: budget=1; scheme=(0.5,0.5); tilderR=(35) tilderS=(38); result=((150,), 476); rev=0.0
+2021-09-19 02:30:40,475 - INFO - load: budget=1; scheme=(0.55,0.0); tilderR=(24) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,482 - INFO - load: budget=1; scheme=(0.55,0.027500000000000004); tilderR=(24) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,489 - INFO - load: budget=1; scheme=(0.55,0.05500000000000001); tilderR=(24) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,496 - INFO - load: budget=1; scheme=(0.55,0.08250000000000002); tilderR=(24) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,503 - INFO - load: budget=1; scheme=(0.55,0.11000000000000001); tilderR=(24) tilderS=(1); result=({168}, 129); rev=56.760000000000005
+2021-09-19 02:30:40,510 - INFO - load: budget=1; scheme=(0.55,0.1375); tilderR=(24) tilderS=(2); result=((125,), 192); rev=79.2
+2021-09-19 02:30:40,517 - INFO - load: budget=1; scheme=(0.55,0.16500000000000004); tilderR=(24) tilderS=(2); result=((125,), 192); rev=73.92
+2021-09-19 02:30:40,525 - INFO - load: budget=1; scheme=(0.55,0.19250000000000003); tilderR=(24) tilderS=(3); result=((46,), 224); rev=80.08000000000001
+2021-09-19 02:30:40,531 - INFO - load: budget=1; scheme=(0.55,0.22000000000000003); tilderR=(24) tilderS=(3); result=((46,), 224); rev=73.92
+2021-09-19 02:30:40,539 - INFO - load: budget=1; scheme=(0.55,0.24750000000000003); tilderR=(24) tilderS=(5); result=((46,), 224); rev=67.75999999999999
+2021-09-19 02:30:40,547 - INFO - load: budget=1; scheme=(0.55,0.275); tilderR=(24) tilderS=(6); result=((49,), 235); rev=64.625
+2021-09-19 02:30:40,555 - INFO - load: budget=1; scheme=(0.55,0.30250000000000005); tilderR=(24) tilderS=(8); result=((49,), 235); rev=58.1625
+2021-09-19 02:30:40,562 - INFO - load: budget=1; scheme=(0.55,0.33000000000000007); tilderR=(24) tilderS=(11); result=((49,), 235); rev=51.699999999999996
+2021-09-19 02:30:40,569 - INFO - load: budget=1; scheme=(0.55,0.35750000000000004); tilderR=(24) tilderS=(14); result=((1,), 264); rev=50.82
+2021-09-19 02:30:40,576 - INFO - load: budget=1; scheme=(0.55,0.38500000000000006); tilderR=(24) tilderS=(19); result=((150,), 320); rev=52.8
+2021-09-19 02:30:40,583 - INFO - load: budget=1; scheme=(0.55,0.41250000000000003); tilderR=(24) tilderS=(23); result=((150,), 320); rev=44.0
+2021-09-19 02:30:40,591 - INFO - load: budget=1; scheme=(0.55,0.44000000000000006); tilderR=(24) tilderS=(25); result=((150,), 320); rev=35.199999999999996
+2021-09-19 02:30:40,599 - INFO - load: budget=1; scheme=(0.55,0.4675000000000001); tilderR=(24) tilderS=(29); result=((150,), 320); rev=26.399999999999988
+2021-09-19 02:30:40,606 - INFO - load: budget=1; scheme=(0.55,0.49500000000000005); tilderR=(24) tilderS=(36); result=((150,), 320); rev=17.599999999999998
+2021-09-19 02:30:40,613 - INFO - load: budget=1; scheme=(0.55,0.5225000000000001); tilderR=(24) tilderS=(38); result=((150,), 320); rev=8.79999999999999
+2021-09-19 02:30:40,621 - INFO - load: budget=1; scheme=(0.55,0.55); tilderR=(24) tilderS=(38); result=((150,), 320); rev=0.0
+2021-09-19 02:30:40,622 - INFO - load: budget=1; scheme=(0.6000000000000001,0.0); tilderR=(21) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,623 - INFO - load: budget=1; scheme=(0.6000000000000001,0.030000000000000006); tilderR=(21) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,624 - INFO - load: budget=1; scheme=(0.6000000000000001,0.06000000000000001); tilderR=(21) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,624 - INFO - load: budget=1; scheme=(0.6000000000000001,0.09000000000000002); tilderR=(21) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,625 - INFO - load: budget=1; scheme=(0.6000000000000001,0.12000000000000002); tilderR=(21) tilderS=(1); result=({168}, 101); rev=48.48000000000001
+2021-09-19 02:30:40,633 - INFO - load: budget=1; scheme=(0.6000000000000001,0.15000000000000002); tilderR=(21) tilderS=(2); result=((125,), 152); rev=68.4
+2021-09-19 02:30:40,635 - INFO - load: budget=1; scheme=(0.6000000000000001,0.18000000000000005); tilderR=(21) tilderS=(3); result=((46,), 189); rev=79.38000000000001
+2021-09-19 02:30:40,638 - INFO - load: budget=1; scheme=(0.6000000000000001,0.21000000000000005); tilderR=(21) tilderS=(3); result=((46,), 189); rev=73.71000000000001
+2021-09-19 02:30:40,639 - INFO - load: budget=1; scheme=(0.6000000000000001,0.24000000000000005); tilderR=(21) tilderS=(5); result=((46,), 189); rev=68.04
+2021-09-19 02:30:40,647 - INFO - load: budget=1; scheme=(0.6000000000000001,0.2700000000000001); tilderR=(21) tilderS=(6); result=((49,), 196); rev=64.68
+2021-09-19 02:30:40,649 - INFO - load: budget=1; scheme=(0.6000000000000001,0.30000000000000004); tilderR=(21) tilderS=(8); result=((49,), 196); rev=58.80000000000001
+2021-09-19 02:30:40,656 - INFO - load: budget=1; scheme=(0.6000000000000001,0.33000000000000007); tilderR=(21) tilderS=(11); result=((49,), 196); rev=52.92
+2021-09-19 02:30:40,657 - INFO - load: budget=1; scheme=(0.6000000000000001,0.3600000000000001); tilderR=(21) tilderS=(14); result=((1,), 227); rev=54.48
+2021-09-19 02:30:40,665 - INFO - load: budget=1; scheme=(0.6000000000000001,0.39000000000000007); tilderR=(21) tilderS=(19); result=((150,), 271); rev=56.910000000000004
+2021-09-19 02:30:40,667 - INFO - load: budget=1; scheme=(0.6000000000000001,0.4200000000000001); tilderR=(21) tilderS=(24); result=((150,), 271); rev=48.78
+2021-09-19 02:30:40,675 - INFO - load: budget=1; scheme=(0.6000000000000001,0.45000000000000007); tilderR=(21) tilderS=(27); result=((150,), 271); rev=40.650000000000006
+2021-09-19 02:30:40,676 - INFO - load: budget=1; scheme=(0.6000000000000001,0.4800000000000001); tilderR=(21) tilderS=(32); result=((150,), 271); rev=32.519999999999996
+2021-09-19 02:30:40,678 - INFO - load: budget=1; scheme=(0.6000000000000001,0.5100000000000001); tilderR=(21) tilderS=(38); result=((150,), 271); rev=24.38999999999999
+2021-09-19 02:30:40,681 - INFO - load: budget=1; scheme=(0.6000000000000001,0.5400000000000001); tilderR=(21) tilderS=(38); result=((150,), 271); rev=16.259999999999984
+2021-09-19 02:30:40,688 - INFO - load: budget=1; scheme=(0.6000000000000001,0.5700000000000002); tilderR=(21) tilderS=(40); result=((150,), 271); rev=8.129999999999978
+2021-09-19 02:30:40,689 - INFO - load: budget=1; scheme=(0.6000000000000001,0.6000000000000001); tilderR=(21) tilderS=(46); result=((150,), 271); rev=0.0
+2021-09-19 02:30:40,698 - INFO - load: budget=1; scheme=(0.65,0.0); tilderR=(10) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,705 - INFO - load: budget=1; scheme=(0.65,0.0325); tilderR=(10) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,713 - INFO - load: budget=1; scheme=(0.65,0.065); tilderR=(10) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,720 - INFO - load: budget=1; scheme=(0.65,0.09750000000000002); tilderR=(10) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,728 - INFO - load: budget=1; scheme=(0.65,0.13); tilderR=(10) tilderS=(2); result=((125,), 36); rev=18.72
+2021-09-19 02:30:40,736 - INFO - load: budget=1; scheme=(0.65,0.1625); tilderR=(10) tilderS=(2); result=((125,), 36); rev=17.55
+2021-09-19 02:30:40,744 - INFO - load: budget=1; scheme=(0.65,0.19500000000000003); tilderR=(10) tilderS=(3); result=((46,), 69); rev=31.394999999999996
+2021-09-19 02:30:40,751 - INFO - load: budget=1; scheme=(0.65,0.22750000000000004); tilderR=(10) tilderS=(3); result=((46,), 69); rev=29.1525
+2021-09-19 02:30:40,760 - INFO - load: budget=1; scheme=(0.65,0.26); tilderR=(10) tilderS=(6); result=((49,), 85); rev=33.15
+2021-09-19 02:30:40,767 - INFO - load: budget=1; scheme=(0.65,0.29250000000000004); tilderR=(10) tilderS=(7); result=((49,), 85); rev=30.3875
+2021-09-19 02:30:40,775 - INFO - load: budget=1; scheme=(0.65,0.325); tilderR=(10) tilderS=(10); result=((49,), 85); rev=27.625
+2021-09-19 02:30:40,783 - INFO - load: budget=1; scheme=(0.65,0.35750000000000004); tilderR=(10) tilderS=(14); result=((1,), 107); rev=31.2975
+2021-09-19 02:30:40,791 - INFO - load: budget=1; scheme=(0.65,0.39000000000000007); tilderR=(10) tilderS=(19); result=((1,), 107); rev=27.819999999999997
+2021-09-19 02:30:40,799 - INFO - load: budget=1; scheme=(0.65,0.42250000000000004); tilderR=(10) tilderS=(24); result=((1,), 107); rev=24.342499999999998
+2021-09-19 02:30:40,807 - INFO - load: budget=1; scheme=(0.65,0.45500000000000007); tilderR=(10) tilderS=(28); result=((1,), 107); rev=20.864999999999995
+2021-09-19 02:30:40,815 - INFO - load: budget=1; scheme=(0.65,0.48750000000000004); tilderR=(10) tilderS=(33); result=((1,), 107); rev=17.3875
+2021-09-19 02:30:40,823 - INFO - load: budget=1; scheme=(0.65,0.52); tilderR=(10) tilderS=(38); result=((1,), 107); rev=13.91
+2021-09-19 02:30:40,831 - INFO - load: budget=1; scheme=(0.65,0.5525000000000001); tilderR=(10) tilderS=(38); result=((1,), 107); rev=10.432499999999992
+2021-09-19 02:30:40,839 - INFO - load: budget=1; scheme=(0.65,0.5850000000000001); tilderR=(10) tilderS=(42); result=((1,), 107); rev=6.954999999999995
+2021-09-19 02:30:40,847 - INFO - load: budget=1; scheme=(0.65,0.6175); tilderR=(10) tilderS=(46); result=((1,), 107); rev=3.4774999999999974
+2021-09-19 02:30:40,855 - INFO - load: budget=1; scheme=(0.65,0.65); tilderR=(10) tilderS=(48); result=((1,), 107); rev=0.0
+2021-09-19 02:30:40,857 - INFO - load: budget=1; scheme=(0.7000000000000001,0.0); tilderR=(8) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,858 - INFO - load: budget=1; scheme=(0.7000000000000001,0.035); tilderR=(8) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,859 - INFO - load: budget=1; scheme=(0.7000000000000001,0.07); tilderR=(8) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,867 - INFO - load: budget=1; scheme=(0.7000000000000001,0.10500000000000002); tilderR=(8) tilderS=(1); result=({168}, 12); rev=7.140000000000001
+2021-09-19 02:30:40,868 - INFO - load: budget=1; scheme=(0.7000000000000001,0.14); tilderR=(8) tilderS=(2); result=((125,), 21); rev=11.760000000000002
+2021-09-19 02:30:40,869 - INFO - load: budget=1; scheme=(0.7000000000000001,0.17500000000000002); tilderR=(8) tilderS=(2); result=((125,), 21); rev=11.025
+2021-09-19 02:30:40,871 - INFO - load: budget=1; scheme=(0.7000000000000001,0.21000000000000005); tilderR=(8) tilderS=(3); result=((46,), 48); rev=23.52
+2021-09-19 02:30:40,879 - INFO - load: budget=1; scheme=(0.7000000000000001,0.24500000000000005); tilderR=(8) tilderS=(5); result=((46,), 48); rev=21.84
+2021-09-19 02:30:40,881 - INFO - load: budget=1; scheme=(0.7000000000000001,0.28); tilderR=(8) tilderS=(6); result=((49,), 62); rev=26.040000000000003
+2021-09-19 02:30:40,889 - INFO - load: budget=1; scheme=(0.7000000000000001,0.31500000000000006); tilderR=(8) tilderS=(9); result=((49,), 62); rev=23.87
+2021-09-19 02:30:40,891 - INFO - load: budget=1; scheme=(0.7000000000000001,0.35000000000000003); tilderR=(8) tilderS=(14); result=((1,), 85); rev=29.750000000000004
+2021-09-19 02:30:40,900 - INFO - load: budget=1; scheme=(0.7000000000000001,0.38500000000000006); tilderR=(8) tilderS=(19); result=((1,), 85); rev=26.775
+2021-09-19 02:30:40,901 - INFO - load: budget=1; scheme=(0.7000000000000001,0.4200000000000001); tilderR=(8) tilderS=(24); result=((1,), 85); rev=23.799999999999997
+2021-09-19 02:30:40,909 - INFO - load: budget=1; scheme=(0.7000000000000001,0.45500000000000007); tilderR=(8) tilderS=(28); result=((1,), 85); rev=20.825
+2021-09-19 02:30:40,912 - INFO - load: budget=1; scheme=(0.7000000000000001,0.4900000000000001); tilderR=(8) tilderS=(36); result=((1,), 85); rev=17.849999999999998
+2021-09-19 02:30:40,920 - INFO - load: budget=1; scheme=(0.7000000000000001,0.525); tilderR=(8) tilderS=(38); result=((1,), 85); rev=14.875000000000004
+2021-09-19 02:30:40,922 - INFO - load: budget=1; scheme=(0.7000000000000001,0.56); tilderR=(8) tilderS=(39); result=((1,), 85); rev=11.9
+2021-09-19 02:30:40,930 - INFO - load: budget=1; scheme=(0.7000000000000001,0.5950000000000001); tilderR=(8) tilderS=(45); result=((1,), 85); rev=8.924999999999999
+2021-09-19 02:30:40,932 - INFO - load: budget=1; scheme=(0.7000000000000001,0.6300000000000001); tilderR=(8) tilderS=(48); result=((1,), 85); rev=5.949999999999996
+2021-09-19 02:30:40,941 - INFO - load: budget=1; scheme=(0.7000000000000001,0.6650000000000001); tilderR=(8) tilderS=(49); result=((1,), 85); rev=2.9749999999999934
+2021-09-19 02:30:40,942 - INFO - load: budget=1; scheme=(0.7000000000000001,0.7000000000000001); tilderR=(8) tilderS=(53); result=((1,), 85); rev=0.0
+2021-09-19 02:30:40,950 - INFO - load: budget=1; scheme=(0.75,0.0); tilderR=(7) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,959 - INFO - load: budget=1; scheme=(0.75,0.037500000000000006); tilderR=(7) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,967 - INFO - load: budget=1; scheme=(0.75,0.07500000000000001); tilderR=(7) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:40,975 - INFO - load: budget=1; scheme=(0.75,0.11250000000000002); tilderR=(7) tilderS=(1); result=({168}, 7); rev=4.4624999999999995
+2021-09-19 02:30:40,984 - INFO - load: budget=1; scheme=(0.75,0.15000000000000002); tilderR=(7) tilderS=(2); result=((125,), 19); rev=11.4
+2021-09-19 02:30:40,993 - INFO - load: budget=1; scheme=(0.75,0.1875); tilderR=(7) tilderS=(3); result=((46,), 41); rev=23.0625
+2021-09-19 02:30:41,002 - INFO - load: budget=1; scheme=(0.75,0.22500000000000003); tilderR=(7) tilderS=(3); result=((46,), 41); rev=21.524999999999995
+2021-09-19 02:30:41,011 - INFO - load: budget=1; scheme=(0.75,0.2625); tilderR=(7) tilderS=(6); result=((49,), 54); rev=26.325
+2021-09-19 02:30:41,020 - INFO - load: budget=1; scheme=(0.75,0.30000000000000004); tilderR=(7) tilderS=(8); result=((49,), 54); rev=24.299999999999997
+2021-09-19 02:30:41,029 - INFO - load: budget=1; scheme=(0.75,0.3375); tilderR=(7) tilderS=(12); result=((49,), 54); rev=22.275
+2021-09-19 02:30:41,037 - INFO - load: budget=1; scheme=(0.75,0.375); tilderR=(7) tilderS=(16); result=((1,), 75); rev=28.125
+2021-09-19 02:30:41,046 - INFO - load: budget=1; scheme=(0.75,0.41250000000000003); tilderR=(7) tilderS=(23); result=((1,), 75); rev=25.312499999999996
+2021-09-19 02:30:41,054 - INFO - load: budget=1; scheme=(0.75,0.45000000000000007); tilderR=(7) tilderS=(27); result=((1,), 75); rev=22.499999999999996
+2021-09-19 02:30:41,063 - INFO - load: budget=1; scheme=(0.75,0.48750000000000004); tilderR=(7) tilderS=(33); result=((1,), 75); rev=19.687499999999996
+2021-09-19 02:30:41,072 - INFO - load: budget=1; scheme=(0.75,0.525); tilderR=(7) tilderS=(38); result=((1,), 75); rev=16.875
+2021-09-19 02:30:41,080 - INFO - load: budget=1; scheme=(0.75,0.5625); tilderR=(7) tilderS=(39); result=((1,), 75); rev=14.0625
+2021-09-19 02:30:41,089 - INFO - load: budget=1; scheme=(0.75,0.6000000000000001); tilderR=(7) tilderS=(46); result=((1,), 75); rev=11.249999999999993
+2021-09-19 02:30:41,098 - INFO - load: budget=1; scheme=(0.75,0.6375000000000001); tilderR=(7) tilderS=(48); result=((1,), 75); rev=8.437499999999995
+2021-09-19 02:30:41,107 - INFO - load: budget=1; scheme=(0.75,0.675); tilderR=(7) tilderS=(50); result=((1,), 75); rev=5.6249999999999964
+2021-09-19 02:30:41,117 - INFO - load: budget=1; scheme=(0.75,0.7125); tilderR=(7) tilderS=(53); result=((1,), 75); rev=2.8124999999999982
+2021-09-19 02:30:41,125 - INFO - load: budget=1; scheme=(0.75,0.75); tilderR=(7) tilderS=(54); result=((1,), 75); rev=0.0
+2021-09-19 02:30:41,127 - INFO - load: budget=1; scheme=(0.8,0.0); tilderR=(3) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,128 - INFO - load: budget=1; scheme=(0.8,0.04000000000000001); tilderR=(3) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,129 - INFO - load: budget=1; scheme=(0.8,0.08000000000000002); tilderR=(3) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,138 - INFO - load: budget=1; scheme=(0.8,0.12000000000000002); tilderR=(3) tilderS=(1); result=({168}, 2); rev=1.36
+2021-09-19 02:30:41,139 - INFO - load: budget=1; scheme=(0.8,0.16000000000000003); tilderR=(3) tilderS=(2); result=((125,), 10); rev=6.4
+2021-09-19 02:30:41,148 - INFO - load: budget=1; scheme=(0.8,0.2); tilderR=(3) tilderS=(3); result=((46,), 17); rev=10.200000000000001
+2021-09-19 02:30:41,151 - INFO - load: budget=1; scheme=(0.8,0.24000000000000005); tilderR=(3) tilderS=(5); result=((46,), 17); rev=9.520000000000001
+2021-09-19 02:30:41,160 - INFO - load: budget=1; scheme=(0.8,0.28); tilderR=(3) tilderS=(6); result=((46,), 17); rev=8.84
+2021-09-19 02:30:41,161 - INFO - load: budget=1; scheme=(0.8,0.32000000000000006); tilderR=(3) tilderS=(10); result=((47,), 18); rev=8.64
+2021-09-19 02:30:41,170 - INFO - load: budget=1; scheme=(0.8,0.36000000000000004); tilderR=(3) tilderS=(14); result=((47,), 18); rev=7.92
+2021-09-19 02:30:41,173 - INFO - load: budget=1; scheme=(0.8,0.4); tilderR=(3) tilderS=(19); result=((150,), 31); rev=12.4
+2021-09-19 02:30:41,182 - INFO - load: budget=1; scheme=(0.8,0.44000000000000006); tilderR=(3) tilderS=(25); result=((150,), 31); rev=11.16
+2021-09-19 02:30:41,183 - INFO - load: budget=1; scheme=(0.8,0.4800000000000001); tilderR=(3) tilderS=(32); result=((150,), 31); rev=9.919999999999998
+2021-09-19 02:30:41,192 - INFO - load: budget=1; scheme=(0.8,0.52); tilderR=(3) tilderS=(38); result=((150,), 31); rev=8.680000000000001
+2021-09-19 02:30:41,194 - INFO - load: budget=1; scheme=(0.8,0.56); tilderR=(3) tilderS=(39); result=((150,), 31); rev=7.4399999999999995
+2021-09-19 02:30:41,204 - INFO - load: budget=1; scheme=(0.8,0.6000000000000001); tilderR=(3) tilderS=(46); result=((150,), 31); rev=6.199999999999998
+2021-09-19 02:30:41,205 - INFO - load: budget=1; scheme=(0.8,0.6400000000000001); tilderR=(3) tilderS=(48); result=((150,), 31); rev=4.959999999999997
+2021-09-19 02:30:41,214 - INFO - load: budget=1; scheme=(0.8,0.6800000000000002); tilderR=(3) tilderS=(52); result=((150,), 31); rev=3.719999999999996
+2021-09-19 02:30:41,217 - INFO - load: budget=1; scheme=(0.8,0.7200000000000001); tilderR=(3) tilderS=(53); result=((150,), 31); rev=2.4799999999999986
+2021-09-19 02:30:41,219 - INFO - load: budget=1; scheme=(0.8,0.7600000000000001); tilderR=(3) tilderS=(54); result=((150,), 31); rev=1.2399999999999975
+2021-09-19 02:30:41,220 - INFO - load: budget=1; scheme=(0.8,0.8); tilderR=(3) tilderS=(54); result=((150,), 31); rev=0.0
+2021-09-19 02:30:41,229 - INFO - load: budget=1; scheme=(0.8500000000000001,0.0); tilderR=(1) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,238 - INFO - load: budget=1; scheme=(0.8500000000000001,0.04250000000000001); tilderR=(1) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,247 - INFO - load: budget=1; scheme=(0.8500000000000001,0.08500000000000002); tilderR=(1) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,256 - INFO - load: budget=1; scheme=(0.8500000000000001,0.12750000000000003); tilderR=(1) tilderS=(2); result=((125,), 2); rev=1.445
+2021-09-19 02:30:41,266 - INFO - load: budget=1; scheme=(0.8500000000000001,0.17000000000000004); tilderR=(1) tilderS=(2); result=((125,), 2); rev=1.36
+2021-09-19 02:30:41,275 - INFO - load: budget=1; scheme=(0.8500000000000001,0.21250000000000002); tilderR=(1) tilderS=(3); result=((125,), 2); rev=1.2750000000000001
+2021-09-19 02:30:41,285 - INFO - load: budget=1; scheme=(0.8500000000000001,0.25500000000000006); tilderR=(1) tilderS=(5); result=((149,), 2); rev=1.19
+2021-09-19 02:30:41,294 - INFO - load: budget=1; scheme=(0.8500000000000001,0.29750000000000004); tilderR=(1) tilderS=(8); result=((47,), 6); rev=3.315
+2021-09-19 02:30:41,304 - INFO - load: budget=1; scheme=(0.8500000000000001,0.3400000000000001); tilderR=(1) tilderS=(12); result=((62,), 7); rev=3.5700000000000003
+2021-09-19 02:30:41,313 - INFO - load: budget=1; scheme=(0.8500000000000001,0.38250000000000006); tilderR=(1) tilderS=(18); result=((1,), 11); rev=5.1425
+2021-09-19 02:30:41,322 - INFO - load: budget=1; scheme=(0.8500000000000001,0.42500000000000004); tilderR=(1) tilderS=(24); result=((1,), 11); rev=4.675000000000001
+2021-09-19 02:30:41,332 - INFO - load: budget=1; scheme=(0.8500000000000001,0.4675000000000001); tilderR=(1) tilderS=(29); result=((1,), 11); rev=4.2075000000000005
+2021-09-19 02:30:41,342 - INFO - load: budget=1; scheme=(0.8500000000000001,0.5100000000000001); tilderR=(1) tilderS=(38); result=((1,), 11); rev=3.7399999999999998
+2021-09-19 02:30:41,351 - INFO - load: budget=1; scheme=(0.8500000000000001,0.5525000000000001); tilderR=(1) tilderS=(38); result=((1,), 11); rev=3.2725
+2021-09-19 02:30:41,361 - INFO - load: budget=1; scheme=(0.8500000000000001,0.5950000000000001); tilderR=(1) tilderS=(45); result=((1,), 11); rev=2.805
+2021-09-19 02:30:41,371 - INFO - load: budget=1; scheme=(0.8500000000000001,0.6375000000000001); tilderR=(1) tilderS=(48); result=((109,), 11); rev=2.3375000000000004
+2021-09-19 02:30:41,381 - INFO - load: budget=1; scheme=(0.8500000000000001,0.6800000000000002); tilderR=(1) tilderS=(52); result=((109,), 11); rev=1.8699999999999992
+2021-09-19 02:30:41,390 - INFO - load: budget=1; scheme=(0.8500000000000001,0.7225000000000001); tilderR=(1) tilderS=(53); result=((109,), 11); rev=1.4024999999999994
+2021-09-19 02:30:41,400 - INFO - load: budget=1; scheme=(0.8500000000000001,0.7650000000000001); tilderR=(1) tilderS=(54); result=((109,), 11); rev=0.9349999999999996
+2021-09-19 02:30:41,410 - INFO - load: budget=1; scheme=(0.8500000000000001,0.8075000000000001); tilderR=(1) tilderS=(54); result=((109,), 11); rev=0.4674999999999998
+2021-09-19 02:30:41,420 - INFO - load: budget=1; scheme=(0.8500000000000001,0.8500000000000001); tilderR=(1) tilderS=(54); result=((109,), 11); rev=0.0
+2021-09-19 02:30:41,421 - INFO - load: budget=1; scheme=(0.9,0.0); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,422 - INFO - load: budget=1; scheme=(0.9,0.045000000000000005); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,424 - INFO - load: budget=1; scheme=(0.9,0.09000000000000001); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,443 - INFO - load: budget=1; scheme=(0.9,0.13500000000000004); tilderR=(0) tilderS=(2); result=((168,), 0); rev=0.0
+2021-09-19 02:30:41,445 - INFO - load: budget=1; scheme=(0.9,0.18000000000000002); tilderR=(0) tilderS=(3); result=((168,), 0); rev=0.0
+2021-09-19 02:30:41,448 - INFO - load: budget=1; scheme=(0.9,0.225); tilderR=(0) tilderS=(3); result=((168,), 0); rev=0.0
+2021-09-19 02:30:41,453 - INFO - load: budget=1; scheme=(0.9,0.2700000000000001); tilderR=(0) tilderS=(6); result=((168,), 0); rev=0.0
+2021-09-19 02:30:41,471 - INFO - load: budget=1; scheme=(0.9,0.31500000000000006); tilderR=(0) tilderS=(9); result=((168,), 0); rev=0.0
+2021-09-19 02:30:41,474 - INFO - load: budget=1; scheme=(0.9,0.36000000000000004); tilderR=(0) tilderS=(14); result=((169,), 0); rev=0.0
+2021-09-19 02:30:41,497 - INFO - load: budget=1; scheme=(0.9,0.405); tilderR=(0) tilderS=(21); result=((189,), 0); rev=0.0
+2021-09-19 02:30:41,500 - INFO - load: budget=1; scheme=(0.9,0.45); tilderR=(0) tilderS=(27); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,510 - INFO - load: budget=1; scheme=(0.9,0.49500000000000005); tilderR=(0) tilderS=(36); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,512 - INFO - load: budget=1; scheme=(0.9,0.5400000000000001); tilderR=(0) tilderS=(38); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,528 - INFO - load: budget=1; scheme=(0.9,0.5850000000000001); tilderR=(0) tilderS=(42); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,531 - INFO - load: budget=1; scheme=(0.9,0.6300000000000001); tilderR=(0) tilderS=(48); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,541 - INFO - load: budget=1; scheme=(0.9,0.675); tilderR=(0) tilderS=(50); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,543 - INFO - load: budget=1; scheme=(0.9,0.7200000000000001); tilderR=(0) tilderS=(53); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,544 - INFO - load: budget=1; scheme=(0.9,0.7650000000000001); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,546 - INFO - load: budget=1; scheme=(0.9,0.81); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,548 - INFO - load: budget=1; scheme=(0.9,0.8550000000000001); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,550 - INFO - load: budget=1; scheme=(0.9,0.9); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,551 - INFO - load: budget=1; scheme=(0.9500000000000001,0.0); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,552 - INFO - load: budget=1; scheme=(0.9500000000000001,0.04750000000000001); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,554 - INFO - load: budget=1; scheme=(0.9500000000000001,0.09500000000000001); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,564 - INFO - load: budget=1; scheme=(0.9500000000000001,0.14250000000000004); tilderR=(0) tilderS=(2); result=((168,), 0); rev=0.0
+2021-09-19 02:30:41,566 - INFO - load: budget=1; scheme=(0.9500000000000001,0.19000000000000003); tilderR=(0) tilderS=(3); result=((168,), 0); rev=0.0
+2021-09-19 02:30:41,576 - INFO - load: budget=1; scheme=(0.9500000000000001,0.23750000000000002); tilderR=(0) tilderS=(4); result=((168,), 0); rev=0.0
+2021-09-19 02:30:41,579 - INFO - load: budget=1; scheme=(0.9500000000000001,0.2850000000000001); tilderR=(0) tilderS=(6); result=((168,), 0); rev=0.0
+2021-09-19 02:30:41,588 - INFO - load: budget=1; scheme=(0.9500000000000001,0.3325000000000001); tilderR=(0) tilderS=(12); result=((168,), 0); rev=0.0
+2021-09-19 02:30:41,599 - INFO - load: budget=1; scheme=(0.9500000000000001,0.38000000000000006); tilderR=(0) tilderS=(18); result=((169,), 0); rev=0.0
+2021-09-19 02:30:41,609 - INFO - load: budget=1; scheme=(0.9500000000000001,0.42750000000000005); tilderR=(0) tilderS=(25); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,621 - INFO - load: budget=1; scheme=(0.9500000000000001,0.47500000000000003); tilderR=(0) tilderS=(29); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,623 - INFO - load: budget=1; scheme=(0.9500000000000001,0.5225000000000001); tilderR=(0) tilderS=(38); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,632 - INFO - load: budget=1; scheme=(0.9500000000000001,0.5700000000000002); tilderR=(0) tilderS=(40); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,634 - INFO - load: budget=1; scheme=(0.9500000000000001,0.6175); tilderR=(0) tilderS=(46); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,645 - INFO - load: budget=1; scheme=(0.9500000000000001,0.6650000000000001); tilderR=(0) tilderS=(49); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,646 - INFO - load: budget=1; scheme=(0.9500000000000001,0.7125); tilderR=(0) tilderS=(53); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,648 - INFO - load: budget=1; scheme=(0.9500000000000001,0.7600000000000001); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,649 - INFO - load: budget=1; scheme=(0.9500000000000001,0.8075000000000001); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,651 - INFO - load: budget=1; scheme=(0.9500000000000001,0.8550000000000001); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,652 - INFO - load: budget=1; scheme=(0.9500000000000001,0.9025000000000001); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,654 - INFO - load: budget=1; scheme=(0.9500000000000001,0.9500000000000001); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,656 - INFO - load: budget=1; scheme=(1.0,0.0); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,658 - INFO - load: budget=1; scheme=(1.0,0.05); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,659 - INFO - load: budget=1; scheme=(1.0,0.1); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,670 - INFO - load: budget=1; scheme=(1.0,0.15000000000000002); tilderR=(0) tilderS=(2); result=((168,), 0); rev=0.0
+2021-09-19 02:30:41,672 - INFO - load: budget=1; scheme=(1.0,0.2); tilderR=(0) tilderS=(3); result=((168,), 0); rev=0.0
+2021-09-19 02:30:41,683 - INFO - load: budget=1; scheme=(1.0,0.25); tilderR=(0) tilderS=(5); result=((168,), 0); rev=0.0
+2021-09-19 02:30:41,685 - INFO - load: budget=1; scheme=(1.0,0.30000000000000004); tilderR=(0) tilderS=(8); result=((168,), 0); rev=0.0
+2021-09-19 02:30:41,687 - INFO - load: budget=1; scheme=(1.0,0.35000000000000003); tilderR=(0) tilderS=(14); result=((169,), 0); rev=0.0
+2021-09-19 02:30:41,688 - INFO - load: budget=1; scheme=(1.0,0.4); tilderR=(0) tilderS=(19); result=((169,), 0); rev=0.0
+2021-09-19 02:30:41,691 - INFO - load: budget=1; scheme=(1.0,0.45); tilderR=(0) tilderS=(27); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,692 - INFO - load: budget=1; scheme=(1.0,0.5); tilderR=(0) tilderS=(38); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,694 - INFO - load: budget=1; scheme=(1.0,0.55); tilderR=(0) tilderS=(38); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,696 - INFO - load: budget=1; scheme=(1.0,0.6000000000000001); tilderR=(0) tilderS=(46); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,699 - INFO - load: budget=1; scheme=(1.0,0.65); tilderR=(0) tilderS=(48); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,701 - INFO - load: budget=1; scheme=(1.0,0.7000000000000001); tilderR=(0) tilderS=(53); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,702 - INFO - load: budget=1; scheme=(1.0,0.75); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,704 - INFO - load: budget=1; scheme=(1.0,0.8); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,705 - INFO - load: budget=1; scheme=(1.0,0.8500000000000001); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,707 - INFO - load: budget=1; scheme=(1.0,0.9); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,709 - INFO - load: budget=1; scheme=(1.0,0.9500000000000001); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,710 - INFO - load: budget=1; scheme=(1.0,1.0); tilderR=(0) tilderS=(54); result=((214,), 0); rev=0.0
+2021-09-19 02:30:41,711 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,711 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,711 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,711 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,711 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,711 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,711 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,712 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,712 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,712 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,713 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,713 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,713 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,713 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,713 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,714 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,714 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,714 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,714 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,714 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,715 - INFO - load: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,715 - INFO - load: budget=2; scheme=(0.05,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,715 - INFO - load: budget=2; scheme=(0.05,0.0025000000000000005); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,715 - INFO - load: budget=2; scheme=(0.05,0.005000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,716 - INFO - load: budget=2; scheme=(0.05,0.0075000000000000015); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,716 - INFO - load: budget=2; scheme=(0.05,0.010000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,716 - INFO - load: budget=2; scheme=(0.05,0.0125); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,716 - INFO - load: budget=2; scheme=(0.05,0.015000000000000003); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,717 - INFO - load: budget=2; scheme=(0.05,0.0175); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,717 - INFO - load: budget=2; scheme=(0.05,0.020000000000000004); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,717 - INFO - load: budget=2; scheme=(0.05,0.022500000000000003); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,717 - INFO - load: budget=2; scheme=(0.05,0.025); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,718 - INFO - load: budget=2; scheme=(0.05,0.027500000000000004); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,718 - INFO - load: budget=2; scheme=(0.05,0.030000000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,718 - INFO - load: budget=2; scheme=(0.05,0.0325); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,719 - INFO - load: budget=2; scheme=(0.05,0.035); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,719 - INFO - load: budget=2; scheme=(0.05,0.037500000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,719 - INFO - load: budget=2; scheme=(0.05,0.04000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,719 - INFO - load: budget=2; scheme=(0.05,0.04250000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,719 - INFO - load: budget=2; scheme=(0.05,0.045000000000000005); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,720 - INFO - load: budget=2; scheme=(0.05,0.04750000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,720 - INFO - load: budget=2; scheme=(0.05,0.05); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,720 - INFO - load: budget=2; scheme=(0.1,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,721 - INFO - load: budget=2; scheme=(0.1,0.005000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,721 - INFO - load: budget=2; scheme=(0.1,0.010000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,721 - INFO - load: budget=2; scheme=(0.1,0.015000000000000003); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,721 - INFO - load: budget=2; scheme=(0.1,0.020000000000000004); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,722 - INFO - load: budget=2; scheme=(0.1,0.025); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,722 - INFO - load: budget=2; scheme=(0.1,0.030000000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,722 - INFO - load: budget=2; scheme=(0.1,0.035); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,722 - INFO - load: budget=2; scheme=(0.1,0.04000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,723 - INFO - load: budget=2; scheme=(0.1,0.045000000000000005); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,723 - INFO - load: budget=2; scheme=(0.1,0.05); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,723 - INFO - load: budget=2; scheme=(0.1,0.05500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,723 - INFO - load: budget=2; scheme=(0.1,0.06000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,723 - INFO - load: budget=2; scheme=(0.1,0.065); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,723 - INFO - load: budget=2; scheme=(0.1,0.07); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,723 - INFO - load: budget=2; scheme=(0.1,0.07500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,724 - INFO - load: budget=2; scheme=(0.1,0.08000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,724 - INFO - load: budget=2; scheme=(0.1,0.08500000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,724 - INFO - load: budget=2; scheme=(0.1,0.09000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,724 - INFO - load: budget=2; scheme=(0.1,0.09500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,724 - INFO - load: budget=2; scheme=(0.1,0.1); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,725 - INFO - load: budget=2; scheme=(0.15000000000000002,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,725 - INFO - load: budget=2; scheme=(0.15000000000000002,0.0075000000000000015); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,725 - INFO - load: budget=2; scheme=(0.15000000000000002,0.015000000000000003); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,725 - INFO - load: budget=2; scheme=(0.15000000000000002,0.022500000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,725 - INFO - load: budget=2; scheme=(0.15000000000000002,0.030000000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,725 - INFO - load: budget=2; scheme=(0.15000000000000002,0.037500000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,725 - INFO - load: budget=2; scheme=(0.15000000000000002,0.04500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,726 - INFO - load: budget=2; scheme=(0.15000000000000002,0.05250000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,726 - INFO - load: budget=2; scheme=(0.15000000000000002,0.06000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,726 - INFO - load: budget=2; scheme=(0.15000000000000002,0.06750000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,726 - INFO - load: budget=2; scheme=(0.15000000000000002,0.07500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,726 - INFO - load: budget=2; scheme=(0.15000000000000002,0.08250000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,726 - INFO - load: budget=2; scheme=(0.15000000000000002,0.09000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,726 - INFO - load: budget=2; scheme=(0.15000000000000002,0.09750000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,727 - INFO - load: budget=2; scheme=(0.15000000000000002,0.10500000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=28.395
+2021-09-19 02:30:41,727 - INFO - load: budget=2; scheme=(0.15000000000000002,0.11250000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=23.662500000000005
+2021-09-19 02:30:41,727 - INFO - load: budget=2; scheme=(0.15000000000000002,0.12000000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=18.93
+2021-09-19 02:30:41,727 - INFO - load: budget=2; scheme=(0.15000000000000002,0.12750000000000003); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=24.59249999999999
+2021-09-19 02:30:41,727 - INFO - load: budget=2; scheme=(0.15000000000000002,0.13500000000000004); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=16.394999999999985
+2021-09-19 02:30:41,728 - INFO - load: budget=2; scheme=(0.15000000000000002,0.14250000000000004); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=8.197499999999977
+2021-09-19 02:30:41,728 - INFO - load: budget=2; scheme=(0.15000000000000002,0.15000000000000002); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=0.0
+2021-09-19 02:30:41,728 - INFO - load: budget=2; scheme=(0.2,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,728 - INFO - load: budget=2; scheme=(0.2,0.010000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,728 - INFO - load: budget=2; scheme=(0.2,0.020000000000000004); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,728 - INFO - load: budget=2; scheme=(0.2,0.030000000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,728 - INFO - load: budget=2; scheme=(0.2,0.04000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,729 - INFO - load: budget=2; scheme=(0.2,0.05); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,729 - INFO - load: budget=2; scheme=(0.2,0.06000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,729 - INFO - load: budget=2; scheme=(0.2,0.07); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,729 - INFO - load: budget=2; scheme=(0.2,0.08000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,729 - INFO - load: budget=2; scheme=(0.2,0.09000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,729 - INFO - load: budget=2; scheme=(0.2,0.1); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,729 - INFO - load: budget=2; scheme=(0.2,0.11000000000000001); tilderR=(55) tilderS=(1); result=({168}, 631); rev=56.79
+2021-09-19 02:30:41,729 - INFO - load: budget=2; scheme=(0.2,0.12000000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=50.47999999999999
+2021-09-19 02:30:41,730 - INFO - load: budget=2; scheme=(0.2,0.13); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=76.51
+2021-09-19 02:30:41,730 - INFO - load: budget=2; scheme=(0.2,0.14); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=65.58
+2021-09-19 02:30:41,730 - INFO - load: budget=2; scheme=(0.2,0.15000000000000002); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=54.649999999999984
+2021-09-19 02:30:41,731 - INFO - load: budget=2; scheme=(0.2,0.16000000000000003); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=43.71999999999998
+2021-09-19 02:30:41,731 - INFO - load: budget=2; scheme=(0.2,0.17000000000000004); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=32.78999999999997
+2021-09-19 02:30:41,731 - INFO - load: budget=2; scheme=(0.2,0.18000000000000002); tilderR=(55) tilderS=(3); result=((125, 46), 1375); rev=27.499999999999986
+2021-09-19 02:30:41,732 - INFO - load: budget=2; scheme=(0.2,0.19000000000000003); tilderR=(55) tilderS=(3); result=((125, 46), 1375); rev=13.749999999999973
+2021-09-19 02:30:41,732 - INFO - load: budget=2; scheme=(0.2,0.2); tilderR=(55) tilderS=(3); result=((125, 46), 1375); rev=0.0
+2021-09-19 02:30:41,732 - INFO - load: budget=2; scheme=(0.25,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,732 - INFO - load: budget=2; scheme=(0.25,0.0125); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,732 - INFO - load: budget=2; scheme=(0.25,0.025); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,733 - INFO - load: budget=2; scheme=(0.25,0.037500000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,733 - INFO - load: budget=2; scheme=(0.25,0.05); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,733 - INFO - load: budget=2; scheme=(0.25,0.0625); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,733 - INFO - load: budget=2; scheme=(0.25,0.07500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,733 - INFO - load: budget=2; scheme=(0.25,0.08750000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,735 - INFO - load: budget=2; scheme=(0.25,0.1); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,735 - INFO - load: budget=2; scheme=(0.25,0.1125); tilderR=(55) tilderS=(1); result=({168}, 631); rev=86.7625
+2021-09-19 02:30:41,736 - INFO - load: budget=2; scheme=(0.25,0.125); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=136.625
+2021-09-19 02:30:41,736 - INFO - load: budget=2; scheme=(0.25,0.1375); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=122.96249999999999
+2021-09-19 02:30:41,736 - INFO - load: budget=2; scheme=(0.25,0.15000000000000002); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=109.29999999999997
+2021-09-19 02:30:41,737 - INFO - load: budget=2; scheme=(0.25,0.1625); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=95.63749999999999
+2021-09-19 02:30:41,737 - INFO - load: budget=2; scheme=(0.25,0.17500000000000002); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=81.97499999999998
+2021-09-19 02:30:41,737 - INFO - load: budget=2; scheme=(0.25,0.1875); tilderR=(55) tilderS=(3); result=((125, 46), 1375); rev=85.9375
+2021-09-19 02:30:41,737 - INFO - load: budget=2; scheme=(0.25,0.2); tilderR=(55) tilderS=(3); result=((125, 46), 1375); rev=68.74999999999999
+2021-09-19 02:30:41,738 - INFO - load: budget=2; scheme=(0.25,0.21250000000000002); tilderR=(55) tilderS=(3); result=((125, 46), 1375); rev=51.56249999999997
+2021-09-19 02:30:41,738 - INFO - load: budget=2; scheme=(0.25,0.225); tilderR=(55) tilderS=(3); result=((125, 46), 1375); rev=34.37499999999999
+2021-09-19 02:30:41,743 - INFO - load: budget=2; scheme=(0.25,0.23750000000000002); tilderR=(55) tilderS=(4); result=((125, 46), 1375); rev=17.18749999999998
+2021-09-19 02:30:41,748 - INFO - load: budget=2; scheme=(0.25,0.25); tilderR=(55) tilderS=(5); result=((46, 149), 1386); rev=0.0
+2021-09-19 02:30:41,748 - INFO - load: budget=2; scheme=(0.30000000000000004,0.0); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,748 - INFO - load: budget=2; scheme=(0.30000000000000004,0.015000000000000003); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,748 - INFO - load: budget=2; scheme=(0.30000000000000004,0.030000000000000006); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,749 - INFO - load: budget=2; scheme=(0.30000000000000004,0.04500000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,749 - INFO - load: budget=2; scheme=(0.30000000000000004,0.06000000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,749 - INFO - load: budget=2; scheme=(0.30000000000000004,0.07500000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,749 - INFO - load: budget=2; scheme=(0.30000000000000004,0.09000000000000002); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,750 - INFO - load: budget=2; scheme=(0.30000000000000004,0.10500000000000002); tilderR=(54) tilderS=(1); result=({168}, 608); rev=118.56
+2021-09-19 02:30:41,750 - INFO - load: budget=2; scheme=(0.30000000000000004,0.12000000000000002); tilderR=(54) tilderS=(1); result=({168}, 608); rev=109.44000000000001
+2021-09-19 02:30:41,752 - INFO - load: budget=2; scheme=(0.30000000000000004,0.13500000000000004); tilderR=(54) tilderS=(2); result=({168, 125}, 1055); rev=174.07500000000002
+2021-09-19 02:30:41,754 - INFO - load: budget=2; scheme=(0.30000000000000004,0.15000000000000002); tilderR=(54) tilderS=(2); result=({168, 125}, 1055); rev=158.25000000000003
+2021-09-19 02:30:41,756 - INFO - load: budget=2; scheme=(0.30000000000000004,0.16500000000000004); tilderR=(54) tilderS=(2); result=({168, 125}, 1055); rev=142.425
+2021-09-19 02:30:41,756 - INFO - load: budget=2; scheme=(0.30000000000000004,0.18000000000000005); tilderR=(54) tilderS=(3); result=((125, 46), 1333); rev=159.96
+2021-09-19 02:30:41,757 - INFO - load: budget=2; scheme=(0.30000000000000004,0.19500000000000003); tilderR=(54) tilderS=(3); result=((125, 46), 1333); rev=139.965
+2021-09-19 02:30:41,757 - INFO - load: budget=2; scheme=(0.30000000000000004,0.21000000000000005); tilderR=(54) tilderS=(3); result=((125, 46), 1333); rev=119.97
+2021-09-19 02:30:41,758 - INFO - load: budget=2; scheme=(0.30000000000000004,0.22500000000000003); tilderR=(54) tilderS=(3); result=((125, 46), 1333); rev=99.97500000000001
+2021-09-19 02:30:41,758 - INFO - load: budget=2; scheme=(0.30000000000000004,0.24000000000000005); tilderR=(54) tilderS=(5); result=((46, 149), 1343); rev=80.58
+2021-09-19 02:30:41,758 - INFO - load: budget=2; scheme=(0.30000000000000004,0.25500000000000006); tilderR=(54) tilderS=(5); result=((46, 149), 1343); rev=60.43499999999998
+2021-09-19 02:30:41,760 - INFO - load: budget=2; scheme=(0.30000000000000004,0.2700000000000001); tilderR=(54) tilderS=(6); result=((46, 49), 1403); rev=42.08999999999996
+2021-09-19 02:30:41,762 - INFO - load: budget=2; scheme=(0.30000000000000004,0.2850000000000001); tilderR=(54) tilderS=(6); result=((46, 49), 1403); rev=21.04499999999994
+2021-09-19 02:30:41,763 - INFO - load: budget=2; scheme=(0.30000000000000004,0.30000000000000004); tilderR=(54) tilderS=(8); result=((46, 49), 1403); rev=0.0
+2021-09-19 02:30:41,763 - INFO - load: budget=2; scheme=(0.35000000000000003,0.0); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,763 - INFO - load: budget=2; scheme=(0.35000000000000003,0.0175); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,763 - INFO - load: budget=2; scheme=(0.35000000000000003,0.035); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,764 - INFO - load: budget=2; scheme=(0.35000000000000003,0.05250000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,764 - INFO - load: budget=2; scheme=(0.35000000000000003,0.07); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,764 - INFO - load: budget=2; scheme=(0.35000000000000003,0.08750000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,765 - INFO - load: budget=2; scheme=(0.35000000000000003,0.10500000000000002); tilderR=(54) tilderS=(1); result=({168}, 608); rev=148.96
+2021-09-19 02:30:41,765 - INFO - load: budget=2; scheme=(0.35000000000000003,0.12250000000000003); tilderR=(54) tilderS=(1); result=({168}, 608); rev=138.32
+2021-09-19 02:30:41,767 - INFO - load: budget=2; scheme=(0.35000000000000003,0.14); tilderR=(54) tilderS=(2); result=({168, 125}, 1055); rev=221.55
+2021-09-19 02:30:41,769 - INFO - load: budget=2; scheme=(0.35000000000000003,0.15750000000000003); tilderR=(54) tilderS=(2); result=({168, 125}, 1055); rev=203.0875
+2021-09-19 02:30:41,771 - INFO - load: budget=2; scheme=(0.35000000000000003,0.17500000000000002); tilderR=(54) tilderS=(2); result=({168, 125}, 1055); rev=184.62500000000003
+2021-09-19 02:30:41,771 - INFO - load: budget=2; scheme=(0.35000000000000003,0.19250000000000003); tilderR=(54) tilderS=(3); result=((125, 46), 1333); rev=209.9475
+2021-09-19 02:30:41,771 - INFO - load: budget=2; scheme=(0.35000000000000003,0.21000000000000005); tilderR=(54) tilderS=(3); result=((125, 46), 1333); rev=186.61999999999998
+2021-09-19 02:30:41,772 - INFO - load: budget=2; scheme=(0.35000000000000003,0.22750000000000004); tilderR=(54) tilderS=(3); result=((125, 46), 1333); rev=163.2925
+2021-09-19 02:30:41,772 - INFO - load: budget=2; scheme=(0.35000000000000003,0.24500000000000005); tilderR=(54) tilderS=(5); result=((46, 149), 1343); rev=141.015
+2021-09-19 02:30:41,774 - INFO - load: budget=2; scheme=(0.35000000000000003,0.2625); tilderR=(54) tilderS=(6); result=((46, 49), 1403); rev=122.76250000000003
+2021-09-19 02:30:41,777 - INFO - load: budget=2; scheme=(0.35000000000000003,0.28); tilderR=(54) tilderS=(6); result=((46, 49), 1403); rev=98.21000000000001
+2021-09-19 02:30:41,777 - INFO - load: budget=2; scheme=(0.35000000000000003,0.29750000000000004); tilderR=(54) tilderS=(8); result=((46, 49), 1403); rev=73.65749999999998
+2021-09-19 02:30:41,783 - INFO - load: budget=2; scheme=(0.35000000000000003,0.31500000000000006); tilderR=(54) tilderS=(9); result=((46, 49), 1403); rev=49.10499999999997
+2021-09-19 02:30:41,789 - INFO - load: budget=2; scheme=(0.35000000000000003,0.3325000000000001); tilderR=(54) tilderS=(12); result=((46, 49), 1403); rev=24.552499999999945
+2021-09-19 02:30:41,795 - INFO - load: budget=2; scheme=(0.35000000000000003,0.35000000000000003); tilderR=(54) tilderS=(14); result=((1, 46), 1422); rev=0.0
+2021-09-19 02:30:41,795 - INFO - load: budget=2; scheme=(0.4,0.0); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,796 - INFO - load: budget=2; scheme=(0.4,0.020000000000000004); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,796 - INFO - load: budget=2; scheme=(0.4,0.04000000000000001); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,797 - INFO - load: budget=2; scheme=(0.4,0.06000000000000001); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,797 - INFO - load: budget=2; scheme=(0.4,0.08000000000000002); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,798 - INFO - load: budget=2; scheme=(0.4,0.1); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,800 - INFO - load: budget=2; scheme=(0.4,0.12000000000000002); tilderR=(49) tilderS=(1); result=({168}, 506); rev=141.68
+2021-09-19 02:30:41,800 - INFO - load: budget=2; scheme=(0.4,0.14); tilderR=(49) tilderS=(2); result=({168, 125}, 898); rev=233.48000000000002
+2021-09-19 02:30:41,800 - INFO - load: budget=2; scheme=(0.4,0.16000000000000003); tilderR=(49) tilderS=(2); result=({168, 125}, 898); rev=215.51999999999998
+2021-09-19 02:30:41,802 - INFO - load: budget=2; scheme=(0.4,0.18000000000000002); tilderR=(49) tilderS=(3); result=((125, 46), 1147); rev=252.34
+2021-09-19 02:30:41,804 - INFO - load: budget=2; scheme=(0.4,0.2); tilderR=(49) tilderS=(3); result=((125, 46), 1147); rev=229.4
+2021-09-19 02:30:41,806 - INFO - load: budget=2; scheme=(0.4,0.22000000000000003); tilderR=(49) tilderS=(3); result=((125, 46), 1147); rev=206.45999999999998
+2021-09-19 02:30:41,807 - INFO - load: budget=2; scheme=(0.4,0.24000000000000005); tilderR=(49) tilderS=(5); result=((46, 149), 1151); rev=184.15999999999997
+2021-09-19 02:30:41,809 - INFO - load: budget=2; scheme=(0.4,0.26); tilderR=(49) tilderS=(6); result=((46, 49), 1202); rev=168.28000000000003
+2021-09-19 02:30:41,811 - INFO - load: budget=2; scheme=(0.4,0.28); tilderR=(49) tilderS=(6); result=((46, 49), 1202); rev=144.23999999999998
+2021-09-19 02:30:41,818 - INFO - load: budget=2; scheme=(0.4,0.30000000000000004); tilderR=(49) tilderS=(8); result=((46, 49), 1202); rev=120.19999999999997
+2021-09-19 02:30:41,818 - INFO - load: budget=2; scheme=(0.4,0.32000000000000006); tilderR=(49) tilderS=(10); result=((46, 49), 1202); rev=96.15999999999995
+2021-09-19 02:30:41,824 - INFO - load: budget=2; scheme=(0.4,0.3400000000000001); tilderR=(49) tilderS=(12); result=((46, 49), 1202); rev=72.11999999999993
+2021-09-19 02:30:41,826 - INFO - load: budget=2; scheme=(0.4,0.36000000000000004); tilderR=(49) tilderS=(14); result=((1, 46), 1226); rev=49.03999999999998
+2021-09-19 02:30:41,832 - INFO - load: budget=2; scheme=(0.4,0.38000000000000006); tilderR=(49) tilderS=(18); result=((1, 150), 1420); rev=28.399999999999945
+2021-09-19 02:30:41,833 - INFO - load: budget=2; scheme=(0.4,0.4); tilderR=(49) tilderS=(19); result=((1, 150), 1420); rev=0.0
+2021-09-19 02:30:41,839 - INFO - load: budget=2; scheme=(0.45,0.0); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,845 - INFO - load: budget=2; scheme=(0.45,0.022500000000000003); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,851 - INFO - load: budget=2; scheme=(0.45,0.045000000000000005); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,857 - INFO - load: budget=2; scheme=(0.45,0.06750000000000002); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,864 - INFO - load: budget=2; scheme=(0.45,0.09000000000000001); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:41,869 - INFO - load: budget=2; scheme=(0.45,0.1125); tilderR=(43) tilderS=(1); result=({168}, 384); rev=129.60000000000002
+2021-09-19 02:30:41,876 - INFO - load: budget=2; scheme=(0.45,0.13500000000000004); tilderR=(43) tilderS=(2); result=({168, 125}, 696); rev=219.23999999999995
+2021-09-19 02:30:41,882 - INFO - load: budget=2; scheme=(0.45,0.15750000000000003); tilderR=(43) tilderS=(2); result=({168, 125}, 696); rev=203.57999999999998
+2021-09-19 02:30:41,888 - INFO - load: budget=2; scheme=(0.45,0.18000000000000002); tilderR=(43) tilderS=(3); result=((125, 46), 943); rev=254.61
+2021-09-19 02:30:41,895 - INFO - load: budget=2; scheme=(0.45,0.2025); tilderR=(43) tilderS=(3); result=((125, 46), 943); rev=233.39249999999998
+2021-09-19 02:30:41,901 - INFO - load: budget=2; scheme=(0.45,0.225); tilderR=(43) tilderS=(3); result=((125, 46), 943); rev=212.175
+2021-09-19 02:30:41,908 - INFO - load: budget=2; scheme=(0.45,0.24750000000000003); tilderR=(43) tilderS=(5); result=((46, 149), 950); rev=192.375
+2021-09-19 02:30:41,914 - INFO - load: budget=2; scheme=(0.45,0.2700000000000001); tilderR=(43) tilderS=(6); result=((46, 49), 1021); rev=183.77999999999994
+2021-09-19 02:30:41,931 - INFO - load: budget=2; scheme=(0.45,0.29250000000000004); tilderR=(43) tilderS=(7); result=((46, 49), 1021); rev=160.80749999999998
+2021-09-19 02:30:41,945 - INFO - load: budget=2; scheme=(0.45,0.31500000000000006); tilderR=(43) tilderS=(9); result=((46, 49), 1021); rev=137.83499999999995
+2021-09-19 02:30:41,951 - INFO - load: budget=2; scheme=(0.45,0.3375); tilderR=(43) tilderS=(12); result=((46, 49), 1021); rev=114.86249999999998
+2021-09-19 02:30:41,960 - INFO - load: budget=2; scheme=(0.45,0.36000000000000004); tilderR=(43) tilderS=(14); result=((1, 46), 1040); rev=93.59999999999997
+2021-09-19 02:30:41,971 - INFO - load: budget=2; scheme=(0.45,0.38250000000000006); tilderR=(43) tilderS=(18); result=((1, 150), 1186); rev=80.05499999999994
+2021-09-19 02:30:41,985 - INFO - load: budget=2; scheme=(0.45,0.405); tilderR=(43) tilderS=(21); result=((1, 150), 1186); rev=53.36999999999998
+2021-09-19 02:30:42,000 - INFO - load: budget=2; scheme=(0.45,0.42750000000000005); tilderR=(43) tilderS=(25); result=((1, 150), 1186); rev=26.68499999999996
+2021-09-19 02:30:42,013 - INFO - load: budget=2; scheme=(0.45,0.45); tilderR=(43) tilderS=(27); result=((1, 150), 1186); rev=0.0
+2021-09-19 02:30:42,013 - INFO - load: budget=2; scheme=(0.5,0.0); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,015 - INFO - load: budget=2; scheme=(0.5,0.025); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,016 - INFO - load: budget=2; scheme=(0.5,0.05); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,018 - INFO - load: budget=2; scheme=(0.5,0.07500000000000001); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,019 - INFO - load: budget=2; scheme=(0.5,0.1); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,024 - INFO - load: budget=2; scheme=(0.5,0.125); tilderR=(35) tilderS=(2); result=({168, 125}, 485); rev=181.875
+2021-09-19 02:30:42,026 - INFO - load: budget=2; scheme=(0.5,0.15000000000000002); tilderR=(35) tilderS=(2); result=({168, 125}, 485); rev=169.75
+2021-09-19 02:30:42,028 - INFO - load: budget=2; scheme=(0.5,0.17500000000000002); tilderR=(35) tilderS=(2); result=({168, 125}, 485); rev=157.62499999999997
+2021-09-19 02:30:42,029 - INFO - load: budget=2; scheme=(0.5,0.2); tilderR=(35) tilderS=(3); result=((125, 46), 678); rev=203.4
+2021-09-19 02:30:42,029 - INFO - load: budget=2; scheme=(0.5,0.225); tilderR=(35) tilderS=(3); result=((125, 46), 678); rev=186.45000000000002
+2021-09-19 02:30:42,031 - INFO - load: budget=2; scheme=(0.5,0.25); tilderR=(35) tilderS=(5); result=((46, 149), 705); rev=176.25
+2021-09-19 02:30:42,039 - INFO - load: budget=2; scheme=(0.5,0.275); tilderR=(35) tilderS=(6); result=((46, 49), 753); rev=169.42499999999998
+2021-09-19 02:30:42,039 - INFO - load: budget=2; scheme=(0.5,0.30000000000000004); tilderR=(35) tilderS=(8); result=((46, 49), 753); rev=150.59999999999997
+2021-09-19 02:30:42,046 - INFO - load: budget=2; scheme=(0.5,0.325); tilderR=(35) tilderS=(10); result=((46, 49), 753); rev=131.775
+2021-09-19 02:30:42,048 - INFO - load: budget=2; scheme=(0.5,0.35000000000000003); tilderR=(35) tilderS=(14); result=((1, 46), 788); rev=118.19999999999997
+2021-09-19 02:30:42,055 - INFO - load: budget=2; scheme=(0.5,0.375); tilderR=(35) tilderS=(16); result=((1, 150), 901); rev=112.625
+2021-09-19 02:30:42,057 - INFO - load: budget=2; scheme=(0.5,0.4); tilderR=(35) tilderS=(19); result=((1, 150), 901); rev=90.09999999999998
+2021-09-19 02:30:42,064 - INFO - load: budget=2; scheme=(0.5,0.42500000000000004); tilderR=(35) tilderS=(24); result=((1, 150), 901); rev=67.57499999999996
+2021-09-19 02:30:42,066 - INFO - load: budget=2; scheme=(0.5,0.45); tilderR=(35) tilderS=(27); result=((1, 150), 901); rev=45.04999999999999
+2021-09-19 02:30:42,073 - INFO - load: budget=2; scheme=(0.5,0.47500000000000003); tilderR=(35) tilderS=(29); result=((1, 150), 901); rev=22.52499999999997
+2021-09-19 02:30:42,073 - INFO - load: budget=2; scheme=(0.5,0.5); tilderR=(35) tilderS=(38); result=((1, 150), 901); rev=0.0
+2021-09-19 02:30:42,081 - INFO - load: budget=2; scheme=(0.55,0.0); tilderR=(24) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,088 - INFO - load: budget=2; scheme=(0.55,0.027500000000000004); tilderR=(24) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,095 - INFO - load: budget=2; scheme=(0.55,0.05500000000000001); tilderR=(24) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,102 - INFO - load: budget=2; scheme=(0.55,0.08250000000000002); tilderR=(24) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,109 - INFO - load: budget=2; scheme=(0.55,0.11000000000000001); tilderR=(24) tilderS=(1); result=({168}, 129); rev=56.760000000000005
+2021-09-19 02:30:42,116 - INFO - load: budget=2; scheme=(0.55,0.1375); tilderR=(24) tilderS=(2); result=({168, 125}, 275); rev=113.43750000000001
+2021-09-19 02:30:42,123 - INFO - load: budget=2; scheme=(0.55,0.16500000000000004); tilderR=(24) tilderS=(2); result=({168, 125}, 275); rev=105.875
+2021-09-19 02:30:42,130 - INFO - load: budget=2; scheme=(0.55,0.19250000000000003); tilderR=(24) tilderS=(3); result=((125, 46), 393); rev=140.4975
+2021-09-19 02:30:42,137 - INFO - load: budget=2; scheme=(0.55,0.22000000000000003); tilderR=(24) tilderS=(3); result=((125, 46), 393); rev=129.69
+2021-09-19 02:30:42,144 - INFO - load: budget=2; scheme=(0.55,0.24750000000000003); tilderR=(24) tilderS=(5); result=((46, 149), 400); rev=121.0
+2021-09-19 02:30:42,151 - INFO - load: budget=2; scheme=(0.55,0.275); tilderR=(24) tilderS=(6); result=((46, 49), 430); rev=118.25000000000001
+2021-09-19 02:30:42,159 - INFO - load: budget=2; scheme=(0.55,0.30250000000000005); tilderR=(24) tilderS=(8); result=((46, 49), 430); rev=106.425
+2021-09-19 02:30:42,166 - INFO - load: budget=2; scheme=(0.55,0.33000000000000007); tilderR=(24) tilderS=(11); result=((46, 49), 430); rev=94.6
+2021-09-19 02:30:42,173 - INFO - load: budget=2; scheme=(0.55,0.35750000000000004); tilderR=(24) tilderS=(14); result=((1, 46), 465); rev=89.5125
+2021-09-19 02:30:42,181 - INFO - load: budget=2; scheme=(0.55,0.38500000000000006); tilderR=(24) tilderS=(19); result=((1, 150), 584); rev=96.35999999999999
+2021-09-19 02:30:42,189 - INFO - load: budget=2; scheme=(0.55,0.41250000000000003); tilderR=(24) tilderS=(23); result=((1, 150), 584); rev=80.30000000000001
+2021-09-19 02:30:42,196 - INFO - load: budget=2; scheme=(0.55,0.44000000000000006); tilderR=(24) tilderS=(25); result=((1, 150), 584); rev=64.24
+2021-09-19 02:30:42,204 - INFO - load: budget=2; scheme=(0.55,0.4675000000000001); tilderR=(24) tilderS=(29); result=((1, 150), 584); rev=48.17999999999998
+2021-09-19 02:30:42,211 - INFO - load: budget=2; scheme=(0.55,0.49500000000000005); tilderR=(24) tilderS=(36); result=((1, 150), 584); rev=32.12
+2021-09-19 02:30:42,219 - INFO - load: budget=2; scheme=(0.55,0.5225000000000001); tilderR=(24) tilderS=(38); result=((1, 150), 584); rev=16.05999999999998
+2021-09-19 02:30:42,226 - INFO - load: budget=2; scheme=(0.55,0.55); tilderR=(24) tilderS=(38); result=((1, 150), 584); rev=0.0
+2021-09-19 02:30:42,227 - INFO - load: budget=2; scheme=(0.6000000000000001,0.0); tilderR=(21) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,228 - INFO - load: budget=2; scheme=(0.6000000000000001,0.030000000000000006); tilderR=(21) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,229 - INFO - load: budget=2; scheme=(0.6000000000000001,0.06000000000000001); tilderR=(21) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,229 - INFO - load: budget=2; scheme=(0.6000000000000001,0.09000000000000002); tilderR=(21) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,230 - INFO - load: budget=2; scheme=(0.6000000000000001,0.12000000000000002); tilderR=(21) tilderS=(1); result=({168}, 101); rev=48.48000000000001
+2021-09-19 02:30:42,237 - INFO - load: budget=2; scheme=(0.6000000000000001,0.15000000000000002); tilderR=(21) tilderS=(2); result=({168, 125}, 217); rev=97.65000000000002
+2021-09-19 02:30:42,240 - INFO - load: budget=2; scheme=(0.6000000000000001,0.18000000000000005); tilderR=(21) tilderS=(3); result=((125, 46), 322); rev=135.24
+2021-09-19 02:30:42,243 - INFO - load: budget=2; scheme=(0.6000000000000001,0.21000000000000005); tilderR=(21) tilderS=(3); result=((125, 46), 322); rev=125.58
+2021-09-19 02:30:42,243 - INFO - load: budget=2; scheme=(0.6000000000000001,0.24000000000000005); tilderR=(21) tilderS=(5); result=((46, 149), 328); rev=118.08000000000001
+2021-09-19 02:30:42,251 - INFO - load: budget=2; scheme=(0.6000000000000001,0.2700000000000001); tilderR=(21) tilderS=(6); result=((46, 49), 361); rev=119.13000000000001
+2021-09-19 02:30:42,253 - INFO - load: budget=2; scheme=(0.6000000000000001,0.30000000000000004); tilderR=(21) tilderS=(8); result=((46, 49), 361); rev=108.30000000000001
+2021-09-19 02:30:42,260 - INFO - load: budget=2; scheme=(0.6000000000000001,0.33000000000000007); tilderR=(21) tilderS=(11); result=((46, 49), 361); rev=97.47000000000001
+2021-09-19 02:30:42,261 - INFO - load: budget=2; scheme=(0.6000000000000001,0.3600000000000001); tilderR=(21) tilderS=(14); result=((1, 46), 396); rev=95.03999999999999
+2021-09-19 02:30:42,269 - INFO - load: budget=2; scheme=(0.6000000000000001,0.39000000000000007); tilderR=(21) tilderS=(19); result=((1, 150), 498); rev=104.58000000000001
+2021-09-19 02:30:42,271 - INFO - load: budget=2; scheme=(0.6000000000000001,0.4200000000000001); tilderR=(21) tilderS=(24); result=((1, 150), 498); rev=89.64
+2021-09-19 02:30:42,279 - INFO - load: budget=2; scheme=(0.6000000000000001,0.45000000000000007); tilderR=(21) tilderS=(27); result=((1, 150), 498); rev=74.70000000000002
+2021-09-19 02:30:42,280 - INFO - load: budget=2; scheme=(0.6000000000000001,0.4800000000000001); tilderR=(21) tilderS=(32); result=((1, 150), 498); rev=59.76
+2021-09-19 02:30:42,282 - INFO - load: budget=2; scheme=(0.6000000000000001,0.5100000000000001); tilderR=(21) tilderS=(38); result=((1, 150), 498); rev=44.819999999999986
+2021-09-19 02:30:42,285 - INFO - load: budget=2; scheme=(0.6000000000000001,0.5400000000000001); tilderR=(21) tilderS=(38); result=((1, 150), 498); rev=29.87999999999997
+2021-09-19 02:30:42,292 - INFO - load: budget=2; scheme=(0.6000000000000001,0.5700000000000002); tilderR=(21) tilderS=(40); result=((1, 150), 498); rev=14.939999999999959
+2021-09-19 02:30:42,293 - INFO - load: budget=2; scheme=(0.6000000000000001,0.6000000000000001); tilderR=(21) tilderS=(46); result=((1, 150), 498); rev=0.0
+2021-09-19 02:30:42,301 - INFO - load: budget=2; scheme=(0.65,0.0); tilderR=(10) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,309 - INFO - load: budget=2; scheme=(0.65,0.0325); tilderR=(10) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,317 - INFO - load: budget=2; scheme=(0.65,0.065); tilderR=(10) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,324 - INFO - load: budget=2; scheme=(0.65,0.09750000000000002); tilderR=(10) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,332 - INFO - load: budget=2; scheme=(0.65,0.13); tilderR=(10) tilderS=(2); result=({168, 125}, 51); rev=26.52
+2021-09-19 02:30:42,340 - INFO - load: budget=2; scheme=(0.65,0.1625); tilderR=(10) tilderS=(2); result=({168, 125}, 51); rev=24.8625
+2021-09-19 02:30:42,348 - INFO - load: budget=2; scheme=(0.65,0.19500000000000003); tilderR=(10) tilderS=(3); result=((125, 46), 101); rev=45.955
+2021-09-19 02:30:42,355 - INFO - load: budget=2; scheme=(0.65,0.22750000000000004); tilderR=(10) tilderS=(3); result=((125, 46), 101); rev=42.6725
+2021-09-19 02:30:42,364 - INFO - load: budget=2; scheme=(0.65,0.26); tilderR=(10) tilderS=(6); result=((46, 49), 145); rev=56.550000000000004
+2021-09-19 02:30:42,372 - INFO - load: budget=2; scheme=(0.65,0.29250000000000004); tilderR=(10) tilderS=(7); result=((46, 49), 145); rev=51.8375
+2021-09-19 02:30:42,380 - INFO - load: budget=2; scheme=(0.65,0.325); tilderR=(10) tilderS=(10); result=((46, 49), 145); rev=47.125
+2021-09-19 02:30:42,388 - INFO - load: budget=2; scheme=(0.65,0.35750000000000004); tilderR=(10) tilderS=(14); result=((1, 49), 178); rev=52.065
+2021-09-19 02:30:42,396 - INFO - load: budget=2; scheme=(0.65,0.39000000000000007); tilderR=(10) tilderS=(19); result=((1, 150), 207); rev=53.81999999999999
+2021-09-19 02:30:42,404 - INFO - load: budget=2; scheme=(0.65,0.42250000000000004); tilderR=(10) tilderS=(24); result=((1, 150), 207); rev=47.092499999999994
+2021-09-19 02:30:42,412 - INFO - load: budget=2; scheme=(0.65,0.45500000000000007); tilderR=(10) tilderS=(28); result=((1, 150), 207); rev=40.36499999999999
+2021-09-19 02:30:42,420 - INFO - load: budget=2; scheme=(0.65,0.48750000000000004); tilderR=(10) tilderS=(33); result=((1, 150), 207); rev=33.637499999999996
+2021-09-19 02:30:42,429 - INFO - load: budget=2; scheme=(0.65,0.52); tilderR=(10) tilderS=(38); result=((1, 150), 207); rev=26.91
+2021-09-19 02:30:42,437 - INFO - load: budget=2; scheme=(0.65,0.5525000000000001); tilderR=(10) tilderS=(38); result=((1, 150), 207); rev=20.182499999999983
+2021-09-19 02:30:42,445 - INFO - load: budget=2; scheme=(0.65,0.5850000000000001); tilderR=(10) tilderS=(42); result=((1, 150), 207); rev=13.45499999999999
+2021-09-19 02:30:42,453 - INFO - load: budget=2; scheme=(0.65,0.6175); tilderR=(10) tilderS=(46); result=((1, 150), 207); rev=6.727499999999995
+2021-09-19 02:30:42,462 - INFO - load: budget=2; scheme=(0.65,0.65); tilderR=(10) tilderS=(48); result=((1, 150), 207); rev=0.0
+2021-09-19 02:30:42,463 - INFO - load: budget=2; scheme=(0.7000000000000001,0.0); tilderR=(8) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,463 - INFO - load: budget=2; scheme=(0.7000000000000001,0.035); tilderR=(8) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,464 - INFO - load: budget=2; scheme=(0.7000000000000001,0.07); tilderR=(8) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,472 - INFO - load: budget=2; scheme=(0.7000000000000001,0.10500000000000002); tilderR=(8) tilderS=(1); result=({168}, 12); rev=7.140000000000001
+2021-09-19 02:30:42,473 - INFO - load: budget=2; scheme=(0.7000000000000001,0.14); tilderR=(8) tilderS=(2); result=({168, 125}, 31); rev=17.360000000000003
+2021-09-19 02:30:42,474 - INFO - load: budget=2; scheme=(0.7000000000000001,0.17500000000000002); tilderR=(8) tilderS=(2); result=({168, 125}, 31); rev=16.275000000000002
+2021-09-19 02:30:42,477 - INFO - load: budget=2; scheme=(0.7000000000000001,0.21000000000000005); tilderR=(8) tilderS=(3); result=((125, 46), 66); rev=32.339999999999996
+2021-09-19 02:30:42,486 - INFO - load: budget=2; scheme=(0.7000000000000001,0.24500000000000005); tilderR=(8) tilderS=(5); result=((46, 23), 83); rev=37.765
+2021-09-19 02:30:42,487 - INFO - load: budget=2; scheme=(0.7000000000000001,0.28); tilderR=(8) tilderS=(6); result=((46, 49), 104); rev=43.68000000000001
+2021-09-19 02:30:42,495 - INFO - load: budget=2; scheme=(0.7000000000000001,0.31500000000000006); tilderR=(8) tilderS=(9); result=((46, 49), 104); rev=40.04
+2021-09-19 02:30:42,498 - INFO - load: budget=2; scheme=(0.7000000000000001,0.35000000000000003); tilderR=(8) tilderS=(14); result=((1, 49), 137); rev=47.95
+2021-09-19 02:30:42,506 - INFO - load: budget=2; scheme=(0.7000000000000001,0.38500000000000006); tilderR=(8) tilderS=(19); result=((1, 150), 159); rev=50.085
+2021-09-19 02:30:42,507 - INFO - load: budget=2; scheme=(0.7000000000000001,0.4200000000000001); tilderR=(8) tilderS=(24); result=((1, 150), 159); rev=44.519999999999996
+2021-09-19 02:30:42,516 - INFO - load: budget=2; scheme=(0.7000000000000001,0.45500000000000007); tilderR=(8) tilderS=(28); result=((1, 150), 159); rev=38.955
+2021-09-19 02:30:42,518 - INFO - load: budget=2; scheme=(0.7000000000000001,0.4900000000000001); tilderR=(8) tilderS=(36); result=((1, 150), 159); rev=33.38999999999999
+2021-09-19 02:30:42,528 - INFO - load: budget=2; scheme=(0.7000000000000001,0.525); tilderR=(8) tilderS=(38); result=((1, 150), 159); rev=27.825000000000006
+2021-09-19 02:30:42,530 - INFO - load: budget=2; scheme=(0.7000000000000001,0.56); tilderR=(8) tilderS=(39); result=((1, 150), 159); rev=22.26
+2021-09-19 02:30:42,549 - INFO - load: budget=2; scheme=(0.7000000000000001,0.5950000000000001); tilderR=(8) tilderS=(45); result=((1, 150), 159); rev=16.694999999999997
+2021-09-19 02:30:42,554 - INFO - load: budget=2; scheme=(0.7000000000000001,0.6300000000000001); tilderR=(8) tilderS=(48); result=((1, 150), 159); rev=11.129999999999992
+2021-09-19 02:30:42,564 - INFO - load: budget=2; scheme=(0.7000000000000001,0.6650000000000001); tilderR=(8) tilderS=(49); result=((1, 150), 159); rev=5.564999999999987
+2021-09-19 02:30:42,565 - INFO - load: budget=2; scheme=(0.7000000000000001,0.7000000000000001); tilderR=(8) tilderS=(53); result=((1, 150), 159); rev=0.0
+2021-09-19 02:30:42,574 - INFO - load: budget=2; scheme=(0.75,0.0); tilderR=(7) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,585 - INFO - load: budget=2; scheme=(0.75,0.037500000000000006); tilderR=(7) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,593 - INFO - load: budget=2; scheme=(0.75,0.07500000000000001); tilderR=(7) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,603 - INFO - load: budget=2; scheme=(0.75,0.11250000000000002); tilderR=(7) tilderS=(1); result=({168}, 7); rev=4.4624999999999995
+2021-09-19 02:30:42,613 - INFO - load: budget=2; scheme=(0.75,0.15000000000000002); tilderR=(7) tilderS=(2); result=({168, 125}, 24); rev=14.399999999999999
+2021-09-19 02:30:42,624 - INFO - load: budget=2; scheme=(0.75,0.1875); tilderR=(7) tilderS=(3); result=((125, 46), 57); rev=32.0625
+2021-09-19 02:30:42,633 - INFO - load: budget=2; scheme=(0.75,0.22500000000000003); tilderR=(7) tilderS=(3); result=((125, 46), 57); rev=29.924999999999994
+2021-09-19 02:30:42,644 - INFO - load: budget=2; scheme=(0.75,0.2625); tilderR=(7) tilderS=(6); result=((46, 49), 90); rev=43.875
+2021-09-19 02:30:42,652 - INFO - load: budget=2; scheme=(0.75,0.30000000000000004); tilderR=(7) tilderS=(8); result=((47, 49), 92); rev=41.4
+2021-09-19 02:30:42,661 - INFO - load: budget=2; scheme=(0.75,0.3375); tilderR=(7) tilderS=(12); result=((47, 49), 92); rev=37.949999999999996
+2021-09-19 02:30:42,670 - INFO - load: budget=2; scheme=(0.75,0.375); tilderR=(7) tilderS=(16); result=((1, 150), 145); rev=54.375
+2021-09-19 02:30:42,679 - INFO - load: budget=2; scheme=(0.75,0.41250000000000003); tilderR=(7) tilderS=(23); result=((1, 150), 145); rev=48.93749999999999
+2021-09-19 02:30:42,688 - INFO - load: budget=2; scheme=(0.75,0.45000000000000007); tilderR=(7) tilderS=(27); result=((1, 150), 145); rev=43.49999999999999
+2021-09-19 02:30:42,696 - INFO - load: budget=2; scheme=(0.75,0.48750000000000004); tilderR=(7) tilderS=(33); result=((1, 150), 145); rev=38.06249999999999
+2021-09-19 02:30:42,706 - INFO - load: budget=2; scheme=(0.75,0.525); tilderR=(7) tilderS=(38); result=((1, 150), 145); rev=32.625
+2021-09-19 02:30:42,715 - INFO - load: budget=2; scheme=(0.75,0.5625); tilderR=(7) tilderS=(39); result=((1, 150), 145); rev=27.1875
+2021-09-19 02:30:42,724 - INFO - load: budget=2; scheme=(0.75,0.6000000000000001); tilderR=(7) tilderS=(46); result=((1, 150), 145); rev=21.749999999999986
+2021-09-19 02:30:42,734 - INFO - load: budget=2; scheme=(0.75,0.6375000000000001); tilderR=(7) tilderS=(48); result=((1, 150), 145); rev=16.31249999999999
+2021-09-19 02:30:42,743 - INFO - load: budget=2; scheme=(0.75,0.675); tilderR=(7) tilderS=(50); result=((1, 150), 145); rev=10.874999999999993
+2021-09-19 02:30:42,752 - INFO - load: budget=2; scheme=(0.75,0.7125); tilderR=(7) tilderS=(53); result=((1, 150), 145); rev=5.4374999999999964
+2021-09-19 02:30:42,761 - INFO - load: budget=2; scheme=(0.75,0.75); tilderR=(7) tilderS=(54); result=((1, 150), 145); rev=0.0
+2021-09-19 02:30:42,762 - INFO - load: budget=2; scheme=(0.8,0.0); tilderR=(3) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,763 - INFO - load: budget=2; scheme=(0.8,0.04000000000000001); tilderR=(3) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,764 - INFO - load: budget=2; scheme=(0.8,0.08000000000000002); tilderR=(3) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,773 - INFO - load: budget=2; scheme=(0.8,0.12000000000000002); tilderR=(3) tilderS=(1); result=({168}, 2); rev=1.36
+2021-09-19 02:30:42,775 - INFO - load: budget=2; scheme=(0.8,0.16000000000000003); tilderR=(3) tilderS=(2); result=({168, 125}, 12); rev=7.68
+2021-09-19 02:30:42,784 - INFO - load: budget=2; scheme=(0.8,0.2); tilderR=(3) tilderS=(3); result=((125, 46), 26); rev=15.600000000000001
+2021-09-19 02:30:42,786 - INFO - load: budget=2; scheme=(0.8,0.24000000000000005); tilderR=(3) tilderS=(5); result=((46, 149), 29); rev=16.240000000000002
+2021-09-19 02:30:42,796 - INFO - load: budget=2; scheme=(0.8,0.28); tilderR=(3) tilderS=(6); result=((46, 149), 29); rev=15.08
+2021-09-19 02:30:42,797 - INFO - load: budget=2; scheme=(0.8,0.32000000000000006); tilderR=(3) tilderS=(10); result=((46, 62), 33); rev=15.84
+2021-09-19 02:30:42,806 - INFO - load: budget=2; scheme=(0.8,0.36000000000000004); tilderR=(3) tilderS=(14); result=((46, 62), 33); rev=14.52
+2021-09-19 02:30:42,808 - INFO - load: budget=2; scheme=(0.8,0.4); tilderR=(3) tilderS=(19); result=((65, 150), 50); rev=20.0
+2021-09-19 02:30:42,818 - INFO - load: budget=2; scheme=(0.8,0.44000000000000006); tilderR=(3) tilderS=(25); result=((150, 65), 50); rev=18.0
+2021-09-19 02:30:42,819 - INFO - load: budget=2; scheme=(0.8,0.4800000000000001); tilderR=(3) tilderS=(32); result=((150, 65), 50); rev=15.999999999999998
+2021-09-19 02:30:42,827 - INFO - load: budget=2; scheme=(0.8,0.52); tilderR=(3) tilderS=(38); result=((150, 205), 53); rev=14.840000000000002
+2021-09-19 02:30:42,830 - INFO - load: budget=2; scheme=(0.8,0.56); tilderR=(3) tilderS=(39); result=((150, 205), 53); rev=12.719999999999999
+2021-09-19 02:30:42,840 - INFO - load: budget=2; scheme=(0.8,0.6000000000000001); tilderR=(3) tilderS=(46); result=((150, 205), 53); rev=10.599999999999998
+2021-09-19 02:30:42,842 - INFO - load: budget=2; scheme=(0.8,0.6400000000000001); tilderR=(3) tilderS=(48); result=((150, 109), 55); rev=8.799999999999995
+2021-09-19 02:30:42,851 - INFO - load: budget=2; scheme=(0.8,0.6800000000000002); tilderR=(3) tilderS=(52); result=((150, 109), 55); rev=6.599999999999993
+2021-09-19 02:30:42,853 - INFO - load: budget=2; scheme=(0.8,0.7200000000000001); tilderR=(3) tilderS=(53); result=((150, 109), 55); rev=4.399999999999998
+2021-09-19 02:30:42,854 - INFO - load: budget=2; scheme=(0.8,0.7600000000000001); tilderR=(3) tilderS=(54); result=((150, 109), 55); rev=2.1999999999999957
+2021-09-19 02:30:42,856 - INFO - load: budget=2; scheme=(0.8,0.8); tilderR=(3) tilderS=(54); result=((150, 109), 55); rev=0.0
+2021-09-19 02:30:42,865 - INFO - load: budget=2; scheme=(0.8500000000000001,0.0); tilderR=(1) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,874 - INFO - load: budget=2; scheme=(0.8500000000000001,0.04250000000000001); tilderR=(1) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,883 - INFO - load: budget=2; scheme=(0.8500000000000001,0.08500000000000002); tilderR=(1) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:42,892 - INFO - load: budget=2; scheme=(0.8500000000000001,0.12750000000000003); tilderR=(1) tilderS=(2); result=({168, 125}, 3); rev=2.1675
+2021-09-19 02:30:42,902 - INFO - load: budget=2; scheme=(0.8500000000000001,0.17000000000000004); tilderR=(1) tilderS=(2); result=({168, 125}, 3); rev=2.04
+2021-09-19 02:30:42,911 - INFO - load: budget=2; scheme=(0.8500000000000001,0.21250000000000002); tilderR=(1) tilderS=(3); result=((168, 125), 3); rev=1.9125
+2021-09-19 02:30:42,920 - INFO - load: budget=2; scheme=(0.8500000000000001,0.25500000000000006); tilderR=(1) tilderS=(5); result=((149, 125), 4); rev=2.38
+2021-09-19 02:30:42,929 - INFO - load: budget=2; scheme=(0.8500000000000001,0.29750000000000004); tilderR=(1) tilderS=(8); result=((47, 49), 9); rev=4.9725
+2021-09-19 02:30:42,939 - INFO - load: budget=2; scheme=(0.8500000000000001,0.3400000000000001); tilderR=(1) tilderS=(12); result=((132, 62), 10); rev=5.1
+2021-09-19 02:30:42,949 - INFO - load: budget=2; scheme=(0.8500000000000001,0.38250000000000006); tilderR=(1) tilderS=(18); result=((1, 65), 17); rev=7.947500000000001
+2021-09-19 02:30:42,960 - INFO - load: budget=2; scheme=(0.8500000000000001,0.42500000000000004); tilderR=(1) tilderS=(24); result=((1, 65), 17); rev=7.2250000000000005
+2021-09-19 02:30:42,971 - INFO - load: budget=2; scheme=(0.8500000000000001,0.4675000000000001); tilderR=(1) tilderS=(29); result=((1, 65), 17); rev=6.5025
+2021-09-19 02:30:42,981 - INFO - load: budget=2; scheme=(0.8500000000000001,0.5100000000000001); tilderR=(1) tilderS=(38); result=((1, 205), 21); rev=7.14
+2021-09-19 02:30:42,990 - INFO - load: budget=2; scheme=(0.8500000000000001,0.5525000000000001); tilderR=(1) tilderS=(38); result=((1, 205), 21); rev=6.2475
+2021-09-19 02:30:43,000 - INFO - load: budget=2; scheme=(0.8500000000000001,0.5950000000000001); tilderR=(1) tilderS=(45); result=((1, 205), 21); rev=5.355
+2021-09-19 02:30:43,010 - INFO - load: budget=2; scheme=(0.8500000000000001,0.6375000000000001); tilderR=(1) tilderS=(48); result=((1, 109), 22); rev=4.675000000000001
+2021-09-19 02:30:43,021 - INFO - load: budget=2; scheme=(0.8500000000000001,0.6800000000000002); tilderR=(1) tilderS=(52); result=((1, 109), 22); rev=3.7399999999999984
+2021-09-19 02:30:43,030 - INFO - load: budget=2; scheme=(0.8500000000000001,0.7225000000000001); tilderR=(1) tilderS=(53); result=((1, 109), 22); rev=2.804999999999999
+2021-09-19 02:30:43,040 - INFO - load: budget=2; scheme=(0.8500000000000001,0.7650000000000001); tilderR=(1) tilderS=(54); result=((1, 109), 22); rev=1.8699999999999992
+2021-09-19 02:30:43,050 - INFO - load: budget=2; scheme=(0.8500000000000001,0.8075000000000001); tilderR=(1) tilderS=(54); result=((1, 109), 22); rev=0.9349999999999996
+2021-09-19 02:30:43,060 - INFO - load: budget=2; scheme=(0.8500000000000001,0.8500000000000001); tilderR=(1) tilderS=(54); result=((1, 109), 22); rev=0.0
+2021-09-19 02:30:43,061 - INFO - load: budget=2; scheme=(0.9,0.0); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,062 - INFO - load: budget=2; scheme=(0.9,0.045000000000000005); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,063 - INFO - load: budget=2; scheme=(0.9,0.09000000000000001); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,073 - INFO - load: budget=2; scheme=(0.9,0.13500000000000004); tilderR=(0) tilderS=(2); result=({168, 125}, 0); rev=0.0
+2021-09-19 02:30:43,074 - INFO - load: budget=2; scheme=(0.9,0.18000000000000002); tilderR=(0) tilderS=(3); result=((168, 125), 0); rev=0.0
+2021-09-19 02:30:43,075 - INFO - load: budget=2; scheme=(0.9,0.225); tilderR=(0) tilderS=(3); result=((168, 125), 0); rev=0.0
+2021-09-19 02:30:43,079 - INFO - load: budget=2; scheme=(0.9,0.2700000000000001); tilderR=(0) tilderS=(6); result=((168, 149), 0); rev=0.0
+2021-09-19 02:30:43,088 - INFO - load: budget=2; scheme=(0.9,0.31500000000000006); tilderR=(0) tilderS=(9); result=((168, 149), 0); rev=0.0
+2021-09-19 02:30:43,089 - INFO - load: budget=2; scheme=(0.9,0.36000000000000004); tilderR=(0) tilderS=(14); result=((169, 149), 0); rev=0.0
+2021-09-19 02:30:43,099 - INFO - load: budget=2; scheme=(0.9,0.405); tilderR=(0) tilderS=(21); result=((189, 125), 0); rev=0.0
+2021-09-19 02:30:43,102 - INFO - load: budget=2; scheme=(0.9,0.45); tilderR=(0) tilderS=(27); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,112 - INFO - load: budget=2; scheme=(0.9,0.49500000000000005); tilderR=(0) tilderS=(36); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,113 - INFO - load: budget=2; scheme=(0.9,0.5400000000000001); tilderR=(0) tilderS=(38); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,123 - INFO - load: budget=2; scheme=(0.9,0.5850000000000001); tilderR=(0) tilderS=(42); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,126 - INFO - load: budget=2; scheme=(0.9,0.6300000000000001); tilderR=(0) tilderS=(48); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,136 - INFO - load: budget=2; scheme=(0.9,0.675); tilderR=(0) tilderS=(50); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,137 - INFO - load: budget=2; scheme=(0.9,0.7200000000000001); tilderR=(0) tilderS=(53); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,138 - INFO - load: budget=2; scheme=(0.9,0.7650000000000001); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,140 - INFO - load: budget=2; scheme=(0.9,0.81); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,141 - INFO - load: budget=2; scheme=(0.9,0.8550000000000001); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,142 - INFO - load: budget=2; scheme=(0.9,0.9); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,144 - INFO - load: budget=2; scheme=(0.9500000000000001,0.0); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,145 - INFO - load: budget=2; scheme=(0.9500000000000001,0.04750000000000001); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,146 - INFO - load: budget=2; scheme=(0.9500000000000001,0.09500000000000001); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,155 - INFO - load: budget=2; scheme=(0.9500000000000001,0.14250000000000004); tilderR=(0) tilderS=(2); result=({168, 125}, 0); rev=0.0
+2021-09-19 02:30:43,157 - INFO - load: budget=2; scheme=(0.9500000000000001,0.19000000000000003); tilderR=(0) tilderS=(3); result=((168, 125), 0); rev=0.0
+2021-09-19 02:30:43,167 - INFO - load: budget=2; scheme=(0.9500000000000001,0.23750000000000002); tilderR=(0) tilderS=(4); result=((168, 125), 0); rev=0.0
+2021-09-19 02:30:43,170 - INFO - load: budget=2; scheme=(0.9500000000000001,0.2850000000000001); tilderR=(0) tilderS=(6); result=((168, 149), 0); rev=0.0
+2021-09-19 02:30:43,181 - INFO - load: budget=2; scheme=(0.9500000000000001,0.3325000000000001); tilderR=(0) tilderS=(12); result=((168, 149), 0); rev=0.0
+2021-09-19 02:30:43,191 - INFO - load: budget=2; scheme=(0.9500000000000001,0.38000000000000006); tilderR=(0) tilderS=(18); result=((169, 156), 0); rev=0.0
+2021-09-19 02:30:43,201 - INFO - load: budget=2; scheme=(0.9500000000000001,0.42750000000000005); tilderR=(0) tilderS=(25); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,211 - INFO - load: budget=2; scheme=(0.9500000000000001,0.47500000000000003); tilderR=(0) tilderS=(29); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,212 - INFO - load: budget=2; scheme=(0.9500000000000001,0.5225000000000001); tilderR=(0) tilderS=(38); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,223 - INFO - load: budget=2; scheme=(0.9500000000000001,0.5700000000000002); tilderR=(0) tilderS=(40); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,224 - INFO - load: budget=2; scheme=(0.9500000000000001,0.6175); tilderR=(0) tilderS=(46); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,234 - INFO - load: budget=2; scheme=(0.9500000000000001,0.6650000000000001); tilderR=(0) tilderS=(49); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,235 - INFO - load: budget=2; scheme=(0.9500000000000001,0.7125); tilderR=(0) tilderS=(53); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,237 - INFO - load: budget=2; scheme=(0.9500000000000001,0.7600000000000001); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,238 - INFO - load: budget=2; scheme=(0.9500000000000001,0.8075000000000001); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,240 - INFO - load: budget=2; scheme=(0.9500000000000001,0.8550000000000001); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,241 - INFO - load: budget=2; scheme=(0.9500000000000001,0.9025000000000001); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,243 - INFO - load: budget=2; scheme=(0.9500000000000001,0.9500000000000001); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,244 - INFO - load: budget=2; scheme=(1.0,0.0); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,245 - INFO - load: budget=2; scheme=(1.0,0.05); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,246 - INFO - load: budget=2; scheme=(1.0,0.1); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,256 - INFO - load: budget=2; scheme=(1.0,0.15000000000000002); tilderR=(0) tilderS=(2); result=({168, 125}, 0); rev=0.0
+2021-09-19 02:30:43,258 - INFO - load: budget=2; scheme=(1.0,0.2); tilderR=(0) tilderS=(3); result=((168, 125), 0); rev=0.0
+2021-09-19 02:30:43,268 - INFO - load: budget=2; scheme=(1.0,0.25); tilderR=(0) tilderS=(5); result=((168, 149), 0); rev=0.0
+2021-09-19 02:30:43,271 - INFO - load: budget=2; scheme=(1.0,0.30000000000000004); tilderR=(0) tilderS=(8); result=((168, 149), 0); rev=0.0
+2021-09-19 02:30:43,272 - INFO - load: budget=2; scheme=(1.0,0.35000000000000003); tilderR=(0) tilderS=(14); result=((169, 149), 0); rev=0.0
+2021-09-19 02:30:43,273 - INFO - load: budget=2; scheme=(1.0,0.4); tilderR=(0) tilderS=(19); result=((169, 156), 0); rev=0.0
+2021-09-19 02:30:43,276 - INFO - load: budget=2; scheme=(1.0,0.45); tilderR=(0) tilderS=(27); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,278 - INFO - load: budget=2; scheme=(1.0,0.5); tilderR=(0) tilderS=(38); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,279 - INFO - load: budget=2; scheme=(1.0,0.55); tilderR=(0) tilderS=(38); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,280 - INFO - load: budget=2; scheme=(1.0,0.6000000000000001); tilderR=(0) tilderS=(46); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,283 - INFO - load: budget=2; scheme=(1.0,0.65); tilderR=(0) tilderS=(48); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,284 - INFO - load: budget=2; scheme=(1.0,0.7000000000000001); tilderR=(0) tilderS=(53); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,285 - INFO - load: budget=2; scheme=(1.0,0.75); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,287 - INFO - load: budget=2; scheme=(1.0,0.8); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,288 - INFO - load: budget=2; scheme=(1.0,0.8500000000000001); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,289 - INFO - load: budget=2; scheme=(1.0,0.9); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,290 - INFO - load: budget=2; scheme=(1.0,0.9500000000000001); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,292 - INFO - load: budget=2; scheme=(1.0,1.0); tilderR=(0) tilderS=(54); result=((214, 125), 0); rev=0.0
+2021-09-19 02:30:43,292 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,292 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,292 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,292 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,292 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,292 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,293 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,293 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,293 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,293 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,293 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,293 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,294 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,294 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,294 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,294 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,294 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,294 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,295 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,295 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,295 - INFO - load: budget=3; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,295 - INFO - load: budget=3; scheme=(0.05,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,295 - INFO - load: budget=3; scheme=(0.05,0.0025000000000000005); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,295 - INFO - load: budget=3; scheme=(0.05,0.005000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,295 - INFO - load: budget=3; scheme=(0.05,0.0075000000000000015); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,295 - INFO - load: budget=3; scheme=(0.05,0.010000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,296 - INFO - load: budget=3; scheme=(0.05,0.0125); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,296 - INFO - load: budget=3; scheme=(0.05,0.015000000000000003); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,296 - INFO - load: budget=3; scheme=(0.05,0.0175); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,296 - INFO - load: budget=3; scheme=(0.05,0.020000000000000004); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,296 - INFO - load: budget=3; scheme=(0.05,0.022500000000000003); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,296 - INFO - load: budget=3; scheme=(0.05,0.025); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,296 - INFO - load: budget=3; scheme=(0.05,0.027500000000000004); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,297 - INFO - load: budget=3; scheme=(0.05,0.030000000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,297 - INFO - load: budget=3; scheme=(0.05,0.0325); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,297 - INFO - load: budget=3; scheme=(0.05,0.035); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,297 - INFO - load: budget=3; scheme=(0.05,0.037500000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,297 - INFO - load: budget=3; scheme=(0.05,0.04000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,297 - INFO - load: budget=3; scheme=(0.05,0.04250000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,298 - INFO - load: budget=3; scheme=(0.05,0.045000000000000005); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,298 - INFO - load: budget=3; scheme=(0.05,0.04750000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,298 - INFO - load: budget=3; scheme=(0.05,0.05); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,298 - INFO - load: budget=3; scheme=(0.1,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,298 - INFO - load: budget=3; scheme=(0.1,0.005000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,298 - INFO - load: budget=3; scheme=(0.1,0.010000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,298 - INFO - load: budget=3; scheme=(0.1,0.015000000000000003); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,299 - INFO - load: budget=3; scheme=(0.1,0.020000000000000004); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,299 - INFO - load: budget=3; scheme=(0.1,0.025); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,299 - INFO - load: budget=3; scheme=(0.1,0.030000000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,299 - INFO - load: budget=3; scheme=(0.1,0.035); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,299 - INFO - load: budget=3; scheme=(0.1,0.04000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,299 - INFO - load: budget=3; scheme=(0.1,0.045000000000000005); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,299 - INFO - load: budget=3; scheme=(0.1,0.05); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,300 - INFO - load: budget=3; scheme=(0.1,0.05500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,300 - INFO - load: budget=3; scheme=(0.1,0.06000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,300 - INFO - load: budget=3; scheme=(0.1,0.065); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,300 - INFO - load: budget=3; scheme=(0.1,0.07); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,300 - INFO - load: budget=3; scheme=(0.1,0.07500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,300 - INFO - load: budget=3; scheme=(0.1,0.08000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,300 - INFO - load: budget=3; scheme=(0.1,0.08500000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,301 - INFO - load: budget=3; scheme=(0.1,0.09000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,301 - INFO - load: budget=3; scheme=(0.1,0.09500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,301 - INFO - load: budget=3; scheme=(0.1,0.1); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,301 - INFO - load: budget=3; scheme=(0.15000000000000002,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,301 - INFO - load: budget=3; scheme=(0.15000000000000002,0.0075000000000000015); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,303 - INFO - load: budget=3; scheme=(0.15000000000000002,0.015000000000000003); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,303 - INFO - load: budget=3; scheme=(0.15000000000000002,0.022500000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,303 - INFO - load: budget=3; scheme=(0.15000000000000002,0.030000000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,303 - INFO - load: budget=3; scheme=(0.15000000000000002,0.037500000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,304 - INFO - load: budget=3; scheme=(0.15000000000000002,0.04500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,304 - INFO - load: budget=3; scheme=(0.15000000000000002,0.05250000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,304 - INFO - load: budget=3; scheme=(0.15000000000000002,0.06000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,304 - INFO - load: budget=3; scheme=(0.15000000000000002,0.06750000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,304 - INFO - load: budget=3; scheme=(0.15000000000000002,0.07500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,304 - INFO - load: budget=3; scheme=(0.15000000000000002,0.08250000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,304 - INFO - load: budget=3; scheme=(0.15000000000000002,0.09000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,305 - INFO - load: budget=3; scheme=(0.15000000000000002,0.09750000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,305 - INFO - load: budget=3; scheme=(0.15000000000000002,0.10500000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=28.395
+2021-09-19 02:30:43,305 - INFO - load: budget=3; scheme=(0.15000000000000002,0.11250000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=23.662500000000005
+2021-09-19 02:30:43,306 - INFO - load: budget=3; scheme=(0.15000000000000002,0.12000000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=18.93
+2021-09-19 02:30:43,306 - INFO - load: budget=3; scheme=(0.15000000000000002,0.12750000000000003); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=24.59249999999999
+2021-09-19 02:30:43,306 - INFO - load: budget=3; scheme=(0.15000000000000002,0.13500000000000004); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=16.394999999999985
+2021-09-19 02:30:43,307 - INFO - load: budget=3; scheme=(0.15000000000000002,0.14250000000000004); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=8.197499999999977
+2021-09-19 02:30:43,307 - INFO - load: budget=3; scheme=(0.15000000000000002,0.15000000000000002); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=0.0
+2021-09-19 02:30:43,307 - INFO - load: budget=3; scheme=(0.2,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,307 - INFO - load: budget=3; scheme=(0.2,0.010000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,308 - INFO - load: budget=3; scheme=(0.2,0.020000000000000004); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,308 - INFO - load: budget=3; scheme=(0.2,0.030000000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,308 - INFO - load: budget=3; scheme=(0.2,0.04000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,308 - INFO - load: budget=3; scheme=(0.2,0.05); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,308 - INFO - load: budget=3; scheme=(0.2,0.06000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,308 - INFO - load: budget=3; scheme=(0.2,0.07); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,309 - INFO - load: budget=3; scheme=(0.2,0.08000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,309 - INFO - load: budget=3; scheme=(0.2,0.09000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,309 - INFO - load: budget=3; scheme=(0.2,0.1); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,309 - INFO - load: budget=3; scheme=(0.2,0.11000000000000001); tilderR=(55) tilderS=(1); result=({168}, 631); rev=56.79
+2021-09-19 02:30:43,310 - INFO - load: budget=3; scheme=(0.2,0.12000000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=50.47999999999999
+2021-09-19 02:30:43,323 - INFO - load: budget=3; scheme=(0.2,0.13); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=76.51
+2021-09-19 02:30:43,324 - INFO - load: budget=3; scheme=(0.2,0.14); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=65.58
+2021-09-19 02:30:43,324 - INFO - load: budget=3; scheme=(0.2,0.15000000000000002); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=54.649999999999984
+2021-09-19 02:30:43,325 - INFO - load: budget=3; scheme=(0.2,0.16000000000000003); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=43.71999999999998
+2021-09-19 02:30:43,325 - INFO - load: budget=3; scheme=(0.2,0.17000000000000004); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=32.78999999999997
+2021-09-19 02:30:43,326 - INFO - load: budget=3; scheme=(0.2,0.18000000000000002); tilderR=(55) tilderS=(3); result=({168, 125, 46}, 1770); rev=35.399999999999984
+2021-09-19 02:30:43,326 - INFO - load: budget=3; scheme=(0.2,0.19000000000000003); tilderR=(55) tilderS=(3); result=({168, 125, 46}, 1770); rev=17.699999999999967
+2021-09-19 02:30:43,327 - INFO - load: budget=3; scheme=(0.2,0.2); tilderR=(55) tilderS=(3); result=({168, 125, 46}, 1770); rev=0.0
+2021-09-19 02:30:43,327 - INFO - load: budget=3; scheme=(0.25,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,327 - INFO - load: budget=3; scheme=(0.25,0.0125); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,327 - INFO - load: budget=3; scheme=(0.25,0.025); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,327 - INFO - load: budget=3; scheme=(0.25,0.037500000000000006); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,327 - INFO - load: budget=3; scheme=(0.25,0.05); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,327 - INFO - load: budget=3; scheme=(0.25,0.0625); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,328 - INFO - load: budget=3; scheme=(0.25,0.07500000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,328 - INFO - load: budget=3; scheme=(0.25,0.08750000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,328 - INFO - load: budget=3; scheme=(0.25,0.1); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,328 - INFO - load: budget=3; scheme=(0.25,0.1125); tilderR=(55) tilderS=(1); result=({168}, 631); rev=86.7625
+2021-09-19 02:30:43,329 - INFO - load: budget=3; scheme=(0.25,0.125); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=136.625
+2021-09-19 02:30:43,329 - INFO - load: budget=3; scheme=(0.25,0.1375); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=122.96249999999999
+2021-09-19 02:30:43,329 - INFO - load: budget=3; scheme=(0.25,0.15000000000000002); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=109.29999999999997
+2021-09-19 02:30:43,330 - INFO - load: budget=3; scheme=(0.25,0.1625); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=95.63749999999999
+2021-09-19 02:30:43,330 - INFO - load: budget=3; scheme=(0.25,0.17500000000000002); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=81.97499999999998
+2021-09-19 02:30:43,331 - INFO - load: budget=3; scheme=(0.25,0.1875); tilderR=(55) tilderS=(3); result=({168, 125, 46}, 1770); rev=110.625
+2021-09-19 02:30:43,331 - INFO - load: budget=3; scheme=(0.25,0.2); tilderR=(55) tilderS=(3); result=({168, 125, 46}, 1770); rev=88.49999999999999
+2021-09-19 02:30:43,331 - INFO - load: budget=3; scheme=(0.25,0.21250000000000002); tilderR=(55) tilderS=(3); result=({168, 125, 46}, 1770); rev=66.37499999999996
+2021-09-19 02:30:43,332 - INFO - load: budget=3; scheme=(0.25,0.225); tilderR=(55) tilderS=(3); result=({168, 125, 46}, 1770); rev=44.24999999999999
+2021-09-19 02:30:43,337 - INFO - load: budget=3; scheme=(0.25,0.23750000000000002); tilderR=(55) tilderS=(4); result=((168, 125, 46), 1770); rev=22.12499999999997
+2021-09-19 02:30:43,343 - INFO - load: budget=3; scheme=(0.25,0.25); tilderR=(55) tilderS=(5); result=((168, 46, 149), 1835); rev=0.0
+2021-09-19 02:30:43,343 - INFO - load: budget=3; scheme=(0.30000000000000004,0.0); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,344 - INFO - load: budget=3; scheme=(0.30000000000000004,0.015000000000000003); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,344 - INFO - load: budget=3; scheme=(0.30000000000000004,0.030000000000000006); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,345 - INFO - load: budget=3; scheme=(0.30000000000000004,0.04500000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,345 - INFO - load: budget=3; scheme=(0.30000000000000004,0.06000000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,346 - INFO - load: budget=3; scheme=(0.30000000000000004,0.07500000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,346 - INFO - load: budget=3; scheme=(0.30000000000000004,0.09000000000000002); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,347 - INFO - load: budget=3; scheme=(0.30000000000000004,0.10500000000000002); tilderR=(54) tilderS=(1); result=({168}, 608); rev=118.56
+2021-09-19 02:30:43,347 - INFO - load: budget=3; scheme=(0.30000000000000004,0.12000000000000002); tilderR=(54) tilderS=(1); result=({168}, 608); rev=109.44000000000001
+2021-09-19 02:30:43,349 - INFO - load: budget=3; scheme=(0.30000000000000004,0.13500000000000004); tilderR=(54) tilderS=(2); result=({168, 125}, 1055); rev=174.07500000000002
+2021-09-19 02:30:43,351 - INFO - load: budget=3; scheme=(0.30000000000000004,0.15000000000000002); tilderR=(54) tilderS=(2); result=({168, 125}, 1055); rev=158.25000000000003
+2021-09-19 02:30:43,353 - INFO - load: budget=3; scheme=(0.30000000000000004,0.16500000000000004); tilderR=(54) tilderS=(2); result=({168, 125}, 1055); rev=142.425
+2021-09-19 02:30:43,354 - INFO - load: budget=3; scheme=(0.30000000000000004,0.18000000000000005); tilderR=(54) tilderS=(3); result=({168, 125, 46}, 1714); rev=205.67999999999998
+2021-09-19 02:30:43,355 - INFO - load: budget=3; scheme=(0.30000000000000004,0.19500000000000003); tilderR=(54) tilderS=(3); result=({168, 125, 46}, 1714); rev=179.97000000000003
+2021-09-19 02:30:43,356 - INFO - load: budget=3; scheme=(0.30000000000000004,0.21000000000000005); tilderR=(54) tilderS=(3); result=({168, 125, 46}, 1714); rev=154.26
+2021-09-19 02:30:43,357 - INFO - load: budget=3; scheme=(0.30000000000000004,0.22500000000000003); tilderR=(54) tilderS=(3); result=({168, 125, 46}, 1714); rev=128.55
+2021-09-19 02:30:43,358 - INFO - load: budget=3; scheme=(0.30000000000000004,0.24000000000000005); tilderR=(54) tilderS=(5); result=((168, 46, 149), 1777); rev=106.61999999999999
+2021-09-19 02:30:43,359 - INFO - load: budget=3; scheme=(0.30000000000000004,0.25500000000000006); tilderR=(54) tilderS=(5); result=((168, 46, 149), 1777); rev=79.96499999999997
+2021-09-19 02:30:43,361 - INFO - load: budget=3; scheme=(0.30000000000000004,0.2700000000000001); tilderR=(54) tilderS=(6); result=((46, 49, 149), 1981); rev=59.42999999999994
+2021-09-19 02:30:43,363 - INFO - load: budget=3; scheme=(0.30000000000000004,0.2850000000000001); tilderR=(54) tilderS=(6); result=((46, 49, 149), 1981); rev=29.714999999999918
+2021-09-19 02:30:43,364 - INFO - load: budget=3; scheme=(0.30000000000000004,0.30000000000000004); tilderR=(54) tilderS=(8); result=((46, 49, 149), 1981); rev=0.0
+2021-09-19 02:30:43,365 - INFO - load: budget=3; scheme=(0.35000000000000003,0.0); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,365 - INFO - load: budget=3; scheme=(0.35000000000000003,0.0175); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,366 - INFO - load: budget=3; scheme=(0.35000000000000003,0.035); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,366 - INFO - load: budget=3; scheme=(0.35000000000000003,0.05250000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,367 - INFO - load: budget=3; scheme=(0.35000000000000003,0.07); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,367 - INFO - load: budget=3; scheme=(0.35000000000000003,0.08750000000000001); tilderR=(54) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,368 - INFO - load: budget=3; scheme=(0.35000000000000003,0.10500000000000002); tilderR=(54) tilderS=(1); result=({168}, 608); rev=148.96
+2021-09-19 02:30:43,368 - INFO - load: budget=3; scheme=(0.35000000000000003,0.12250000000000003); tilderR=(54) tilderS=(1); result=({168}, 608); rev=138.32
+2021-09-19 02:30:43,370 - INFO - load: budget=3; scheme=(0.35000000000000003,0.14); tilderR=(54) tilderS=(2); result=({168, 125}, 1055); rev=221.55
+2021-09-19 02:30:43,372 - INFO - load: budget=3; scheme=(0.35000000000000003,0.15750000000000003); tilderR=(54) tilderS=(2); result=({168, 125}, 1055); rev=203.0875
+2021-09-19 02:30:43,374 - INFO - load: budget=3; scheme=(0.35000000000000003,0.17500000000000002); tilderR=(54) tilderS=(2); result=({168, 125}, 1055); rev=184.62500000000003
+2021-09-19 02:30:43,375 - INFO - load: budget=3; scheme=(0.35000000000000003,0.19250000000000003); tilderR=(54) tilderS=(3); result=({168, 125, 46}, 1714); rev=269.955
+2021-09-19 02:30:43,376 - INFO - load: budget=3; scheme=(0.35000000000000003,0.21000000000000005); tilderR=(54) tilderS=(3); result=({168, 125, 46}, 1714); rev=239.95999999999998
+2021-09-19 02:30:43,376 - INFO - load: budget=3; scheme=(0.35000000000000003,0.22750000000000004); tilderR=(54) tilderS=(3); result=({168, 125, 46}, 1714); rev=209.965
+2021-09-19 02:30:43,377 - INFO - load: budget=3; scheme=(0.35000000000000003,0.24500000000000005); tilderR=(54) tilderS=(5); result=((168, 46, 149), 1777); rev=186.58499999999998
+2021-09-19 02:30:43,379 - INFO - load: budget=3; scheme=(0.35000000000000003,0.2625); tilderR=(54) tilderS=(6); result=((46, 49, 149), 1981); rev=173.33750000000003
+2021-09-19 02:30:43,381 - INFO - load: budget=3; scheme=(0.35000000000000003,0.28); tilderR=(54) tilderS=(6); result=((46, 49, 149), 1981); rev=138.67000000000002
+2021-09-19 02:30:43,382 - INFO - load: budget=3; scheme=(0.35000000000000003,0.29750000000000004); tilderR=(54) tilderS=(8); result=((46, 49, 149), 1981); rev=104.00249999999998
+2021-09-19 02:30:43,388 - INFO - load: budget=3; scheme=(0.35000000000000003,0.31500000000000006); tilderR=(54) tilderS=(9); result=((46, 49, 149), 1981); rev=69.33499999999995
+2021-09-19 02:30:43,394 - INFO - load: budget=3; scheme=(0.35000000000000003,0.3325000000000001); tilderR=(54) tilderS=(12); result=((46, 49, 149), 1981); rev=34.66749999999992
+2021-09-19 02:30:43,400 - INFO - load: budget=3; scheme=(0.35000000000000003,0.35000000000000003); tilderR=(54) tilderS=(14); result=((1, 46, 149), 2000); rev=0.0
+2021-09-19 02:30:43,401 - INFO - load: budget=3; scheme=(0.4,0.0); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,401 - INFO - load: budget=3; scheme=(0.4,0.020000000000000004); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,402 - INFO - load: budget=3; scheme=(0.4,0.04000000000000001); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,403 - INFO - load: budget=3; scheme=(0.4,0.06000000000000001); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,403 - INFO - load: budget=3; scheme=(0.4,0.08000000000000002); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,404 - INFO - load: budget=3; scheme=(0.4,0.1); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,406 - INFO - load: budget=3; scheme=(0.4,0.12000000000000002); tilderR=(49) tilderS=(1); result=({168}, 506); rev=141.68
+2021-09-19 02:30:43,407 - INFO - load: budget=3; scheme=(0.4,0.14); tilderR=(49) tilderS=(2); result=({168, 125}, 898); rev=233.48000000000002
+2021-09-19 02:30:43,408 - INFO - load: budget=3; scheme=(0.4,0.16000000000000003); tilderR=(49) tilderS=(2); result=({168, 125}, 898); rev=215.51999999999998
+2021-09-19 02:30:43,410 - INFO - load: budget=3; scheme=(0.4,0.18000000000000002); tilderR=(49) tilderS=(3); result=({168, 125, 46}, 1463); rev=321.86
+2021-09-19 02:30:43,413 - INFO - load: budget=3; scheme=(0.4,0.2); tilderR=(49) tilderS=(3); result=({168, 125, 46}, 1463); rev=292.6
+2021-09-19 02:30:43,417 - INFO - load: budget=3; scheme=(0.4,0.22000000000000003); tilderR=(49) tilderS=(3); result=({168, 125, 46}, 1463); rev=263.34
+2021-09-19 02:30:43,418 - INFO - load: budget=3; scheme=(0.4,0.24000000000000005); tilderR=(49) tilderS=(5); result=((168, 46, 149), 1514); rev=242.23999999999995
+2021-09-19 02:30:43,421 - INFO - load: budget=3; scheme=(0.4,0.26); tilderR=(49) tilderS=(6); result=((46, 49, 149), 1697); rev=237.58
+2021-09-19 02:30:43,423 - INFO - load: budget=3; scheme=(0.4,0.28); tilderR=(49) tilderS=(6); result=((46, 49, 149), 1697); rev=203.64
+2021-09-19 02:30:43,429 - INFO - load: budget=3; scheme=(0.4,0.30000000000000004); tilderR=(49) tilderS=(8); result=((46, 49, 149), 1697); rev=169.69999999999996
+2021-09-19 02:30:43,430 - INFO - load: budget=3; scheme=(0.4,0.32000000000000006); tilderR=(49) tilderS=(10); result=((46, 49, 149), 1697); rev=135.75999999999993
+2021-09-19 02:30:43,436 - INFO - load: budget=3; scheme=(0.4,0.3400000000000001); tilderR=(49) tilderS=(12); result=((46, 49, 149), 1697); rev=101.81999999999991
+2021-09-19 02:30:43,439 - INFO - load: budget=3; scheme=(0.4,0.36000000000000004); tilderR=(49) tilderS=(14); result=((1, 46, 149), 1721); rev=68.83999999999996
+2021-09-19 02:30:43,445 - INFO - load: budget=3; scheme=(0.4,0.38000000000000006); tilderR=(49) tilderS=(18); result=((1, 149, 150), 1945); rev=38.89999999999993
+2021-09-19 02:30:43,446 - INFO - load: budget=3; scheme=(0.4,0.4); tilderR=(49) tilderS=(19); result=((1, 149, 150), 1945); rev=0.0
+2021-09-19 02:30:43,452 - INFO - load: budget=3; scheme=(0.45,0.0); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,458 - INFO - load: budget=3; scheme=(0.45,0.022500000000000003); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,465 - INFO - load: budget=3; scheme=(0.45,0.045000000000000005); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,470 - INFO - load: budget=3; scheme=(0.45,0.06750000000000002); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,477 - INFO - load: budget=3; scheme=(0.45,0.09000000000000001); tilderR=(43) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,484 - INFO - load: budget=3; scheme=(0.45,0.1125); tilderR=(43) tilderS=(1); result=({168}, 384); rev=129.60000000000002
+2021-09-19 02:30:43,490 - INFO - load: budget=3; scheme=(0.45,0.13500000000000004); tilderR=(43) tilderS=(2); result=({168, 125}, 696); rev=219.23999999999995
+2021-09-19 02:30:43,496 - INFO - load: budget=3; scheme=(0.45,0.15750000000000003); tilderR=(43) tilderS=(2); result=({168, 125}, 696); rev=203.57999999999998
+2021-09-19 02:30:43,503 - INFO - load: budget=3; scheme=(0.45,0.18000000000000002); tilderR=(43) tilderS=(3); result=({168, 125, 46}, 1182); rev=319.14000000000004
+2021-09-19 02:30:43,510 - INFO - load: budget=3; scheme=(0.45,0.2025); tilderR=(43) tilderS=(3); result=({168, 125, 46}, 1182); rev=292.545
+2021-09-19 02:30:43,516 - INFO - load: budget=3; scheme=(0.45,0.225); tilderR=(43) tilderS=(3); result=({168, 125, 46}, 1182); rev=265.95
+2021-09-19 02:30:43,523 - INFO - load: budget=3; scheme=(0.45,0.24750000000000003); tilderR=(43) tilderS=(5); result=((46, 149, 23), 1235); rev=250.08749999999998
+2021-09-19 02:30:43,529 - INFO - load: budget=3; scheme=(0.45,0.2700000000000001); tilderR=(43) tilderS=(6); result=((46, 49, 149), 1411); rev=253.9799999999999
+2021-09-19 02:30:43,535 - INFO - load: budget=3; scheme=(0.45,0.29250000000000004); tilderR=(43) tilderS=(7); result=((46, 49, 149), 1411); rev=222.23249999999996
+2021-09-19 02:30:43,542 - INFO - load: budget=3; scheme=(0.45,0.31500000000000006); tilderR=(43) tilderS=(9); result=((46, 49, 149), 1411); rev=190.48499999999993
+2021-09-19 02:30:43,550 - INFO - load: budget=3; scheme=(0.45,0.3375); tilderR=(43) tilderS=(12); result=((46, 49, 149), 1411); rev=158.73749999999998
+2021-09-19 02:30:43,559 - INFO - load: budget=3; scheme=(0.45,0.36000000000000004); tilderR=(43) tilderS=(14); result=((1, 46, 149), 1430); rev=128.69999999999996
+2021-09-19 02:30:43,565 - INFO - load: budget=3; scheme=(0.45,0.38250000000000006); tilderR=(43) tilderS=(18); result=((1, 149, 150), 1602); rev=108.13499999999992
+2021-09-19 02:30:43,572 - INFO - load: budget=3; scheme=(0.45,0.405); tilderR=(43) tilderS=(21); result=((1, 149, 150), 1602); rev=72.08999999999997
+2021-09-19 02:30:43,579 - INFO - load: budget=3; scheme=(0.45,0.42750000000000005); tilderR=(43) tilderS=(25); result=((1, 149, 150), 1602); rev=36.044999999999945
+2021-09-19 02:30:43,585 - INFO - load: budget=3; scheme=(0.45,0.45); tilderR=(43) tilderS=(27); result=((1, 149, 150), 1602); rev=0.0
+2021-09-19 02:30:43,586 - INFO - load: budget=3; scheme=(0.5,0.0); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,587 - INFO - load: budget=3; scheme=(0.5,0.025); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,588 - INFO - load: budget=3; scheme=(0.5,0.05); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,589 - INFO - load: budget=3; scheme=(0.5,0.07500000000000001); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,590 - INFO - load: budget=3; scheme=(0.5,0.1); tilderR=(35) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,592 - INFO - load: budget=3; scheme=(0.5,0.125); tilderR=(35) tilderS=(2); result=({168, 125}, 485); rev=181.875
+2021-09-19 02:30:43,594 - INFO - load: budget=3; scheme=(0.5,0.15000000000000002); tilderR=(35) tilderS=(2); result=({168, 125}, 485); rev=169.75
+2021-09-19 02:30:43,596 - INFO - load: budget=3; scheme=(0.5,0.17500000000000002); tilderR=(35) tilderS=(2); result=({168, 125}, 485); rev=157.62499999999997
+2021-09-19 02:30:43,597 - INFO - load: budget=3; scheme=(0.5,0.2); tilderR=(35) tilderS=(3); result=({168, 125, 46}, 839); rev=251.7
+2021-09-19 02:30:43,598 - INFO - load: budget=3; scheme=(0.5,0.225); tilderR=(35) tilderS=(3); result=({168, 125, 46}, 839); rev=230.72500000000002
+2021-09-19 02:30:43,601 - INFO - load: budget=3; scheme=(0.5,0.25); tilderR=(35) tilderS=(5); result=((46, 149, 23), 924); rev=231.0
+2021-09-19 02:30:43,607 - INFO - load: budget=3; scheme=(0.5,0.275); tilderR=(35) tilderS=(6); result=((46, 49, 149), 1054); rev=237.14999999999998
+2021-09-19 02:30:43,608 - INFO - load: budget=3; scheme=(0.5,0.30000000000000004); tilderR=(35) tilderS=(8); result=((46, 49, 149), 1054); rev=210.79999999999995
+2021-09-19 02:30:43,615 - INFO - load: budget=3; scheme=(0.5,0.325); tilderR=(35) tilderS=(10); result=((46, 49, 149), 1054); rev=184.45
+2021-09-19 02:30:43,618 - INFO - load: budget=3; scheme=(0.5,0.35000000000000003); tilderR=(35) tilderS=(14); result=((1, 46, 149), 1089); rev=163.34999999999997
+2021-09-19 02:30:43,625 - INFO - load: budget=3; scheme=(0.5,0.375); tilderR=(35) tilderS=(16); result=((1, 149, 150), 1222); rev=152.75
+2021-09-19 02:30:43,626 - INFO - load: budget=3; scheme=(0.5,0.4); tilderR=(35) tilderS=(19); result=((1, 149, 150), 1222); rev=122.19999999999997
+2021-09-19 02:30:43,632 - INFO - load: budget=3; scheme=(0.5,0.42500000000000004); tilderR=(35) tilderS=(24); result=((1, 149, 150), 1222); rev=91.64999999999995
+2021-09-19 02:30:43,634 - INFO - load: budget=3; scheme=(0.5,0.45); tilderR=(35) tilderS=(27); result=((1, 149, 150), 1222); rev=61.09999999999999
+2021-09-19 02:30:43,641 - INFO - load: budget=3; scheme=(0.5,0.47500000000000003); tilderR=(35) tilderS=(29); result=((1, 149, 150), 1222); rev=30.549999999999958
+2021-09-19 02:30:43,643 - INFO - load: budget=3; scheme=(0.5,0.5); tilderR=(35) tilderS=(38); result=((1, 150, 149), 1222); rev=0.0
+2021-09-19 02:30:43,649 - INFO - load: budget=3; scheme=(0.55,0.0); tilderR=(24) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,656 - INFO - load: budget=3; scheme=(0.55,0.027500000000000004); tilderR=(24) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,663 - INFO - load: budget=3; scheme=(0.55,0.05500000000000001); tilderR=(24) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,670 - INFO - load: budget=3; scheme=(0.55,0.08250000000000002); tilderR=(24) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,678 - INFO - load: budget=3; scheme=(0.55,0.11000000000000001); tilderR=(24) tilderS=(1); result=({168}, 129); rev=56.760000000000005
+2021-09-19 02:30:43,684 - INFO - load: budget=3; scheme=(0.55,0.1375); tilderR=(24) tilderS=(2); result=({168, 125}, 275); rev=113.43750000000001
+2021-09-19 02:30:43,691 - INFO - load: budget=3; scheme=(0.55,0.16500000000000004); tilderR=(24) tilderS=(2); result=({168, 125}, 275); rev=105.875
+2021-09-19 02:30:43,699 - INFO - load: budget=3; scheme=(0.55,0.19250000000000003); tilderR=(24) tilderS=(3); result=({168, 125, 46}, 472); rev=168.74
+2021-09-19 02:30:43,706 - INFO - load: budget=3; scheme=(0.55,0.22000000000000003); tilderR=(24) tilderS=(3); result=({168, 125, 46}, 472); rev=155.76000000000002
+2021-09-19 02:30:43,713 - INFO - load: budget=3; scheme=(0.55,0.24750000000000003); tilderR=(24) tilderS=(5); result=((46, 149, 125), 528); rev=159.72
+2021-09-19 02:30:43,720 - INFO - load: budget=3; scheme=(0.55,0.275); tilderR=(24) tilderS=(6); result=((46, 49, 149), 606); rev=166.65
+2021-09-19 02:30:43,728 - INFO - load: budget=3; scheme=(0.55,0.30250000000000005); tilderR=(24) tilderS=(8); result=((46, 49, 149), 606); rev=149.98499999999999
+2021-09-19 02:30:43,736 - INFO - load: budget=3; scheme=(0.55,0.33000000000000007); tilderR=(24) tilderS=(11); result=((46, 49, 149), 606); rev=133.32
+2021-09-19 02:30:43,744 - INFO - load: budget=3; scheme=(0.55,0.35750000000000004); tilderR=(24) tilderS=(14); result=((1, 46, 49), 642); rev=123.58500000000001
+2021-09-19 02:30:43,751 - INFO - load: budget=3; scheme=(0.55,0.38500000000000006); tilderR=(24) tilderS=(19); result=((1, 49, 150), 772); rev=127.37999999999998
+2021-09-19 02:30:43,759 - INFO - load: budget=3; scheme=(0.55,0.41250000000000003); tilderR=(24) tilderS=(23); result=((1, 150, 49), 772); rev=106.15
+2021-09-19 02:30:43,767 - INFO - load: budget=3; scheme=(0.55,0.44000000000000006); tilderR=(24) tilderS=(25); result=((1, 150, 49), 772); rev=84.91999999999999
+2021-09-19 02:30:43,774 - INFO - load: budget=3; scheme=(0.55,0.4675000000000001); tilderR=(24) tilderS=(29); result=((1, 150, 49), 772); rev=63.68999999999997
+2021-09-19 02:30:43,781 - INFO - load: budget=3; scheme=(0.55,0.49500000000000005); tilderR=(24) tilderS=(36); result=((1, 150, 205), 774); rev=42.56999999999999
+2021-09-19 02:30:43,789 - INFO - load: budget=3; scheme=(0.55,0.5225000000000001); tilderR=(24) tilderS=(38); result=((1, 150, 205), 774); rev=21.284999999999975
+2021-09-19 02:30:43,796 - INFO - load: budget=3; scheme=(0.55,0.55); tilderR=(24) tilderS=(38); result=((1, 150, 205), 774); rev=0.0
+2021-09-19 02:30:43,798 - INFO - load: budget=3; scheme=(0.6000000000000001,0.0); tilderR=(21) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,799 - INFO - load: budget=3; scheme=(0.6000000000000001,0.030000000000000006); tilderR=(21) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,800 - INFO - load: budget=3; scheme=(0.6000000000000001,0.06000000000000001); tilderR=(21) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,801 - INFO - load: budget=3; scheme=(0.6000000000000001,0.09000000000000002); tilderR=(21) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,802 - INFO - load: budget=3; scheme=(0.6000000000000001,0.12000000000000002); tilderR=(21) tilderS=(1); result=({168}, 101); rev=48.48000000000001
+2021-09-19 02:30:43,810 - INFO - load: budget=3; scheme=(0.6000000000000001,0.15000000000000002); tilderR=(21) tilderS=(2); result=({168, 125}, 217); rev=97.65000000000002
+2021-09-19 02:30:43,812 - INFO - load: budget=3; scheme=(0.6000000000000001,0.18000000000000005); tilderR=(21) tilderS=(3); result=({168, 125, 46}, 384); rev=161.28000000000003
+2021-09-19 02:30:43,815 - INFO - load: budget=3; scheme=(0.6000000000000001,0.21000000000000005); tilderR=(21) tilderS=(3); result=({168, 125, 46}, 384); rev=149.76
+2021-09-19 02:30:43,816 - INFO - load: budget=3; scheme=(0.6000000000000001,0.24000000000000005); tilderR=(21) tilderS=(5); result=((46, 149, 125), 431); rev=155.16000000000003
+2021-09-19 02:30:43,823 - INFO - load: budget=3; scheme=(0.6000000000000001,0.2700000000000001); tilderR=(21) tilderS=(6); result=((46, 49, 149), 500); rev=165.0
+2021-09-19 02:30:43,826 - INFO - load: budget=3; scheme=(0.6000000000000001,0.30000000000000004); tilderR=(21) tilderS=(8); result=((46, 49, 149), 500); rev=150.00000000000003
+2021-09-19 02:30:43,833 - INFO - load: budget=3; scheme=(0.6000000000000001,0.33000000000000007); tilderR=(21) tilderS=(11); result=((46, 49, 149), 500); rev=135.0
+2021-09-19 02:30:43,834 - INFO - load: budget=3; scheme=(0.6000000000000001,0.3600000000000001); tilderR=(21) tilderS=(14); result=((1, 46, 49), 544); rev=130.56
+2021-09-19 02:30:43,842 - INFO - load: budget=3; scheme=(0.6000000000000001,0.39000000000000007); tilderR=(21) tilderS=(19); result=((1, 49, 150), 655); rev=137.55
+2021-09-19 02:30:43,844 - INFO - load: budget=3; scheme=(0.6000000000000001,0.4200000000000001); tilderR=(21) tilderS=(24); result=((1, 150, 49), 655); rev=117.89999999999999
+2021-09-19 02:30:43,852 - INFO - load: budget=3; scheme=(0.6000000000000001,0.45000000000000007); tilderR=(21) tilderS=(27); result=((1, 150, 49), 655); rev=98.25000000000001
+2021-09-19 02:30:43,853 - INFO - load: budget=3; scheme=(0.6000000000000001,0.4800000000000001); tilderR=(21) tilderS=(32); result=((1, 150, 49), 655); rev=78.6
+2021-09-19 02:30:43,856 - INFO - load: budget=3; scheme=(0.6000000000000001,0.5100000000000001); tilderR=(21) tilderS=(38); result=((1, 150, 205), 658); rev=59.21999999999998
+2021-09-19 02:30:43,859 - INFO - load: budget=3; scheme=(0.6000000000000001,0.5400000000000001); tilderR=(21) tilderS=(38); result=((1, 150, 205), 658); rev=39.47999999999996
+2021-09-19 02:30:43,867 - INFO - load: budget=3; scheme=(0.6000000000000001,0.5700000000000002); tilderR=(21) tilderS=(40); result=((1, 150, 205), 658); rev=19.739999999999945
+2021-09-19 02:30:43,868 - INFO - load: budget=3; scheme=(0.6000000000000001,0.6000000000000001); tilderR=(21) tilderS=(46); result=((1, 150, 205), 658); rev=0.0
+2021-09-19 02:30:43,876 - INFO - load: budget=3; scheme=(0.65,0.0); tilderR=(10) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,884 - INFO - load: budget=3; scheme=(0.65,0.0325); tilderR=(10) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,892 - INFO - load: budget=3; scheme=(0.65,0.065); tilderR=(10) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,900 - INFO - load: budget=3; scheme=(0.65,0.09750000000000002); tilderR=(10) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:43,908 - INFO - load: budget=3; scheme=(0.65,0.13); tilderR=(10) tilderS=(2); result=({168, 125}, 51); rev=26.52
+2021-09-19 02:30:43,916 - INFO - load: budget=3; scheme=(0.65,0.1625); tilderR=(10) tilderS=(2); result=({168, 125}, 51); rev=24.8625
+2021-09-19 02:30:43,925 - INFO - load: budget=3; scheme=(0.65,0.19500000000000003); tilderR=(10) tilderS=(3); result=({168, 125, 46}, 116); rev=52.779999999999994
+2021-09-19 02:30:43,932 - INFO - load: budget=3; scheme=(0.65,0.22750000000000004); tilderR=(10) tilderS=(3); result=({168, 125, 46}, 116); rev=49.01
+2021-09-19 02:30:43,940 - INFO - load: budget=3; scheme=(0.65,0.26); tilderR=(10) tilderS=(6); result=((46, 49, 149), 179); rev=69.81
+2021-09-19 02:30:43,948 - INFO - load: budget=3; scheme=(0.65,0.29250000000000004); tilderR=(10) tilderS=(7); result=((46, 49, 149), 179); rev=63.9925
+2021-09-19 02:30:43,956 - INFO - load: budget=3; scheme=(0.65,0.325); tilderR=(10) tilderS=(10); result=((46, 49, 62), 195); rev=63.375
+2021-09-19 02:30:43,965 - INFO - load: budget=3; scheme=(0.65,0.35750000000000004); tilderR=(10) tilderS=(14); result=((1, 46, 49), 236); rev=69.03
+2021-09-19 02:30:43,972 - INFO - load: budget=3; scheme=(0.65,0.39000000000000007); tilderR=(10) tilderS=(19); result=((1, 49, 150), 278); rev=72.27999999999999
+2021-09-19 02:30:43,980 - INFO - load: budget=3; scheme=(0.65,0.42250000000000004); tilderR=(10) tilderS=(24); result=((1, 150, 49), 278); rev=63.245
+2021-09-19 02:30:43,988 - INFO - load: budget=3; scheme=(0.65,0.45500000000000007); tilderR=(10) tilderS=(28); result=((1, 150, 49), 278); rev=54.20999999999999
+2021-09-19 02:30:43,997 - INFO - load: budget=3; scheme=(0.65,0.48750000000000004); tilderR=(10) tilderS=(33); result=((1, 150, 49), 278); rev=45.175
+2021-09-19 02:30:44,006 - INFO - load: budget=3; scheme=(0.65,0.52); tilderR=(10) tilderS=(38); result=((1, 150, 205), 286); rev=37.18
+2021-09-19 02:30:44,014 - INFO - load: budget=3; scheme=(0.65,0.5525000000000001); tilderR=(10) tilderS=(38); result=((1, 150, 205), 286); rev=27.884999999999977
+2021-09-19 02:30:44,022 - INFO - load: budget=3; scheme=(0.65,0.5850000000000001); tilderR=(10) tilderS=(42); result=((1, 150, 205), 286); rev=18.589999999999986
+2021-09-19 02:30:44,031 - INFO - load: budget=3; scheme=(0.65,0.6175); tilderR=(10) tilderS=(46); result=((1, 150, 205), 286); rev=9.294999999999993
+2021-09-19 02:30:44,039 - INFO - load: budget=3; scheme=(0.65,0.65); tilderR=(10) tilderS=(48); result=((1, 150, 205), 286); rev=0.0
+2021-09-19 02:30:44,040 - INFO - load: budget=3; scheme=(0.7000000000000001,0.0); tilderR=(8) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,041 - INFO - load: budget=3; scheme=(0.7000000000000001,0.035); tilderR=(8) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,043 - INFO - load: budget=3; scheme=(0.7000000000000001,0.07); tilderR=(8) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,050 - INFO - load: budget=3; scheme=(0.7000000000000001,0.10500000000000002); tilderR=(8) tilderS=(1); result=({168}, 12); rev=7.140000000000001
+2021-09-19 02:30:44,051 - INFO - load: budget=3; scheme=(0.7000000000000001,0.14); tilderR=(8) tilderS=(2); result=({168, 125}, 31); rev=17.360000000000003
+2021-09-19 02:30:44,052 - INFO - load: budget=3; scheme=(0.7000000000000001,0.17500000000000002); tilderR=(8) tilderS=(2); result=({168, 125}, 31); rev=16.275000000000002
+2021-09-19 02:30:44,055 - INFO - load: budget=3; scheme=(0.7000000000000001,0.21000000000000005); tilderR=(8) tilderS=(3); result=({168, 125, 46}, 76); rev=37.24
+2021-09-19 02:30:44,065 - INFO - load: budget=3; scheme=(0.7000000000000001,0.24500000000000005); tilderR=(8) tilderS=(5); result=((46, 23, 125), 101); rev=45.955
+2021-09-19 02:30:44,066 - INFO - load: budget=3; scheme=(0.7000000000000001,0.28); tilderR=(8) tilderS=(6); result=((46, 49, 23), 127); rev=53.34
+2021-09-19 02:30:44,074 - INFO - load: budget=3; scheme=(0.7000000000000001,0.31500000000000006); tilderR=(8) tilderS=(9); result=((46, 49, 62), 141); rev=54.285000000000004
+2021-09-19 02:30:44,077 - INFO - load: budget=3; scheme=(0.7000000000000001,0.35000000000000003); tilderR=(8) tilderS=(14); result=((1, 46, 49), 177); rev=61.95
+2021-09-19 02:30:44,085 - INFO - load: budget=3; scheme=(0.7000000000000001,0.38500000000000006); tilderR=(8) tilderS=(19); result=((1, 49, 150), 211); rev=66.465
+2021-09-19 02:30:44,086 - INFO - load: budget=3; scheme=(0.7000000000000001,0.4200000000000001); tilderR=(8) tilderS=(24); result=((1, 150, 49), 211); rev=59.07999999999999
+2021-09-19 02:30:44,094 - INFO - load: budget=3; scheme=(0.7000000000000001,0.45500000000000007); tilderR=(8) tilderS=(28); result=((1, 150, 49), 211); rev=51.695
+2021-09-19 02:30:44,097 - INFO - load: budget=3; scheme=(0.7000000000000001,0.4900000000000001); tilderR=(8) tilderS=(36); result=((1, 150, 205), 220); rev=46.19999999999999
+2021-09-19 02:30:44,105 - INFO - load: budget=3; scheme=(0.7000000000000001,0.525); tilderR=(8) tilderS=(38); result=((1, 150, 205), 220); rev=38.50000000000001
+2021-09-19 02:30:44,107 - INFO - load: budget=3; scheme=(0.7000000000000001,0.56); tilderR=(8) tilderS=(39); result=((1, 150, 205), 220); rev=30.800000000000004
+2021-09-19 02:30:44,115 - INFO - load: budget=3; scheme=(0.7000000000000001,0.5950000000000001); tilderR=(8) tilderS=(45); result=((1, 150, 205), 220); rev=23.099999999999994
+2021-09-19 02:30:44,117 - INFO - load: budget=3; scheme=(0.7000000000000001,0.6300000000000001); tilderR=(8) tilderS=(48); result=((1, 150, 205), 220); rev=15.39999999999999
+2021-09-19 02:30:44,126 - INFO - load: budget=3; scheme=(0.7000000000000001,0.6650000000000001); tilderR=(8) tilderS=(49); result=((1, 150, 205), 220); rev=7.699999999999982
+2021-09-19 02:30:44,128 - INFO - load: budget=3; scheme=(0.7000000000000001,0.7000000000000001); tilderR=(8) tilderS=(53); result=((1, 150, 205), 220); rev=0.0
+2021-09-19 02:30:44,138 - INFO - load: budget=3; scheme=(0.75,0.0); tilderR=(7) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,148 - INFO - load: budget=3; scheme=(0.75,0.037500000000000006); tilderR=(7) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,158 - INFO - load: budget=3; scheme=(0.75,0.07500000000000001); tilderR=(7) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,167 - INFO - load: budget=3; scheme=(0.75,0.11250000000000002); tilderR=(7) tilderS=(1); result=({168}, 7); rev=4.4624999999999995
+2021-09-19 02:30:44,176 - INFO - load: budget=3; scheme=(0.75,0.15000000000000002); tilderR=(7) tilderS=(2); result=({168, 125}, 24); rev=14.399999999999999
+2021-09-19 02:30:44,185 - INFO - load: budget=3; scheme=(0.75,0.1875); tilderR=(7) tilderS=(3); result=({168, 125, 46}, 62); rev=34.875
+2021-09-19 02:30:44,193 - INFO - load: budget=3; scheme=(0.75,0.22500000000000003); tilderR=(7) tilderS=(3); result=({168, 125, 46}, 62); rev=32.55
+2021-09-19 02:30:44,202 - INFO - load: budget=3; scheme=(0.75,0.2625); tilderR=(7) tilderS=(6); result=((46, 49, 23), 110); rev=53.625
+2021-09-19 02:30:44,210 - INFO - load: budget=3; scheme=(0.75,0.30000000000000004); tilderR=(7) tilderS=(8); result=((46, 47, 49), 121); rev=54.449999999999996
+2021-09-19 02:30:44,219 - INFO - load: budget=3; scheme=(0.75,0.3375); tilderR=(7) tilderS=(12); result=((132, 46, 49), 122); rev=50.324999999999996
+2021-09-19 02:30:44,228 - INFO - load: budget=3; scheme=(0.75,0.375); tilderR=(7) tilderS=(16); result=((1, 49, 150), 189); rev=70.875
+2021-09-19 02:30:44,236 - INFO - load: budget=3; scheme=(0.75,0.41250000000000003); tilderR=(7) tilderS=(23); result=((1, 150, 49), 189); rev=63.787499999999994
+2021-09-19 02:30:44,246 - INFO - load: budget=3; scheme=(0.75,0.45000000000000007); tilderR=(7) tilderS=(27); result=((1, 150, 49), 189); rev=56.69999999999999
+2021-09-19 02:30:44,254 - INFO - load: budget=3; scheme=(0.75,0.48750000000000004); tilderR=(7) tilderS=(33); result=((1, 150, 49), 189); rev=49.61249999999999
+2021-09-19 02:30:44,263 - INFO - load: budget=3; scheme=(0.75,0.525); tilderR=(7) tilderS=(38); result=((1, 150, 205), 194); rev=43.65
+2021-09-19 02:30:44,272 - INFO - load: budget=3; scheme=(0.75,0.5625); tilderR=(7) tilderS=(39); result=((1, 150, 205), 194); rev=36.375
+2021-09-19 02:30:44,281 - INFO - load: budget=3; scheme=(0.75,0.6000000000000001); tilderR=(7) tilderS=(46); result=((1, 150, 205), 194); rev=29.099999999999984
+2021-09-19 02:30:44,290 - INFO - load: budget=3; scheme=(0.75,0.6375000000000001); tilderR=(7) tilderS=(48); result=((1, 150, 109), 196); rev=22.049999999999986
+2021-09-19 02:30:44,299 - INFO - load: budget=3; scheme=(0.75,0.675); tilderR=(7) tilderS=(50); result=((1, 150, 109), 196); rev=14.699999999999992
+2021-09-19 02:30:44,307 - INFO - load: budget=3; scheme=(0.75,0.7125); tilderR=(7) tilderS=(53); result=((1, 150, 109), 196); rev=7.349999999999996
+2021-09-19 02:30:44,317 - INFO - load: budget=3; scheme=(0.75,0.75); tilderR=(7) tilderS=(54); result=((1, 150, 109), 196); rev=0.0
+2021-09-19 02:30:44,318 - INFO - load: budget=3; scheme=(0.8,0.0); tilderR=(3) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,319 - INFO - load: budget=3; scheme=(0.8,0.04000000000000001); tilderR=(3) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,320 - INFO - load: budget=3; scheme=(0.8,0.08000000000000002); tilderR=(3) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,329 - INFO - load: budget=3; scheme=(0.8,0.12000000000000002); tilderR=(3) tilderS=(1); result=({168}, 2); rev=1.36
+2021-09-19 02:30:44,331 - INFO - load: budget=3; scheme=(0.8,0.16000000000000003); tilderR=(3) tilderS=(2); result=({168, 125}, 12); rev=7.68
+2021-09-19 02:30:44,340 - INFO - load: budget=3; scheme=(0.8,0.2); tilderR=(3) tilderS=(3); result=({168, 125, 46}, 28); rev=16.800000000000004
+2021-09-19 02:30:44,342 - INFO - load: budget=3; scheme=(0.8,0.24000000000000005); tilderR=(3) tilderS=(5); result=((46, 149, 125), 38); rev=21.28
+2021-09-19 02:30:44,351 - INFO - load: budget=3; scheme=(0.8,0.28); tilderR=(3) tilderS=(6); result=((46, 149, 125), 38); rev=19.76
+2021-09-19 02:30:44,352 - INFO - load: budget=3; scheme=(0.8,0.32000000000000006); tilderR=(3) tilderS=(10); result=((46, 47, 149), 43); rev=20.64
+2021-09-19 02:30:44,362 - INFO - load: budget=3; scheme=(0.8,0.36000000000000004); tilderR=(3) tilderS=(14); result=((1, 46, 62), 48); rev=21.12
+2021-09-19 02:30:44,365 - INFO - load: budget=3; scheme=(0.8,0.4); tilderR=(3) tilderS=(19); result=((65, 47, 150), 66); rev=26.400000000000002
+2021-09-19 02:30:44,373 - INFO - load: budget=3; scheme=(0.8,0.44000000000000006); tilderR=(3) tilderS=(25); result=((150, 156, 47), 66); rev=23.759999999999998
+2021-09-19 02:30:44,376 - INFO - load: budget=3; scheme=(0.8,0.4800000000000001); tilderR=(3) tilderS=(32); result=((17, 150, 65), 67); rev=21.439999999999998
+2021-09-19 02:30:44,385 - INFO - load: budget=3; scheme=(0.8,0.52); tilderR=(3) tilderS=(38); result=((150, 65, 205), 72); rev=20.160000000000004
+2021-09-19 02:30:44,388 - INFO - load: budget=3; scheme=(0.8,0.56); tilderR=(3) tilderS=(39); result=((150, 65, 205), 72); rev=17.28
+2021-09-19 02:30:44,397 - INFO - load: budget=3; scheme=(0.8,0.6000000000000001); tilderR=(3) tilderS=(46); result=((150, 65, 205), 72); rev=14.399999999999997
+2021-09-19 02:30:44,399 - INFO - load: budget=3; scheme=(0.8,0.6400000000000001); tilderR=(3) tilderS=(48); result=((150, 65, 109), 74); rev=11.839999999999995
+2021-09-19 02:30:44,408 - INFO - load: budget=3; scheme=(0.8,0.6800000000000002); tilderR=(3) tilderS=(52); result=((150, 65, 109), 74); rev=8.879999999999992
+2021-09-19 02:30:44,410 - INFO - load: budget=3; scheme=(0.8,0.7200000000000001); tilderR=(3) tilderS=(53); result=((150, 65, 109), 74); rev=5.919999999999997
+2021-09-19 02:30:44,411 - INFO - load: budget=3; scheme=(0.8,0.7600000000000001); tilderR=(3) tilderS=(54); result=((150, 65, 109), 74); rev=2.9599999999999946
+2021-09-19 02:30:44,413 - INFO - load: budget=3; scheme=(0.8,0.8); tilderR=(3) tilderS=(54); result=((150, 65, 109), 74); rev=0.0
+2021-09-19 02:30:44,422 - INFO - load: budget=3; scheme=(0.8500000000000001,0.0); tilderR=(1) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,431 - INFO - load: budget=3; scheme=(0.8500000000000001,0.04250000000000001); tilderR=(1) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,441 - INFO - load: budget=3; scheme=(0.8500000000000001,0.08500000000000002); tilderR=(1) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,450 - INFO - load: budget=3; scheme=(0.8500000000000001,0.12750000000000003); tilderR=(1) tilderS=(2); result=({168, 125}, 3); rev=2.1675
+2021-09-19 02:30:44,459 - INFO - load: budget=3; scheme=(0.8500000000000001,0.17000000000000004); tilderR=(1) tilderS=(2); result=({168, 125}, 3); rev=2.04
+2021-09-19 02:30:44,468 - INFO - load: budget=3; scheme=(0.8500000000000001,0.21250000000000002); tilderR=(1) tilderS=(3); result=({168, 125, 46}, 3); rev=1.9125
+2021-09-19 02:30:44,477 - INFO - load: budget=3; scheme=(0.8500000000000001,0.25500000000000006); tilderR=(1) tilderS=(5); result=((168, 149, 125), 5); rev=2.9749999999999996
+2021-09-19 02:30:44,487 - INFO - load: budget=3; scheme=(0.8500000000000001,0.29750000000000004); tilderR=(1) tilderS=(8); result=((47, 49, 149), 11); rev=6.0775
+2021-09-19 02:30:44,496 - INFO - load: budget=3; scheme=(0.8500000000000001,0.3400000000000001); tilderR=(1) tilderS=(12); result=((132, 49, 62), 13); rev=6.63
+2021-09-19 02:30:44,505 - INFO - load: budget=3; scheme=(0.8500000000000001,0.38250000000000006); tilderR=(1) tilderS=(18); result=((1, 156, 62), 22); rev=10.285
+2021-09-19 02:30:44,515 - INFO - load: budget=3; scheme=(0.8500000000000001,0.42500000000000004); tilderR=(1) tilderS=(24); result=((1, 156, 62), 22); rev=9.350000000000001
+2021-09-19 02:30:44,525 - INFO - load: budget=3; scheme=(0.8500000000000001,0.4675000000000001); tilderR=(1) tilderS=(29); result=((1, 156, 62), 22); rev=8.415000000000001
+2021-09-19 02:30:44,534 - INFO - load: budget=3; scheme=(0.8500000000000001,0.5100000000000001); tilderR=(1) tilderS=(38); result=((1, 65, 205), 27); rev=9.18
+2021-09-19 02:30:44,544 - INFO - load: budget=3; scheme=(0.8500000000000001,0.5525000000000001); tilderR=(1) tilderS=(38); result=((1, 65, 205), 27); rev=8.032499999999999
+2021-09-19 02:30:44,555 - INFO - load: budget=3; scheme=(0.8500000000000001,0.5950000000000001); tilderR=(1) tilderS=(45); result=((1, 65, 205), 27); rev=6.885
+2021-09-19 02:30:44,566 - INFO - load: budget=3; scheme=(0.8500000000000001,0.6375000000000001); tilderR=(1) tilderS=(48); result=((1, 65, 109), 28); rev=5.950000000000001
+2021-09-19 02:30:44,575 - INFO - load: budget=3; scheme=(0.8500000000000001,0.6800000000000002); tilderR=(1) tilderS=(52); result=((1, 65, 109), 28); rev=4.759999999999998
+2021-09-19 02:30:44,585 - INFO - load: budget=3; scheme=(0.8500000000000001,0.7225000000000001); tilderR=(1) tilderS=(53); result=((1, 65, 109), 28); rev=3.5699999999999985
+2021-09-19 02:30:44,594 - INFO - load: budget=3; scheme=(0.8500000000000001,0.7650000000000001); tilderR=(1) tilderS=(54); result=((1, 65, 109), 28); rev=2.379999999999999
+2021-09-19 02:30:44,604 - INFO - load: budget=3; scheme=(0.8500000000000001,0.8075000000000001); tilderR=(1) tilderS=(54); result=((1, 65, 109), 28); rev=1.1899999999999995
+2021-09-19 02:30:44,613 - INFO - load: budget=3; scheme=(0.8500000000000001,0.8500000000000001); tilderR=(1) tilderS=(54); result=((1, 65, 109), 28); rev=0.0
+2021-09-19 02:30:44,615 - INFO - load: budget=3; scheme=(0.9,0.0); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,616 - INFO - load: budget=3; scheme=(0.9,0.045000000000000005); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,618 - INFO - load: budget=3; scheme=(0.9,0.09000000000000001); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,627 - INFO - load: budget=3; scheme=(0.9,0.13500000000000004); tilderR=(0) tilderS=(2); result=({168, 125}, 0); rev=0.0
+2021-09-19 02:30:44,629 - INFO - load: budget=3; scheme=(0.9,0.18000000000000002); tilderR=(0) tilderS=(3); result=({168, 125, 46}, 0); rev=0.0
+2021-09-19 02:30:44,630 - INFO - load: budget=3; scheme=(0.9,0.225); tilderR=(0) tilderS=(3); result=({168, 125, 46}, 0); rev=0.0
+2021-09-19 02:30:44,633 - INFO - load: budget=3; scheme=(0.9,0.2700000000000001); tilderR=(0) tilderS=(6); result=((168, 149, 125), 0); rev=0.0
+2021-09-19 02:30:44,643 - INFO - load: budget=3; scheme=(0.9,0.31500000000000006); tilderR=(0) tilderS=(9); result=((168, 149, 125), 0); rev=0.0
+2021-09-19 02:30:44,644 - INFO - load: budget=3; scheme=(0.9,0.36000000000000004); tilderR=(0) tilderS=(14); result=((169, 149, 125), 0); rev=0.0
+2021-09-19 02:30:44,654 - INFO - load: budget=3; scheme=(0.9,0.405); tilderR=(0) tilderS=(21); result=((189, 66, 125), 0); rev=0.0
+2021-09-19 02:30:44,657 - INFO - load: budget=3; scheme=(0.9,0.45); tilderR=(0) tilderS=(27); result=((189, 214, 125), 0); rev=0.0
+2021-09-19 02:30:44,667 - INFO - load: budget=3; scheme=(0.9,0.49500000000000005); tilderR=(0) tilderS=(36); result=((214, 92, 125), 0); rev=0.0
+2021-09-19 02:30:44,669 - INFO - load: budget=3; scheme=(0.9,0.5400000000000001); tilderR=(0) tilderS=(38); result=((214, 92, 125), 0); rev=0.0
+2021-09-19 02:30:44,679 - INFO - load: budget=3; scheme=(0.9,0.5850000000000001); tilderR=(0) tilderS=(42); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,682 - INFO - load: budget=3; scheme=(0.9,0.6300000000000001); tilderR=(0) tilderS=(48); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,691 - INFO - load: budget=3; scheme=(0.9,0.675); tilderR=(0) tilderS=(50); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,693 - INFO - load: budget=3; scheme=(0.9,0.7200000000000001); tilderR=(0) tilderS=(53); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,695 - INFO - load: budget=3; scheme=(0.9,0.7650000000000001); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,697 - INFO - load: budget=3; scheme=(0.9,0.81); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,698 - INFO - load: budget=3; scheme=(0.9,0.8550000000000001); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,700 - INFO - load: budget=3; scheme=(0.9,0.9); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,701 - INFO - load: budget=3; scheme=(0.9500000000000001,0.0); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,703 - INFO - load: budget=3; scheme=(0.9500000000000001,0.04750000000000001); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,704 - INFO - load: budget=3; scheme=(0.9500000000000001,0.09500000000000001); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,713 - INFO - load: budget=3; scheme=(0.9500000000000001,0.14250000000000004); tilderR=(0) tilderS=(2); result=({168, 125}, 0); rev=0.0
+2021-09-19 02:30:44,715 - INFO - load: budget=3; scheme=(0.9500000000000001,0.19000000000000003); tilderR=(0) tilderS=(3); result=({168, 125, 46}, 0); rev=0.0
+2021-09-19 02:30:44,725 - INFO - load: budget=3; scheme=(0.9500000000000001,0.23750000000000002); tilderR=(0) tilderS=(4); result=((168, 125, 46), 0); rev=0.0
+2021-09-19 02:30:44,728 - INFO - load: budget=3; scheme=(0.9500000000000001,0.2850000000000001); tilderR=(0) tilderS=(6); result=((168, 149, 125), 0); rev=0.0
+2021-09-19 02:30:44,738 - INFO - load: budget=3; scheme=(0.9500000000000001,0.3325000000000001); tilderR=(0) tilderS=(12); result=((168, 149, 125), 0); rev=0.0
+2021-09-19 02:30:44,750 - INFO - load: budget=3; scheme=(0.9500000000000001,0.38000000000000006); tilderR=(0) tilderS=(18); result=((169, 156, 125), 0); rev=0.0
+2021-09-19 02:30:44,760 - INFO - load: budget=3; scheme=(0.9500000000000001,0.42750000000000005); tilderR=(0) tilderS=(25); result=((189, 214, 125), 0); rev=0.0
+2021-09-19 02:30:44,770 - INFO - load: budget=3; scheme=(0.9500000000000001,0.47500000000000003); tilderR=(0) tilderS=(29); result=((214, 92, 125), 0); rev=0.0
+2021-09-19 02:30:44,771 - INFO - load: budget=3; scheme=(0.9500000000000001,0.5225000000000001); tilderR=(0) tilderS=(38); result=((214, 92, 125), 0); rev=0.0
+2021-09-19 02:30:44,782 - INFO - load: budget=3; scheme=(0.9500000000000001,0.5700000000000002); tilderR=(0) tilderS=(40); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,783 - INFO - load: budget=3; scheme=(0.9500000000000001,0.6175); tilderR=(0) tilderS=(46); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,798 - INFO - load: budget=3; scheme=(0.9500000000000001,0.6650000000000001); tilderR=(0) tilderS=(49); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,801 - INFO - load: budget=3; scheme=(0.9500000000000001,0.7125); tilderR=(0) tilderS=(53); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,802 - INFO - load: budget=3; scheme=(0.9500000000000001,0.7600000000000001); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,804 - INFO - load: budget=3; scheme=(0.9500000000000001,0.8075000000000001); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,805 - INFO - load: budget=3; scheme=(0.9500000000000001,0.8550000000000001); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,807 - INFO - load: budget=3; scheme=(0.9500000000000001,0.9025000000000001); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,809 - INFO - load: budget=3; scheme=(0.9500000000000001,0.9500000000000001); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,810 - INFO - load: budget=3; scheme=(1.0,0.0); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,811 - INFO - load: budget=3; scheme=(1.0,0.05); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,813 - INFO - load: budget=3; scheme=(1.0,0.1); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-19 02:30:44,823 - INFO - load: budget=3; scheme=(1.0,0.15000000000000002); tilderR=(0) tilderS=(2); result=({168, 125}, 0); rev=0.0
+2021-09-19 02:30:44,825 - INFO - load: budget=3; scheme=(1.0,0.2); tilderR=(0) tilderS=(3); result=({168, 125, 46}, 0); rev=0.0
+2021-09-19 02:30:44,836 - INFO - load: budget=3; scheme=(1.0,0.25); tilderR=(0) tilderS=(5); result=((168, 149, 125), 0); rev=0.0
+2021-09-19 02:30:44,840 - INFO - load: budget=3; scheme=(1.0,0.30000000000000004); tilderR=(0) tilderS=(8); result=((168, 149, 61), 0); rev=0.0
+2021-09-19 02:30:44,841 - INFO - load: budget=3; scheme=(1.0,0.35000000000000003); tilderR=(0) tilderS=(14); result=((169, 149, 125), 0); rev=0.0
+2021-09-19 02:30:44,843 - INFO - load: budget=3; scheme=(1.0,0.4); tilderR=(0) tilderS=(19); result=((169, 156, 125), 0); rev=0.0
+2021-09-19 02:30:44,845 - INFO - load: budget=3; scheme=(1.0,0.45); tilderR=(0) tilderS=(27); result=((189, 214, 125), 0); rev=0.0
+2021-09-19 02:30:44,847 - INFO - load: budget=3; scheme=(1.0,0.5); tilderR=(0) tilderS=(38); result=((214, 92, 125), 0); rev=0.0
+2021-09-19 02:30:44,848 - INFO - load: budget=3; scheme=(1.0,0.55); tilderR=(0) tilderS=(38); result=((214, 92, 125), 0); rev=0.0
+2021-09-19 02:30:44,850 - INFO - load: budget=3; scheme=(1.0,0.6000000000000001); tilderR=(0) tilderS=(46); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,852 - INFO - load: budget=3; scheme=(1.0,0.65); tilderR=(0) tilderS=(48); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,854 - INFO - load: budget=3; scheme=(1.0,0.7000000000000001); tilderR=(0) tilderS=(53); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,856 - INFO - load: budget=3; scheme=(1.0,0.75); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,857 - INFO - load: budget=3; scheme=(1.0,0.8); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,859 - INFO - load: budget=3; scheme=(1.0,0.8500000000000001); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,861 - INFO - load: budget=3; scheme=(1.0,0.9); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,863 - INFO - load: budget=3; scheme=(1.0,0.9500000000000001); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0
+2021-09-19 02:30:44,864 - INFO - load: budget=3; scheme=(1.0,1.0); tilderR=(0) tilderS=(54); result=((214, 122, 125), 0); rev=0.0

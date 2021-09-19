@@ -1,0 +1,243 @@
+2021-09-18 01:41:49,794 - INFO - Namespace(a='2', beta_paras='3,6,6,3', budget_list='2', did='d1', grain_alpha='5', grain_p='5', method='greedy', percent_R='0.25', percent_S='0.25', seed='32', version='v09180141')
+2021-09-18 01:41:49,807 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-18 01:41:50,382 - INFO - Finish generate valuations and costs using using a=2
+2021-09-18 01:41:50,862 - INFO - ********** (0.0, 0.0, 0.0)
+2021-09-18 01:41:50,862 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:50,862 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:50,863 - INFO - when budget_last = 0, M = set(), M_last = set()
+2021-09-18 01:41:50,863 - INFO - compute: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:50,863 - INFO - when budget_last = 1,  M_last = set()
+2021-09-18 01:41:50,863 - INFO - when budget_last = 1, M = set(), M_last = set()
+2021-09-18 01:41:50,863 - INFO - compute: budget=2; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:50,864 - INFO - ********** (0.0, 0.2, 0.0)
+2021-09-18 01:41:50,864 - INFO - max_history_budget=2, max_history_result=(set(), 0, 0.0)
+2021-09-18 01:41:50,864 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:50,864 - INFO - ********** (0.0, 0.4, 0.0)
+2021-09-18 01:41:50,864 - INFO - max_history_budget=2, max_history_result=(set(), 0, 0.0)
+2021-09-18 01:41:50,864 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:50,864 - INFO - ********** (0.0, 0.6000000000000001, 0.0)
+2021-09-18 01:41:50,864 - INFO - max_history_budget=2, max_history_result=(set(), 0, 0.0)
+2021-09-18 01:41:50,864 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:50,864 - INFO - ********** (0.0, 0.8, 0.0)
+2021-09-18 01:41:50,865 - INFO - max_history_budget=2, max_history_result=(set(), 0, 0.0)
+2021-09-18 01:41:50,865 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:50,865 - INFO - ********** (0.0, 1.0, 0.0)
+2021-09-18 01:41:50,865 - INFO - max_history_budget=2, max_history_result=(set(), 0, 0.0)
+2021-09-18 01:41:50,865 - INFO - load: budget=1; scheme=(0.0,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:50,865 - INFO - ********** (0.2, 0.0, 0.0)
+2021-09-18 01:41:50,866 - INFO - max_history_budget=2, max_history_result=(set(), 0, 0.0)
+2021-09-18 01:41:50,866 - INFO - load: budget=1; scheme=(0.2,0.0); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:50,866 - INFO - ********** (0.2, 0.2, 0.04000000000000001)
+2021-09-18 01:41:50,866 - INFO - max_history_budget=2, max_history_result=(set(), 0, 0.0)
+2021-09-18 01:41:50,866 - INFO - load: budget=1; scheme=(0.2,0.04000000000000001); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:50,866 - INFO - ********** (0.2, 0.4, 0.08000000000000002)
+2021-09-18 01:41:50,866 - INFO - max_history_budget=2, max_history_result=(set(), 0, 0.0)
+2021-09-18 01:41:50,866 - INFO - load: budget=1; scheme=(0.2,0.08000000000000002); tilderR=(55) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:50,866 - INFO - ********** (0.2, 0.6000000000000001, 0.12000000000000002)
+2021-09-18 01:41:50,867 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:50,867 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:50,871 - INFO - when budget_last = 0, M = {168}, M_last = {168}
+2021-09-18 01:41:50,871 - INFO - compute: budget=1; scheme=(0.2,0.12000000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=50.47999999999999
+2021-09-18 01:41:50,871 - INFO - when budget_last = 1,  M_last = {168}
+2021-09-18 01:41:50,873 - INFO - when budget_last = 1, M = {168}, M_last = {168}
+2021-09-18 01:41:50,873 - INFO - compute: budget=2; scheme=(0.2,0.12000000000000002); tilderR=(55) tilderS=(1); result=({168}, 631); rev=50.47999999999999
+2021-09-18 01:41:50,873 - INFO - ********** (0.2, 0.8, 0.16000000000000003)
+2021-09-18 01:41:50,874 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:50,874 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:50,880 - INFO - when budget_last = 0, M = {125}, M_last = {125}
+2021-09-18 01:41:50,880 - INFO - compute: budget=1; scheme=(0.2,0.16000000000000003); tilderR=(55) tilderS=(2); result=({125}, 671); rev=26.839999999999986
+2021-09-18 01:41:50,880 - INFO - when budget_last = 1,  M_last = {125}
+2021-09-18 01:41:50,886 - INFO - when budget_last = 1, M = {168, 125}, M_last = {168, 125}
+2021-09-18 01:41:50,886 - INFO - compute: budget=2; scheme=(0.2,0.16000000000000003); tilderR=(55) tilderS=(2); result=({168, 125}, 1093); rev=43.71999999999998
+2021-09-18 01:41:50,886 - INFO - ********** (0.2, 1.0, 0.2)
+2021-09-18 01:41:50,887 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:50,887 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:50,895 - INFO - when budget_last = 0, M = {46}, M_last = {46}
+2021-09-18 01:41:50,895 - INFO - compute: budget=1; scheme=(0.2,0.2); tilderR=(55) tilderS=(3); result=({46}, 787); rev=0.0
+2021-09-18 01:41:50,896 - INFO - when budget_last = 1,  M_last = {46}
+2021-09-18 01:41:50,905 - INFO - when budget_last = 1, M = {125, 46}, M_last = {125, 46}
+2021-09-18 01:41:50,905 - INFO - compute: budget=2; scheme=(0.2,0.2); tilderR=(55) tilderS=(3); result=({125, 46}, 1375); rev=0.0
+2021-09-18 01:41:50,905 - INFO - ********** (0.4, 0.0, 0.0)
+2021-09-18 01:41:50,905 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:50,905 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:50,906 - INFO - when budget_last = 0, M = set(), M_last = set()
+2021-09-18 01:41:50,907 - INFO - compute: budget=1; scheme=(0.4,0.0); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:50,907 - INFO - when budget_last = 1,  M_last = set()
+2021-09-18 01:41:50,907 - INFO - when budget_last = 1, M = set(), M_last = set()
+2021-09-18 01:41:50,907 - INFO - compute: budget=2; scheme=(0.4,0.0); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:50,907 - INFO - ********** (0.4, 0.2, 0.08000000000000002)
+2021-09-18 01:41:50,907 - INFO - max_history_budget=2, max_history_result=(set(), 0, 0.0)
+2021-09-18 01:41:50,907 - INFO - load: budget=1; scheme=(0.4,0.08000000000000002); tilderR=(49) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:50,907 - INFO - ********** (0.4, 0.4, 0.16000000000000003)
+2021-09-18 01:41:50,908 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:50,908 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:50,913 - INFO - when budget_last = 0, M = {125}, M_last = {125}
+2021-09-18 01:41:50,913 - INFO - compute: budget=1; scheme=(0.4,0.16000000000000003); tilderR=(49) tilderS=(2); result=({125}, 560); rev=134.4
+2021-09-18 01:41:50,914 - INFO - when budget_last = 1,  M_last = {125}
+2021-09-18 01:41:50,919 - INFO - when budget_last = 1, M = {168, 125}, M_last = {168, 125}
+2021-09-18 01:41:50,919 - INFO - compute: budget=2; scheme=(0.4,0.16000000000000003); tilderR=(49) tilderS=(2); result=({168, 125}, 898); rev=215.51999999999998
+2021-09-18 01:41:50,919 - INFO - ********** (0.4, 0.6000000000000001, 0.24000000000000005)
+2021-09-18 01:41:50,920 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:50,920 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:50,931 - INFO - when budget_last = 0, M = {46}, M_last = {46}
+2021-09-18 01:41:50,931 - INFO - compute: budget=1; scheme=(0.4,0.24000000000000005); tilderR=(49) tilderS=(5); result=({46}, 656); rev=104.95999999999998
+2021-09-18 01:41:50,931 - INFO - when budget_last = 1,  M_last = {46}
+2021-09-18 01:41:50,945 - INFO - when budget_last = 1, M = {125, 46}, M_last = {125, 46}
+2021-09-18 01:41:50,945 - INFO - compute: budget=2; scheme=(0.4,0.24000000000000005); tilderR=(49) tilderS=(5); result=({125, 46}, 1147); rev=183.51999999999998
+2021-09-18 01:41:50,946 - INFO - ********** (0.4, 0.8, 0.32000000000000006)
+2021-09-18 01:41:50,946 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:50,946 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:50,967 - INFO - when budget_last = 0, M = {46}, M_last = {46}
+2021-09-18 01:41:50,967 - INFO - compute: budget=1; scheme=(0.4,0.32000000000000006); tilderR=(49) tilderS=(10); result=({46}, 656); rev=52.479999999999976
+2021-09-18 01:41:50,967 - INFO - when budget_last = 1,  M_last = {46}
+2021-09-18 01:41:50,994 - INFO - when budget_last = 1, M = {49, 46}, M_last = {49, 46}
+2021-09-18 01:41:50,994 - INFO - compute: budget=2; scheme=(0.4,0.32000000000000006); tilderR=(49) tilderS=(10); result=({49, 46}, 1202); rev=96.15999999999995
+2021-09-18 01:41:50,994 - INFO - ********** (0.4, 1.0, 0.4)
+2021-09-18 01:41:50,995 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:50,995 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,033 - INFO - when budget_last = 0, M = {150}, M_last = {150}
+2021-09-18 01:41:51,034 - INFO - compute: budget=1; scheme=(0.4,0.4); tilderR=(49) tilderS=(19); result=({150}, 787); rev=0.0
+2021-09-18 01:41:51,034 - INFO - when budget_last = 1,  M_last = {150}
+2021-09-18 01:41:51,083 - INFO - when budget_last = 1, M = {46, 150}, M_last = {46, 150}
+2021-09-18 01:41:51,083 - INFO - compute: budget=2; scheme=(0.4,0.4); tilderR=(49) tilderS=(19); result=({46, 150}, 1333); rev=0.0
+2021-09-18 01:41:51,083 - INFO - ********** (0.6000000000000001, 0.0, 0.0)
+2021-09-18 01:41:51,083 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,084 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,084 - INFO - when budget_last = 0, M = set(), M_last = set()
+2021-09-18 01:41:51,084 - INFO - compute: budget=1; scheme=(0.6000000000000001,0.0); tilderR=(21) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:51,084 - INFO - when budget_last = 1,  M_last = set()
+2021-09-18 01:41:51,084 - INFO - when budget_last = 1, M = set(), M_last = set()
+2021-09-18 01:41:51,084 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.0); tilderR=(21) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:51,085 - INFO - ********** (0.6000000000000001, 0.2, 0.12000000000000002)
+2021-09-18 01:41:51,085 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,085 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,087 - INFO - when budget_last = 0, M = {168}, M_last = {168}
+2021-09-18 01:41:51,087 - INFO - compute: budget=1; scheme=(0.6000000000000001,0.12000000000000002); tilderR=(21) tilderS=(1); result=({168}, 101); rev=48.48000000000001
+2021-09-18 01:41:51,087 - INFO - when budget_last = 1,  M_last = {168}
+2021-09-18 01:41:51,088 - INFO - when budget_last = 1, M = {168}, M_last = {168}
+2021-09-18 01:41:51,088 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.12000000000000002); tilderR=(21) tilderS=(1); result=({168}, 101); rev=48.48000000000001
+2021-09-18 01:41:51,088 - INFO - ********** (0.6000000000000001, 0.4, 0.24000000000000005)
+2021-09-18 01:41:51,089 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,089 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,094 - INFO - when budget_last = 0, M = {46}, M_last = {46}
+2021-09-18 01:41:51,095 - INFO - compute: budget=1; scheme=(0.6000000000000001,0.24000000000000005); tilderR=(21) tilderS=(5); result=({46}, 189); rev=68.04
+2021-09-18 01:41:51,095 - INFO - when budget_last = 1,  M_last = {46}
+2021-09-18 01:41:51,101 - INFO - when budget_last = 1, M = {125, 46}, M_last = {125, 46}
+2021-09-18 01:41:51,101 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.24000000000000005); tilderR=(21) tilderS=(5); result=({125, 46}, 322); rev=115.92000000000002
+2021-09-18 01:41:51,101 - INFO - ********** (0.6000000000000001, 0.6000000000000001, 0.3600000000000001)
+2021-09-18 01:41:51,102 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,102 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,114 - INFO - when budget_last = 0, M = {1}, M_last = {1}
+2021-09-18 01:41:51,115 - INFO - compute: budget=1; scheme=(0.6000000000000001,0.3600000000000001); tilderR=(21) tilderS=(14); result=({1}, 227); rev=54.48
+2021-09-18 01:41:51,115 - INFO - when budget_last = 1,  M_last = {1}
+2021-09-18 01:41:51,132 - INFO - when budget_last = 1, M = {1, 49}, M_last = {1, 49}
+2021-09-18 01:41:51,139 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.3600000000000001); tilderR=(21) tilderS=(14); result=({1, 49}, 384); rev=92.16
+2021-09-18 01:41:51,140 - INFO - ********** (0.6000000000000001, 0.8, 0.4800000000000001)
+2021-09-18 01:41:51,141 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,141 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,167 - INFO - when budget_last = 0, M = {150}, M_last = {150}
+2021-09-18 01:41:51,167 - INFO - compute: budget=1; scheme=(0.6000000000000001,0.4800000000000001); tilderR=(21) tilderS=(32); result=({150}, 271); rev=32.519999999999996
+2021-09-18 01:41:51,167 - INFO - when budget_last = 1,  M_last = {150}
+2021-09-18 01:41:51,203 - INFO - when budget_last = 1, M = {1, 150}, M_last = {1, 150}
+2021-09-18 01:41:51,204 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.4800000000000001); tilderR=(21) tilderS=(32); result=({1, 150}, 498); rev=59.76
+2021-09-18 01:41:51,204 - INFO - ********** (0.6000000000000001, 1.0, 0.6000000000000001)
+2021-09-18 01:41:51,205 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,205 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,242 - INFO - when budget_last = 0, M = {150}, M_last = {150}
+2021-09-18 01:41:51,242 - INFO - compute: budget=1; scheme=(0.6000000000000001,0.6000000000000001); tilderR=(21) tilderS=(46); result=({150}, 271); rev=0.0
+2021-09-18 01:41:51,242 - INFO - when budget_last = 1,  M_last = {150}
+2021-09-18 01:41:51,294 - INFO - when budget_last = 1, M = {1, 150}, M_last = {1, 150}
+2021-09-18 01:41:51,294 - INFO - compute: budget=2; scheme=(0.6000000000000001,0.6000000000000001); tilderR=(21) tilderS=(46); result=({1, 150}, 498); rev=0.0
+2021-09-18 01:41:51,294 - INFO - ********** (0.8, 0.0, 0.0)
+2021-09-18 01:41:51,295 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,295 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,295 - INFO - when budget_last = 0, M = set(), M_last = set()
+2021-09-18 01:41:51,295 - INFO - compute: budget=1; scheme=(0.8,0.0); tilderR=(3) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:51,295 - INFO - when budget_last = 1,  M_last = set()
+2021-09-18 01:41:51,295 - INFO - when budget_last = 1, M = set(), M_last = set()
+2021-09-18 01:41:51,295 - INFO - compute: budget=2; scheme=(0.8,0.0); tilderR=(3) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:51,295 - INFO - ********** (0.8, 0.2, 0.16000000000000003)
+2021-09-18 01:41:51,296 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,296 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,297 - INFO - when budget_last = 0, M = {125}, M_last = {125}
+2021-09-18 01:41:51,297 - INFO - compute: budget=1; scheme=(0.8,0.16000000000000003); tilderR=(3) tilderS=(2); result=({125}, 10); rev=6.4
+2021-09-18 01:41:51,297 - INFO - when budget_last = 1,  M_last = {125}
+2021-09-18 01:41:51,297 - INFO - when budget_last = 1, M = {168, 125}, M_last = {168, 125}
+2021-09-18 01:41:51,297 - INFO - compute: budget=2; scheme=(0.8,0.16000000000000003); tilderR=(3) tilderS=(2); result=({168, 125}, 12); rev=7.68
+2021-09-18 01:41:51,298 - INFO - ********** (0.8, 0.4, 0.32000000000000006)
+2021-09-18 01:41:51,298 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,299 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,300 - INFO - when budget_last = 0, M = {47}, M_last = {47}
+2021-09-18 01:41:51,300 - INFO - compute: budget=1; scheme=(0.8,0.32000000000000006); tilderR=(3) tilderS=(10); result=({47}, 18); rev=8.64
+2021-09-18 01:41:51,300 - INFO - when budget_last = 1,  M_last = {47}
+2021-09-18 01:41:51,302 - INFO - when budget_last = 1, M = {46, 47}, M_last = {46, 47}
+2021-09-18 01:41:51,302 - INFO - compute: budget=2; scheme=(0.8,0.32000000000000006); tilderR=(3) tilderS=(10); result=({46, 47}, 31); rev=14.879999999999999
+2021-09-18 01:41:51,302 - INFO - ********** (0.8, 0.6000000000000001, 0.4800000000000001)
+2021-09-18 01:41:51,303 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,303 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,308 - INFO - when budget_last = 0, M = {150}, M_last = {150}
+2021-09-18 01:41:51,308 - INFO - compute: budget=1; scheme=(0.8,0.4800000000000001); tilderR=(3) tilderS=(32); result=({150}, 31); rev=9.919999999999998
+2021-09-18 01:41:51,308 - INFO - when budget_last = 1,  M_last = {150}
+2021-09-18 01:41:51,313 - INFO - when budget_last = 1, M = {173, 150}, M_last = {173, 150}
+2021-09-18 01:41:51,313 - INFO - compute: budget=2; scheme=(0.8,0.4800000000000001); tilderR=(3) tilderS=(32); result=({173, 150}, 35); rev=11.199999999999998
+2021-09-18 01:41:51,313 - INFO - ********** (0.8, 0.8, 0.6400000000000001)
+2021-09-18 01:41:51,314 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,314 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,320 - INFO - when budget_last = 0, M = {150}, M_last = {150}
+2021-09-18 01:41:51,320 - INFO - compute: budget=1; scheme=(0.8,0.6400000000000001); tilderR=(3) tilderS=(48); result=({150}, 31); rev=4.959999999999997
+2021-09-18 01:41:51,320 - INFO - when budget_last = 1,  M_last = {150}
+2021-09-18 01:41:51,328 - INFO - when budget_last = 1, M = {109, 150}, M_last = {109, 150}
+2021-09-18 01:41:51,328 - INFO - compute: budget=2; scheme=(0.8,0.6400000000000001); tilderR=(3) tilderS=(48); result=({109, 150}, 55); rev=8.799999999999995
+2021-09-18 01:41:51,329 - INFO - ********** (0.8, 1.0, 0.8)
+2021-09-18 01:41:51,330 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,330 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,336 - INFO - when budget_last = 0, M = {150}, M_last = {150}
+2021-09-18 01:41:51,336 - INFO - compute: budget=1; scheme=(0.8,0.8); tilderR=(3) tilderS=(54); result=({150}, 31); rev=0.0
+2021-09-18 01:41:51,337 - INFO - when budget_last = 1,  M_last = {150}
+2021-09-18 01:41:51,345 - INFO - when budget_last = 1, M = {109, 150}, M_last = {109, 150}
+2021-09-18 01:41:51,345 - INFO - compute: budget=2; scheme=(0.8,0.8); tilderR=(3) tilderS=(54); result=({109, 150}, 55); rev=0.0
+2021-09-18 01:41:51,345 - INFO - ********** (1.0, 0.0, 0.0)
+2021-09-18 01:41:51,346 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,347 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,347 - INFO - when budget_last = 0, M = set(), M_last = set()
+2021-09-18 01:41:51,347 - INFO - compute: budget=1; scheme=(1.0,0.0); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:51,347 - INFO - when budget_last = 1,  M_last = set()
+2021-09-18 01:41:51,347 - INFO - when budget_last = 1, M = set(), M_last = set()
+2021-09-18 01:41:51,347 - INFO - compute: budget=2; scheme=(1.0,0.0); tilderR=(0) tilderS=(0); result=(set(), 0); rev=0.0
+2021-09-18 01:41:51,347 - INFO - ********** (1.0, 0.2, 0.2)
+2021-09-18 01:41:51,348 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,348 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,348 - INFO - when budget_last = 0, M = {46}, M_last = {46}
+2021-09-18 01:41:51,348 - INFO - compute: budget=1; scheme=(1.0,0.2); tilderR=(0) tilderS=(3); result=({46}, 0); rev=0.0
+2021-09-18 01:41:51,348 - INFO - when budget_last = 1,  M_last = {46}
+2021-09-18 01:41:51,348 - INFO - when budget_last = 1, M = {125, 46}, M_last = {125, 46}
+2021-09-18 01:41:51,349 - INFO - compute: budget=2; scheme=(1.0,0.2); tilderR=(0) tilderS=(3); result=({125, 46}, 0); rev=0.0
+2021-09-18 01:41:51,349 - INFO - ********** (1.0, 0.4, 0.4)
+2021-09-18 01:41:51,350 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,350 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,350 - INFO - when budget_last = 0, M = {62}, M_last = {62}
+2021-09-18 01:41:51,350 - INFO - compute: budget=1; scheme=(1.0,0.4); tilderR=(0) tilderS=(19); result=({62}, 0); rev=0.0
+2021-09-18 01:41:51,350 - INFO - when budget_last = 1,  M_last = {62}
+2021-09-18 01:41:51,350 - INFO - when budget_last = 1, M = {61, 62}, M_last = {61, 62}
+2021-09-18 01:41:51,350 - INFO - compute: budget=2; scheme=(1.0,0.4); tilderR=(0) tilderS=(19); result=({61, 62}, 0); rev=0.0
+2021-09-18 01:41:51,350 - INFO - ********** (1.0, 0.6000000000000001, 0.6000000000000001)
+2021-09-18 01:41:51,352 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,352 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,352 - INFO - when budget_last = 0, M = {125}, M_last = {125}
+2021-09-18 01:41:51,352 - INFO - compute: budget=1; scheme=(1.0,0.6000000000000001); tilderR=(0) tilderS=(46); result=({125}, 0); rev=0.0
+2021-09-18 01:41:51,352 - INFO - when budget_last = 1,  M_last = {125}
+2021-09-18 01:41:51,352 - INFO - when budget_last = 1, M = {122, 125}, M_last = {122, 125}
+2021-09-18 01:41:51,352 - INFO - compute: budget=2; scheme=(1.0,0.6000000000000001); tilderR=(0) tilderS=(46); result=({122, 125}, 0); rev=0.0
+2021-09-18 01:41:51,352 - INFO - ********** (1.0, 0.8, 0.8)
+2021-09-18 01:41:51,354 - INFO - max_history_budget=0, max_history_result=None
+2021-09-18 01:41:51,354 - INFO - when budget_last = 0,  M_last = set()
+2021-09-18 01:41:51,354 - INFO - when budget_last = 0, M = {125}, M_last = {125}
+2021-09-18 01:41:51,354 - INFO - compute: budget=1; scheme=(1.0,0.8); tilderR=(0) tilderS=(54); result=({125}, 0); rev=0.0
+2021-09-18 01:41:51,354 - INFO - when budget_last = 1,  M_last = {125}
+2021-09-18 01:41:51,354 - INFO - when budget_last = 1, M = {122, 125}, M_last = {122, 125}
+2021-09-18 01:41:51,354 - INFO - compute: budget=2; scheme=(1.0,0.8); tilderR=(0) tilderS=(54); result=({122, 125}, 0); rev=0.0
+2021-09-18 01:41:51,354 - INFO - ********** (1.0, 1.0, 1.0)
+2021-09-18 01:41:51,355 - INFO - max_history_budget=2, max_history_result=({122, 125}, 0, 0.0)
+2021-09-18 01:41:51,356 - INFO - load: budget=1; scheme=(1.0,1.0); tilderR=(0) tilderS=(54); result=({125}, 0); rev=0.0

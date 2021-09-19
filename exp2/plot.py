@@ -15,41 +15,52 @@ import pandas as pd
 from zutil import *
 from network import Network
 from netoperator import Netoperator
+from netoperatorSW import NetoperatorSW
 import itertools
 
 
 def main():
     args, unk = get_parser().parse_known_args()
-    logger, logname = get_log(args.did, args.method, args.version)
+    logger, logname = get_log(args.did, 'plot', args.version)
     logger.info(args)
+    if args.rev:
+        plot_rev(args, logger)
+    if args.sw:
+        plot_sw(args, logger)
 
+
+def plot_sw(args, logger):
     budget_list = [int(x) for x in args.budget_list.split(',')]
     network = Network(logger, args.did, args.seed, args.percent_R, args.percent_S, int(args.a))
 
-
-    methods = ['brute', 'greedy']
-
-    netoperator_brute = Netoperator(logger, network, args.version, 'brute', int(args.grain_p), int(args.grain_alpha))
-    netoperator_greedy = Netoperator(logger, network, args.version, 'greedy', int(args.grain_p), int(args.grain_alpha))
+    netoperator_brute = NetoperatorSW(logger, network, args.version, 'brute', int(args.grain_p),
+                                    int(args.grain_alpha))
+    netoperator_greedy = NetoperatorSW(logger, network, args.version, 'greedy', int(args.grain_p),
+                                     int(args.grain_alpha))
     res_brute = netoperator_brute.budget2scheme2result
     res_greedy = netoperator_greedy.budget2scheme2result
 
     row_list = []
-    b_list = [1,2,3,4]
-
     palpha_list = list(itertools.product(netoperator_brute.p_list_all, netoperator_brute.alpha_list_all))
-    for (p,alpha) in palpha_list:
+    for (p, alpha) in palpha_list:
         q = alpha * p
         tilderR, tilderS = netoperator_brute.get_tilderR_tilderU(p, q)
-        row = [p,alpha,q, (p,q), len(tilderR), len(tilderS)]
+        row = [p, alpha, q, (p, q), len(tilderR), len(tilderS)]
 
-        for b in b_list:
-            row.append(res_brute[b][(p, q)][0])
+        for b in budget_list:
+            if len(res_brute[b][(p, q)][0]) == 0:
+                row.append('{}')
+            else:
+                row.append(res_brute[b][(p, q)][0])
             row.append(res_brute[b][(p, q)][1])
             row.append(res_brute[b][(p, q)][2])
-            # row.append(res_greedy[b][(p, q)][0])
-            # row.append(res_greedy[b][(p, q)][1])
-            # row.append(res_greedy[b][(p, q)][2])
+
+            if len(res_greedy[b][(p, q)][0]) == 0:
+                row.append('{}')
+            else:
+                row.append(res_greedy[b][(p, q)][0])
+            row.append(res_greedy[b][(p, q)][1])
+            row.append(res_greedy[b][(p, q)][2])
         row_list.append(row)
     # d = {"sid": id2score1.keys(), "log_ppl-": id2score1.values(), "log_ppl+": id2score2.values(),
     #      "delta_log_ppl": id2deltalogppl.values(), "src": id2src1.values(), "trg": id2trg1.values(),
@@ -61,7 +72,50 @@ def main():
     print(data)
     # df = pd.DataFrame(d)pd.DataFrame(row_list)
     # logger.info('df to csv...')
-    # df.to_csv(f"../eplots/{args.grain_p+args.grain_alpha}.csv", index=False)
+    data.to_csv(f"../eplots_sw/{args.did}_{args.grain_p}+{args.grain_alpha}.csv", index=False, header=False, sep='\t')
+
+def plot_rev(args, logger):
+    budget_list = [int(x) for x in args.budget_list.split(',')]
+    network = Network(logger, args.did, args.seed, args.percent_R, args.percent_S, int(args.a))
+
+    netoperator_brute = Netoperator(logger, network, args.version, 'brute', int(args.grain_p), int(args.grain_alpha))
+    netoperator_greedy = Netoperator(logger, network, args.version, 'greedy', int(args.grain_p), int(args.grain_alpha))
+    res_brute = netoperator_brute.budget2scheme2result
+    res_greedy = netoperator_greedy.budget2scheme2result
+
+    row_list = []
+    palpha_list = list(itertools.product(netoperator_brute.p_list_all, netoperator_brute.alpha_list_all))
+    for (p,alpha) in palpha_list:
+        q = alpha * p
+        tilderR, tilderS = netoperator_brute.get_tilderR_tilderU(p, q)
+        row = [p,alpha,q, (p,q), len(tilderR), len(tilderS)]
+
+        for b in budget_list:
+            if len(res_brute[b][(p, q)][0]) == 0:
+                row.append('{}')
+            else:
+                row.append(res_brute[b][(p, q)][0])
+            row.append(res_brute[b][(p, q)][1])
+            row.append(res_brute[b][(p, q)][2])
+
+            if len(res_greedy[b][(p, q)][0]) == 0:
+                row.append('{}')
+            else:
+                row.append(res_greedy[b][(p, q)][0])
+            row.append(res_greedy[b][(p, q)][1])
+            row.append(res_greedy[b][(p, q)][2])
+        row_list.append(row)
+    # d = {"sid": id2score1.keys(), "log_ppl-": id2score1.values(), "log_ppl+": id2score2.values(),
+    #      "delta_log_ppl": id2deltalogppl.values(), "src": id2src1.values(), "trg": id2trg1.values(),
+    #      "output": id2out1.values()}
+    #
+    # d = {"p": p_list, "alpha": alpha_list, "q": q_list, "scheme": scheme_list)}
+    data = pd.DataFrame(row_list)
+    print('data is like:')
+    print(data)
+    # df = pd.DataFrame(d)pd.DataFrame(row_list)
+    # logger.info('df to csv...')
+    data.to_csv(f"../eplots/{args.did}_{args.grain_p}+{args.grain_alpha}.csv", index=False, header=False, sep='\t')
 
 
 def plot_dist_hist(samples, bins, data_name):

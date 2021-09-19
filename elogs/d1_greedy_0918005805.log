@@ -1,0 +1,6 @@
+2021-09-18 00:58:05,671 - INFO - Namespace(a='2', beta_paras='3,6,6,3', budget_list='2', did='d1', grain_alpha='5', grain_p='5', method='greedy', percent_R='0.25', percent_S='0.25', seed='32', version='v09180058')
+2021-09-18 00:58:05,686 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-18 00:58:06,286 - INFO - Finish generate valuations and costs using using a=2
+2021-09-18 00:58:06,766 - INFO - max_history_budget=0, max_history_result=None

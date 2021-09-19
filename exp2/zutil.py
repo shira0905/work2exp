@@ -155,6 +155,12 @@ def get_parser():
     parser.add_argument(
         "--method", '-m', metavar='\b', default='', help="the method to use, {greedy, brute, h1, h2}"
     )
+    parser.add_argument(
+        "--rev", default=False, action="store_true", help="Whether take revenue as obj."
+    )
+    parser.add_argument(
+        "--sw", default=False, action="store_true", help="Whether take social welfare as obj."
+    )
     # parser.add_argument(
     #     "--do_brute", default=False, action="store_true", help="Whether to do_brute."
     # )

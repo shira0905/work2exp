@@ -27,9 +27,9 @@ class Netoperator:
         self.method = method
 
         self.budget2scheme2result = self.load_budget2scheme2result()
-        self.pq_list = self.get_pq_list2(grain_p, grain_alpha)
-        self.p_list_all = np.linspace(0, 1, num=grain_p + 1, endpoint=True) if grain_p != 0 else valuations_filtered
-        self.alpha_list_all = np.linspace(0, 1, num=grain_alpha + 1, endpoint=True) if grain_alpha != 0 else costs_f
+        # self.pq_list = self.get_pq_list2(grain_p, grain_alpha)
+        self.p_list_all = np.linspace(0, 1, num=grain_p + 1, endpoint=True)
+        self.alpha_list_all = np.linspace(0, 1, num=grain_alpha + 1, endpoint=True)
         # self.scheme2RS = self.get_scheme2RS(self.pq_list)
 
 
@@ -59,11 +59,11 @@ class Netoperator:
 
     def load_budget2scheme2result(self):
         budget2scheme2result = {}
-        result_pkl_path_list = [d for d in os.listdir(f"../elogs") if f"{self.network.did}_{self.method}" in d and 'pkl' in d]
+        result_pkl_path_list = [d for d in os.listdir(f"../eplots") if f"{self.network.did}_{self.method}" in d and 'pkl' in d]
         result_pkl_path_list.sort()
         print(result_pkl_path_list)
         if len(result_pkl_path_list)>0:
-            budget2scheme2result = pickle.load(open(f"../elogs/{result_pkl_path_list[-1]}", 'rb'))
+            budget2scheme2result = pickle.load(open(f"../eplots/{result_pkl_path_list[-1]}", 'rb'))
         return budget2scheme2result
 
     # def search_budget2scheme2result_(self, budget, tilderR, tilderS):
@@ -86,18 +86,19 @@ class Netoperator:
             return None
         scheme2result = self.budget2scheme2result[budget]
         for scheme, result in scheme2result.items():
-            p,q = scheme
-            tilderR_history, tilderS_history = self.get_tilderR_tilderU(p,q)
+            p, q = scheme
+            tilderR_history, tilderS_history = self.get_tilderR_tilderU(p, q)
             if tilderR_history == tilderR and tilderS_history == tilderS:
                 return result
+        return None
 
     def dump_budget2scheme2result(self):
         nowTime = datetime.datetime.now().strftime("%m%d%H%M%S")
-        result_pkl_path = f"../elogs/{self.network.did}_{self.method}_{nowTime}.pkl"
+        result_pkl_path = f"../eplots/{self.network.did}_{self.method}_{nowTime}.pkl"
         pickle.dump(self.budget2scheme2result, open(result_pkl_path, 'wb'))
 
 
-    def get_marginal_greedy(self, tilderR, tilderS, M_last, Incr_last, requester2IncrMlast, budget_last):
+    def get_marginal_greedy_(self, tilderR, tilderS, M_last, Incr_last, requester2IncrMlast, budget_last):
         """Get the result (M, Incr)_{b+1} if based on (currentM, currentIncr)_{b}
 
         :param tilderR:
@@ -129,8 +130,36 @@ class Netoperator:
         self.logger.info(M, card, requester2Incr_star)
         return M, card, requester2Incr_star
 
+    def get_marginal_greedy(self, tilderR, tilderS, M_last, Incr_last, budget_last):
+        """Get the result (M, Incr)_{b+1} if based on (currentM, currentIncr)_{b}
 
-    def get_best_marginal_supplier(self, tilderR, tilderS:set, M_last, requester2IncrMlast):
+        :param tilderR:
+        :type tilderR:
+        :param tilderS:
+        :type tilderS:
+        :param currentM:
+        :type currentM:
+        :param currentIncr:
+        :type currentIncr:
+        :param current_budget:
+        :type current_budget:
+        :return:
+        :rtype:
+        """
+        if len(M_last) < budget_last:  # S不够
+            return M_last, Incr_last
+
+        u_star = self.get_best_marginal_supplier(tilderR, tilderS, M_last) # 这个不对，返回了和之前一样的
+        if u_star:
+            M_last.add(u_star)
+        card = self.compute_incr(M_last, tilderR)
+
+        # print(currentM , 'add', u_star)
+        # self.logger.info(M, card)
+        return M_last, card
+
+
+    def get_best_marginal_supplier_(self, tilderR, tilderS:set, M_last, requester2IncrMlast):
         """Get supplier with largest marginal
 
         If tilderS is empty then return -1.
@@ -157,7 +186,32 @@ class Netoperator:
                 requester2Incr_star = requester2Incr
         return u_star, requester2Incr_star
 
-    def compute_marginal_supplier(self, tilderR, M_last, requester2IncrMlast, s_bar):
+    def get_best_marginal_supplier(self, tilderR, tilderS:set, M_last):
+        """Get supplier with largest marginal
+
+        If tilderS is empty then return -1.
+        If tilderS are neighbors all ready, then resutn the first one in tilderS into set, which is meaningless.
+
+        :param tilderR:
+        :type tilderR:
+        :param tilderS:
+        :type tilderS:
+        :param currentM:
+        :type currentM:
+        :return: u_star, supplier with largest marginal
+        :rtype:
+        """
+        u_star = None
+        max_marginal = 0
+        # print(f'tilderS.difference(M_last) = {tilderS.difference(M_last)}')
+        for s in tilderS.difference(M_last): # 如果tilderS为空u_star=-1，如果tilderS都已经是好友则返回第一个
+            marginal_s = self.compute_marginal_supplier(tilderR, M_last, s)
+            if marginal_s >= max_marginal:
+                u_star = s
+                max_marginal = marginal_s
+        return u_star
+
+    def compute_marginal_supplier_(self, tilderR, M_last, requester2IncrMlast, s_bar):
         """Compute the marginal increase of tilderR by adding supplier candidate s_bar into currentM (for do_greedy)
 
         # TODO 这个不对，返回了和之前一样的
@@ -197,6 +251,46 @@ class Netoperator:
             # print('I_r_lastM3', I_r_lastM)
             requester2IncrMlast[r] = I_r_lastM  # terrible name Oops
         return card_R_marginal, requester2IncrMlast
+
+    def compute_marginal_supplier(self, tilderR, M_last, s_bar):
+        """Compute the marginal increase of tilderR by adding supplier candidate s_bar into currentM (for do_greedy)
+
+        # TODO 这个不对，返回了和之前一样的
+        :math:`\sum_{r \in tilderR} {  I_r(currentM + bar\_s) -  I_r(currentM) }`
+
+        :param tilderR:
+        :type tilderR:
+        :param tilderS:
+        :type tilderS:
+        :param currentM: the suppliers have been selected into M
+        :type currentM:
+        :param s_bar: the candidate supplier to evaluate
+        :type s_bar:
+        :return: f_R_marginal
+        :rtype:
+        """
+        card_R_marginal = 0
+
+        for r in tilderR:
+            reduced_dist = self.network.tau - self.network.default_new_dist - self.network.spl[r][r]  # tau-1-0
+            I_r_s_bar = self.network.get_visible(s_bar, reduced_dist)
+
+            I_r_lastM = set()
+            # if requester2IncrMlast and r in requester2IncrMlast.keys(): # 已经入选的Mlast对requester 带来的visible set的新增集合
+            #     I_r_lastM = requester2IncrMlast[r]
+            # else: # 既然现在不准备用 requester2IncrMlast 这个集合了，那么else这里就足够了
+            for s in M_last:
+                reduced_dist = self.network.tau - self.network.default_new_dist - self.network.spl[r][r]  # tau-1-0
+                I_r_lastM.union(self.network.get_visible(s, reduced_dist))
+
+            origin_tau_visible = self.network.get_visible(r, self.network.tau)
+
+            I_r = I_r_s_bar.difference(I_r_lastM).difference(origin_tau_visible)
+            card_R_marginal += len(I_r)
+
+            I_r_lastM.union(I_r_s_bar)
+
+        return card_R_marginal
 
 
 
