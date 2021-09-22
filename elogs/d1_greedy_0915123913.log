@@ -1,5 +1,0 @@
-2021-09-15 12:39:13,869 - INFO - Namespace(beta_paras='3,6,6,3', budget_list='6', did='d1', grain_alpha='5', grain_p='10', method='greedy', percent_R='0.25', percent_S='0.25', seed='32', version='v09151239')
-2021-09-15 12:39:13,886 - INFO - Finish random requester set R and supplier set S 
-                             percent_R=0.25, num_R=55, len_R=55 
-                             percent_S=0.25, num_S=55, len_S=54
-2021-09-15 12:39:13,888 - INFO - Finish random valuations using v_beta_paras for R and costs using c_beta_paras for S

@@ -24,7 +24,7 @@ class Network:
         'd4': ('dblp', 10000, 2, 'uw', 1)
     }
 
-    def __init__(self, logger, did, seed, percent_R, percent_S, a):
+    def __init__(self, logger, did, seed, percent_R, percent_S, gamma):
         self.logger = logger
         self.seed = int(seed)
         self.did = did
@@ -39,7 +39,7 @@ class Network:
         # self.valuations, self.costs = self.random_valuations_costs_beta(self.beta_paras[0:2],
         #                                                                 self.beta_paras[2:4])  # 0 if nor S either R
 
-        self.valuations, self.costs = self.generate_valuations_costs_func(a)
+        self.valuations, self.costs = self.generate_valuations_costs_func(gamma)
 
     def create_graph(self):
         """get nx graph
@@ -132,21 +132,25 @@ class Network:
         self.logger.info(f"Finish random valuations using v_beta_paras for R and costs using c_beta_paras for S")
         return valuations, costs
 
-    def generate_valuations_costs_func(self, a):
+    def generate_valuations_costs_func(self, gamma):
+        """Generate valuations {p_u} based on function p(visibility)
+        and generate costs {q_u} based on f  unction q(visibility).
+
+        TODO: Plot the distributions to see if reasonable function definition.
+
+        :param gamma:
+        :type gamma:
+        :return: valuations, costs as attributions of objective Network
+        :rtype:
+        """
         node2degree = {}
         for node in self.graph.nodes():
             node2degree[node] = len(self.graph[node])
-        plt.hist(node2degree.values(), bins=10)
-        plt.savefig(f"../eplots/{self.did}_dist_degree.pdf", dpi=300, bbox_inches="tight", format='pdf')
-        plt.clf()
 
         node2visibility = {}
         for node in self.graph.nodes():
             visible_set = self.get_visible(node, self.tau)
             node2visibility[node] = len(visible_set)
-        plt.hist(node2visibility.values(), bins=10)
-        plt.savefig(f"../eplots/{self.did}_dist_visibility.pdf", dpi=300, bbox_inches="tight", format='pdf')
-        plt.clf()
         vis_max = sorted(node2visibility.items(), key=lambda kv: (kv[1], kv[0]), reverse=True)[0][1]
 
         node2valuation = {}
@@ -155,8 +159,8 @@ class Network:
         costs = []
         for node in range(len(self.graph.nodes())):
             visibility = len(self.get_visible(node, self.tau))
-            valuation = math.pow( (1+(visibility/vis_max)), a) / math.pow(2, a)
-            cost = 1-math.pow( (1+(visibility/vis_max)), a) / math.pow(2, a)
+            valuation = math.pow( (1+(visibility/vis_max)), gamma) / math.pow(2, gamma)
+            cost = 1-math.pow( (1+(visibility/vis_max)), gamma) / math.pow(2, gamma)
             node2valuation[node] = valuation
             valuations.append(valuation)
             node2cost[node] = cost
@@ -167,16 +171,16 @@ class Network:
         plt.hist(node2cost.values(), bins=10)
         plt.savefig(f"../eplots/{self.did}_dist_cost.pdf", dpi=300, bbox_inches="tight", format='pdf')
         plt.clf()
-        self.logger.info(f"Finish generate valuations and costs using using a={a}")
+        self.logger.info(f"Finish generate valuations and costs using using gamma={gamma}")
 
         x = np.linspace(0, vis_max, vis_max+1)
-        y = [math.pow( (1+(visibility/vis_max)), a) / math.pow(2, a) for visibility in x]
+        y = [math.pow( (1+(visibility/vis_max)), gamma) / math.pow(2, gamma) for visibility in x]
         plt.plot(x, y)
         plt.savefig(f"../eplots/{self.did}_curve_valuation.pdf", dpi=300, bbox_inches="tight", format='pdf')
         plt.clf()
 
         x = np.linspace(0, vis_max, vis_max+1)
-        y = [1-math.pow( (1+(visibility/vis_max)), a) / math.pow(2, a) for visibility in x]
+        y = [1-math.pow( (1+(visibility/vis_max)), gamma) / math.pow(2, gamma) for visibility in x]
         plt.plot(x, y)
         plt.savefig(f"../eplots/{self.did}_curve_cost.pdf", dpi=300, bbox_inches="tight", format='pdf')
         plt.clf()

@@ -1,1 +1,0 @@
-2021-09-13 04:49:11,173 - INFO - Namespace(beta_paras='3,6,6,3', budget_list='4', did='d2', grain_list_p='10', grain_list_pq='10+10', grain_list_q='10', method='greedy', percent_R='0.25', percent_S='0.25', seed='32', version='v09130449')

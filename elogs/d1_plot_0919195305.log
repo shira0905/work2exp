@@ -1,0 +1,21 @@
+2021-09-19 19:53:05,251 - INFO - Namespace(beta_paras='3,6,6,3', budget_list='0', did='d1', gamma='2', grain_alpha='10', grain_p='10', method='', percent_R='0.25', percent_S='0.25', rev=False, seed='32', stat=True, sw=False, version='v09191953')
+2021-09-19 19:53:05,267 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-19 19:53:05,875 - INFO - Finish generate valuations and costs using using gamma=2
+2021-09-19 19:53:06,459 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-19 19:53:06,855 - INFO - Finish generate valuations and costs using using gamma=2
+2021-09-19 19:53:07,469 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-19 19:53:07,866 - INFO - Finish generate valuations and costs using using gamma=2
+2021-09-19 19:53:08,246 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-19 19:53:08,638 - INFO - Finish generate valuations and costs using using gamma=2
+2021-09-19 19:53:09,017 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-19 19:53:09,416 - INFO - Finish generate valuations and costs using using gamma=2

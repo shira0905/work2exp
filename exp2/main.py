@@ -9,7 +9,7 @@
 
 from zutil import get_parser
 from network import Network
-from netoperator import Netoperator
+from netoperatorREV import NetoperatorREV
 from netoperatorSW import NetoperatorSW
 from zutil import *
 import itertools
@@ -24,8 +24,8 @@ def main():
 
     budget_list = [int(x) for x in args.budget_list.split(',')]
 
-    network = Network(logger, args.did, args.seed, args.percent_R, args.percent_S, int(args.a))
-    netoperatorREV = Netoperator(logger, network, args.version, args.method, int(args.grain_p), int(args.grain_alpha))
+    network = Network(logger, args.did, args.seed, args.percent_R, args.percent_S, int(args.gamma))
+    netoperatorREV = NetoperatorREV(logger, network, args.version, args.method, int(args.grain_p), int(args.grain_alpha))
     netoperatorSW = NetoperatorSW(logger, network, args.version, args.method, int(args.grain_p), int(args.grain_alpha))
 
 
@@ -41,6 +41,18 @@ def main():
             do_brute(budget_list, netoperatorSW, logger)
 
 def do_greedy(budget_list, netoperator, logger):
+    """For each (p, alpha) under given search mode,
+    search the optimal set and compute the corresponding obj value for all budgets using greedy.
+
+    :param budget_list:
+    :type budget_list:
+    :param netoperator:
+    :type netoperator: NetoperatorSW or NetoperatorREV (not good)
+    :param logger:
+    :type logger:
+    :return: Dump budget2scheme2result as pkl
+    :rtype: None
+    """
     budget_max = max(budget_list)
     for budget in range(1, budget_max + 1):
         if budget not in netoperator.budget2scheme2result.keys():
@@ -50,7 +62,7 @@ def do_greedy(budget_list, netoperator, logger):
     for (p, alpha) in palpha_list:
         q = alpha * p
         logger.info(f"{'*' * 10} {(p, alpha, q)}")
-        tilderR, tilderS = netoperator.get_tilderR_tilderU(p, q)
+        tilderR, tilderS = netoperator.get_tilderR_tilderS(p, q)
         max_history_budget, max_history_result = 0, None
         for b in range(budget_max, 0, -1):
             search_result = netoperator.search_budget2scheme2result(b, tilderR, tilderS)
@@ -69,7 +81,7 @@ def do_greedy(budget_list, netoperator, logger):
         for budget in range(1, max_history_budget+1):
             M, obj, rev = netoperator.search_budget2scheme2result(budget, tilderR, tilderS)
             revenue = (p - q) * obj
-            netoperator.budget2scheme2result[budget][(p, q)] = (M, obj, revenue)
+            netoperator.budget2scheme2result[budget][(p, q)] = (M.copy(), obj, revenue)
             logger.info(
                 f"load: budget={budget}; scheme=({p},{q}); tilderR=({len(tilderR)}) tilderS=({len(tilderS)}); result={M, obj}; rev={revenue}")
 
@@ -78,20 +90,32 @@ def do_greedy(budget_list, netoperator, logger):
             M_last, obj = netoperator.get_marginal_greedy(tilderR, tilderS, M_last, obj_last, budget_last)
             # logger.info(f"when budget_last = {budget_last}, M_last = {M_last}") # 输入的Mlast和输出的Mlast不一样。 set是可变数据类型
             revenue = (p - q) * obj
-            netoperator.budget2scheme2result[budget_last + 1][(p, q)] = (M_last, obj, revenue)
+            netoperator.budget2scheme2result[budget_last + 1][(p, q)] = (M_last.copy(), obj, revenue)
             logger.info(
                 f"compute: budget={budget_last + 1}; scheme=({p},{q}); tilderR=({len(tilderR)}) tilderS=({len(tilderS)}); result={M_last, obj}; rev={revenue}")
     netoperator.dump_budget2scheme2result()
 
 
 def do_brute(budget_list, netoperator, logger):
+    """For each (p, alpha) under given search mode,
+    search the optimal set and compute the corresponding obj value for all budgets using brute.
+
+    :param budget_list:
+    :type budget_list:
+    :param netoperator:
+    :type netoperator: NetoperatorSW or NetoperatorREV (not good)
+    :param logger:
+    :type logger:
+    :return: Dump budget2scheme2result as pkl
+    :rtype: None
+    """
     for budget in budget_list:
         if budget not in netoperator.budget2scheme2result.keys():
             netoperator.budget2scheme2result[budget] = {}
         palpha_list = list(itertools.product(netoperator.p_list_all, netoperator.alpha_list_all))
         for (p, alpha) in palpha_list:
             q = alpha * p
-            tilderR, tilderS = netoperator.get_tilderR_tilderU(p, q)
+            tilderR, tilderS = netoperator.get_tilderR_tilderS(p, q)
             result = netoperator.search_budget2scheme2result(budget, tilderR, tilderS)
             # 可能需要修改一下，现在是从当前对象的结果中搜索，完全可以从历史所有结果中搜索
             if result:

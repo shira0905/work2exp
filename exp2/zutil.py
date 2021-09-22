@@ -116,7 +116,7 @@ def get_parser():
         "--beta_paras", metavar='\b', default='3,6,6,3', help="Beta paras from which draw valuations and costs v1,v2,c1,c2"
     )
     parser.add_argument(
-        "--a", '-a', metavar='\b', default='2', help="the para of valuation function"
+        "--gamma", '-gamma', metavar='\b', default='2', help="the para of valuation function"
     )
 
     parser.add_argument(
@@ -156,10 +156,16 @@ def get_parser():
         "--method", '-m', metavar='\b', default='', help="the method to use, {greedy, brute, h1, h2}"
     )
     parser.add_argument(
-        "--rev", default=False, action="store_true", help="Whether take revenue as obj."
+        "--rev", default=False, action="store_true", help="Whether take revenue as obj, for plot and main."
     )
     parser.add_argument(
-        "--sw", default=False, action="store_true", help="Whether take social welfare as obj."
+        "--sw", default=False, action="store_true", help="Whether take social welfare as obj, for plot and main."
+    )
+    parser.add_argument(
+        "--stat", default=False, action="store_true", help="Whether plot statistics of graph, for plot."
+    )
+    parser.add_argument(
+        "--extract", default=False, action="store_true", help="Whether xxx for plot."
     )
     # parser.add_argument(
     #     "--do_brute", default=False, action="store_true", help="Whether to do_brute."

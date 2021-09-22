@@ -11,8 +11,6 @@ Welcome to work2exp's documentation!
 
    modules
 
-.. math::
-   y \sim \mathcal{N}(0, 1)
 
 
 Indices and tables

@@ -2,6 +2,6 @@ network module
 ==============
 
 .. automodule:: network
-   :members:
-   :undoc-members:
-   :show-inheritance:
+    :members:
+    :undoc-members:
+    :show-inheritance:
