@@ -13,26 +13,29 @@ from zutil import *
 import random
 import math
 import numpy as np
+import os
 
 
 class Network:
     """The class of the network"""
     dataset_dict = {
-        'd1': ('residence', 217, 2, 'uw', 1),
-        'd2': ('blog', 1224, 2, 'uw', 1),
-        'd3': ('facebook', 5908, 2, 'uw', 1),
-        'd4': ('dblp', 10000, 2, 'uw', 1)
+        'd1': ('residence', 217, 2, 'uw', 1, 0.25),
+        'd2': ('blog', 1224, 2, 'uw', 1, 0.1),
+        'd4': ('dblp', 10000, 2, 'uw', 1, 0.1)
     }
+    #         'd3': ('facebook', 5908, 2, 'uw', 1, 0.05),
 
-    def __init__(self, logger, did, seed, percent_R, percent_S, gamma):
+    def __init__(self, logger, did, seed, gamma):
         self.logger = logger
-        self.seed = int(seed)
+
         self.did = did
-        self.data_name, self.data_size, self.tau, self.data_weighted, self.default_new_dist = Network.dataset_dict[did]
+        self.seed = seed
+        self.gamma = gamma
+        self.data_name, self.data_size, self.tau, self.data_weighted, self.default_new_dist, self.percentage = Network.dataset_dict[did]
         self.graph = self.create_graph()
         self.spl = self.compute_spl()
 
-        self.R, self.S = self.random_RS(float(percent_R), float(percent_S))  # requester set, suppolie set
+        self.R, self.S = self.random_RS(self.percentage, self.percentage)  # requester set, suppolie set
 
 
         # self.beta_paras = [float(x) for x in beta_paras.split(',')]
@@ -49,7 +52,10 @@ class Network:
         """
         data_path = f"../zdata/{self.data_name}_{self.data_size}.txt"
         graph = nx.read_edgelist(data_path, nodetype=int, data=(('weight', float),), create_using=nx.DiGraph())
+        self.logger.info(len(graph.nodes))
+
         [graph.add_node(i) for i in range(self.data_size) if i not in graph.nodes]
+        self.logger.info(len(graph.nodes))
         return graph
 
     def compute_spl(self):
@@ -60,8 +66,21 @@ class Network:
         :return: set self.spl
         :rtype: dict
         """
-        spl_pkl_file = open(f"../zdata/{self.data_name}_{self.data_size}_spl.pkl", 'rb')
-        spl = pickle.load(spl_pkl_file)
+        filename = f"../zdata/{self.data_name}_{self.data_size}_spl.pkl"
+        if os.path.exists(filename):
+            spl_pkl_file = open(filename, 'rb')
+            spl = pickle.load(spl_pkl_file)
+            self.logger.info('load:')
+            # head_dict(self.logger, spl, 4)
+        else:
+            spl = dict(nx.all_pairs_shortest_path_length(self.graph))
+            self.logger.info('compute:')
+            # head_dict(self.logger, spl, 4)
+            spl_pkl_file = open(filename, 'wb')
+            pickle.dump(spl, spl_pkl_file)
+
+            pass # compute a
+
         # head_dict(None, spl, 2)
         return spl
 
@@ -153,40 +172,41 @@ class Network:
             node2visibility[node] = len(visible_set)
         vis_max = sorted(node2visibility.items(), key=lambda kv: (kv[1], kv[0]), reverse=True)[0][1]
 
-        node2valuation = {}
-        node2cost = {}
+        # node2valuation = {}
+        # node2cost = {}
         valuations = []
         costs = []
         for node in range(len(self.graph.nodes())):
             visibility = len(self.get_visible(node, self.tau))
             valuation = math.pow( (1+(visibility/vis_max)), gamma) / math.pow(2, gamma)
             cost = 1-math.pow( (1+(visibility/vis_max)), gamma) / math.pow(2, gamma)
-            node2valuation[node] = valuation
             valuations.append(valuation)
-            node2cost[node] = cost
             costs.append(cost)
-        plt.hist(node2valuation.values(), bins=10)
-        plt.savefig(f"../eplots/{self.did}_dist_valuation.pdf", dpi=300, bbox_inches="tight", format='pdf')
-        plt.clf()
-        plt.hist(node2cost.values(), bins=10)
-        plt.savefig(f"../eplots/{self.did}_dist_cost.pdf", dpi=300, bbox_inches="tight", format='pdf')
-        plt.clf()
-        self.logger.info(f"Finish generate valuations and costs using using gamma={gamma}")
+        #     node2valuation[node] = valuation
+        #     node2cost[node] = cost
 
-        x = np.linspace(0, vis_max, vis_max+1)
-        y = [math.pow( (1+(visibility/vis_max)), gamma) / math.pow(2, gamma) for visibility in x]
-        plt.plot(x, y)
-        plt.savefig(f"../eplots/{self.did}_curve_valuation.pdf", dpi=300, bbox_inches="tight", format='pdf')
-        plt.clf()
+        # plt.hist(node2valuation.values(), bins=10)
+        # plt.savefig(f"../eplots/{self.did}_dist_valuation.pdf", dpi=300, bbox_inches="tight", format='pdf')
+        # plt.clf()
+        # plt.hist(node2cost.values(), bins=10)
+        # plt.savefig(f"../eplots/{self.did}_dist_cost.pdf", dpi=300, bbox_inches="tight", format='pdf')
+        # plt.clf()
+        # self.logger.info(f"Finish generate valuations and costs using using gamma={gamma}")
 
-        x = np.linspace(0, vis_max, vis_max+1)
-        y = [1-math.pow( (1+(visibility/vis_max)), gamma) / math.pow(2, gamma) for visibility in x]
-        plt.plot(x, y)
-        plt.savefig(f"../eplots/{self.did}_curve_cost.pdf", dpi=300, bbox_inches="tight", format='pdf')
-        plt.clf()
+        # x = np.linspace(0, vis_max, vis_max+1)
+        # y = [math.pow( (1+(visibility/vis_max)), gamma) / math.pow(2, gamma) for visibility in x]
+        # plt.plot(x, y)
+        # plt.savefig(f"../eplots/{self.did}_curve_valuation.pdf", dpi=300, bbox_inches="tight", format='pdf')
+        # plt.clf()
+        #
+        # x = np.linspace(0, vis_max, vis_max+1)
+        # y = [1-math.pow( (1+(visibility/vis_max)), gamma) / math.pow(2, gamma) for visibility in x]
+        # plt.plot(x, y)
+        # plt.savefig(f"../eplots/{self.did}_curve_cost.pdf", dpi=300, bbox_inches="tight", format='pdf')
+        # plt.clf()
 
-        s = f"node, degree, visibility, valuation, cost \n"
-        for node in range(len(self.graph.nodes())):
-            s += f"{node}, {node2degree[node]}, {node2visibility[node]}, {node2valuation[node]}, {node2cost[node]} \n"
+        # s = f"node, degree, visibility, valuation, cost \n"
+        # for node in range(len(self.graph.nodes())):
+        #     s += f"{node}, {node2degree[node]}, {node2visibility[node]}, {node2valuation[node]}, {node2cost[node]} \n"
         # self.logger.info(f"information of the network: \n {s}")
         return valuations, costs

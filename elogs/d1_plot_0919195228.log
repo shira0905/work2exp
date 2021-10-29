@@ -1,1 +1,0 @@
-2021-09-19 19:52:28,960 - INFO - Namespace(beta_paras='3,6,6,3', budget_list='0', did='d1', gamma='2', grain_alpha='10', grain_p='10', method='', percent_R='0.25', percent_S='0.25', rev=False, seed='32', stat=True, sw=False, version='v09191952')
