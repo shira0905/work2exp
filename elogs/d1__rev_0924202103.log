@@ -1,0 +1,32 @@
+2021-09-24 20:21:03,577 - INFO - **************************************************
+usage: main.py algo [-h] [--did] [--seed] [--percent_R] [--percent_S]
+                    [--gamma] [--budget_list [[...]]] [--grain_p]
+                    [--grain_alpha] [--method] [--obj]
+optional arguments:
+  -h, --help            show this help message and exit
+  --did , -d            The data to experiment on.
+  --seed , -s           The seed for all randomness.
+  --percent_R , -pr     The percentage of requesters R/N.
+  --percent_S , -ps     The percentage of suppliers S/N.
+  --gamma , -gm         [study] The parameter of function p(v) and q(v).
+  --budget_list [ [ ...]], -bl [ [ ...]]
+                        [vary] The budget of suppliers to select.
+  --grain_p , -gp       [study] Number of samples of p, 1/epsilon_p.
+  --grain_alpha , -ga   [study] Number of samples of alpha, 1/epsilon_alpha.
+  --method , -m         [study] The method to use to compute optimum.
+  --obj , -o            [study] The objective to maximize..
+
+2021-09-24 20:21:03,578 - INFO - **************************************************
+usage: main.py analyze [-h] [--did] [--gamma] [--budget_list [[...]]]
+                       [--grain_p] [--grain_alpha] [--method] [--obj]
+optional arguments:
+  -h, --help            show this help message and exit
+  --did , -d            The data to experiment on.
+  --gamma , -gm         [study] The parameter of function p(v) and q(v).
+  --budget_list [ [ ...]], -bl [ [ ...]]
+                        [vary] The budget of suppliers to select.
+  --grain_p , -gp       [study] Number of samples of p, 1/epsilon_p.
+  --grain_alpha , -ga   [study] Number of samples of alpha, 1/epsilon_alpha.
+  --method , -m         [study] The method to use to compute optimum.
+  --obj , -o            [study] The objective to maximize.
+

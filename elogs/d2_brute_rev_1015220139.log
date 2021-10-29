@@ -1,0 +1,7 @@
+2021-10-15 22:01:39,281 - INFO - run algo
+2021-10-15 22:01:39,347 - INFO - 1224
+2021-10-15 22:01:39,349 - INFO - 1224
+2021-10-15 22:01:39,443 - INFO - load:
+2021-10-15 22:01:39,444 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.1, num_R=123, len_R=123 
+                             percent_S=0.1, num_S=123, len_S=122

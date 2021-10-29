@@ -1,0 +1,19 @@
+2021-09-25 21:36:43,398 - INFO - run analyze
+2021-09-25 21:36:43,413 - INFO - when budget=1, method=brute, 
+	 opt_scheme=[0.2, 0.6000000000000001], 
+	 opt_result=['{168}', 631, 50.47999999999999, 631.0]
+2021-09-25 21:36:43,414 - INFO - when budget=1, method=greedy, 
+	 opt_scheme=[0.4, 1.0], 
+	 opt_result=['{150}', 435.0214416896235, 0.0, 435.0214416896235]
+2021-09-25 21:36:43,415 - INFO - when budget=2, method=brute, 
+	 opt_scheme=[0.2, 0.6000000000000001], 
+	 opt_result=['{168}', 631, 50.47999999999999, 631.0]
+2021-09-25 21:36:43,416 - INFO - when budget=2, method=greedy, 
+	 opt_scheme=[0.2, 0.8], 
+	 opt_result=['{168, 125}', 1093, 43.71999999999998, 1093.0]
+2021-09-25 21:36:43,417 - INFO - when budget=3, method=brute, 
+	 opt_scheme=[0.2, 0.6000000000000001], 
+	 opt_result=['{168}', 631, 50.47999999999999, 631.0]
+2021-09-25 21:36:43,419 - INFO - when budget=3, method=greedy, 
+	 opt_scheme=[0.4, 1.0], 
+	 opt_result=['{150, 46}', 732.4187052341597, 0.0, 732.4187052341597]

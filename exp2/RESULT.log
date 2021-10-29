@@ -1,0 +1,1487 @@
+0926-161158
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m brute
+
+0926-161224
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m greedy
+
+0926-161238
+python main.py pre -d d1 -f plot_from_pkl_3d -o sw -bl 3 -g 5 -m greedy
+
+0926-161247
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m greedy
+
+0926-161300
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m brute
+
+
+0926-161403
+python main.py pre
+
+0926-161426
+python main.py pre -d d2
+
+0926-222416
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m brute
+
+0926-222502
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m brute
+
+0926-222519
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m brute
+
+0926-222831
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m brute
+
+0926-222926
+
+
+
+0926-223200
+python main.py pre -d d1 -f plot_from_pkl_3d_ml -o rev -bl 3 -g 5 -ml brute greedy
+
+0926-223216
+python main.py pre -d d1 -f plot_from_pkl_3d_ml -o rev -bl 3 -g 5 -ml brute greedy
+
+0926-223552
+python main.py pre -d d1 -f plot_from_pkl_3d_ml -o rev -bl 3 -g 5 -ml brute greedy
+
+0926-223803
+python main.py pre -d d1 -f plot_from_pkl_3d_ml -o rev -bl 3 -g 5 -ml brute greedy
+
+0926-223817
+python main.py pre -d d1 -f plot_from_pkl_3d_ml -o rev -bl 3 -g 5 -ml brute greedy
+
+0926-223905
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -ml brute
+
+0926-223952
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m brute
+
+0926-223959
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m greedy
+
+0926-224238
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m greedy
+
+0926-224326
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m greedy
+
+0926-224501
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m greedy
+
+0926-224635
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m greedy
+
+0926-224838
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m greedy
+
+0926-224915
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m greedy
+
+0926-224944
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m greedy
+
+0926-225141
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m greedy
+
+0926-225203
+python main.py pre -d d1 -f plot_from_pkl_3d -o rev -bl 3 -g 5 -m greedy
+
+0927-000249
+python main.py algo
+
+0927-000412
+python main.py algo -d d1 -bl 4 -g 10 -m brute
+
+
+0927-003048
+python main.py algo -d d1 -bl 4 -g 10 -m brute
+
+0927-003110
+python main.py algo -d d1 -bl 4 -g 10 -m brute
+
+0927-003143
+python main.py algo -d d1 -bl 4 -g 10 -m brute -o rev
+
+0927-004135
+python main.py algo -d d2 -bl 2 -g 10 -m brute -o rev
+
+============================================================
+
+0927-004338
+python main.py algo -d d1 -bl 3 -g 10 -m brute -o rev
+
+0927-004409
+python main.py algo -d d1 -bl 3 -g 10 -m brute -o sw
+
+
+0927-004638
+python main.py algo -d d1 -bl 3 -g 20 -m brute -o sw
+
+0927-004656
+python main.py algo -d d1 -bl 3 -g 20 -m brute -o rev
+
+0927-005020
+python main.py algo -d d1 -bl 3 -g 20 -m greedy -o rev
+
+0927-005106
+python main.py algo -d d1 -bl 3 -g 20 -m greedy -o sw
+
+0927-005214
+python main.py algo -d d1 -bl 4 -g 20 -m brute -o rev
+
+0927-005224
+python main.py algo -d d1 -bl 4 -g 20 -m brute -o sw
+
+0927-005439
+python main.py algo -d d1 -bl 4 -g 20 -m greedy -o sw
+
+0927-005502
+python main.py algo -d d1 -bl 4 -g 20 -m greedy -o rev
+
+0927-005814
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 20 -o rev -m greedy
+
+0927-005943
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 10 -o rev -m greedy
+
+0927-010040
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 10 -o rev -m brute
+
+0927-010258
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 10 -o rev -m brute
+
+0927-010429
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 10 -o rev -m brute
+
+0927-010442
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 20 -o rev -m brute
+
+0927-010535
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 20 -o rev -m greedy
+
+0927-010544
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 20 -o sw -m greedy
+
+0927-010551
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 20 -o sw -m brute
+
+0927-014241
+python main.py pre -d d2
+
+0927-014326
+python main.py pre -d d2
+
+0927-014335
+python main.py pre -d d2
+
+0927-014420
+python main.py pre -d d2 -f plot_dist -c deg
+
+0927-014441
+python main.py pre -d d2 -f plot_dist -c vis
+
+0927-014501
+python main.py pre -d d2 -f plot_dist -c p
+
+0927-014602
+python main.py pre -d d2 -f plot_dist -c 1
+
+0927-014605
+python main.py pre -d d2 -f plot_dist -c q
+
+0927-014613
+python main.py pre -d d2 -f plot_dist -c q_deg
+
+0927-014620
+python main.py pre -d d2 -f plot_dist -c p_deg
+
+0927-014653
+python main.py pre -d d4 -f plot_dist -c deg
+
+0927-014735
+python main.py pre -d d4 -f plot_dist -c vis
+
+0927-015253
+python main.py pre -d d1 -f plot_dist -cl deg vis p q p_deg q_deg
+
+0927-015322
+python main.py pre -d d1 -f plot_dist -cl deg vis p q p_deg q_deg
+
+0927-015419
+python main.py pre -d d4 -f plot_dist -cl deg vis p q p_deg q_deg
+
+0927-015642
+python main.py algo -d d1 -bl 4 -g 10 -m brute -o rev
+
+0927-015707
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 20 -o rev -m greedy
+
+0927-015709
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 10 -o rev -m greedy
+
+0927-015711
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 10 -o rev -m brute
+
+0927-015716
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 10 -o rev -m brute
+
+0927-015813
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 4 -g 20 -o rev -m greedy
+
+0927-015815
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 4 -g 20 -o rev -m greedy
+
+0927-015817
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 4 -g 20 -o rev -m brute
+
+0927-015822
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 4 -g 20 -o rev -m brute
+
+0927-015912
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 4 -g 20 -o sw -m brute
+
+0927-015914
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 4 -g 20 -o sw -m greedy
+
+0927-020252
+python main.py algo -d d2 -bl 1,2 -g 20 -m brute -o rev
+
+0927-020300
+python main.py algo -d d2 -bl 1 2 -g 20 -m brute -o rev
+
+0927-020352
+python main.py algo -d d2 -bl 1 2 -g 20 -m brute -o sw
+
+0927-020516
+python main.py algo -d d1 -bl 1 2 -g 20 -m brute -o sw
+
+0927-020531
+python main.py algo -d d1 -bl 1 2 -g 20 -m brute -o rev
+
+0927-020632
+python main.py algo -d d1 -bl 1 2 -g 20 -m greedy -o rev
+
+
+
+
+
+python main.py algo -d d2 -bl 1 2 3 4 -g 20 -m greedy -o rev
+python main.py algo -d d2 -bl 1 2 3 4 -g 20 -m greedy -o sw
+
+
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3  -g 20 -o rev -m greedy
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3  -g 20 -o rev -m brute
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3  -g 20 -o sw -m greedy
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3  -g 20 -o sw -m brute
+
+
+0927-022050
+python main.py algo -d d2 -bl 1 2 3 4 -g 20 -m greedy -o rev
+
+
+0927-022320
+python main.py algo -d d2 -bl 1 2 3 4 -g 20 -m greedy -o sw
+
+0927-022609
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 2 -g 20 -o rev -m greedy
+
+0927-022611
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 2 -g 20 -o rev -m brute
+
+0927-022612
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 2 -g 20 -o sw -m greedy
+
+0927-022615
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 2 -g 20 -o sw -m brute
+
+0927-022835
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 2 -g 20 -o rev -m greedy
+
+0927-022837
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 2 -g 20 -o rev -m brute
+
+0927-022839
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 2 -g 20 -o sw -m greedy
+
+
+0927-022928
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 2 -g 20 -o sw -m brute
+
+0927-022936
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 4 -g 20 -o rev -m greedy
+
+0927-022938
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 4 -g 20 -o rev -m brute
+
+0927-022940
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 4 -g 20 -o sw -m greedy
+
+0927-022941
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 4 -g 20 -o sw -m brute
+
+
+0927-023027
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 20 -o rev -m greedy
+
+0927-023029
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 20 -o rev -m brute
+
+0927-023031
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 20 -o sw -m greedy
+
+0927-023032
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 3 -g 20 -o sw -m brute
+
+
+0927-023131
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 2 -g 20 -o rev -m greedy
+
+0927-023132
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 2 -g 20 -o rev -m brute
+
+0927-023134
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 2 -g 20 -o sw -m greedy
+
+0927-023135
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 2 -g 20 -o sw -m brute
+
+
+0927-023150
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 -g 20 -o rev -m greedy
+
+0927-023152
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 -g 20 -o rev -m brute
+
+0927-023154
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 -g 20 -o sw -m greedy
+
+0927-023155
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 -g 20 -o sw -m brute
+
+0927-023230
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 -g 20 -o rev -m greedy
+
+0927-023232
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 -g 20 -o rev -m brute
+
+0927-023233
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 -g 20 -o sw -m greedy
+
+0927-023235
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 -g 20 -o sw -m brute
+
+
+0927-023336
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 5 -o rev -m greedy
+
+0927-023339
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 5 -o rev -m brute
+
+0927-023341
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 5 -o sw -m greedy
+
+0927-023343
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 5 -o sw -m brute
+
+0927-023427
+python main.py algo -d d2 -bl 1 2 3 4 -g 20 -m greedy -o sw
+
+
+python main.py algo -d d4 -bl 1 2 -g 10 -m brute -o sw
+python main.py algo -d d4 -bl 1 2 -g 10 -m brute -o rev
+
+
+0927-023511
+python main.py algo -d d4 -bl 1 2 3 4 -g 10 -m greedy -o sw
+
+
+0927-023603
+python main.py algo -d d4 -bl 1 2 -g 10 -m brute -o sw
+
+0927-023629
+python main.py algo -d d4 -bl 1 2 -g 10 -m brute -o rev
+
+0927-023725
+python main.py algo -d d4 -bl 1 2 -g 10 -m brute -o sw
+
+0927-023728
+python main.py algo -d d4 -bl 1 2 -g 10 -m brute -o rev
+
+0927-023746
+python main.py algo -d d4 -bl 1 2 -g 10 -m brute -o rev
+
+0927-023830
+python main.py algo -d d4 -bl 1 2 -g 10 -m brute -o rev
+
+0927-023942
+python main.py algo -d d4 -bl 1 2 -g 10 -m brute -o sw
+
+0927-024002
+python main.py algo -d d4 -bl 1 2 -g 10 -m greedy -o sw
+
+0927-024043
+python main.py algo -d d4 -bl 1 2 -g 20 -m brute -o sw
+
+0927-024106
+python main.py algo -d d4 -bl 1 2 3 4 -g 20 -m greedy -o sw
+
+0927-024403
+python main.py algo -d d4 -bl 1 2 3 4 -g 20 -m greedy -o rev
+
+
+0927-100206
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o rev -m greedy
+
+0927-100209
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o rev -m brute
+
+0927-100211
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o sw -m greedy
+
+0927-100213
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o sw -m brute
+
+0927-100340
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o sw -m brute
+
+0927-100359
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o rev -m greedy
+
+0927-100401
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o rev -m brute
+
+0927-100402
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o sw -m greedy
+
+0927-100404
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o sw -m brute
+
+0927-100833
+python main.py algo -d d4 -bl 1 -g 20 -o rev -m brute
+
+0927-100927
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o rev -m greedy
+
+0927-100929
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o rev -m brute
+
+0927-100931
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o sw -m greedy
+
+0927-100944
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o sw -m brute
+
+0927-101859
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -0 rev
+
+0927-101908
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev
+
+0927-102510
+python main.py pre -d d1 -f plot_curve -cl p q
+
+0927-102606
+python main.py pre -d d2 -f plot_curve -cl p q
+
+0927-102643
+python main.py pre -d d4 -f plot_curve -cl p q
+
+0927-102854
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o rev -m brute
+
+0927-102923
+python main.py algo -d d4 -bl 2 -g 20 -o rev -m brute
+
+0927-103232
+python main.py pre -d d4 -f plot_curve -cl p q -g 1
+
+0927-103652
+python main.py pre -d d1 -f plot_dist -cl p q vis deg -g 1
+
+0927-103654
+python main.py pre -d d2 -f plot_dist -cl p q vis deg -g 1
+
+0927-103756
+python main.py pre -d d1 -f plot_dist -cl p q vis deg -gm 1
+
+0927-103758
+python main.py pre -d d2 -f plot_dist -cl p q vis deg -gm 1
+
+0927-103801
+python main.py pre -d d4 -f plot_dist -cl p q vis deg -gm 1
+
+0927-103914
+python main.py pre -d d1 -f plot_dist -cl p q vis deg -gm 2
+
+0927-103917
+python main.py pre -d d2 -f plot_dist -cl p q vis deg -gm 2
+
+0927-103920
+python main.py pre -d d4 -f plot_dist -cl p q vis deg -gm 2
+
+0927-103943
+python main.py pre -d d1 -f plot_dist -cl p q vis deg -gm 3
+
+0927-103946
+python main.py pre -d d2 -f plot_dist -cl p q vis deg -gm 3
+
+0927-103949
+python main.py pre -d d4 -f plot_dist -cl p q vis deg -gm 3
+
+0927-104035
+python main.py pre -d d1 -f plot_curve -cl p q -gm 2
+
+0927-104037
+python main.py pre -d d2 -f plot_curve -cl p q -gm 2
+
+0927-104040
+python main.py pre -d d4 -f plot_curve -cl p q -gm 2
+
+0927-104053
+python main.py pre -d d1 -f plot_curve -cl p q -gm 1
+
+0927-104056
+python main.py pre -d d2 -f plot_curve -cl p q -gm 1
+
+0927-104059
+python main.py pre -d d4 -f plot_curve -cl p q -gm 1
+
+0927-104112
+python main.py pre -d d1 -f plot_curve -cl p q -gm 3
+
+0927-104114
+python main.py pre -d d2 -f plot_curve -cl p q -gm 3
+
+0927-104117
+python main.py pre -d d4 -f plot_curve -cl p q -gm 3
+
+0927-104129
+python main.py pre -d d1 -f plot_curve -cl p q -gm 0.5
+
+0927-104132
+python main.py pre -d d2 -f plot_curve -cl p q -gm 0.5
+
+0927-104136
+python main.py pre -d d4 -f plot_curve -cl p q -gm 0.5
+
+0927-104147
+python main.py pre -d d1 -f plot_curve -cl p q -gm 0
+
+0927-104149
+python main.py pre -d d2 -f plot_curve -cl p q -gm 0
+
+0927-104152
+python main.py pre -d d4 -f plot_curve -cl p q -gm 0
+
+0927-104204
+python main.py pre -d d1 -f plot_curve -cl p q -gm -0.5
+
+0927-104207
+python main.py pre -d d2 -f plot_curve -cl p q -gm -0.5
+
+0927-104211
+python main.py pre -d d4 -f plot_curve -cl p q -gm -0.5
+
+0927-104221
+python main.py pre -d d1 -f plot_curve -cl p q -gm -1
+
+0927-104224
+python main.py pre -d d2 -f plot_curve -cl p q -gm -1
+
+0927-104228
+python main.py pre -d d4 -f plot_curve -cl p q -gm -1
+
+0927-104235
+python main.py pre -d d1 -f plot_curve -cl p q -gm -2
+
+0927-104238
+python main.py pre -d d2 -f plot_curve -cl p q -gm -2
+
+0927-104241
+python main.py pre -d d4 -f plot_curve -cl p q -gm -2
+
+0927-104406
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o rev -m brute
+
+0927-111610
+python main.py pre -d d1 -f plot_curve -cl p q -gm -2
+
+0927-111612
+python main.py pre -d d1 -f plot_curve -cl p q -gm -1
+
+0927-111614
+python main.py pre -d d1 -f plot_curve -cl p q -gm 0
+
+0927-111616
+python main.py pre -d d1 -f plot_curve -cl p q -gm 1
+
+0927-111618
+python main.py pre -d d1 -f plot_curve -cl p q -gm 2
+
+0927-112548
+python main.py pre -d d1 -f plot_curve -cl p q -gm 3
+
+0927-112611
+python main.py pre -d d1 -f plot_curve -cl p q -gm 0.5
+
+0928-022928
+python main.py pre -d d1 -f plot_from_axisvalue_budget
+
+0928-023204
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-023240
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-023302
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-023335
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-023408
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-023654
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-023822
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-025103
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-025125
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-025212
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-025312
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-025416
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-025525
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-025556
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-025647
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-025812
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-025835
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-025858
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-025950
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-030134
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-030238
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-030311
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-030328
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-030348
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-030415
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-030517
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-030541
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20
+
+0928-030929
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20
+
+0928-031007
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20
+
+0928-031039
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20
+
+0928-031140
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20
+
+0928-031154
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20
+
+0928-031408
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20
+
+0928-031410
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-031412
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0928-031414
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o sw -ml brute greedy -gl 5 10 20
+
+0928-031416
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 -o sw -ml brute greedy -gl 5 10 20
+
+0928-031418
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o sw -ml brute greedy -gl 5 10 20
+
+0928-031435
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 3 -o rev -ml brute greedy -gl 5 10 20
+
+0928-032037
+python main.py algo -d d2 -bl 3 -g 20 -o rev -m brute
+
+0929-031116
+python main.py pre -d d1 -f plot_curve_single -cl p q -gml -2 -1 -0.5 0 0.5 1 2 3
+
+0929-031210
+python main.py pre -d d1 -f plot_curve_single -cl p q -gml -2 -1 -0.5 0 0.5 1 2 3
+
+0929-031409
+python main.py pre -d d1 -f plot_curve_single -cl p q -gml -2 -1 -0.5 0 0.5 1 2 3
+
+0929-031531
+python main.py pre -d d1 -f plot_curve_single -cl p q -gml 0 0.5 1 2 3
+
+0929-031626
+python main.py pre -d d1 -f plot_curve_single -cl p q -gml 0 0.5 1 2 3
+
+0929-031628
+python main.py pre -d d2 -f plot_curve_single -cl p q -gml 0 0.5 1 2 3
+
+0929-031630
+python main.py pre -d d4 -f plot_curve_single -cl p q -gml 0 0.5 1 2 3
+
+0929-033320
+python main.py pre -d d1 --bin 10 -f plot_dist -cl vis deg
+
+0929-033321
+python main.py pre -d d2 --bin 10 -f plot_dist -cl vis deg
+
+0929-033324
+python main.py pre -d d4 --bin 10 -f plot_dist -cl vis deg
+
+0929-033519
+python main.py pre -d d1 --bin 10 -f plot_dist -cl vis deg
+
+0929-033545
+python main.py pre -d d1 --bin 10 -f plot_dist -cl vis deg python main.py pre -d d1 --bin 10 -f plot_dist -cl vis deg
+
+0929-033546
+python main.py pre -d d2 --bin 10 -f plot_dist -cl vis deg
+
+0929-033548
+python main.py pre -d d4 --bin 10 -f plot_dist -cl vis deg
+
+0929-033617
+python main.py pre -d d1 --bin 10 -f plot_dist -cl p q -gml 0.5 1 2 3
+
+0929-033702
+python main.py pre -d d2 --bin 10 -f plot_dist -cl p q -gml 0.5 1 2 3
+
+0929-033707
+python main.py pre -d d4 --bin 10 -f plot_dist -cl p q -gml 0.5 1 2 3
+
+0929-040426
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 3 -o rev -ml brute greedy -gl 5 10 20
+
+0929-043216
+python main.py pre -d d1 -f generate_csv_from_pkl -bl 1 2 3 4 -o sw -ml brute greedy -gl 20
+
+0929-043257
+python main.py pre -d d1 -f generate_csv_from_pkl -bl 1 2 3 4 -o sw -ml brute greedy -g 20
+
+0929-043443
+python main.py pre -d d1 -f generate_csv_from_pkl -bl 1 2 3 4 -o rev -ml brute greedy -g 20
+
+0929-050354
+python main.py algo -d d1 -bl 1 2 -g 20 -o sw -m brute
+
+0929-050425
+python main.py algo -d d1 -bl 1 2 -g 20 -o sw -m greedy
+
+0929-050502
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 -o sw -ml brute greedy -gl 5 10 20
+
+0929-050549
+python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o sw -m brute
+
+0929-050613
+python main.py algo -d d2 -bl 1 2 3 -g 20 -o sw -m brute
+
+0929-050627
+python main.py algo -d d4 -bl 1 2 -g 20 -o sw -m brute
+
+0929-053435
+python main.py algo -d d4 -bl 3 -g 20 -o sw -m brute
+
+0929-134345
+python main.py algo -d d4 -bl 3 -g 20 -o sw -m brute
+
+0929-141804
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o sw -ml brute greedy -gl 5 10 20
+
+0929-141806
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 -o sw -ml brute greedy -gl 5 10 20
+
+0929-141807
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o sw -ml brute greedy -gl 5 10 20
+
+0929-142029
+python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o sw -m greedy
+
+0929-142048
+python main.py algo -d d2 -bl 1 2 3 -g 20 -o sw -m greedy
+
+0929-142224
+python main.py algo -d d4 -bl 1 2 -g 20 -o sw -m greedy
+
+0929-143905
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20
+
+0929-143907
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 3 -o rev -ml brute greedy -gl 5 10 20
+
+0929-143909
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+0929-143911
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o sw -ml brute greedy -gl 5 10 20
+
+0929-143914
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 -o sw -ml brute greedy -gl 5 10 20
+
+0929-143915
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o sw -ml brute greedy -gl 5 10 20
+
+0929-144150
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o rev -m greedy
+
+0929-144152
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o rev -m brute
+
+0929-144154
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o sw -m greedy
+
+0929-144313
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o sw -m brute
+
+0929-144434
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o rev -m greedy
+
+0929-144437
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o rev -m brute
+
+0929-144439
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o sw -m greedy
+
+0929-144442
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o sw -m brute
+
+0929-144445
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o rev -m greedy
+
+0929-144447
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o rev -m brute
+
+0929-144449
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o sw -m greedy
+
+0929-144452
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o sw -m brute
+
+0930-014754
+python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o sw -m brute --gamma 1
+
+0930-014813
+python main.py algo -d d2 -bl 1 2 3 -g 20 -o sw -m brute --gamma 1
+
+0930-014843
+python main.py algo -d d4 -bl 1 2 -g 20 -o sw -m brute --gamma 1
+
+0930-014907
+python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o sw -m greedy --gamma 1
+
+0930-014936
+python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o sw -m brute --gamma 3
+
+0930-015004
+python main.py algo -d d1 -bl 2 -g 20 -o sw -m brute --gamma 3
+
+0930-015009
+python main.py algo -d d2 -bl 1 2 3 -g 20 -o sw -m greedy --gamma 1
+
+0930-015108
+python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o sw -m brute --gamma 3
+
+0930-015120
+python main.py algo -d d2 -bl 1 2 3 -g 20 -o sw -m brute --gamma 3
+
+0930-015133
+python main.py algo -d d4 -bl 1 2 -g 20 -o sw -m brute --gamma 3
+
+0930-015147
+python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o sw -m greedy --gamma 3
+
+0930-015231
+python main.py algo -d d2 -bl 1 2 3 -g 20 -o sw -m greedy --gamma 3
+
+0930-015420
+python main.py algo -d d4 -bl 1 2 -g 20 -o sw -m greedy --gamma 3
+
+0930-020059
+python main.py algo -d d4 -bl 1 2 -g 20 -o sw -m greedy --gamma 1
+
+0930-122653
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+0930-122655
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 3 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+0930-122656
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+0930-122942
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+0930-123232
+python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o rev -m brute --gamma 3
+
+0930-123317
+python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o rev -m brute --gamma 3
+
+0930-123334
+python main.py algo -d d2 -bl 1 2 3 -g 20 -o rev -m brute --gamma 3
+
+0930-123350
+python main.py algo -d d4 -bl 1 2 -g 20 -o rev -m brute --gamma 3
+
+0930-123407
+python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o rev -m greedy --gamma 3
+
+0930-123445
+python main.py algo -d d2 -bl 1 2 3 -g 20 -o rev -m greedy --gamma 3
+
+0930-123617
+python main.py algo -d d4 -bl 1 2 -g 20 -o rev -m greedy --gamma 3
+
+0930-131613
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+0930-131633
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o sw -ml brute greedy -gl 5 10 20 --gamma 3
+
+0930-131705
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+0930-131707
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 3 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+0930-131710
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+0930-131712
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o sw -ml brute greedy -gl 5 10 20 --gamma 3
+
+0930-131714
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 -o sw -ml brute greedy -gl 5 10 20 --gamma 3
+
+0930-131716
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o sw -ml brute greedy -gl 5 10 20 --gamma 3
+
+0930-131809
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o rev -m greedy --gamma 3
+
+0930-131811
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o rev -m brute --gamma 3
+
+0930-131812
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o sw -m greedy --gamma 3
+
+0930-131814
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o sw -m brute --gamma 3
+
+0930-131815
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o rev -m greedy --gamma 3
+
+0930-131817
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o rev -m brute --gamma 3
+
+0930-131819
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o sw -m greedy --gamma 3
+
+0930-131821
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o sw -m brute --gamma 3
+
+0930-131822
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o rev -m greedy --gamma 3
+
+0930-131824
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o rev -m brute --gamma 3
+
+0930-131826
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o sw -m greedy --gamma 3
+
+0930-131929
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o rev -m greedy --gamma 3
+
+0930-131932
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o rev -m brute --gamma 3
+
+0930-131935
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o sw -m greedy --gamma 3
+
+0930-131937
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o sw -m brute --gamma 3
+
+0930-131941
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o rev -m greedy --gamma 3
+
+0930-131944
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o rev -m brute --gamma 3
+
+0930-131946
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o sw -m greedy --gamma 3
+
+0930-131949
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o sw -m brute --gamma 3
+
+0930-131951
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o rev -m greedy --gamma 3
+
+0930-131953
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o rev -m brute --gamma 3
+
+0930-131955
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o sw -m greedy --gamma 3
+
+0930-131957
+python main.py pre -d d4 -f plot_from_pkl_3d -bl 1 2 -g 20 -o sw -m brute --gamma 3
+
+1001-235718
+python main.py pre -d d1 -f plot_from_axisvalue_epsilon -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20
+
+1002-001543
+python main.py pre -d d1 -f plot_from_axisvalue_epsilon -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20
+
+1002-001800
+python main.py pre -d d1 -f plot_from_axisvalue_epsilon -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20
+
+1002-002338
+python main.py pre -d d1 -f plot_from_axisvalue_epsilon -bl 1 2 3 4 -o sw -ml brute greedy -gl 5 10 20
+
+1002-002353
+python main.py pre -d d1 -f plot_from_axisvalue_epsilon -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20
+
+1002-002355
+python main.py pre -d d2 -f plot_from_axisvalue_epsilon -bl 1 2 3 -o rev -ml brute greedy -gl 5 10 20
+
+1002-002357
+python main.py pre -d d4 -f plot_from_axisvalue_epsilon -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+1002-002359
+python main.py pre -d d1 -f plot_from_axisvalue_epsilon -bl 1 2 3 4 -o sw -ml brute greedy -gl 5 10 20
+
+1002-002401
+python main.py pre -d d2 -f plot_from_axisvalue_epsilon -bl 1 2 3 -o sw -ml brute greedy -gl 5 10 20
+
+1002-002403
+python main.py pre -d d4 -f plot_from_axisvalue_epsilon -bl 1 2 -o sw -ml brute greedy -gl 5 10 20
+
+1002-002556
+python main.py pre -d d1 -f plot_from_axisvalue_epsilon -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+1002-002558
+python main.py pre -d d2 -f plot_from_axisvalue_epsilon -bl 1 2 3 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+1002-002600
+python main.py pre -d d4 -f plot_from_axisvalue_epsilon -bl 1 2 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+1002-002602
+python main.py pre -d d1 -f plot_from_axisvalue_epsilon -bl 1 2 3 4 -o sw -ml brute greedy -gl 5 10 20 --gamma 3
+
+1002-002604
+python main.py pre -d d2 -f plot_from_axisvalue_epsilon -bl 1 2 3 -o sw -ml brute greedy -gl 5 10 20 --gamma 3
+
+1002-002606
+python main.py pre -d d4 -f plot_from_axisvalue_epsilon -bl 1 2 -o sw -ml brute greedy -gl 5 10 20 --gamma 3
+
+1002-002815
+python main.py pre -d d1 -f plot_from_axisvalue_epsilon -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20 --gamma 1
+
+1002-002816
+python main.py pre -d d2 -f plot_from_axisvalue_epsilon -bl 1 2 3 -o rev -ml brute greedy -gl 5 10 20 --gamma 1
+
+1002-002818
+python main.py pre -d d4 -f plot_from_axisvalue_epsilon -bl 1 2 -o rev -ml brute greedy -gl 5 10 20 --gamma 1
+
+1002-002819
+python main.py pre -d d1 -f plot_from_axisvalue_epsilon -bl 1 2 3 4 -o sw -ml brute greedy -gl 5 10 20 --gamma 1
+
+1002-002821
+python main.py pre -d d2 -f plot_from_axisvalue_epsilon -bl 1 2 3 -o sw -ml brute greedy -gl 5 10 20 --gamma 1
+
+1002-002823
+python main.py pre -d d4 -f plot_from_axisvalue_epsilon -bl 1 2 -o sw -ml brute greedy -gl 5 10 20 --gamma 1
+
+1002-003029
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20
+
+1002-003031
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 3 -o rev -ml brute greedy -gl 5 10 20
+
+1002-003033
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+1002-003035
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o sw -ml brute greedy -gl 5 10 20
+
+1002-003037
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 -o sw -ml brute greedy -gl 5 10 20
+
+1002-003039
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o sw -ml brute greedy -gl 5 10 20
+
+1002-003159
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+1002-003201
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 3 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+1002-003203
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+1002-003205
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o sw -ml brute greedy -gl 5 10 20 --gamma 3
+
+1002-003207
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 -o sw -ml brute greedy -gl 5 10 20 --gamma 3
+
+1002-003209
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o sw -ml brute greedy -gl 5 10 20 --gamma 3
+
+1002-003455
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 3 -o sw -ml brute greedy -gl 5 10 20 --gamma 3
+
+1002-003501
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 3 -o sw -ml brute greedy -gl 5 10 20 --gamma 2
+
+1003-021148
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o rev -m greedy
+
+1003-021151
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o rev -m brute
+
+1003-021154
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o sw -m greedy
+
+1003-021156
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o sw -m brute
+
+1003-030914
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 3 -o rev -ml brute greedy -gl 5 10 20
+
+1007-165301
+python main.py algo
+
+1007-165407
+python main.py algo -d d1
+
+1007-165437
+python main.py algo -d d1 -g 5
+
+1007-185716
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-185803
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-185833
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-185914
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-185939
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-190110
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-190849
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-190914
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-190940
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-191024
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-191450
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-192729
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-192935
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-193004
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-193139
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-193411
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-195230
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-195609
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-195749
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-195833
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-200856
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-200944
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-201035
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-202119
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-202235
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-202510
+python main.py algo -d d1 -g 5 -m shapley
+
+1007-202902
+python main.py algo -d d1 -g 5 -m shapley
+
+1008-005524
+python main.py algo -d d1 -g 5 -m shapley
+
+1008-005603
+python main.py algo -d d1 -g 5 -m shapley
+
+1008-005845
+python main.py algo -d d1 -g 5 -m shapley
+
+1008-005911
+python main.py algo -d d1 -g 5 -m shapley
+
+1015-164414
+python main.py
+
+1015-164421
+python main.py -h
+
+1015-164430
+python main.py -algo
+
+1015-164437
+python main.py --algo
+
+1015-164446
+python main.py algo
+
+1015-164535
+python main.py algo -d d4 -bl 1 2 -g 20 -o rev -m brute
+
+1015-165104
+python main.py algo -d d4 -bl 1 2 -g 20 -o rev -m brute
+
+1015-165124
+python main.py algo -d d1 -bl 1 2 -g 20 -o rev -m brute
+
+1015-165138
+python main.py algo -d d1 -bl 1 2 -g 5 -o rev -m brute
+
+1015-165717
+python main.py algo -d d1 -bl 1 2 -g 5 -o rev -m brute
+
+1015-165756
+python main.py algo -d d1 -bl 1 2 -g 5 -o rev -m brute
+
+1015-170435
+python main.py algo -d d1 -bl 1 2 -g 5 -o rev -m h1
+
+1015-170547
+python main.py algo -d d1 -bl 1 2 -g 5 -o rev -m h1
+
+1015-171854
+python main.py algo -d d1 -bl 1 2 -g 5 -o rev -m h1
+
+1015-171948
+python main.py algo -d d1 -bl 1 2 -g 5 -o rev -m h1
+
+1015-172013
+python main.py algo -d d1 -bl 1 2 -g 5 -o rev -m h1
+
+1015-172221
+python main.py algo -d d1 -bl 1 2 -g 5 -o rev -m h1
+
+1015-172438
+python main.py algo -d d1 -bl 1 2 -g 5 -o rev -m h1
+
+1015-172653
+python main.py algo -d d2 -bl 1 2 -g 5 -o rev -m h1
+
+1015-183506
+python main.py algo -d d2 -bl 1 2 -g 5 -o rev -m h1
+
+1015-190204
+python main.py algo -d d2 -bl 1 2 -g 5 -o rev -m greedy
+
+1015-220131
+python main.py algo -d d2 -bl 1 2 -g 5 -o rev -m greedy
+
+1015-220139
+python main.py algo -d d2 -bl 1 2 -g 5 -o rev -m brute
+
+1015-220301
+python main.py algo -d d2 -bl 1 2 -g 5 -o rev -m brute
+
+1015-224247
+python main.py algo -d d2 -bl 1 2 3 4 -g 20 -o rev -m greedy
+
+1015-224653
+python main.py algo -d d2 -bl 1 2 3 4 -g 20 -o rev -m greedy
+
+1015-224914
+python main.py algo -d d2 -bl 1 2 3 4 -g 20 -o rev -m greedy
+
+1015-225224
+python main.py algo -d d2 -bl 1 2 3 4 -g 20 -o rev -m h1
+
+1015-225502
+python main.py algo -d d2 -bl 1 2 3 4 -g 20 -o rev -m h1
+
+1015-230738
+python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o rev -m h1
+
+1015-230802
+python main.py algo -d d2 -bl 1 2 3 4 -g 20 -o rev -m h1
+
+1015-230854
+python main.py algo -d d3 -bl 1 2 3 4 -g 20 -o rev -m h1
+
+1015-230905
+python main.py algo -d d4 -bl 1 2 3 4 -g 20 -o rev -m h1D
+
+1015-230911
+python main.py algo -d d4 -bl 1 2 3 4 -g 20 -o rev -m h1
+
+1015-231417
+python main.py pre -d d1 -f plot_from_pkl_3d -bl 1 2 3 4 -g 20 -o sw -m h1
+
+1015-231418
+python main.py pre -d d2 -f plot_from_pkl_3d -bl 1 2 3 -g 20 -o sw -m h1
+
+1015-231606
+python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o sw -m h1
+
+1015-231619
+python main.py algo -d d2 -bl 1 2 3 -g 20 -o sw -m h1
+
+1015-231631
+python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o sw -m h1 --gamma 3
+
+1015-231643
+python main.py algo -d d2 -bl 1 2 3 -g 20 -o sw -m h1 --gamma 3
+
+1015-231648
+python main.py algo -d d4 -bl 1 2 -g 20 -o sw -m h1
+
+1015-231653
+python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o sw -m h1 --gamma 1
+
+1015-231707
+python main.py algo -d d4 -bl 1 2 -g 20 -o sw -m h1 --gamma 3
+
+1015-231709
+python main.py algo -d d2 -bl 1 2 3 -g 20 -o sw -m h1 --gamma 1
+
+1015-231747
+python main.py algo -d d4 -bl 1 2 -g 20 -o sw -m h1 --gamma 1
+
+1015-233232
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy -gl 5 10 20
+
+1015-233234
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 3 -o rev -ml brute greedy -gl 5 10 20
+
+1015-233256
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 3 -o rev -ml brute greedy -gl 5 10 20
+
+1015-233320
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20 --gamma 3
+
+1015-233347
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy -gl 5 10 20
+
+1015-233909
+python main.py pre -d d1 -f plot_from_axisvalue_budget -bl 1 2 3 4 -o rev -ml brute greedy h1 -gl 5 10 20
+
+1015-233911
+python main.py pre -d d2 -f plot_from_axisvalue_budget -bl 1 2 3 -o rev -ml brute greedy h1 -gl 5 10 20
+
+1015-233913
+python main.py pre -d d4 -f plot_from_axisvalue_budget -bl 1 2 -o rev -ml brute greedy h1 -gl 5 10 20
+
+1015-235025
+python main.py pre -d d1 -f generate_csv_from_pkl -bl 1 2 3 4 -o sw -ml brute greedy h1 -g 20
+
+1015-235052
+python main.py pre -d d1 -f generate_csv_from_pkl -bl 1 2 3 4 -o sw -ml brute greedy h1 -g 20
+
+1015-235257
+python main.py pre -d d1 -f generate_csv_from_pkl -bl 1 2 3 4 -o sw -ml brute greedy h1 -g 20
+
+1015-235337
+python main.py pre -d d1 -f generate_csv_from_pkl -bl 1 2 3 4 -o sw -ml brute greedy h1 -g 20
+
+1015-235530
+python main.py pre -d d1 -f generate_csv_from_pkl -bl 1 2 3 4 -o sw -ml brute greedy h1 -g 20 --gamma 10
+
+1015-235534
+python main.py pre -d d1 -f generate_csv_from_pkl -bl 1 2 3 4 -o sw -ml brute greedy h1 -g 20 --gamma 1
+
+1015-235541
+python main.py pre -d d1 -f generate_csv_from_pkl -bl 1 2 3 4 -o sw -ml brute greedy h1 -g 20 --gamma 3
+
+1015-235559
+python main.py pre -d d1 -f generate_csv_from_pkl -bl 1 2 3 4 -o rev -ml brute greedy h1 -g 20 --gamma 1
+
+1015-235617
+python main.py pre -d d1 -f generate_csv_from_pkl -bl 1 2 3 -o rev -ml brute greedy h1 -g 20 --gamma 1

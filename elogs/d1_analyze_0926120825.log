@@ -1,0 +1,9 @@
+2021-09-26 12:08:25,661 - INFO - run analyze
+2021-09-26 12:08:25,661 - INFO - excute function Analyst.plot_dist
+2021-09-26 12:08:25,683 - INFO - 217
+2021-09-26 12:08:25,684 - INFO - 217
+2021-09-26 12:08:25,691 - INFO - load:
+2021-09-26 12:08:25,692 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-26 12:08:26,736 - INFO - Finish generate valuations and costs using using gamma=2.0

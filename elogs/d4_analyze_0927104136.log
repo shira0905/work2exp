@@ -1,0 +1,8 @@
+2021-09-27 10:41:36,573 - INFO - run analyze
+2021-09-27 10:41:36,573 - INFO - excute function Analyst.plot_curve
+2021-09-27 10:41:36,994 - INFO - 9513
+2021-09-27 10:41:37,009 - INFO - 10000
+2021-09-27 10:41:46,869 - INFO - load:
+2021-09-27 10:41:46,872 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.1, num_R=1000, len_R=1000 
+                             percent_S=0.1, num_S=1000, len_S=1000

@@ -1,0 +1,7 @@
+2021-09-25 14:21:04,459 - INFO - 217
+2021-09-25 14:21:04,459 - INFO - 217
+2021-09-25 14:21:04,463 - INFO - load:
+2021-09-25 14:21:04,463 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-25 14:21:05,001 - INFO - Finish generate valuations and costs using using gamma=2.0

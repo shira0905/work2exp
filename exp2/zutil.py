@@ -15,6 +15,12 @@ import matplotlib.pyplot as plt
 import os
 import re
 
+def generate_cmd(did):
+    bl = [1,2,3,4]
+    g = [20]
+
+
+
 def clean_old_files():
     dir_path_list = {'../eplots/pkl10/', '../eplots/pkl20/', '../eplots/pkl30/' }
 
@@ -195,11 +201,6 @@ def plot_dist_hist(samples, bins, fig_name):
 
 
 def detectHeadLines(filename):
-    '''detact headline and return inserted string.
-
-    params:
-        f: Markdown file
-    '''
     # remove the existing span tags
     f = open(filename, 'r', encoding='utf-8')
     text = ''

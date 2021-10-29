@@ -1,0 +1,8 @@
+2021-09-25 15:16:59,937 - INFO - run algo
+2021-09-25 15:16:59,947 - INFO - 217
+2021-09-25 15:16:59,947 - INFO - 217
+2021-09-25 15:16:59,952 - INFO - load:
+2021-09-25 15:16:59,953 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-25 15:17:00,521 - INFO - Finish generate valuations and costs using using gamma=2.0

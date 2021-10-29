@@ -1,0 +1,9 @@
+2021-09-26 11:43:34,809 - INFO - run analyze
+2021-09-26 11:43:34,809 - INFO - excute function Analyst.plot_curve
+2021-09-26 11:43:34,819 - INFO - 217
+2021-09-26 11:43:34,820 - INFO - 217
+2021-09-26 11:43:34,823 - INFO - load:
+2021-09-26 11:43:34,824 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-09-26 11:43:35,407 - INFO - Finish generate valuations and costs using using gamma=2.0

@@ -1,0 +1,26 @@
+2021-09-29 03:37:07,130 - INFO - run analyze
+2021-09-29 03:37:07,130 - INFO - excute function Analyst.plot_dist
+2021-09-29 03:37:07,471 - INFO - 9513
+2021-09-29 03:37:07,482 - INFO - 10000
+2021-09-29 03:37:14,994 - INFO - load:
+2021-09-29 03:37:14,996 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.1, num_R=1000, len_R=1000 
+                             percent_S=0.1, num_S=1000, len_S=1000
+2021-09-29 03:37:29,948 - INFO - 9513
+2021-09-29 03:37:29,957 - INFO - 10000
+2021-09-29 03:37:39,024 - INFO - load:
+2021-09-29 03:37:39,029 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.1, num_R=1000, len_R=1000 
+                             percent_S=0.1, num_S=1000, len_S=1000
+2021-09-29 03:37:58,733 - INFO - 9513
+2021-09-29 03:37:58,743 - INFO - 10000
+2021-09-29 03:38:06,997 - INFO - load:
+2021-09-29 03:38:07,000 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.1, num_R=1000, len_R=1000 
+                             percent_S=0.1, num_S=1000, len_S=1000
+2021-09-29 03:38:26,018 - INFO - 9513
+2021-09-29 03:38:26,028 - INFO - 10000
+2021-09-29 03:38:33,780 - INFO - load:
+2021-09-29 03:38:33,783 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.1, num_R=1000, len_R=1000 
+                             percent_S=0.1, num_S=1000, len_S=1000
