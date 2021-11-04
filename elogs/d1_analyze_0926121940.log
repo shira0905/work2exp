@@ -1,8 +1,0 @@
-2021-09-26 12:19:40,506 - INFO - run analyze
-2021-09-26 12:19:40,506 - INFO - excute function Analyst.plot_dist
-2021-09-26 12:19:40,516 - INFO - 217
-2021-09-26 12:19:40,517 - INFO - 217
-2021-09-26 12:19:40,520 - INFO - load:
-2021-09-26 12:19:40,521 - INFO - Finish random requester set R and supplier set S 
-                             percent_R=0.25, num_R=55, len_R=55 
-                             percent_S=0.25, num_S=55, len_S=54

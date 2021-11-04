@@ -1,0 +1,21 @@
+2021-10-31 03:16:51,163 - INFO - python main.py algo -dl d1 -ml h1 brute -ol I W RI RW -ll 2 -g 10 -bl 1 2
+2021-10-31 03:16:51,180 - INFO - load:../zdata/residence_217_spl.pkl
+2021-10-31 03:16:51,180 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-10-31 03:16:51,508 - INFO - Given did=d1, lamb=2.0, obj=I, method=h1 and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=821
+2021-10-31 03:16:51,881 - INFO - Given did=d1, lamb=2.0, obj=I, method=h1 and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={125, 53}, opt_obj_star=1455
+2021-10-31 03:16:52,198 - INFO - Given did=d1, lamb=2.0, obj=I, method=brute and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=821
+2021-10-31 03:16:52,556 - INFO - Given did=d1, lamb=2.0, obj=I, method=brute and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={53, 125}, opt_obj_star=1455
+2021-10-31 03:16:52,869 - INFO - Given did=d1, lamb=2.0, obj=W, method=h1 and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=390.49
+2021-10-31 03:16:53,229 - INFO - Given did=d1, lamb=2.0, obj=W, method=h1 and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={125, 53}, opt_obj_star=692.84
+2021-10-31 03:16:53,545 - INFO - Given did=d1, lamb=2.0, obj=W, method=brute and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=390.49
+2021-10-31 03:16:53,904 - INFO - Given did=d1, lamb=2.0, obj=W, method=brute and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={53, 125}, opt_obj_star=692.84
+2021-10-31 03:16:54,219 - INFO - Given did=d1, lamb=2.0, obj=RI, method=h1 and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=0.0
+2021-10-31 03:16:54,580 - INFO - Given did=d1, lamb=2.0, obj=RI, method=h1 and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={125, 53}, opt_obj_star=-291.0
+2021-10-31 03:16:54,894 - INFO - Given did=d1, lamb=2.0, obj=RI, method=brute and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=0.0
+2021-10-31 03:16:55,252 - INFO - Given did=d1, lamb=2.0, obj=RI, method=brute and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={53, 125}, opt_obj_star=-291.0
+2021-10-31 03:16:55,560 - INFO - Given did=d1, lamb=2.0, obj=RW, method=h1 and given budget=1 opt_scheme=(0.4, 0.0), opt_setM_star={53}, opt_obj_star=262.0
+2021-10-31 03:16:55,918 - INFO - Given did=d1, lamb=2.0, obj=RW, method=h1 and given budget=2 opt_scheme=(0.4, 0.0), opt_setM_star={53}, opt_obj_star=262.0
+2021-10-31 03:16:56,232 - INFO - Given did=d1, lamb=2.0, obj=RW, method=brute and given budget=1 opt_scheme=(0.4, 0.0), opt_setM_star={53}, opt_obj_star=262.0
+2021-10-31 03:16:56,591 - INFO - Given did=d1, lamb=2.0, obj=RW, method=brute and given budget=2 opt_scheme=(0.4, 0.0), opt_setM_star={53}, opt_obj_star=262.0

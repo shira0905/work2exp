@@ -6,76 +6,58 @@
 @Time    :   2021/9/2 20:37
 @Desc    :
 """
-import random
-import math
-import numpy as np
-from zutil import get_log, plot_dist_hist
+
 import itertools
-import datetime
-from network import Network
-import matplotlib.pyplot as plt
-import pickle
-import os
-
-import abc
-from abc import ABC, abstractmethod
-
-
 from noperator import Noperator
+
 class H1Operator(Noperator):
     """The class of an operator aim to maximize revenue"""
 
-    def __init__(self, logger, network, method, obj, budget_list, grain):
-        Noperator.__init__(self, logger, network, method, obj, budget_list, grain)
+    def __init__(self, logger, network, obj, budget_list, grain):
+        self.method = 'h1'
+        Noperator.__init__(self, logger, network, obj, budget_list, grain)
 
 
-    def compute(self):
+    def opt_price(self):
+        """依存于opt_setM()
+        """
 
         for budget in self.budget_list:
-            # print(budget)
-            # print(self.budget2scheme2result)
-            if budget not in self.budget2scheme2result.keys():
-                self.budget2scheme2result[budget] = {}
-            palpha_list = list(itertools.product(self.p_list_all, self.alpha_list_all))
-            for (p, alpha) in palpha_list:
-                q = alpha * p
+            if budget not in self.budget2scheme2optsolution:
+                self.budget2scheme2optsolution[budget] = {}
+
+            # STEP1: compute and record for all (p,q) # 给定 did, lamb, obj, method, 给定 budget, 这个方法只是记录了所有搜索到的scheme,
+            for (p, q) in self.pq_list:   # 里面的循环是algorithm 1了
                 tilderR, tilderS = self.get_tilderR_tilderS(p, q)
-                result = self.search_budget2scheme2result(budget, tilderR, tilderS)
-                # 可能需要修改一下，现在是从当前对象的结果中搜索，完全可以从历史所有结果中搜索
-                if result:
+                # setM_star = self.opt_setM(budget, tilderR, tilderS, p, q)
+                setM_star = self.get_M_star(budget, tilderR, tilderS, p, q)
+                objI, objW, objRI, objRW = self.compute_obj4(setM_star, tilderR, p, q)
+                self.budget2scheme2optsolution[budget][(p, q)] = (setM_star, objI, objW, objRI, objRW)
 
-                    M, increase, sw = result[0], result[1], result[3]  # obj= increase if rev , sw if sw
-                    rev = (p - q) * increase
-                    self.logger.info(f"load | {budget} | {(p, alpha)} | {len(tilderR)} | {len(tilderS)} | {M} | {increase}| {rev} | {sw} ")
-                else:
-
-                    M = self.get_M_topvis(budget, tilderR)
-                    sw = self.compute_sw(M, tilderR)
-                    increase = self.compute_incr(M, tilderR)
-                    rev = (p - q) * increase
-                    self.logger.info(
-                        f"compute | {budget} | {(p, alpha)} | {len(tilderR)} | {len(tilderS)} | {M} | {increase}| {rev} | {sw} ")
-                    self.budget2scheme2result[budget][(p, alpha)] = (M, increase, rev, sw)
-
-                self.budget2scheme2result[budget][(p, alpha)] = (M, increase, rev, sw)
-        self.dump_budget2scheme2result()
+        self.dump_budget2scheme2optsolution()
 
 
-    def get_M_topvis(self, b, tilderR):
-        M = set()
-        M.add(1)
-        M.remove(1)
+    def get_M_star(self, budget, tilderR, tilderS, p , q): # 用不到的参数为了统一接口
+        """ Get top b supplier from tilderS, independent of objectives.
+        But, the caused objective value and the recording are difference.
+
+        :return:
+        :rtype:
+        """
+        setM_star = set()
         node2vis = {}
-        # print(self.network.tau)
-        for node in tilderR:
+        for node in tilderS:
             setsize = len(self.network.get_visible(node, self.network.tau))
             node2vis[node] = setsize
 
-        node2vis_sorted = sorted(node2vis.items(), key=lambda kv: (kv[1], kv[0]), reverse=True)
-        x = 0
-        while x < len(node2vis_sorted):
-            if len(M) == b:
+        node2vis_sorted = sorted(node2vis.items(), key=lambda kv: kv[1], reverse=True)
+        cnt = 0
+        while cnt < len(node2vis_sorted):
+            if len(setM_star) == budget:
                 break
-            M.add(node2vis_sorted[x][0])
-            x += 1
-        return M
+            # if node2vis_sorted[cnt][0] not the neigboe of all the reqiesters, ignore ignore
+            setM_star.add(node2vis_sorted[cnt][0])
+            cnt += 1
+        return setM_star
+
+

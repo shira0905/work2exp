@@ -1,0 +1,16 @@
+2021-10-30 22:33:08,547 - INFO - load:_spl.pkl
+2021-10-30 22:33:08,548 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-10-30 22:33:08,908 - INFO - Given did=d1, lamb=2.0, obj=I, method=h1 and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=821
+2021-10-30 22:33:09,317 - INFO - Given did=d1, lamb=2.0, obj=I, method=h1 and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={125, 53}, opt_obj_star=1455
+2021-10-30 22:33:09,673 - INFO - Given did=d1, lamb=2.0, obj=W, method=h1 and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=390.48921946740137
+2021-10-30 22:33:10,080 - INFO - Given did=d1, lamb=2.0, obj=W, method=h1 and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={125, 53}, opt_obj_star=692.8445087235997
+2021-10-30 22:33:10,096 - INFO - load:_spl.pkl
+2021-10-30 22:33:10,096 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-10-30 22:33:10,421 - INFO - Given did=d1, lamb=3.0, obj=I, method=h1 and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=821
+2021-10-30 22:33:10,776 - INFO - Given did=d1, lamb=3.0, obj=I, method=h1 and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={125, 53}, opt_obj_star=1455
+2021-10-30 22:33:11,098 - INFO - Given did=d1, lamb=3.0, obj=W, method=h1 and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=275.01438088877757
+2021-10-30 22:33:11,451 - INFO - Given did=d1, lamb=3.0, obj=W, method=h1 and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={125, 53}, opt_obj_star=488.5292925118958

@@ -1,0 +1,17 @@
+2021-10-30 22:40:36,878 - INFO - python main.py algo -dl d1 -ml h1 -ol I W -ll 2 3 -g 10 -bl 1 2
+2021-10-30 22:40:36,894 - INFO - load:../zdata/residence_217_spl.pkl
+2021-10-30 22:40:36,894 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-10-30 22:40:37,233 - INFO - Given did=d1, lamb=2.0, obj=I, method=h1 and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=821
+2021-10-30 22:40:37,612 - INFO - Given did=d1, lamb=2.0, obj=I, method=h1 and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={53, 125}, opt_obj_star=1455
+2021-10-30 22:40:37,959 - INFO - Given did=d1, lamb=2.0, obj=W, method=h1 and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=390.48921946740137
+2021-10-30 22:40:38,355 - INFO - Given did=d1, lamb=2.0, obj=W, method=h1 and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={53, 125}, opt_obj_star=692.8445087235997
+2021-10-30 22:40:38,371 - INFO - load:../zdata/residence_217_spl.pkl
+2021-10-30 22:40:38,371 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-10-30 22:40:38,691 - INFO - Given did=d1, lamb=3.0, obj=I, method=h1 and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=821
+2021-10-30 22:40:39,053 - INFO - Given did=d1, lamb=3.0, obj=I, method=h1 and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={53, 125}, opt_obj_star=1455
+2021-10-30 22:40:39,369 - INFO - Given did=d1, lamb=3.0, obj=W, method=h1 and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=275.01438088877757
+2021-10-30 22:40:39,724 - INFO - Given did=d1, lamb=3.0, obj=W, method=h1 and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={53, 125}, opt_obj_star=488.5292925118958

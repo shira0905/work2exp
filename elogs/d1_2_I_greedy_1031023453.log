@@ -1,0 +1,5 @@
+2021-10-31 02:34:53,783 - INFO - python main.py algo -dl d1 -ml greedy -ol I -ll 2 -g 10 -bl 1 2
+2021-10-31 02:34:53,799 - INFO - load:../zdata/residence_217_spl.pkl
+2021-10-31 02:34:53,799 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54

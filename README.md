@@ -22,23 +22,193 @@
 
 
 ## <span id="head2">Run algorithms **</span>
-```   
-python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o rev  -m brute  --gamma 3    
-python main.py algo -d d2 -bl 1 2 3   -g 20 -o rev  -m brute  --gamma 3    
-python main.py algo -d d4 -bl 1 2     -g 20 -o rev  -m brute  --gamma 3
-                                                                 
-python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o rev  -m greedy --gamma 3
-python main.py algo -d d2 -bl 1 2 3   -g 20 -o rev  -m greedy --gamma 3
-python main.py algo -d d4 -bl 1 2     -g 20 -o rev  -m greedy --gamma 3
 
-python main.py algo -d d1 -bl 1 2 3 4 -g 20 -o sw  -m h1 --gamma 1  
-python main.py algo -d d2 -bl 1 2 3   -g 20 -o sw  -m h1 --gamma 1  
-python main.py algo -d d4 -bl 1 2     -g 20 -o sw  -m h1 --gamma 1  
+### 运行记录
+
+```
+python main.py algo -dl d1 d4 -ll 2 3  -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4 # 2x2x4x3=48
+python main.py algo -dl d2 d5 -ll 2 3  -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4 # 2x2x4x3=48
+python main.py algo -dl d3 d6 -ll 2 3  -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4 # 2x2x4x3=48
+
+python main.py algo -dl d1 -ll 2 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2 3 # 1x2x5x1=10
+python main.py algo -dl d4 -ll 2 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2 3 # 1x2x5x1=10
+python main.py algo -dl d2 -ll 2 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2   # 1x2x5x1=10
+python main.py algo -dl d5 -ll 2 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2   # 1x2x5x1=10
+python main.py algo -dl d3 -ll 2 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2   # 1x2x5x1=10
+python main.py algo -dl d6 -ll 2 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2   # 1x2x5x1=10
+```
+
+
+
+
+
+
+
+
+
+
+
+### recording
+
+```
+# 1102-1540 running
+python main.py algo -dl d1 -ll 2 3  -ol I W RI RW -ml brute -gl 20 -bl 1 2 3
+
+# 1103-1230 看昨天跑出来的 在各个情setting下的 optimal scheme
+python zutil.py -f merge2csv_var -dl d1 -ll 2 3  -ol I W RI RW -ml brute 
+# sample 某一个setting的各个scheme 下的 M_star
+python zutil.py -f show2csvs_select -files "
+d1_2_I_brute_1102161557.pkl
+d1_2_RI_brute_1102172523.pkl"
+
+# 1103-1330 running
+python main.py algo -dl d1 -ll 1  -ol I W RI RW -ml brute -gl 20 -bl 1 2 3
+
+# 1900 running using 4times faster new implementation
+python main.py algo -dl d1 -ll 2 3  -ol I W RI RW -ml brute h1 -gl 5 -bl 1 2
+# 2030 testing new implementation for greedy
+python main.py algo -dl d1 -ll 2 3  -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+# 1103-2200 running
+python main.py algo -dl d1 -ll 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2   
+
+python main.py algo -dl d2 -ll 1 2 3  -ol I W RI RW -ml greedy h1 h2  -gl 20 -bl 1 2 3 4
+
+# 1104 aggregate
+python zutil.py -f csvopt -dl d1 -ll 1 2 3  -ol I W RI RW -ml brute greedy h1 h2 -gl 20 -bl 1 2 3 4
+python zutil.py -f csvfull -dl d1 -ll 1 2 3  -ol I W RI RW -ml brute greedy h1 h2 -gl 20 -bl 1 2 3 4
+ 
+# 1104 brute
+python main.py algo -dl d1 -ll 1 2 3  -ol I W RI RW -ml brute h1 -gl 5 -bl 1 2
+
+# 1104-1830 run easys
+python main.py algo -dl d1 -ll 1 2 3  -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+python main.py algo -dl d4 -ll 1 2 3  -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+# 1104-1900 test brute
+python main.py algo -dl d1 -ll 2  -ol I W RI RW -ml brute  -gl 20 -bl 1 2
+
+# 1104-1930 test aggregate
+python zutil.py -f csvopt -dl d1 d4 -ll 1 2 3  -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+python zutil.py -f csvfull -dl d1 d4 -ll 1 2 3  -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+python zutil.py -f csvbr1 -dl d1 -ll 2  -ol I W RI RW -ml brute  -gl 20 -bl 1
+python zutil.py -f csvbr4 -dl d1 -ll 2  -ol I W RI RW -ml brute  -gl 20 -bl 1
+python zutil.py -f csvopt -dl d1 -ll 2  -ol I W RI RW -ml brute  -gl 20 -bl 1
+python zutil.py -f csvfull -dl d1 -ll 2  -ol I W RI RW -ml brute greedy h1 h2 -gl 20 -bl 1
+
+# 1105
+python main.py algo -dl d1 -ll  2 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2 3
+python main.py algo -dl d4 -ll  2 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2 3
+python main.py algo -dl d2 -ll  2 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2
+python main.py algo -dl d5 -ll  2 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2
+
 
 ```
 
 
+
+
+
+
+
+
+
+### CSV debug
+
+#### pkl2csv: 将**单个**pkl转化成以以下head格式的csv
+
+```
+python zutil.py -f pkl2csv -file d1_2_I_brute_1102151009.pkl  
+# 格式列名 ['did', 'lamb', 'obj', 'method', 'budget', 'scheme', 'setM_star', 'I', 'W', 'RI', 'RW']
+# 输出文件 ../eplots/exp/show_{file}.csv
+```
+
+#### 将多个pkl转化成以以下head格式的csv  (参数: 选中的文件列表)
+
+命令参数: 选中pkl files, 右键复制路径, 参数记得加引号在黏贴, 因为是\n分隔的
+
+```
+python zutil.py -f merge_pkl_2csv_select -files "
+_d1_1_I_brute_1101232129.pkl
+_d1_1_I_h1_1101232129.pkl"
+# 格式列名 ['did', 'lamb', 'obj', 'method', 'budget', 'opt_scheme', 'opt_setM_star', 'opt_obj_star']
+# 输出文件 ../eplots/exp/merge_{nowTime}.csv
+```
+
+#### 将多个pkl转化成以以下head格式的csv  (参数: 给定的四个参数 进行笛卡尔乘积)
+
+命令参数: 适用于想看一下上一个run出来的一些pkls, 直接复制algo里面的 dl ll ol ml 四个参数.
+
+```
+python zutil.py -f merge_pkl_2csv -dl d1  -ll 1 2 3  -ol I W RI RW  -ml h1 brute
+# 格式列名 ['did', 'lamb', 'obj', 'method', 'budget', 'opt_scheme', 'opt_setM_star', 'opt_obj_star']
+# 输出文件 ../eplots/exp/merge_{info}.csv
+```
+
+#### 视图陈列 TODO
+
+用 VSCODE 打开, 比pycharm的 edit as table 强
+
+```
+python zutil.py -f aggregate -dl d1 -ll 2 3  -ol I W RI RW -ml brute greedy h1 h2 -gl 20 -bl 1 2 3 4
+```
+
+- [ ] 如果没有那个pkl文件就不行, 改成占位吧
+
+
+
 ## <span id="head3">Plot exp **</span>
+
+
+
+
+
+
+
+### evaluating $\texttt{OptSupplierSet}$
+
+```
+python main.py algo -dl d1 -ll 1 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 greedy -bl 1 2 3 4
+
+python main.py algo -d d2 -bl 1 2 3   -g 20 -o rev  -m brute  --gamma 3    
+python main.py algo -d d4 -bl 1 2     -g 20 -o rev  -m brute  --gamma 3
+```
+
+
+
+- [ ] 理清楚需要画哪一些图
+  - data = {d1, d2, d3}
+    - gamma = {1, 2, 3}
+      - obj = {I, V, R}
+        - Plot 
+          x-axis: budget list of data
+          y-axis: value obj
+          columns: 3 algorithms
+
+  那么就是 3x3x2= 18 pdf, 注意这里的revenue不画
+
+- [ ] 怎么分组好呢
+  - [ ] Fig1: gamma=1 
+    - [ ] I of d1, V of d1
+    - [ ] I of d2, V of d2
+    - [ ] I of d3, V of d3
+  - [ ] Fig2: gamma=2 的时候: 有6张子图同上
+  - [ ] Fig3: gamma=3 的时候: 有6张子图同上
+
+- [ ] 3d 放在这里比较合适吧, 
+
+
+
+### evaluating the $\texttt{OptPrice(OptSupplierSet)}$
+
+比较不同的 epsilon 对结果的影响
+
+###  the impact of valuation functions
+
+
+
+
+
+
 
 ### <span id="head4">one figure each budget </span>
 
@@ -134,8 +304,19 @@ python main.py pre -d d4 --bin 10  -f plot_dist -cl p q -gml 0.5 1 2 3
 
 
 
-
 ## <span id="head11">Auto documentation</span>
+
+### get help
+
+honestly I refer to README.md for command instruction rather than use 'help'
+
+```
+python main.py -h # get sub command
+python main.py algo # get the details of sub command
+python main.py plot # get the details of sub command
+```
+
+
 
 ### <span id="head12">usages table</span>
 
@@ -170,20 +351,13 @@ file:///Users/zsy/Desktop/work2exp/doc/build/html/main.html
 
 ### <span id="head15">clean history pkl</span>
 ```
-cd exp2
-python
->>> import zutil
->>> zutil.clean_old_files()
+python zutil.py -f clean_old_pkl -dl d1  -ll 1 2 3  -ol I W RI RW A -ml h1 h2 brute # 这个是全部情况的参数
+A 也需要删除, 有update
 ```
 
 ### <span id="head16">extrat content tree</span>
 ```angular2html
-cd exp2
-python
->>> import zutil
->>> zutil.detectHeadLines('README.md')
-# will override the original README.md
-# better use typora to edit, 
+python zutil.py -f detectHeadLines --filename README.md  # 1102 还未测试服哦
 ```
 
 
@@ -195,13 +369,32 @@ python
 3 datasets
 
 ### <span id="head19">naming issues with paper</span>
-joint paper
-Interchangable concept
-```
-curve_p <--> value function p_u()
-curve_q <--> cost function q_u()
-```
+- valuation function and curve
 
-each line `u v` the meaning is confusing:
-- in code: means there is an edge from u to v, present u can influence v
-- in paper: means there is an link from v to u, present v follows u
+  Interchangable concept
+
+  - curve_p <--> value function p_u()
+  - curve_q <--> cost function q_u()
+
+- each line `u v` the meaning is confusing:
+  - in code: means there is an edge from u to v, present u can influence v
+  - in paper: means there is an link from v to u, present v follows u
+- name of objective / measurements 
+  - objI   / the first type objective / the first type network welfare
+  - objV  / sw / the second type objective / the second type network welfare
+  - objR / rev
+
+- replave all alpha by p
+
+- grain and epsilon
+
+  - grain is integer used in code 
+  - epsilon is 1/grain used in paper
+
+- gamma lambda (之前gamma重复了所以改成
+
+  - gamma is the propotional of requesters and supliers in the 
+
+  - [ ] lambda is the parameter of valuaiton function 还没有改过来, 改成lamb 不然冲突
+
+- solution 5元 result 4元 少了一个setM

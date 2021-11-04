@@ -1,0 +1,13 @@
+2021-10-31 02:41:25,876 - INFO - python main.py algo -dl d1 -ml brute -ol I W RI RW -ll 2 -g 10 -bl 1 2
+2021-10-31 02:41:25,893 - INFO - load:../zdata/residence_217_spl.pkl
+2021-10-31 02:41:25,894 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-10-31 02:41:26,227 - INFO - Given did=d1, lamb=2.0, obj=I, method=brute and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=821
+2021-10-31 02:41:26,605 - INFO - Given did=d1, lamb=2.0, obj=I, method=brute and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={125, 53}, opt_obj_star=1455
+2021-10-31 02:41:26,934 - INFO - Given did=d1, lamb=2.0, obj=W, method=brute and given budget=1 opt_scheme=(0.0, 0.0), opt_setM_star={53}, opt_obj_star=390.48921946740137
+2021-10-31 02:41:27,306 - INFO - Given did=d1, lamb=2.0, obj=W, method=brute and given budget=2 opt_scheme=(0.0, 0.2), opt_setM_star={125, 53}, opt_obj_star=692.8445087235997
+2021-10-31 02:41:29,234 - INFO - Given did=d1, lamb=2.0, obj=RI, method=brute and given budget=1 opt_scheme=(0.30000000000000004, 0.2), opt_setM_star=(143,), opt_obj_star=92.90000000000003
+2021-10-31 02:42:16,951 - INFO - Given did=d1, lamb=2.0, obj=RI, method=brute and given budget=2 opt_scheme=(0.30000000000000004, 0.2), opt_setM_star=(53, 143), opt_obj_star=167.80000000000007
+2021-10-31 02:42:18,852 - INFO - Given did=d1, lamb=2.0, obj=RW, method=brute and given budget=1 opt_scheme=(0.4, 0.0), opt_setM_star={53}, opt_obj_star=262.0
+2021-10-31 02:43:06,373 - INFO - Given did=d1, lamb=2.0, obj=RW, method=brute and given budget=2 opt_scheme=(0.4, 0.2), opt_setM_star=(53, 143), opt_obj_star=413.12067033976126

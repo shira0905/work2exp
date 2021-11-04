@@ -1,0 +1,5 @@
+2021-11-03 15:31:18,554 - INFO - python main.py algo -dl d2 -ll 1 2 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+2021-11-03 15:31:18,713 - INFO - load:../zdata/blog_1224_spl.pkl
+2021-11-03 15:31:18,713 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.1, num_R=123, len_R=123 
+                             percent_S=0.1, num_S=123, len_S=122

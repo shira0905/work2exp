@@ -1,0 +1,16 @@
+2021-11-04 02:30:30,030 - INFO - python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml h1 h2 -gl 20 -bl 1 2 3 4
+2021-11-04 02:30:30,030 - INFO - ====================_1.0
+2021-11-04 02:30:30,045 - INFO - load:../zdata/residence_217_spl.pkl
+2021-11-04 02:30:30,046 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-11-04 02:32:11,106 - INFO - ====================_2.0
+2021-11-04 02:32:11,121 - INFO - load:../zdata/residence_217_spl.pkl
+2021-11-04 02:32:11,121 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-11-04 02:33:58,012 - INFO - ====================_3.0
+2021-11-04 02:33:58,027 - INFO - load:../zdata/residence_217_spl.pkl
+2021-11-04 02:33:58,028 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54

@@ -1485,3 +1485,495 @@ python main.py pre -d d1 -f generate_csv_from_pkl -bl 1 2 3 4 -o rev -ml brute g
 
 1015-235617
 python main.py pre -d d1 -f generate_csv_from_pkl -bl 1 2 3 -o rev -ml brute greedy h1 -g 20 --gamma 1
+
+1029-224539
+python main.py pre
+
+1029-232447
+python main.py plot
+
+1029-232519
+python main.py plot
+
+1029-232603
+python main.py plot
+
+1029-232615
+python main.py plot -h
+
+1029-232623
+python main.py plot -help
+
+1029-232630
+python main.py -h
+
+1029-232738
+python main.py plot
+
+1030-164234
+python main.py algo
+
+1030-165102
+python main.py algo
+
+1030-165311
+python main.py algo -d d1 -m h1 -o objI
+
+1030-165333
+python main.py algo -d d1 -m h1 -o objI
+
+1030-165349
+python main.py algo
+
+1030-165404
+python main.py plot
+
+1030-165418
+python main.py algo
+
+1030-165455
+python main.py algo
+
+1030-165503
+python main.py algo -h
+
+1030-165536
+python main.py algo
+
+1030-165545
+python main.py algo -d d1 -m h1 -o objI
+
+1030-165603
+python main.py algo -d d1 -m h1 -o objI
+
+1030-165628
+python main.py algo -dl d1 d2 -ml h1 -ol objI
+
+1030-165827
+python main.py algo -dl d1 d2 -ml h1 h2 -ol objI
+
+1030-165839
+python main.py algo -dl d1 d2 -ml h1 greedy -ol objI
+
+1030-165932
+python main.py algo -dl d1 d2 -ml h1 greedy -ol objI
+
+1030-165958
+python main.py algo -dl d1 d2 -ml h1 greedy -ol objI
+
+1030-170101
+python main.py algo -dl d1 d2 -ml h1 greedy -ol I
+
+1030-170109
+python main.py algo -dl d1 d2 -ml h1 greedy -ol I RW
+
+1030-172831
+python main.py algo -dl d1 d2 -ll 1 2 3 -ml h1 greedy -ol I RW
+
+1030-172947
+python main.py algo -dl d1 d2 -ll 1 2 3 -ml h1 greedy -ol I RW
+
+1030-173011
+python main.py algo -dl d1 d2 -ml h1 greedy -ol I RW
+
+1030-173015
+python main.py algo -dl d1 d2 -ll 1 2 3 -ml h1 greedy -ol I RW
+
+1030-214407
+python main.py
+
+1030-221629
+python main.py algo -dl d1 -ml h1 -ol I W
+
+1030-221653
+python main.py algo -dl d1 -ml h1 -ol I W -ll 1 2
+
+1030-221808
+python main.py algo -dl d1 -ml h1 -ol I W -ll 1 2
+
+1030-221910
+python main.py algo -dl d1 -ml h1 -ol I W -ll 1 2
+
+1030-221944
+python main.py algo -dl d1 -ml h1 -ol I W -ll 1 2
+
+1030-222019
+python main.py algo -dl d1 -ml h1 -ol I W -ll 1 2
+
+1030-222106
+python main.py algo -dl d1 -ml h1 -ol I W -ll 1 2 -g 20
+
+1030-222143
+python main.py algo -dl d1 -ml h1 -ol I W -ll 1 2 -g 20 -bl 1 2
+
+1030-222406
+python main.py algo -dl d1 -ml h1 -ol I W -ll 1 2 -g 20 -bl 1 2
+
+1030-222453
+python main.py algo -dl d1 -ml h1 -ol I W -ll 1 2 -g 20 -bl 1 2
+
+1030-222619
+python main.py algo -dl d1 -ml h1 -ol I W -ll 1 2 -g 20 -bl 1 2
+
+1030-222731
+python main.py algo -dl d1 -ml h1 -ol I W -ll 1 2 -g 20 -bl 1 2
+
+1030-223042
+python main.py algo -dl d1 -ml h1 -ol I W -ll 2,3 -g 10 -bl 1 2
+
+1030-223049
+python main.py algo -dl d1 -ml h1 -ol I W -ll 2 3 -g 10 -bl 1 2
+
+1030-223308
+python main.py algo -dl d1 -ml h1 -ol I W -ll 2 3 -g 10 -bl 1 2
+
+1030-223502
+python main.py algo -dl d1 -ml h1 -ol I W -ll 2 3 -g 10 -bl 1 2
+
+1030-223939
+python main.py algo -dl d1 -ml h1 -ol I W -ll 2 3 -g 10 -bl 1 2
+
+1030-224036
+python main.py algo -dl d1 -ml h1 -ol I W -ll 2 3 -g 10 -bl 1 2
+
+1031-023245
+python main.py algo -dl d1 -ml greedy -ol I W -ll 2 3 -g 10 -bl 1 2
+
+1031-023424
+python main.py algo -dl d1 -ml greedy -ol I -ll 2 -g 10 -bl 1 2
+
+1031-023453
+python main.py algo -dl d1 -ml greedy -ol I -ll 2 -g 10 -bl 1 2
+
+1031-023917
+python main.py algo -dl d1 -ml brute -ol I -ll 2 -g 10 -bl 1 2
+
+1031-024125
+python main.py algo -dl d1 -ml brute -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-024448
+python main.py algo -dl d1 -ml H1 -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-024651
+python main.py algo -dl d1 -ml h1 -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-030124
+python main.py algo -dl d1 -ml h1 -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-030150
+python main.py algo -dl d1 -ml h1 -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-030313
+python main.py algo -dl d1 -ml h1 -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-030444
+python main.py algo -dl d1 -ml h1 -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-030706
+python main.py algo -dl d1 -ml h1 -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-030916
+python main.py algo -dl d1 -ml h1 -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-031026
+python main.py algo -dl d1 -ml h1 -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-031651
+python main.py algo -dl d1 -ml h1 brute -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-042213
+python main.py algo -dl d1 -ml h1 brute -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-042248
+python main.py algo -dl d1 -ml h1 brute -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-043833
+python main.py algo -dl d1 -ml h1 brute -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-043921
+python main.py algo -dl d1 -ml h1 brute -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-045306
+python main.py algo -dl d1 -ml h1 brute -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1031-045535
+python main.py algo -dl d1 -ml h1 brute -ol I W RI RW -ll 2 -g 10 -bl 1 2
+
+1101-222906
+python main.py algo
+
+1101-223144
+python main.py algo -d d1 -ll 1 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 greedy
+
+1101-223406
+python main.py algo -d d1 -ll 1 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 greedy -bl 1 2 3 4
+
+1101-223638
+python main.py algo -d d1 -ll 1 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 greedy -bl 1 2 3 4
+
+1101-223741
+python main.py algo -d d1 -ll 1 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 greedy -bl 1 2 3 4
+
+1101-223950
+python main.py algo -d d1 -ll 1 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 greedy -bl 1 2 3 4
+
+1101-224008
+python main.py algo -dl d1 -ll 1 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 greedy -bl 1 2 3 4
+
+1101-224106
+python main.py algo -dl d1 -ll 1 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 greedy -bl 1 2 3 4
+
+1101-224349
+python main.py algo -dl d1 -ll 1 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 greedy -bl 1 2 3 4
+
+1101-224429
+python main.py algo -dl d1 -ll 1 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 greedy -bl 1 2 3 4
+
+1101-230603
+python main.py algo -dl d1 -ll 1 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 greedy -bl 1 2 3 4
+
+1101-230704
+python main.py algo -dl d1 -ll 1 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 brute -bl 1 2
+
+1101-230810
+python main.py algo -dl d1 -ll 1 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 brute -bl 1 2
+
+1101-231529
+python main.py algo -dl d1 -ll 1 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 brute -bl 1 2
+
+1102-085834
+python main.py algo -dl d1 -ll 2 3 -gl 20 10 5 -ol I W RI RW -ml h1 brute -bl 1 2
+
+1102-145811
+python main.py algo -dl d1 -ll 2 -ol I W RI RW -ml h1 -gl 5 -bl 2
+
+1102-150416
+python main.py algo -dl d1 -ll 2 -ol I W RI RW -ml h1 -gl 5 -bl 2
+
+1102-150438
+python main.py algo -dl d1 -ll 2 -ol I W RI RW -ml greedy -gl 5 -bl 2
+
+1102-150750
+python main.py algo -dl d1 -ll 2 -ol I -ml brute -gl 5 -bl 2
+
+1102-150948
+python main.py algo -dl d1 -ll 2 -ol I -ml brute -gl 5 -bl 2
+
+1102-151008
+python main.py algo -dl d1 -ll 2 -ol I -ml brute -gl 5 -bl 1
+
+1102-154038
+python main.py algo -dl d1 -ll 2,3 -ol I W RI RW -ml brute -gl 20 -bl 1,2,3
+
+1102-154054
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2 3
+
+1103-132427
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2 3
+
+1103-132657
+python main.py algo -dl d1 -ll 1 -ol I W RI RW -ml brute -gl 20 -bl 1 2 3
+
+1103-145120
+python main.py algo -dl d1 -ll 2 -ol I RI -ml brute -gl 20 -bl 1
+
+1103-145524
+python main.py algo -dl d1 -ll 2 -ol I RI -ml brute -gl 20 -bl 1
+
+1103-150114
+python main.py algo -dl d1 -ll 2 -ol I RI -ml brute -gl 20 -bl 1
+
+1103-150246
+python main.py algo -dl d1 -ll 2 -ol I RI -ml brute -gl 20 -bl 1
+
+1103-150428
+python main.py algo -dl d1 -ll 2 -ol I RI -ml brute -gl 20 -bl 1
+
+1103-150509
+python main.py algo -dl d1 -ll 2 -ol I RI -ml brute -gl 20 -bl 1
+
+1103-150626
+python main.py algo -dl d1 -ll 2 -ol I RI -ml brute -gl 5 -bl 1
+
+1103-153013
+python main.py algo -dl d2 -ll 1 2 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1103-153118
+python main.py algo -dl d2 -ll 1 2 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1103-153347
+python main.py algo -dl d2 -ll 1 2 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1103-154236
+python main.py algo -dl d1 -ll 2 -ol I RI -ml brute -gl 5 -bl 2
+
+1103-154632
+python main.py algo -dl d1 -ll 2 -ol I RI -ml brute -gl 5 -bl 1
+
+1103-185329
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-185426
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-185528
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-185953
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-190119
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-190159
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-190643
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-190914
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-191015
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-191450
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-192002
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-192032
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-192146
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-192211
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-192435
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-192542
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-193541
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-194231
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-202225
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute h1 -gl 5 -bl 1
+
+1103-215847
+python main.py algo -dl d1 -ll 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1103-220041
+python main.py algo -dl d1 -ll 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1103-220058
+python main.py algo -dl d1 -ll 3 -ol I W RI RW -ml greedy -gl 20 -bl 1 2
+
+1103-220210
+python main.py algo -dl d1 -ll 3 -ol I W RI RW -ml greedy -gl 20 -bl 1 2
+
+1103-220413
+python main.py algo -dl d1 -ll 3 -ol I W RI RW -ml greedy -gl 20 -bl 1 2
+
+1103-220956
+python main.py algo -dl d1 -ll 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1104-014220
+python main.py algo -dl d1 -ll 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1104-014709
+python main.py algo -dl d4 -ll 1 2 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1104-014932
+python main.py algo -dl d4 -ll 1 2 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1104-015031
+python main.py algo -dl d2 -ll 1 2 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1104-015817
+python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1104-020008
+python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1104-020025
+python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1104-020328
+python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml greedy h1 -gl 20 -bl 1 2 3 4
+
+1104-022904
+python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml h1 h2 -gl 20 -bl 1 2 3 4
+
+1104-023030
+python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml h1 h2 -gl 20 -bl 1 2 3 4
+
+1104-023741
+python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml h1 h2 greedy -gl 20 -bl 1 2 3 4
+
+1104-135730
+python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml brute greedy h1 h2 -gl 20 -bl 1 2 3 4
+
+1104-182219
+python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+
+1104-182812
+python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+
+1104-182858
+python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+
+1104-182907
+python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+
+1104-183017
+python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+
+1104-183533
+python main.py algo -dl d1 -ll 1 2 3 -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+
+1104-183636
+python main.py algo -dl d4 -ll 1 2 3 -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+
+1104-185350
+python main.py algo -dl d1 -ll 2 -ol I W RI RW -ml brute 2 -gl 20 -bl 1
+
+1104-185359
+python main.py algo -dl d1 -ll 2 -ol I W RI RW -ml brute -gl 20 -bl 1
+
+1104-201759
+python main.py algo -dl d1 -ll 2 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1104-201827
+python main.py algo -dl d1 -ll 2 -ol I W RI RW -ml brute -gl 20 -bl 1
+
+1105-014202
+python main.py algo -dl d1 -ll 2 -ol I W RI RW -ml brute -gl 20 -bl 1
+
+1105-014351
+python main.py algo -dl d1 -ll 2 -ol I W RI RW -ml brute -gl 20 -bl 1
+
+1105-014404
+python main.py algo -dl d1 -ll 2 -ol I W RI RW -ml brute -gl 20 -bl 1 2
+
+1105-020339
+python main.py algo -dl d1 d4 -ll 2 3 -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+
+1105-020955
+python main.py algo -dl d1 d4 -ll 2 3 -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+
+1105-021726
+python main.py algo -dl d2 d5 -ll 2 3 -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+
+1105-021854
+python main.py algo -dl d2 d5 -ll 2 3 -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+
+1105-022002
+python main.py algo -dl d1 -ll 2 3 -ol I W RI RW -ml brute -gl 20 -bl 1 2 3
