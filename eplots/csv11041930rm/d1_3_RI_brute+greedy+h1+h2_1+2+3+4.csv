@@ -1,0 +1,17 @@
+did	lamb	obj	method	budget	opt_scheme	opt_setM_star	opt_obj_star
+d1	3.0	RI	brute	1	(0.2, 0.0)	(53,)	148.8
+d1	3.0	RI	brute	2			
+d1	3.0	RI	brute	3			
+d1	3.0	RI	brute	4			
+d1	3.0	RI	greedy	1	(0.25, 0.0)	{53}	163.75
+d1	3.0	RI	greedy	2	(0.25, 0.0)	{53}	163.75
+d1	3.0	RI	greedy	3			
+d1	3.0	RI	greedy	4			
+d1	3.0	RI	h1	1	(0.2, 0.0)	{53}	148.8
+d1	3.0	RI	h1	2			
+d1	3.0	RI	h1	3			
+d1	3.0	RI	h1	4			
+d1	3.0	RI	h2	1	(0.25, 0.0)	{53}	163.75
+d1	3.0	RI	h2	2	(0.25, 0.0)	{53}	163.75
+d1	3.0	RI	h2	3	(0.25, 0.0)	{53}	163.75
+d1	3.0	RI	h2	4	(0.25, 0.0)	{53}	163.75

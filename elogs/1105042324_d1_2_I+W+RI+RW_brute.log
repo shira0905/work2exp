@@ -1,0 +1,9 @@
+2021-11-05 04:23:24,102 - INFO - python main.py algo -dl d1 -ll 2 -ol I W RI RW -ml brute -gl 5 -bl 1 2
+2021-11-05 04:23:24,102 - INFO - ====================_2.0
+2021-11-05 04:23:24,118 - INFO - load:../zdata/residence_217_spl.pkl
+2021-11-05 04:23:24,119 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-11-05 04:23:24,137 - INFO - ============================== d1_2_A_brute  b=1
+2021-11-05 04:23:24,137 - INFO - done load
+2021-11-05 04:23:24,150 - INFO - ============================== d1_2_A_brute  b=2

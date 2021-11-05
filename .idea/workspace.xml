@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="180993f5-a357-41b5-bb41-b76eb1009943" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/exp2/d1_2_A_brute_1105040749.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elogs/1105021854_d2+d5_2+3_I+W+RI+RW_greedy+h1+h2.log" beforeDir="false" afterPath="$PROJECT_DIR$/elogs/1105021854_d2+d5_2+3_I+W+RI+RW_greedy+h1+h2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp2/RESULT.log" beforeDir="false" afterPath="$PROJECT_DIR$/exp2/RESULT.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp2/noperator_brute.py" beforeDir="false" afterPath="$PROJECT_DIR$/exp2/noperator_brute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp2/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/exp2/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp2/zutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/exp2/zutil.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +60,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -83,7 +90,51 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="work2exp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exp2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exp2/main.py" />
+      <option name="PARAMETERS" value="algo -dl d1 -ll 2  -ol I W RI RW -ml brute -gl 2 -bl 1 2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="noperator_brute" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="work2exp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exp2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exp2/noperator_brute.py" />
+      <option name="PARAMETERS" value="algo -dl d1 -ll 2  -ol I W RI RW -ml brute -gl 2 -bl 1 2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="zutil" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="work2exp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,6 +176,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.zutil" />
       </list>
     </recent_temporary>
@@ -158,7 +210,7 @@
       <workItem from="1635236734519" duration="114575000" />
       <workItem from="1636012021154" duration="55000" />
       <workItem from="1636012851280" duration="181000" />
-      <workItem from="1636013078481" duration="21091000" />
+      <workItem from="1636013078481" duration="35047000" />
     </task>
     <task id="LOCAL-00001" summary="refine README.md">
       <created>1635517536900</created>
@@ -173,11 +225,65 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/zsy/Desktop/work2exp/exp2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refine README.md" />
     <option name="LAST_COMMIT_MESSAGE" value="refine README.md" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint suspend="NONE" type="python-exception">
+          <properties exception="BaseException" />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.budget2scheme2optsolution" />
+        <watch expression="self.budgets2schemes2combs2result" />
+        <watch expression="self.objs2budget2scheme2optsolution" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/work2exp$noperator_brute.coverage" NAME="noperator_brute Coverage Results" MODIFIED="1636092757755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exp2" />
+    <SUITE FILE_PATH="coverage/work2exp$main.coverage" NAME="main Coverage Results" MODIFIED="1636094853954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exp2" />
     <SUITE FILE_PATH="coverage/work2exp$zutil.coverage" NAME="zutil Coverage Results" MODIFIED="1636027847861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exp2" />
   </component>
 </project>

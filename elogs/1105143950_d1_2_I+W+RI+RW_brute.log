@@ -1,0 +1,16 @@
+2021-11-05 14:39:50,591 - INFO - python /Users/zsy/Desktop/work2exp/exp2/main.py algo -dl d1 -ll 2 -ol I W RI RW -ml brute -gl 2 -bl 1 2
+2021-11-05 14:39:50,592 - INFO - ====================_2.0
+2021-11-05 14:39:50,619 - INFO - load:../zdata/residence_217_spl.pkl
+2021-11-05 14:39:50,621 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.25, num_R=55, len_R=55 
+                             percent_S=0.25, num_S=55, len_S=54
+2021-11-05 14:39:50,643 - INFO - ============================== d1_2_A_brute  b=1
+2021-11-05 14:39:50,643 - INFO - compute (0.0, 0.0)
+2021-11-05 14:39:50,648 - INFO - compute (0.0, 0.5)
+2021-11-05 14:39:50,755 - INFO - compute (0.0, 1.0)
+2021-11-05 14:39:50,957 - INFO - compute (0.5, 0.0)
+2021-11-05 14:39:50,959 - INFO - compute (0.5, 0.5)
+2021-11-05 14:39:51,017 - INFO - compute (0.5, 1.0)
+2021-11-05 14:39:51,119 - INFO - compute (1.0, 0.0)
+2021-11-05 14:39:51,119 - INFO - compute (1.0, 0.5)
+2021-11-05 14:39:51,119 - INFO - compute (1.0, 1.0)

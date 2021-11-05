@@ -69,8 +69,10 @@ def brute_raw_csv1(dl, ll, bl):
             fullrow_list = [HEAD_schemes] ##################
             prefix = f"{did}_{str(int(lamb))}_A_brute"
             pklsrc = get_latest_path(PKLDIR, prefix, '.pkl')
+            print(pklsrc)
             if pklsrc != None:
                 budget2scheme2comb2result = pickle.load(open(pklsrc, 'rb'))
+                print(budget2scheme2comb2result.keys())
                 if bl ==None:
                     bl = budget2scheme2comb2result.keys()
                 for budget in bl:
@@ -195,8 +197,9 @@ def get_latest_path(dir, prefix, suffix):
         if prefix in filename and suffix in filename:
             result_filename_list.append(filename)
     result_filename_list.sort()
+    print(result_filename_list)
     if len(result_filename_list) > 0:
-        return f"{dir}/{result_filename_list[0]}"
+        return f"{dir}/{result_filename_list[-1]}"
     return None
 
 

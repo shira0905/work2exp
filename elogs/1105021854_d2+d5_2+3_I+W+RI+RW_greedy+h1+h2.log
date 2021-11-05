@@ -4,3 +4,18 @@
 2021-11-05 02:18:54,640 - INFO - Finish random requester set R and supplier set S 
                              percent_R=0.1, num_R=123, len_R=123 
                              percent_S=0.1, num_S=123, len_S=122
+2021-11-05 03:25:52,075 - INFO - ====================_3.0
+2021-11-05 03:25:52,277 - INFO - load:../zdata/blog_1224_spl.pkl
+2021-11-05 03:25:52,280 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.1, num_R=123, len_R=123 
+                             percent_S=0.1, num_S=123, len_S=122
+2021-11-05 04:00:10,464 - INFO - ====================_2.0
+2021-11-05 04:00:10,638 - INFO - load:../zdata/blog_1224_spl.pkl
+2021-11-05 04:00:10,639 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.1, num_R=123, len_R=123 
+                             percent_S=0.1, num_S=123, len_S=122
+2021-11-05 06:47:25,622 - INFO - ====================_3.0
+2021-11-05 06:47:25,913 - INFO - load:../zdata/blog_1224_spl.pkl
+2021-11-05 06:47:25,914 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.1, num_R=123, len_R=123 
+                             percent_S=0.1, num_S=123, len_S=122

@@ -59,6 +59,9 @@ python main.py algo -dl d1 d4 -ll 2 3  -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl
 python main.py algo -dl d2 d5 -ll 2 3  -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4 # 2x2x4x3=48
 python main.py algo -dl d3 d6 -ll 2 3  -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4 # 2x2x4x3=48
 
+# test
+python main.py algo        -dl d1 -ll 2  -ol I W RI RW -ml brute  -gl 2 -bl 1 2
+python zutil.py -f csvbr1  -dl d1 -ll 2  -ol I W RI RW -ml brute  -bl 1 2
 python main.py algo -dl d1 -ll 2 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2 3 # 1x2x5x1=10
 python main.py algo -dl d4 -ll 2 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2 3 # 1x2x5x1=10
 python main.py algo -dl d2 -ll 2 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2   # 1x2x5x1=10
@@ -71,28 +74,27 @@ python main.py algo -dl d6 -ll 2 3  -ol I W RI RW -ml brute  -gl 20 -bl 1 2   # 
 
 ### <span id="head5"> 结果可视化</span>
 
+缺少的会did 
+
 ```
 # 1104 aggregate
 python zutil.py -f csvopt -dl d1 -ll 1 2 3  -ol I W RI RW -ml brute greedy h1 h2 -gl 20 -bl 1 2 3 4
 python zutil.py -f csvfull -dl d1 -ll 1 2 3  -ol I W RI RW -ml brute greedy h1 h2 -gl 20 -bl 1 2 3 4
 
 # 1104-1930 test aggregate
-python zutil.py -f csvopt -dl d1 d4 -ll 1 2 3  -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
-python zutil.py -f csvfull -dl d1 d4 -ll 1 2 3  -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
-python zutil.py -f csvbr1 -dl d1 -ll 2  -ol I W RI RW -ml brute  -gl 20 -bl 1 
+python zutil.py -f csvopt  -dl d1 d4 -ll  2 3  -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+python zutil.py -f csvfull -dl d1 d4 -ll  2 3  -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+python zutil.py -f csvbr1  -dl d1 -ll 2  -ol I W RI RW -ml brute  -gl 20 -bl 1 
+
+python main.py algo -dl d1 -ll 2  -ol I W RI RW -ml brute -gl 2 -bl 1 2
+
+python zutil.py -f csvbr1  -dl d1 -ll 2  -ol I W RI RW -ml brute  -bl 1 2
+python zutil.py -f  csvopt -dl d1   -ll 2    -ol I W RI RW -ml greedy h1 h2 brute -gl 20 -bl 1 2
 ```
 
 
 
-### <span id="head6">CSV debug</span>
 
-#### <span id="head7">pkl2csv: 将**单个**pkl转化成以以下head格式的csv</span>
-
-```
-python zutil.py -f pkl2csv -file d1_2_I_brute_1102151009.pkl  
-# 格式列名 ['did', 'lamb', 'obj', 'method', 'budget', 'scheme', 'setM_star', 'I', 'W', 'RI', 'RW']
-# 输出文件 ../eplots/exp/show_{file}.csv
-```
 
 #### <span id="head8">将多个pkl转化成以以下head格式的csv  (参数: 选中的文件列表)</span>
 
@@ -104,24 +106,6 @@ _d1_1_I_brute_1101232129.pkl
 _d1_1_I_h1_1101232129.pkl"
 # 格式列名 ['did', 'lamb', 'obj', 'method', 'budget', 'opt_scheme', 'opt_setM_star', 'opt_obj_star']
 # 输出文件 ../eplots/exp/merge_{nowTime}.csv
-```
-
-#### <span id="head9">将多个pkl转化成以以下head格式的csv  (参数: 给定的四个参数 进行笛卡尔乘积)</span>
-
-命令参数: 适用于想看一下上一个run出来的一些pkls, 直接复制algo里面的 dl ll ol ml 四个参数.
-
-```
-python zutil.py -f merge_pkl_2csv -dl d1  -ll 1 2 3  -ol I W RI RW  -ml h1 brute
-# 格式列名 ['did', 'lamb', 'obj', 'method', 'budget', 'opt_scheme', 'opt_setM_star', 'opt_obj_star']
-# 输出文件 ../eplots/exp/merge_{info}.csv
-```
-
-#### <span id="head10">视图陈列 TODO</span>
-
-用 VSCODE 打开, 比pycharm的 edit as table 强
-
-```
-python zutil.py -f aggregate -dl d1 -ll 2 3  -ol I W RI RW -ml brute greedy h1 h2 -gl 20 -bl 1 2 3 4
 ```
 
 

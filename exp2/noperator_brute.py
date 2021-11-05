@@ -21,55 +21,53 @@ class BruteOperator(Noperator):
         self.method = 'brute'
         Noperator.__init__(self, logger, network, obj, budget_list, grain)
         self.budgets2schemes2combs2result = self.load_budgets2schemes2combs2result()  # 还没有想好怎么基于之前的结果搜索, 不需要把
-
+        self.objs2budget2scheme2optsolution = self.load_objs2budget2scheme2optsolution()
 
 
     def opt_price_objs(self):
-        """
-        Need: self.budgets2schemes2combs2result
-        retuen the opt scheme for all 4 objs (4 rows),
-        align API of self.row_list
-        """
-        self.compute_budgets2schemes2combs2result_pkl()
-        # self.transfor_budgets2schemes2combs2result_csv()
-        for obj in self.OBJS:
-            budget2scheme2optsolution = {}
-            for budget, scheme2comb2result in self.budgets2schemes2combs2result.items():
-                scheme2optsolution = {}
-                for scheme, comb2result in scheme2comb2result.items():
-                    sorted_comb2result = sorted(comb2result.items(), key=lambda kv: kv[1][self.OBJS.index(obj)], reverse=True)
-                    # print(len(comb2result.keys()), sorted_comb2result[0][0], sorted_comb2result[0][1])
-                    # setM_star, obj_star = sorted_comb2result[0][0], sorted_comb2result[0][1][self.OBJS.index(obj)]
-                    scheme2optsolution[scheme] = (sorted_comb2result[0][0], *sorted_comb2result[0][1])
-                budget2scheme2optsolution[budget] = scheme2optsolution
-            prefix = f"{self.network.did}_{int(self.network.lamb)}_{obj}_{self.method}"
-            nowTime = datetime.datetime.now().strftime("%m%d%H%M%S")
-            result_pkl_path = f"{self.PKL_DIR}/{prefix}_{nowTime}.pkl"
-            pickle.dump(budget2scheme2optsolution, open(result_pkl_path, 'wb'))
-
-
-    def compute_budgets2schemes2combs2result_pkl(self):
-        """ override parent
-        (1) set self.budgets2schemes2combs2result
-        (2) dump pkl
-        """
         for budget in self.budget_list:
-            self.logger.info(f"{'='*30} {self.network.did}_{int(self.network.lamb)}_A_{self.method}  b={budget}")
-            if budget in self.budgets2schemes2combs2result.keys():
-                self.logger.info('done load')
-            else:
-                self.budgets2schemes2combs2result[budget] = {}
-                # STEP1: compute and record for all (p,q) # 给定 did, lamb, obj, method, 给定 budget, 这个方法只是记录了所有搜索到的scheme,
-                for (p, q) in self.pq_list:  # 里面的循环是algorithm 1了
+            self.logger.info(f"{'=' * 30} {self.network.did}_{int(self.network.lamb)}_A_{self.method}  b={budget}")
+            for (p, q) in self.pq_list:  # 里面的循环是algorithm 1了
+                if budget not in self.budgets2schemes2combs2result.keys():
+                    self.budgets2schemes2combs2result[budget] = {}
+                if (p, q) in self.budgets2schemes2combs2result[budget].keys():  # 应该等价于 self.budget2scheme2optsolution
+                    self.logger.info(f'skip {(p, q)} ')
+                else:
+                    self.logger.info(f'compute {(p, q)}')
                     tilderR, tilderS = self.get_tilderR_tilderS(p, q)
                     comb_list = list(itertools.combinations(tilderS, budget))
                     combs2result = {}
                     for i, comb in enumerate(comb_list):
                         combs2result[comb] = self.compute_obj4(comb, tilderR, p, q)
                     self.budgets2schemes2combs2result[budget][(p, q)] = combs2result
-        self.dump_budgets2schemes2combs2result()
+            self.dump_budgets2schemes2combs2result()
+
+            schemes2combs2result = self.budgets2schemes2combs2result[budget]
+            for obj in self.OBJS:
+                schemes2optsolution = {}
+                for scheme, combs2result in schemes2combs2result.items():
+                    if len(combs2result.keys()) > 0:
+                        sorted_combs2result = sorted(combs2result.items(),
+                                                     key=lambda kv: kv[1][self.OBJS.index(obj)], reverse=True)
+                        schemes2optsolution[scheme] = (sorted_combs2result[0][0], *sorted_combs2result[0][1])
+                self.objs2budget2scheme2optsolution[obj][budget] = schemes2optsolution
+
+                prefix = f"{self.network.did}_{int(self.network.lamb)}_{obj}_{self.method}"
+                nowTime = datetime.datetime.now().strftime("%m%d%H%M%S")
+                result_pkl_path = f"{self.PKL_DIR}/{prefix}_{nowTime}.pkl"
+                pickle.dump(self.objs2budget2scheme2optsolution[obj], open(result_pkl_path, 'wb'))
 
 
+    def load_objs2budget2scheme2optsolution(self):
+        objs2budget2scheme2optsolution = {}
+        for obj in self.OBJS:
+            prefix = f"{self.network.did}_{int(self.network.lamb)}_{obj}_{self.method}"
+            pklsrc = get_latest_path(self.PKL_DIR, prefix, 'pkl')
+            if pklsrc != None:
+                objs2budget2scheme2optsolution[obj] = pickle.load(open(pklsrc, 'rb'))
+            else:
+                objs2budget2scheme2optsolution[obj] = {}
+        return objs2budget2scheme2optsolution
 
 
 
@@ -83,47 +81,12 @@ class BruteOperator(Noperator):
         return budgets2schemes2combs2result
 
 
-    def search_budgets2schemes2combs2result(self, budget, tilderR, tilderS):
-        """Search if given tilderR, tilderS has been computed in history.
-
-        :return: result=(suppliers M, increase I, revenue R) in dictionary budget2scheme2optsolution with legal key
-        :rtype: (set(), int, float)
-        """
-        # if budget not in self.budgets2schemes2combs2result.keys():
-        #     return None
-        # scheme2comb2result = self.budgets2schemes2combs2result[budget]
-        # for scheme, comb2result in scheme2comb2result.items():
-        #     p, q = scheme
-        #     tilderR_history, tilderS_history = self.get_tilderR_tilderS(p, q)
-        #     if tilderR_history == tilderR and tilderS_history == tilderS:
-        #         return comb2result
-        # return None
-        pass
-
     def dump_budgets2schemes2combs2result(self):
         """Dump the result pkl with cur_time.
-
-        :return: None
-        :rtype: None
         """
         nowTime = datetime.datetime.now().strftime("%m%d%H%M%S")
-        result_pkl_path = f"{self.PKL_DIR}/{self.PKL_PREFIX}_{nowTime}.pkl"
-        # result_pkl_path = f"{self.PKL_DIR}/{self.PKL_PREFIX}.pkl"
-        pickle.dump(self.budgets2schemes2combs2result, open(result_pkl_path, 'wb'))
-
-
-
-    # def dump_budgets2schemes2combs2result(self):
-    #     """Dump the result pkl with cur_time.
-    #
-    #     :return: None
-    #     :rtype: None
-    #     """
-    #     nowTime = datetime.datetime.now().strftime("%m%d%H%M%S")
-    #     prefix = f"{self.network.did}_{int(self.network.lamb)}_A_{self.method}"
-    #     result_pkl_path = f"{self.PKL_DIR}/{prefix}_{nowTime}.pkl"
-    #     pickle.dump(self.budgets2schemes2combs2result, open(result_pkl_path, 'wb'))
-
+        pklpath = f"{self.PKL_DIR}/{self.network.did}_{int(self.network.lamb)}_A_{self.method}_{nowTime}.pkl"
+        pickle.dump(self.budgets2schemes2combs2result, open(pklpath, 'wb'))
 
 
 

@@ -1,0 +1,6 @@
+2021-11-05 03:08:01,147 - INFO - python main.py algo -dl d3 d6 -ll 2 3 -ol I W RI RW -ml greedy h1 h2 -gl 20 -bl 1 2 3 4
+2021-11-05 03:08:01,147 - INFO - ====================_2.0
+2021-11-05 03:08:11,134 - INFO - load:../zdata/dblp_10000_spl.pkl
+2021-11-05 03:08:11,141 - INFO - Finish random requester set R and supplier set S 
+                             percent_R=0.1, num_R=1000, len_R=1000 
+                             percent_S=0.1, num_S=1000, len_S=1000

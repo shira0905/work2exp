@@ -11,6 +11,7 @@ import pickle
 import os
 import argparse
 import sys
+from zutil import  *
 
 
 
@@ -46,8 +47,9 @@ if __name__ == '__main__':
     # import pandas as pd
     # df = pd.read_csv("../eplots/exp/result.csv", sep='\t')
     # print(df)
-
-    rename()
+    pklsrc = get_latest_path("../eplots/pkl", "d1_2_I_brute", "pkl")
+    d = pickle.load(open('../eplots/pkl/d1_2_A_brute_1105145536.pkl', 'rb'))
+    print(d.keys())
 
     pass
     # did = 'd2'
